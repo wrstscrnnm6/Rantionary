@@ -1418,6 +1418,18 @@
 	#values edgy, edginess
 #entry
 	#values artsy, artsiness
+#entry
+	#values feasible, feasibility
+#entry
+	#values infeasible, infeasibility
+#entry
+	#values possible, possibility
+#entry
+	#values potential, potential
+#entry
+	#values intentional, intention
+#entry
+	#values dumb, dumbness
 	
 #nsfw
 

@@ -1673,5 +1673,14 @@
 #entry
 	#values chesticle, chesticles
 	#classes body
+#entry
+	#values willy, willies
+	#classes body, sex, long
+#entry
+	#values prick, pricks
+	#classes body, sex, long
+#entry
+	#values manhood, manhoods
+	#classes body, sex, long
 	
 #endnsfw

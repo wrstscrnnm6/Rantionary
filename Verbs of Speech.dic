@@ -1,0 +1,78 @@
+#name say
+#subtypes simple ing ed s er pp noun
+#entry
+    #values say, saying, said, says, sayer, said, saying
+#entry
+    #values shoot, shooting, shot, shoots, shooter, shot, shooting
+#entry
+    #values call, calling, called, calls, caller, called, calling
+#entry
+    #values croak, croaking, croaked, croaks, croaker, croaked, croaking
+#entry
+    #values cry, crying, cried, cries, cryer, cried, crying
+#entry
+    #values whimper, whimpering, whimpered, whimpers, whimperer, whimpered, whimpering
+#entry
+    #values mumble, mumbling, mumbled, mumbles, mumbler, mumbled, mumbling
+#entry
+    #values scream, screaming, screamed, screams, screamer, screamed, screaming
+#entry
+    #values shriek, shrieking, shrieked, shrieks, shrieker, shrieked, shrieking
+#entry
+    #values moan, moaning, moaned, moans, moaner, moaned, moaning
+#entry
+    #values shout, shouting, shouted, shouts, shouter, shouted, shouting
+#entry
+    #values yell, yelling, yelled, yells, yeller, yelled, yelling
+#entry
+    #values wail, wailing, wailed, wails, wailer, wailed, wailing
+#entry
+    #values swear, swearing, swore, swears, swearer, sworn, swearing
+#entry
+    #values bawl, bawling, bawled, bawls, bawler, bawled, bawling
+#entry
+    #values snap, snapping, snapped, snaps, snapper, snapped, snapping
+#entry
+    #values whisper, whispering, whispered, whispers, whisperer, whispered, whispering
+#entry
+    #values cackle, cackling, cackled, cackles, cackler, cackled, cackling
+#entry
+    #values grunt, grunting, grunted, grunts, grunter, grunted, grunting
+#entry
+    #values roar, roaring, roared, roars, roarer, roared, roaring
+#entry
+    #values snort, snorting, snorted, snorts, snorter, snorted, snorting
+#entry
+    #values whine, whining, whined, whines, whiner, whined, whining
+#entry
+    #values screech, screeching, screeched, screeches, screecher, screeched, screeching
+#entry
+    #values squeal, squealing, squealed, squeals, squealer, squealed, squealing
+#entry
+    #values hoot, hooting, hooted, hoots, hooter, hooted, hooting
+#entry
+    #values ejaculate, ejaculating, ejaculated, ejaculates, ejaculator, ejaculated, ejaculation
+#entry
+    #values squelch, squelching, squelched, squelches, squelcher, squelched, squelching
+#entry
+    #values spit, spitting, spat, spits, spitter, spat, spitting
+#entry
+    #values declare, declaring, declared, declares, declarer, declared, declaration
+#entry
+    #values breathe, breathing, breathed, breathes, breather, breathed, breathing
+#entry
+    #values announce, announcing, announced, announces, announcer, announced, announcing
+#entry
+    #values snicker, snickering, snickered, snickers, snickerer, snickered, snickering
+#entry
+    #values beep, beeping, beeped, beeps, beeper, beeped, beeping
+#entry
+    #values exclaim, exclaiming, exclaimed, exclaims, exclaimer, exclaimed, exclamation
+#entry
+    #values burp, burping, burped, burps, burper, burped, burping
+#entry
+    #values laugh, laughing, laughed, laughs, laugher, laughed, laughter
+#entry
+    #values mutter, muttering, muttered, mutters, mutterer, muttered, muttering
+#entry
+	#values hiss, hissing, hissed, hisses, hisser, hissed, hissing
