@@ -2,26 +2,35 @@
 #one
 #entry
 	#values pre
+	#classes position
 #entry
 	#values post
+	#classes position
 #entry
 	#values extra
+	#classes position
 #entry
 	#values intra
+	#classes position
 #entry
 	#values mega
 #entry
 	#values exo
 #entry
 	#values endo
+	#classes position
 #entry
 	#values bi
+	#classes quantity
 #entry
 	#values tri
+	#classes quantity
 #entry
 	#values quad
+	#classes quantity
 #entry
 	#values octo
+	#classes quantity
 #entry
 	#values a
 #entry
@@ -34,14 +43,19 @@
 	#values pseudo
 #entry
 	#values penta
+	#classes quantity
 #entry
 	#values micro
+	#classes scale
 #entry
 	#values macro
+	#classes scale
 #entry
 	#values cardio
+	#classes anatomy
 #entry
 	#values neuro
+	#classes anatomy
 #entry
 	#values pyro
 #entry
@@ -58,10 +72,13 @@
 	#values semi
 #entry
 	#values mid
+	#classes position
 #entry
 	#values under
+	#classes position
 #entry
 	#values over
+	#classes position
 #entry
 	#values mis
 #entry
@@ -78,6 +95,7 @@
 	#values hyper
 #entry
 	#values mono
+	#classes quantity
 #entry
 	#values sub
 #entry

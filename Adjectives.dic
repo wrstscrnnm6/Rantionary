@@ -73,7 +73,7 @@
 #entry
     #values holy, holiness
 #entry
-    #values organized, organization
+    #values organized, order
 #entry
     #values nifty, niftiness
 #entry
@@ -1430,6 +1430,26 @@
 	#values intentional, intention
 #entry
 	#values dumb, dumbness
+#entry
+	#values disorganized, disorder
+#entry
+	#values irregular, irregularity
+#entry
+	#values certified, certification
+#entry
+	#values sure, sureness
+#entry
+	#values complimentary, complimentariness
+#entry
+	#values supplementary, supplementariness
+#entry
+	#values derogatory, derogatoriness
+#entry
+	#values scornful, scorn
+#entry
+	#values gross, grossness
+#entry
+	#values erect, erectness
 	
 #nsfw
 

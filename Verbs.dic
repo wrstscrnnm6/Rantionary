@@ -922,6 +922,12 @@
 #entry
 	#values ram, ramming, rammed, rams, rammer, rammed, ramming
 	#classes transitive, insert
+#entry
+	#values vaporize, vaporizing, vaporized, vaporizes, vaporizer, vaporized, vaporization
+	#classes violent, transitive
+#entry
+	#values erect, erecting, erected, erects, erector, erected, erection
+	#classes transitive
 	
 #nsfw
 
