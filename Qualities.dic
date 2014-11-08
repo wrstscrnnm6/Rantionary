@@ -1,53 +1,38 @@
+#version 2
 #name quality
-#subtypes property more less est
-#entry
-    #values speed, faster, slower, fastest
-    #classes physical
-#entry
-    #values size, bigger, smaller, biggest
-    #classes physical
-#entry
-    #values wetness, wetter, drier, wettest
-    #classes physical
-#entry
-    #values force, harder, softer, hardest
-    #classes physical
-#entry
-    #values weight, heavier, lighter, heaviest
-    #classes physical
-#entry
-    #values color, more colorful, duller, most colorful
-    #classes physical
-#entry
-    #values luminosity, brighter, darker, brightest
-    #classes physical
-#entry
-    #values power level, more powerful, weaker, most powerful
-    #classes physical
-#entry
-    #values height, taller, shorter, tallest
-    #classes physical
-#entry
-    #values length, longer, shorter, longest
-    #classes physical
-#entry
-    #values width, wider, skinnier, widest
-    #classes physical
-#entry
-    #values girth, girthier, less girthy, girthiest
-    #classes physical
-#entry
-    #values race, racier, less racier, raciest
-    #classes human
-#entry
-    #values age, older, younger, oldest
-    #classes human
-#entry
-    #values gender, sexier, more gender neutral, sexiest
-    #classes human
-#entry
-    #values ethnicity, more ethnic, less ethnic, most ethnic
-    #classes human
-#entry
-    #values honesty, more thuthful, less truthful, most truthful
-    #classes human
+#subs property more less est
+
+> speed/faster/slower/fastest
+  | class physical
+> size/bigger/smaller/biggest
+  | class physical
+> wetness/wetter/drier/wettest
+  | class physical
+> force/harder/softer/hardest
+  | class physical
+> weight/heavier/lighter/heaviest
+  | class physical
+> color/more colorful/duller/most colorful
+  | class physical
+> luminosity/brighter/darker/brightest
+  | class physical
+> power level/more powerful/weaker/most powerful
+  | class physical
+> height/taller/shorter/tallest
+  | class physical
+> length/longer/shorter/longest
+  | class physical
+> width/wider/skinnier/widest
+  | class physical
+> girth/girthier/less girthy/girthiest
+  | class physical
+> race/racier/less racier/raciest
+  | class human
+> age/older/younger/oldest
+  | class human
+> gender/sexier/more gender neutral/sexiest
+  | class human
+> ethnicity/more ethnic/less ethnic/most ethnic
+  | class human
+> honesty/more thuthful/less truthful/most truthful
+  | class human

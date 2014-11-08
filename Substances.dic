@@ -1,146 +1,97 @@
+#version 2
 #name substance
-#one
-#entry
-    #values water
-	#classes liquid
-#entry
-    #values vomit
-	#classes liquid
-#entry
-    #values orange juice
-	#classes liquid
-#entry
-    #values sweat
-	#classes liquid
-#entry
-    #values blood
-	#classes liquid
-#entry
-    #values lava
-	#classes liquid
-#entry
-    #values gasoline
-	#classes liquid
-#entry
-    #values sand
-#entry
-    #values oil
-	#classes liquid
-#entry
-    #values molten iron
-	#classes liquid
-#entry
-    #values grease
-	#classes liquid
-#entry
-    #values tears
-	#classes liquid
-#entry
-    #values ketchup
-	#classes liquid
-#entry
-    #values mustard
-	#classes liquid
-#entry
-    #values mayonnaise
-	#classes liquid
-#entry
-    #values soy sauce
-	#classes liquid
-#entry
-    #values beer
-	#classes liquid
-#entry
-    #values wine
-	#classes liquid
-#entry
-    #values vodka
-	#classes liquid
-#entry
-    #values olive oil
-	#classes liquid
-#entry
-    #values extra-virgin olive oil
-	#classes liquid
-#entry
-    #values earwax
-#entry
-    #values vinegar
-	#classes liquid
-#entry
-    #values paint
-	#classes liquid
-#entry
-    #values liquid nitrogen
-	#classes liquid
-#entry
-    #values tomato sauce
-	#classes liquid
-#entry
-    #values ink
-	#classes liquid
-#entry
-    #values lemonade
-	#classes liquid
-#entry
-    #values oatmeal
-#entry
-    #values spaghetti
-#entry
-    #values flour
-#entry
-    #values sap
-	#classes liquid
-#entry
-    #values plasma
-	#classes liquid
-#entry
-    #values dark matter
-#entry
-    #values antimatter
-#entry
-    #values corn
-#entry
-    #values snow
-#entry
-    #values acid
-	#classes liquid
-#entry
-	#values magma
-	#classes liquid
-#entry
-	#values happiness
+#subs default
+
+> water
+  | class liquid
+> vomit
+  | class liquid
+> orange juice
+  | class liquid
+> sweat
+  | class liquid
+> blood
+  | class liquid
+> lava
+  | class liquid
+> gasoline
+  | class liquid
+> sand
+> oil
+  | class liquid
+> molten iron
+  | class liquid
+> grease
+  | class liquid
+> tears
+  | class liquid
+> ketchup
+  | class liquid
+> mustard
+  | class liquid
+> mayonnaise
+  | class liquid
+> soy sauce
+  | class liquid
+> beer
+  | class liquid
+> wine
+  | class liquid
+> vodka
+  | class liquid
+> olive oil
+  | class liquid
+> extra-virgin olive oil
+  | class liquid
+> earwax
+> vinegar
+  | class liquid
+> paint
+  | class liquid
+> liquid nitrogen
+  | class liquid
+> tomato sauce
+  | class liquid
+> ink
+  | class liquid
+> lemonade
+  | class liquid
+> oatmeal
+> spaghetti
+> flour
+> sap
+  | class liquid
+> plasma
+  | class liquid
+> dark matter
+> antimatter
+> corn
+> snow
+> acid
+  | class liquid
+> magma
+  | class liquid
 
 #nsfw
+> happiness
+> dick cheese
+> cum
+  | class liquid
+> lube
+  | class liquid
+> crotch juice
+  | class liquid
+> pee
+  | class liquid
+> piss
+  | class liquid
+> pisswater
+  | class liquid
+> diarrhea
+  | class liquid
+> jizz
+  | class liquid
+> urine
+  | class liquid
 
-#entry
-	#values dick cheese
-#entry
-    #values cum
-	#classes liquid
-#entry
-    #values lube
-	#classes liquid
-#entry
-    #values crotch juice
-	#classes liquid
-#entry
-    #values pee
-	#classes liquid
-#entry
-    #values piss
-	#classes liquid
-#entry
-    #values pisswater
-	#classes liquid
-#entry
-    #values diarrhea
-	#classes liquid
-#entry
-    #values jizz
-	#classes liquid
-#entry
-    #values urine
-	#classes liquid
-
-#endnsfw
+#sfw

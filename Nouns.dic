@@ -1,1686 +1,1071 @@
+#version 2
 #name noun
-#subtypes singular plural
-#entry
-    #values wedgie, wedgies
-#entry
-    #values zygote, zygotes
-#entry
-    #values fetus, fetuses
-#entry
-    #values mouth, mouths
-    #classes body, hole
-#entry
-    #values peninsula, peninsulas
-#entry
-    #values teen, teens
-	#classes person
-#entry
-	#values child, children
-	#classes person
-#entry
-    #values truth, truths
-#entry
-    #values pedestrian, pedestrians
-#entry
-    #values afro, afros
-    #classes body
-#entry
-    #values disco ball, disco balls
-#entry
-    #values rotisserie, rotisseries
-#entry
-    #values pizza, pizzas
-#entry
-    #values caboose, cabooses
-#entry
-    #values frosting, frostings
-#entry
-    #values giblet, giblets
-#entry
-    #values handcuff, handcuffs
-    #classes sex
-#entry
-    #values avocado, avocados
-#entry
-    #values banjo, banjos
-#entry
-    #values bingo, bingos
-#entry
-    #values nickel, nickels
-#entry
-    #values dime, dimes
-#entry
-    #values penny, pennies
-#entry
-    #values cheeseburger, cheeseburgers
-#entry
-    #values sponge, sponges
-#entry
-    #values popsicle, popsicles
-#entry
-    #values musket, muskets
-    #classes weapon
-#entry
-    #values credit card, credit cards
-#entry
-    #values truffle, truffles
-#entry
-    #values gearshift, gearshifts
-#entry
-    #values ghost, ghosts
-#entry
-    #values ridge, ridges
-#entry
-    #values meat, meats
-    #weight 10
-#entry
-    #values dictionary, dictionaries
-#entry
-    #values asymptote, asymptotes
-#entry
-    #values peppermint, peppermints
-#entry
-    #values candy cane, candy canes
-#entry
-    #values bulge, bulges
-#entry
-    #values lump, lumps
-#entry
-    #values garden, gardens
-#entry
-    #values treasure, treasures
-#entry
-    #values scuba, scubas
-#entry
-    #values elf, elves
-	#classes person
-#entry
-    #values bass, basses
-	#classes animal
-#entry
-    #values football, footballs
-#entry
-    #values dollar bill, dollar bills
-#entry
-    #values log, logs
-#entry
-    #values chicken wing, chicken wings
-#entry
-    #values pylon, pylons
-#entry
-    #values card, cards
-#entry
-    #values rock, rocks
-#entry
-    #values book, books
-#entry
-    #values rabies, rabies
-#entry
-    #values fan, fans
-#entry
-    #values eraser, erasers
-#entry
-    #values fart, farts
-#entry
-    #values booger, boogers
-#entry
-    #values monster, monsters
-#entry
-    #values nerd, nerds
-#entry
-    #values wheelbarrow, wheelbarrows
-    #classes weapon, tool
-#entry
-    #values lemonade, lemonades
-#entry
-    #values cramp, cramps
-#entry
-    #values doodle, doodles
-#entry
-    #values stone, stones
-#entry
-    #values waffle, waffles
-#entry
-    #values jelly bean, jelly beans
-#entry
-    #values sofa, sofas
-#entry
-    #values muffin, muffins
-#entry
-    #values ragamuffin, ragamuffins
-#entry
-    #values man, men
-	#classes person
-#entry
-    #values woman, women
-	#classes person
-#entry
-    #values puppet, puppets
-#entry
-    #values swag, swag
-#entry
-    #values bread, bread
-#entry
-    #values magnifying glass, magnifying glasses
-#entry
-    #values cocaine, cocaine
-#entry
-    #values diaper, diapers
-#entry
-    #values dishrag, dishrags
-#entry
-    #values needle, needles
-    #classes weapon
-#entry
-    #values pipe, pipes
-    #classes weapon
-#entry
-    #values money, money
-#entry
-    #values car, cars
-#entry
-    #values flowerpot, flowerpots
-#entry
-    #values robot, robots
-    #classes tool
-#entry
-    #values lady, ladies
-#entry
-    #values bra, bras
-    #classes article
-#entry
-    #values sharpie, sharpies
-#entry
-    #values lawn mower, lawn mowers
-    #classes tool, weapon
-#entry
-    #values carcass, carcasses
-#entry
-    #values prune, prunes
-#entry
-    #values raisin, raisins
-#entry
-    #values grape, grapes
-    #classes fruit
-#entry
-	#values kumquat, kumquats
-	#classes fruit
-#entry
-    #values grass, grasses
-#entry
-    #values garbage can, garbage cans
-    #classes container
-#entry
-    #values manure, manure
-#entry
-    #values lampstand, lampstands
-    #classes weapon
-#entry
-    #values bottle, bottles
-    #classes container, weapon
-#entry
-    #values carpet, carpets
-#entry
-    #values earwax, earwax
-#entry
-    #values fog, fogs
-#entry
-    #values hemorroid, hemorroids
-#entry
-    #values cork, corks
-#entry
-    #values tuna, tuna
-#entry
-    #values mirror, mirrors
-#entry
-    #values urinal, urinals
-#entry
-    #values hazelnut, hazelnuts
-#entry
-    #values walnut, walnuts
-#entry
-    #values ventricle, ventricles
-#entry
-    #values brick, bricks
-    #classes weapon
-#entry
-    #values cement, cement
-#entry
-    #values shrub, shrubs
-#entry
-    #values almond, almonds
-#entry
-    #values laptop, laptops
-#entry
-    #values wall, walls
-#entry
-    #values cornea, corneas
-#entry
-    #values cleat, cleats
-    #classes weapon
-#entry
-    #values globe, globes
-#entry
-    #values kite, kites
-#entry
-    #values dagger, daggers
-    #classes weapon
-#entry
-    #values horsewhip, horsewhips
-    #classes weapon, tool
-#entry
-    #values radish, radishes
-#entry
-    #values scab, scabs
-#entry
-    #values leaf, leaves
-#entry
-    #values bench, benches
-#entry
-    #values nail, nails
-    #classes weapon
-#entry
-    #values rubber, rubbers
-#entry
-    #values feces, feces
-#entry
-    #values bone, bones
-    #classes body
-#entry
-    #values snorkel, snorkels
-#entry
-    #values cocktail, cocktails
-#entry
-    #values papaya, papayas
-#entry
-    #values hole, holes
-#entry
-    #values tunnel, tunnels
-	#classes hole
-#entry
-    #values bullet, bullets
-    #classes weapon
-#entry
-    #values dynamite, dynamites
-#entry
-    #values kettle, kettles
-#entry
-    #values enigma, enigmas
-#entry
-    #values keyboard, keyboards
-#entry
-    #values lube, lubes
-#entry
-    #values mask, masks
-#entry
-    #values duct tape, duct tape
-#entry
-    #values chair, chairs
-	#classes furniture
-#entry
-    #values button, buttons
-#entry
-    #values tuber, tubers
-#entry
-    #values joint, joints
-#entry
-    #values horseradish, horseradishes
-#entry
-    #values onion, onions
-#entry
-    #values cabbage, cabbages
-#entry
-    #values wool, wool
-#entry
-    #values grapefruit, grapefruits
-#entry
-    #values tea bag, tea bags
-#entry
-    #values tea pot, tea pots
-#entry
-    #values canister, canisters
-#entry
-    #values battery, batteries
-#entry
-    #values clock, clocks
-#entry
-    #values plug, plugs
-#entry
-    #values towel, towels
-#entry
-    #values peanut, peanuts
-#entry
-    #values towelette, towelettes
-#entry
-    #values moist towelette, moist towelettes
-#entry
-    #values cuckoo, cuckoos
-#entry
-    #values potato, potatoes
-#entry
-    #values apricot, apricots
-	#classes fruit
-#entry
-    #values doll, dolls
-#entry
-    #values tampon, tampons
-#entry
-    #values meatloaf, meatloaves
-#entry
-    #values loaf, loaves
-#entry
-    #values spinach, spinach
-#entry
-    #values manhole, manholes
-#entry
-    #values razor, razors
-    #classes weapon, tool
-#entry
-    #values pretzel, pretzels
-#entry
-    #values cornflake, cornflakes
-#entry
-    #values corn, corns
-#entry
-    #values marshmallow, marshmallows
-#entry
-    #values salmon, salmon
-#entry
-    #values barrel, barrels
-#entry
-    #values fudge, fudge
-#entry
-    #values basket, baskets
-#entry
-    #values coffin, coffins
-    #classes container
-#entry
-    #values piano, pianos
-    #classes instrument
-#entry
-	#values trombone, trombones
-	#classes instrument
-#entry
-    #values accordion, accordions
-    #classes instrument
-#entry
-    #values biscuit, biscuits
-#entry
-    #values pope, popes
-#entry
-	#values flapjack, flapjacks
-#entry
-	#values ointment, ointments
-#entry
-    #values pumpkin, pumpkins
-    #classes plant
-#entry
-    #values fern, ferns
-    #classes plant
-#entry
-    #values maple tree, maple trees
-    #classes plant
-#entry
-    #values thistle, thistles
-    #classes plant
-#entry
-    #values daisy, daisies
-    #classes plant
-#entry
-    #values stinging nettle, stinging nettles
-    #classes plant
-#entry
-    #values dandelion, dandelions
-    #classes plant
-#entry
-    #values tulip, tulips
-    #classes plant
-#entry
-    #values clover, clovers
-    #classes plant
-#entry
-    #values marigold, marigolds
-    #classes plant
-#entry
-    #values square, squares
-    #classes shape
-#entry
-    #values triangle, triangles
-    #classes shape
-#entry
-    #values oval, ovals
-    #classes shape
-#entry
-    #values circle, circles
-    #classes shape
-#entry
-    #values basketball, basketballs
-    #classes ball
-#entry
-    #values baseball, baseballs
-    #classes ball
-#entry
-    #values beach ball, beach balls
-    #classes ball
-#entry
-    #values tennis ball, tennis balls
-    #classes ball
-#entry
-    #values boulder, boulders
-    #classes ball
-#entry
-    #values meatball, meatballs
-    #classes ball
-#entry
-    #values apple, apples
-    #classes fruit
-#entry
-    #values lime, limes
-    #classes fruit
-#entry
-    #values orange, oranges
-    #classes fruit
-#entry
-    #values lemon, lemons
-    #classes fruit
-#entry
-    #values watermelon, watermelons
-    #classes fruit
-#entry
-    #values pineapple, pineapples
-    #classes fruit
-#entry
-    #values coconut, coconuts
-    #classes fruit
-#entry
-    #values blueberry, blueberries
-    #classes fruit
-#entry
-    #values strawberry, strawberries
-    #classes fruit
-#entry
-    #values raspberry, raspberries
-    #classes fruit
-#entry
-    #values tangerine, tangerines
-    #classes fruit
-#entry
-    #values kiwi, kiwis
-    #classes fruit
-#entry
-    #values grape, grapes
-    #classes fruit
-#entry
-    #values tomato, tomatoes
-    #classes fruit
-#entry
-    #values baby, babies
-    #classes fruit, person
-#entry
-    #values nectarine, nectarines
-    #classes fruit
-#entry
-    #values floor, floors
-    #classes surface
-#entry
-    #values wall, walls
-    #classes surface
-#entry
-    #values ceiling, ceilings
-    #classes surface
-#entry
-    #values patio, patios
-    #classes surface
-#entry
-    #values bed, beds
-    #classes furniture, surface
-#entry
-    #values bedsheet, bedsheets
-    #classes surface
-#entry
-    #values window, windows
-    #classes surface
-#entry
-    #values door, doors
-    #classes surface
-#entry
-    #values chair, chairs
-    #classes furniture, surface
-#entry
-    #values carpet, carpets
-    #classes surface
-#entry
-    #values desk, desks
-    #classes furniture, surface
-#entry
-    #values roof, roofs
-    #classes surface
-#entry
-    #values tabletop, tabletops
-    #classes surface
-#entry
-    #values coffee table, coffee tables
-    #classes furniture
-#entry
-    #values couch, couches
-    #classes furniture
-#entry
-    #values recliner, recliners
-    #classes furniture
-#entry
-    #values lawn chair, lawn chairs
-    #classes furniture
-#entry
-    #values rocking chair, rocking chairs
-    #classes furniture
-#entry
-    #values nightstand, nightstands
-    #classes furniture
-#entry
-    #values saliva, saliva
-    #classes liquid
-#entry
-    #values tar, tar
-    #classes liquid
-#entry
-    #values water, water
-    #classes liquid
-#entry
-    #values soup, soups
-    #classes liquid
-#entry
-    #values soap, soaps
-    #classes liquid
-#entry
-    #values slime, slime
-    #classes liquid
-#entry
-    #values bleach, bleach
-    #classes liquid
-#entry
-    #values pudding, puddings
-    #classes liquid
-#entry
-    #values lotion, lotions
-    #classes liquid
-#entry
-    #values sauce, sauces
-    #classes liquid
-#entry
-    #values earwax, earwax
-    #classes liquid
-#entry
-    #values snot, snots
-    #classes liquid
-#entry
-    #values sweat, sweats
-    #classes liquid
-#entry
-    #values acid, acids
-    #classes liquid
-#entry
-    #values wine, wines
-    #classes liquid
-#entry
-    #values oil, oils
-    #classes liquid
-#entry
-    #values olive oil, olive oil
-    #classes liquid
-#entry
-    #values urine, urine
-    #classes liquid
-#entry
-    #values diarrhea, diarrhea
-    #classes liquid
-#entry
-    #values beer, beers
-    #classes liquid
-#entry
-    #values rain, rains
-    #classes liquid
-#entry
-    #values toothpaste, toothpastes
-    #classes liquid
-#entry
-    #values yogurt, yogurts
-    #classes liquid
-#entry
-    #values cream, creams
-    #classes liquid
-#entry
-    #values grease, grease
-    #classes liquid
-#entry
-    #values vodka, vodka
-    #classes liquid
-#entry
-    #values pickle jar, pickle jars
-    #classes container
-#entry
-    #values package, packages
-    #classes container
-#entry
-    #values cup, cups
-    #classes container
-#entry
-    #values wallet, wallets
-    #classes container
-#entry
-    #values glass, glasses
-    #classes container
-#entry
-    #values shot glass, shot glasses
-    #classes container
-#entry
-    #values bowl, bowls
-    #classes container
-#entry
-    #values container, containers
-    #classes container
-#entry
-    #values flask, flasks
-    #classes container
-#entry
-    #values bottle, bottles
-    #classes container
-#entry
-    #values pitcher, pitchers
-    #classes container
-#entry
-    #values pipe, pipes
-    #classes container
-#entry
-    #values bong, bongs
-    #classes container
-#entry
-    #values pouch, pouches
-    #classes container
-#entry
-    #values purse, purses
-    #classes container
-#entry
-    #values pocket, pockets
-    #classes container
-#entry
-    #values jar, jars
-    #classes container
-#entry
-    #values suitcase, suitcases
-    #classes container
-#entry
-    #values box, boxes
-    #classes container
-#entry
-    #values trunk, trunks
-    #classes container
-#entry
-    #values package, packages
-    #classes container
-#entry
-    #values case, cases
-    #classes container
-#entry
-    #values packet, packets
-    #classes container
-#entry
-    #values cell, cells
-    #classes container
-#entry
-    #values test tube, test tubes
-    #classes container
-#entry
-    #values vial, vials
-    #classes container
-#entry
-    #values vat, vats
-    #classes container
-#entry
-    #values pot, pots
-    #classes container
-#entry
-    #values turkey baster, turkey basters
-    #classes container
-#entry
-    #values trashcan, trashcans
-    #classes container
-#entry
-    #values drawer, drawers
-    #classes container
-#entry
-    #values chest, chests
-    #classes container
-#entry
-    #values well, wells
-    #classes container
-#entry
-    #values kettle, kettles
-    #classes container
-#entry
-    #values bag, bags
-    #classes container
-#entry
-    #values balloon, balloons
-    #classes container
-#entry
-    #values sack, sacks
-    #classes container
-#entry
-    #values basket, baskets
-    #classes container
-#entry
-    #values carton, cartons
-    #classes container
-#entry
-    #values oven, ovens
-    #classes container
-#entry
-    #values tub, tubs
-    #classes container
-#entry
-    #values toilet, toilets
-    #classes container
-#entry
-    #values freezer, freezers
-    #classes container
-#entry
-    #values toothpick, toothpicks
-    #classes long
-#entry
-    #values turd, turds
-    #classes long
-#entry
-    #values rocket, rockets
-    #classes long
-#entry
-    #values flute, flutes
-    #classes long, instrument
-#entry
-    #values clarinet, clarinets
-    #classes long, instrument
-#entry
-    #values trumpet, trumpets
-    #classes long, instrument
-#entry
-    #values arrow, arrows
-    #classes long, weapon, tool
-#entry
-    #values dart, darts
-    #classes long, weapon
-#entry
-    #values pencil, pencils
-    #classes long, weapon, tool
-#entry
-    #values cigarette, cigarettes
-    #classes long
-#entry
-    #values pickle, pickles
-    #classes long
-#entry
-    #values ruler, rulers
-    #classes long
-#entry
-    #values cucumber, cucumbers
-    #classes long
-#entry
-    #values staple, staples
-    #classes long
-#entry
-    #values panhandle, panhandles
-    #classes long
-#entry
-    #values telephone pole, telephone poles
-    #classes long, weapon
-#entry
-    #values extension cord, extension cords
-    #classes long
-#entry
-    #values candle, candles
-    #classes long
-#entry
-    #values tree, trees
-    #classes long
-#entry
-    #values knife, knives
-    #classes long
-#entry
-    #values torch, torches
-    #classes long, weapon
-#entry
-    #values broom, brooms
-    #classes long
-#entry
-    #values broomstick, broomsticks
-    #classes long, weapon
-#entry
-    #values pole, poles
-    #classes long
-#entry
-    #values crack pipe, crack pipes
-    #classes long
-#entry
-    #values lightbulb, lightbulbs
-    #classes long
-#entry
-    #values umbrella, umbrellas
-    #classes long
-#entry
-    #values cannon, cannons
-    #classes long
-#entry
-    #values sausage, sausages
-    #classes long
-#entry
-    #values chain, chains
-    #classes long
-#entry
-    #values banana, bananas
-    #classes long
-#entry
-    #values plunger, plungers
-    #classes long
-#entry
-    #values spork, sporks
-    #classes long
-#entry
-    #values toothbrush, toothbrushes
-    #classes long
-#entry
-    #values banister, banisters
-    #classes long
-#entry
-    #values baton, batons
-    #classes long, weapon
-#entry
-    #values drill, drills
-    #classes long, tool, weapon
-#entry
-    #values iron maiden, iron maidens
-    #classes tool
-#entry
-    #values leaf blower, leaf blowers
-    #classes tool
-#entry
-    #values pickaxe, pickaxes
-    #classes tool, weapon
-#entry
-    #values pistol, pistols
-    #classes tool
-#entry
-    #values spoon, spoons
-    #classes tool, long
-#entry
-    #values fork, forks
-    #classes tool, weapon, long
-#entry
-    #values blender, blenders
-    #classes tool
-#entry
-    #values squeegee, squeegees
-    #classes tool
-#entry
-    #values shovel, shovels
-    #classes long, tool, weapon
-#entry
-    #values loincloth, loincloths
-    #classes tool
-#entry
-    #values nutcracker, nutcrackers
-    #classes tool
-#entry
-    #values hammer, hammers
-    #classes long, tool
-#entry
-    #values chainsaw, chainsaws
-    #classes tool, weapon
-#entry
-    #values microscope, microscopes
-    #classes tool
-#entry
-    #values pot, pots
-    #classes tool
-#entry
-    #values pan, pans
-    #classes tool
-#entry
-    #values screwdriver, screwdrivers
-    #classes tool, long
-#entry
-    #values jackhammer, jackhammers
-    #classes tool, long
-#entry
-    #values jockstrap, jockstraps
-    #classes tool
-#entry
-    #values hacksaw, hacksaws
-    #classes tool
-#entry
-    #values ladder, ladders
-    #classes tool
-#entry
-    #values shopping cart, shopping carts
-    #classes tool
-#entry
-    #values bomb, bombs
-    #classes tool, weapon
-#entry
-    #values firecracker, firecrackers
-    #classes tool
-#entry
-    #values drug, drugs
-    #classes tool
-#entry
-    #values sword, swords
-    #classes tool, weapon, long
-#entry
-    #values spear, spears
-    #classes tool, long, weapon
-#entry
-    #values cattle prod, cattle prods
-    #classes tool
-#entry
-    #values vacuum, vacuums
-    #classes tool
-#entry
-    #values wrench, wrenches
-    #classes long, tool
-#entry
-    #values phone, phones
-    #classes tool
-#entry
-    #values can opener, can openers
-    #classes tool
-#entry
-    #values stapler, staplers
-    #classes tool, weapon
-#entry
-    #values pitchfork, pitchforks
-    #classes tool, weapon, long
-#entry
-    #values blowtorch, blowtorches
-    #classes tool, long
-#entry
-    #values machete, machetes
-    #classes tool, long, weapon
-#entry
-    #values rumpus, rumpuses
-    #classes tool
-#entry
-    #values leech, leeches
-    #classes animal
-#entry
-    #values squid, squids
-    #classes animal
-#entry
-    #values octopus, octopi
-    #classes animal
-#entry
-    #values velociraptor, velociraptors
-    #classes animal
-#entry
-    #values tyrannosaurus rex, tyrannosaurus rexes
-    #classes animal
-#entry
-    #values sphinx, sphinxes
-    #classes animal
-#entry
-    #values viking, vikings
-    #classes animal
-#entry
-    #values tadpole, tadpoles
-    #classes animal
-#entry
-    #values skunk, skunks
-    #classes animal
-#entry
-    #values seagull, seagulls
-    #classes animal
-#entry
-    #values parrot, parrots
-    #classes animal
-#entry
-    #values weasel, weasels
-    #classes animal
-#entry
-    #values mammoth, mammoths
-    #classes animal
-#entry
-    #values bat, bats
-    #classes animal
-#entry
-    #values landlord, landlords
-    #classes animal
-#entry
-    #values moose, moose
-    #classes animal
-#entry
-    #values frog, frogs
-    #classes animal
-#entry
-    #values toad, toads
-    #classes animal
-#entry
-    #values ant, ants
-    #classes animal
-#entry
-    #values chihuahua, chihuahuas
-    #classes animal
-#entry
-    #values deer, deer
-    #classes animal
-#entry
-    #values dog, dogs
-    #classes animal
-#entry
-	#values bulldog, bulldogs
-	#classes animal, dog
-#entry
-	#values beagle, beagles
-	#classes animal, dog
-#entry
-	#values poodle, poodles
-	#classes animal, dog
-#entry
-	#values rottweiler, rottweilers
-	#classes animal, dog
-#entry
-	#values flamethrower, flamethrowers
-	#classes tool, weapon, long
-#entry
-    #values rat, rats
-    #classes animal
-#entry
-    #values cat, cats
-    #classes animal
-#entry
-    #values mayor, mayors
-    #classes animal
-#entry
-    #values flamingo, flamingos
-    #classes animal
-#entry
-    #values turtle, turtles
-    #classes animal
-#entry
-    #values blowfish, blowfish
-    #classes animal
-#entry
-    #values snake, snakes
-    #classes animal, long
-#entry
-    #values anaconda, anacondas
-    #classes animal
-#entry
-    #values fish, fishes
-    #classes animal
-#entry
-    #values owl, owls
-    #classes animal
-#entry
-    #values otter, otters
-    #classes animal
-#entry
-    #values lemur, lemurs
-    #classes animal
-#entry
-    #values bull, bulls
-    #classes animal
-#entry
-    #values chicken, chickens
-    #classes animal
-#entry
-    #values peacock, peacocks
-    #classes animal
-#entry
-    #values gorilla, gorillas
-    #classes animal
-#entry
-    #values dove, doves
-    #classes animal
-#entry
-    #values pony, ponies
-    #classes animal
-#entry
-    #values squirrel, squirrels
-    #classes animal
-#entry
-    #values horse, horses
-    #classes animal
-#entry
-    #values donkey, donkeys
-    #classes animal
-#entry
-    #values baboon, baboon
-    #classes animal
-#entry
-    #values cockroach, cockroaches
-    #classes animal
-#entry
-    #values butler, butlers
-    #classes animal
-#entry
-    #values yeti, yetis
-    #classes animal
-#entry
-	#values demon, demons
-	#classes animal
-#entry
-	#values devil, devils
-	#classes animal
-#entry
-	#values umbilical cord, umbilical cords
-	#classes long
-#entry
-    #values garden hose, garden hoses
-    #classes sex, long, tool
-#entry
-    #values fanny, fannies
-    #classes body
-#entry
-    #values chin, chins
-    #classes body
-#entry
-    #values nostril, nostrils
-    #classes body
-#entry
-    #values unibrow, unibrows
-    #classes body
-#entry
-    #values mustache, mustaches
-    #classes body
-#entry
-    #values head, heads
-    #classes body
-#entry
-    #values armpit, armpits
-    #classes body
-#entry
-    #values rump, rumps
-    #classes body
-#entry
-    #values throat, throats
-    #classes body
-#entry
-    #values goatee, goatees
-    #classes body
-#entry
-    #values nose, noses
-    #classes body
-#entry
-    #values elbow, elbows
-    #classes body
-#entry
-    #values esophagus, esophaguses
-    #classes body
-#entry
-    #values toe, toes
-    #classes body
-#entry
-    #values leg, legs
-    #classes body, long
-#entry
-    #values pancreas, pancreases
-    #classes body
-#entry
-    #values stinger, stingers
-    #classes body
-#entry
-	#values scapula, scapulas
-	#classes body
-#entry
-    #values gallbladder, gallbladders
-    #classes body
-#entry
-    #values skin, skin
-    #classes body
-#entry
-    #values neck, necks
-    #classes body
-#entry
-    #values toenail, toenails
-    #classes body
-#entry
-    #values horn, horns
-    #classes body
-#entry
-    #values epidermis, epidermises
-    #classes body
-#entry
-    #values duodenum, duodenums
-    #classes body
-#entry
-    #values heart, hearts
-    #classes body
-#entry
-    #values kidney, kidneys
-    #classes body, round
-#entry
-    #values fibula, fibulas
-    #classes body
-#entry
-    #values tentacle, tentacles
-    #classes body, long
-#entry
-    #values knuckle, knuckles
-    #classes body
-#entry
-    #values uvula, uvulas
-    #classes body
-#entry
-    #values tongue, tongues
-    #classes body, long
-#entry
-    #values finger, fingers
-    #classes body, long
-#entry
-    #values lip, lips
-    #classes body
-#entry
-    #values snout, snouts
-    #classes body
-#entry
-    #values tooth, teeth
-    #classes body
-#entry
-    #values body, bodies
-    #classes body
-#entry
-    #values jowl, jowls
-    #classes body
-#entry
-    #values whisker, whiskers
-    #classes body
-#entry
-    #values beak, beaks
-    #classes body
-#entry
-    #values navel, navels
-    #classes body
-#entry
-    #values LSD, LSD
-    #classes drug
-#entry
-    #values PCP, PCP
-    #classes drug
-#entry
-    #values mescaline, mescaline
-    #classes drug
-#entry
-    #values marijuana, marijuana
-    #classes drug
-#entry
-    #values meth, meth
-    #classes drug
-#entry
-    #values crack, crack
-    #classes drug
-#entry
-    #values roofie, roofies
-    #classes drug
-#entry
-    #values heroin, heroin
-    #classes drug
-#entry
-    #values smack, smack
-    #classes drug
-#entry
-    #values shroom, shrooms
-    #classes drug
-#entry
-    #values bath salts, bath salts
-    #classes drug
-#entry
-    #values extacy, extacy
-    #classes drug
-#entry
-    #values vest, vests
-    #classes article
-#entry
-    #values boot, boots
-    #classes clothes, article
-#entry
-    #values zipper, zippers
-    #classes clothes, article
-#entry
-    #values sock, socks
-    #classes clothes, article
-#entry
-    #values shoe, shoes
-    #classes clothes, article
-#entry
-    #values slipper, slippers
-    #classes clothes, article
-#entry
-    #values pants, pants
-    #classes article
-#entry
-    #values sweatshirt, sweatshirts
-    #classes article
-#entry
-    #values kilt, kilts
-    #classes article
-#entry
-    #values belt, belts
-    #classes article
-#entry
-    #values skirt, skirts
-    #classes article
-#entry
-    #values girdle, girdles
-    #classes article
-#entry
-    #values pantaloons, pantaloons
-    #classes article
-#entry
-    #values shirt, shirts
-    #classes article
-#entry
-    #values dress, dresses
-    #classes article
-#entry
-    #values jacket, jackets
-    #classes article
-#entry
-    #values hat, hats
-    #classes article
-#entry
-    #values top hat, top hats
-    #classes article
-#entry
-    #values underwear, underwear
-    #classes article
-#entry
-    #values tuxedo, tuxedoes
-    #classes article
-#entry
-    #values suit, suits
-    #classes article
-#entry
-    #values boxers, boxers
-    #classes article
-#entry
-    #values mandible, mandibles
-    #classes body
-#entry
-    #values kneecap, kneecaps
-    #classes body
-#entry
-    #values face, faces
-    #classes body
-#entry
-	#values loin, loins
-	#classes body
-#entry
-    #values wand, wands
-    #classes tool, long
-#entry
-    #values stun gun, stun guns
-    #classes tool, weapon
-#entry
-    #values train, trains
-    #classes vehicle
-#entry
-    #values minivan, minivans
-    #classes vehicle
-#entry
-    #values semi, semis
-    #classes vehicle
-#entry
-    #values hot rod, hot rods
-    #classes vehicle
-#entry
-    #values truck, trucks
-    #classes vehicle
-#entry
-    #values boat, boats
-    #classes vehicle
-#entry
-    #values submarine, submarines
-    #classes vehicle
-#entry
-    #values aircraft carrier, aircraft carriers
-    #classes vehicle
-#entry
-    #values airplane, airplanes
-    #classes vehicle
-#entry
-    #values blimp, blimps
-    #classes vehicle
-#entry
-    #values motorcycle, motorcycles
-    #classes vehicle
-#entry
-    #values bunsen burner, bunsen burners
-    #classes tool, long
-#entry
-    #values wrinkle, wrinkles
-#entry
-    #values jalapeno, jalapenos
-    #classes long
-#entry
-    #values hubcap, hubcaps
-#entry
-    #values hedge, hedges
-    #classes plant
-#entry
-    #values golf ball, golf balls
-    #classes ball, round
-#entry
-    #values wig, wigs
-#entry
-    #values skillet, skillets
-    #classes container
-#entry
-    #values titan, titans
-    #classes animal
-#entry
-    #values constitution, constitutions
-#entry
-    #values femur, femurs
-    #classes body
-#entry
-    #values mohawk, mohawks
-#entry
-    #values lizard, lizards
-    #classes animal
-#entry
-	#values hedgehog, hedgehogs
-	#classes animal
-#entry
-    #values dingleberry, dingleberries
-#entry
-    #values teddy bear, teddy bears
-#entry
-    #values ogre, ogres
-    #classes animal
-#entry
-	#values goat, goats
-	#classes animal
-#entry
-	#values llama, llamas
-	#classes animal
-#entry
-	#values porcupine, porcupines
-	#classes animal
-#entry
-	#values tiger, tigers
-	#classes animal
-#entry
-	#values lion, lions
-	#classes animal
-#entry
-	#values wolf, wolves
-	#classes animal
-#entry
-	#values hyena, hyenas
-	#classes animal
-#entry
-    #values dimple, dimples
-    #classes body
-#entry
-    #values shotgun, shotguns
-    #classes weapon, long
-#entry
-    #values grasshopper, grasshoppers
-    #classes animal, insect
-#entry
-    #values locust, locusts
-    #classes animal, insect
-#entry
-    #values cricket, crickets
-    #classes animal, insect
-#entry
-    #values beetle, beetles
-    #classes animal, insect
-#entry
-    #values harpoon, harpoons
-    #classes long, weapon
-#entry
-	#values tire, tires
-#entry
-	#values silo, silos
-	#classes long
-#entry
-	#values shuttlecock, shuttlecocks
-#entry
-	#values Communist, Communists
-#entry	
-	#values Democrat, Democrats
-#entry
-	#values Republican, Republicans
-#entry
-	#values president, presidents
-#entry
-	#values anthill, anthills
-#entry
-	#values battering ram, battering rams
-	#classes long, weapon, tool
-	
-#nsfw	
-	
-#entry
-	#values cuntrocket, cuntrockets
-	#classes sex
-#entry
-	#values micropenis, micropenises
-	#classes sex, body
-#entry
-	#values cuntwaffle, cuntwaffles
-	#classes sex
-#entry
-	#values blue waffle, blue waffles
-	#classes sex
-#entry
-	#values dildo, dildos
-	#classes sex
-#entry
-	#values double dildo, double dildos
-	#classes sex, long
-#entry
-	#values dinocock, dinococks
-	#classes sex
-#entry
-	#values pussy, pussies
-	#classes body, sex
-#entry
-	#values vagflap, vagflaps
-	#classes body, sex
-#entry
-	#values cuntflap, cuntflaps
-	#classes body, sex
-#entry
-	#values cunt, cunts
-	#classes body, sex
-#entry
-	#values anus, anuses
-	#classes body, sex, hole
-#entry
-	#values sphincter, sphincters
-	#classes body, sex, hole
-#entry
-	#values tit, tits
-	#classes body, sex, round
-#entry
-	#values taint, taints
-	#classes body, sex
-#entry
-	#values foreskin, foreskins
-	#classes body, sex
-#entry
-	#values nipple clamp, nipple clamps
-	#classes tool
-#entry
-	#values goatse, goatses
-	#classes sex, hole
-#entry
-    #values panties, panties
-    #classes article
-#entry
-    #values thong, thongs
-    #classes article
-#entry
-	#values shit, shits
-#entry
-    #values boob, boobs
-    #classes body, sex, round
-#entry
-    #values butthair, butthairs
-    #classes tool
-#entry
-    #values poo-poo, poo-poos	
-#entry
-    #values boner, boners
-    #classes body, sex, long
-#entry
-    #values dick, dicks
-    #classes body, sex, long
-#entry
-    #values cock, cocks
-    #classes body, sex, long
-#entry
-    #values asshole, assholes
-    #classes body, hole
-#entry
-    #values ballsack, ballsacks
-    #classes body, sex
-#entry
-    #values testicle, testicles
-    #classes body, sex
-#entry
-    #values scrotum, scrotums
-    #classes body, sex
-#entry
-    #values pube, pubes
-    #classes body
-#entry
-    #values penis, penises
-    #classes body, sex, long
-#entry
-    #values vagina, vaginas
-    #classes body, hole, sex
-#entry
-	#values pussy, pussies
-	#classes body, hole, sex
-#entry
-    #values yeast, yeast infections
-#entry
-    #values poop, poops
-#entry
-	#values motherfucker, motherfuckers
-#entry
-	#values bitch, bitches
-	#classes animal
-#entry
-	#values chesticle, chesticles
-	#classes body
-#entry
-	#values willy, willies
-	#classes body, sex, long
-#entry
-	#values prick, pricks
-	#classes body, sex, long
-#entry
-	#values manhood, manhoods
-	#classes body, sex, long
-	
-#endnsfw
+#subs singular plural
+
+> wedgie/wedgies
+> zygote/zygotes
+> fetus/fetuses
+> mouth/mouths
+  | class body hole
+> peninsula/peninsulas
+> teen/teens
+  | class person
+> child/children
+  | class person
+> truth/truths
+> pedestrian/pedestrians
+> afro/afros
+  | class body
+> disco ball/disco balls
+> rotisserie/rotisseries
+> pizza/pizzas
+> caboose/cabooses
+> frosting/frostings
+> giblet/giblets
+> handcuff/handcuffs
+  | class sex
+> avocado/avocados
+> banjo/banjos
+> bingo/bingos
+> nickel/nickels
+> dime/dimes
+> penny/pennies
+> cheeseburger/cheeseburgers
+> sponge/sponges
+> popsicle/popsicles
+> musket/muskets
+  | class weapon
+> credit card/credit cards
+> truffle/truffles
+> gearshift/gearshifts
+> ghost/ghosts
+> ridge/ridges
+> meat/meats
+  | weight 10
+> dictionary/dictionaries
+> asymptote/asymptotes
+> peppermint/peppermints
+> candy cane/candy canes
+> bulge/bulges
+> lump/lumps
+> garden/gardens
+> treasure/treasures
+> scuba/scubas
+> elf/elves
+  | class person
+> bass/basses
+  | class animal
+> football/footballs
+> dollar bill/dollar bills
+> log/logs
+> chicken wing/chicken wings
+> pylon/pylons
+> card/cards
+> rock/rocks
+> book/books
+> rabies/rabies
+> fan/fans
+> eraser/erasers
+> fart/farts
+> booger/boogers
+> monster/monsters
+> nerd/nerds
+> wheelbarrow/wheelbarrows
+  | class weapon tool
+> lemonade/lemonades
+> cramp/cramps
+> doodle/doodles
+> stone/stones
+> waffle/waffles
+> jelly bean/jelly beans
+> sofa/sofas
+> muffin/muffins
+> ragamuffin/ragamuffins
+> man/men
+  | class person
+> woman/women
+  | class person
+> puppet/puppets
+> swag/swag
+> bread/bread
+> magnifying glass/magnifying glasses
+> cocaine/cocaine
+> diaper/diapers
+> dishrag/dishrags
+> needle/needles
+  | class weapon
+> pipe/pipes
+  | class weapon
+> money/money
+> car/cars
+> flowerpot/flowerpots
+> robot/robots
+  | class tool
+> lady/ladies
+> bra/bras
+  | class article
+> sharpie/sharpies
+> lawn mower/lawn mowers
+  | class tool weapon
+> carcass/carcasses
+> prune/prunes
+> raisin/raisins
+> grape/grapes
+  | class fruit
+> kumquat/kumquats
+  | class fruit
+> grass/grasses
+> garbage can/garbage cans
+  | class container
+> manure/manure
+> lampstand/lampstands
+  | class weapon
+> bottle/bottles
+  | class container weapon
+> carpet/carpets
+> earwax/earwax
+> fog/fogs
+> hemorroid/hemorroids
+> cork/corks
+> tuna/tuna
+> mirror/mirrors
+> urinal/urinals
+> hazelnut/hazelnuts
+> walnut/walnuts
+> ventricle/ventricles
+> brick/bricks
+  | class weapon
+> cement/cement
+> shrub/shrubs
+> almond/almonds
+> laptop/laptops
+> wall/walls
+> cornea/corneas
+> cleat/cleats
+  | class weapon
+> globe/globes
+> kite/kites
+> dagger/daggers
+  | class weapon
+> horsewhip/horsewhips
+  | class weapon tool
+> radish/radishes
+> scab/scabs
+> leaf/leaves
+> bench/benches
+> nail/nails
+  | class weapon
+> rubber/rubbers
+> feces/feces
+> bone/bones
+  | class body
+> snorkel/snorkels
+> cocktail/cocktails
+> papaya/papayas
+> hole/holes
+> tunnel/tunnels
+  | class hole
+> bullet/bullets
+  | class weapon
+> dynamite/dynamites
+> kettle/kettles
+> enigma/enigmas
+> keyboard/keyboards
+> lube/lubes
+> mask/masks
+> duct tape/duct tape
+> chair/chairs
+  | class furniture
+> button/buttons
+> tuber/tubers
+> joint/joints
+> horseradish/horseradishes
+> onion/onions
+> cabbage/cabbages
+> wool/wool
+> grapefruit/grapefruits
+> tea bag/tea bags
+> tea pot/tea pots
+> canister/canisters
+> battery/batteries
+> clock/clocks
+> plug/plugs
+> towel/towels
+> peanut/peanuts
+> towelette/towelettes
+> moist towelette/moist towelettes
+> cuckoo/cuckoos
+> potato/potatoes
+> apricot/apricots
+  | class fruit
+> doll/dolls
+> tampon/tampons
+> meatloaf/meatloaves
+> loaf/loaves
+> spinach/spinach
+> manhole/manholes
+> razor/razors
+  | class weapon tool
+> pretzel/pretzels
+> cornflake/cornflakes
+> corn/corns
+> marshmallow/marshmallows
+> salmon/salmon
+> barrel/barrels
+> fudge/fudge
+> basket/baskets
+> coffin/coffins
+  | class container
+> piano/pianos
+  | class instrument
+> trombone/trombones
+  | class instrument
+> accordion/accordions
+  | class instrument
+> biscuit/biscuits
+> pope/popes
+> flapjack/flapjacks
+> ointment/ointments
+> pumpkin/pumpkins
+  | class plant
+> fern/ferns
+  | class plant
+> maple tree/maple trees
+  | class plant
+> thistle/thistles
+  | class plant
+> daisy/daisies
+  | class plant
+> stinging nettle/stinging nettles
+  | class plant
+> dandelion/dandelions
+  | class plant
+> tulip/tulips
+  | class plant
+> clover/clovers
+  | class plant
+> marigold/marigolds
+  | class plant
+> square/squares
+  | class shape
+> triangle/triangles
+  | class shape
+> oval/ovals
+  | class shape
+> circle/circles
+  | class shape
+> basketball/basketballs
+  | class ball
+> baseball/baseballs
+  | class ball
+> beach ball/beach balls
+  | class ball
+> tennis ball/tennis balls
+  | class ball
+> boulder/boulders
+  | class ball
+> meatball/meatballs
+  | class ball
+> apple/apples
+  | class fruit
+> lime/limes
+  | class fruit
+> orange/oranges
+  | class fruit
+> lemon/lemons
+  | class fruit
+> watermelon/watermelons
+  | class fruit
+> pineapple/pineapples
+  | class fruit
+> coconut/coconuts
+  | class fruit
+> blueberry/blueberries
+  | class fruit
+> strawberry/strawberries
+  | class fruit
+> raspberry/raspberries
+  | class fruit
+> tangerine/tangerines
+  | class fruit
+> kiwi/kiwis
+  | class fruit
+> grape/grapes
+  | class fruit
+> tomato/tomatoes
+  | class fruit
+> baby/babies
+  | class fruit person
+> nectarine/nectarines
+  | class fruit
+> floor/floors
+  | class surface
+> wall/walls
+  | class surface
+> ceiling/ceilings
+  | class surface
+> patio/patios
+  | class surface
+> bed/beds
+  | class furniture surface
+> bedsheet/bedsheets
+  | class surface
+> window/windows
+  | class surface
+> door/doors
+  | class surface
+> chair/chairs
+  | class furniture surface
+> carpet/carpets
+  | class surface
+> desk/desks
+  | class furniture surface
+> roof/roofs
+  | class surface
+> tabletop/tabletops
+  | class surface
+> coffee table/coffee tables
+  | class furniture
+> couch/couches
+  | class furniture
+> recliner/recliners
+  | class furniture
+> lawn chair/lawn chairs
+  | class furniture
+> rocking chair/rocking chairs
+  | class furniture
+> nightstand/nightstands
+  | class furniture
+> saliva/saliva
+  | class liquid
+> tar/tar
+  | class liquid
+> water/water
+  | class liquid
+> soup/soups
+  | class liquid
+> soap/soaps
+  | class liquid
+> slime/slime
+  | class liquid
+> bleach/bleach
+  | class liquid
+> pudding/puddings
+  | class liquid
+> lotion/lotions
+  | class liquid
+> sauce/sauces
+  | class liquid
+> earwax/earwax
+  | class liquid
+> snot/snots
+  | class liquid
+> sweat/sweats
+  | class liquid
+> acid/acids
+  | class liquid
+> wine/wines
+  | class liquid
+> oil/oils
+  | class liquid
+> olive oil/olive oil
+  | class liquid
+> urine/urine
+  | class liquid
+> diarrhea/diarrhea
+  | class liquid
+> beer/beers
+  | class liquid
+> rain/rains
+  | class liquid
+> toothpaste/toothpastes
+  | class liquid
+> yogurt/yogurts
+  | class liquid
+> cream/creams
+  | class liquid
+> grease/grease
+  | class liquid
+> vodka/vodka
+  | class liquid
+> pickle jar/pickle jars
+  | class container
+> package/packages
+  | class container
+> cup/cups
+  | class container
+> wallet/wallets
+  | class container
+> glass/glasses
+  | class container
+> shot glass/shot glasses
+  | class container
+> bowl/bowls
+  | class container
+> container/containers
+  | class container
+> flask/flasks
+  | class container
+> bottle/bottles
+  | class container
+> pitcher/pitchers
+  | class container
+> pipe/pipes
+  | class container
+> bong/bongs
+  | class container
+> pouch/pouches
+  | class container
+> purse/purses
+  | class container
+> pocket/pockets
+  | class container
+> jar/jars
+  | class container
+> suitcase/suitcases
+  | class container
+> box/boxes
+  | class container
+> trunk/trunks
+  | class container
+> package/packages
+  | class container
+> case/cases
+  | class container
+> packet/packets
+  | class container
+> cell/cells
+  | class container
+> test tube/test tubes
+  | class container
+> vial/vials
+  | class container
+> vat/vats
+  | class container
+> pot/pots
+  | class container
+> turkey baster/turkey basters
+  | class container
+> trashcan/trashcans
+  | class container
+> drawer/drawers
+  | class container
+> chest/chests
+  | class container
+> well/wells
+  | class container
+> kettle/kettles
+  | class container
+> bag/bags
+  | class container
+> balloon/balloons
+  | class container
+> sack/sacks
+  | class container
+> basket/baskets
+  | class container
+> carton/cartons
+  | class container
+> oven/ovens
+  | class container
+> tub/tubs
+  | class container
+> toilet/toilets
+  | class container
+> freezer/freezers
+  | class container
+> toothpick/toothpicks
+  | class long
+> turd/turds
+  | class long
+> rocket/rockets
+  | class long
+> flute/flutes
+  | class long instrument
+> clarinet/clarinets
+  | class long instrument
+> trumpet/trumpets
+  | class long instrument
+> arrow/arrows
+  | class long weapon tool
+> dart/darts
+  | class long weapon
+> pencil/pencils
+  | class long weapon tool
+> cigarette/cigarettes
+  | class long
+> pickle/pickles
+  | class long
+> ruler/rulers
+  | class long
+> cucumber/cucumbers
+  | class long
+> staple/staples
+  | class long
+> panhandle/panhandles
+  | class long
+> telephone pole/telephone poles
+  | class long weapon
+> extension cord/extension cords
+  | class long
+> candle/candles
+  | class long
+> tree/trees
+  | class long
+> knife/knives
+  | class long
+> torch/torches
+  | class long weapon
+> broom/brooms
+  | class long
+> broomstick/broomsticks
+  | class long weapon
+> pole/poles
+  | class long
+> crack pipe/crack pipes
+  | class long
+> lightbulb/lightbulbs
+  | class long
+> umbrella/umbrellas
+  | class long
+> cannon/cannons
+  | class long
+> sausage/sausages
+  | class long
+> chain/chains
+  | class long
+> banana/bananas
+  | class long
+> plunger/plungers
+  | class long
+> spork/sporks
+  | class long
+> toothbrush/toothbrushes
+  | class long
+> banister/banisters
+  | class long
+> baton/batons
+  | class long weapon
+> drill/drills
+  | class long tool weapon
+> iron maiden/iron maidens
+  | class tool
+> leaf blower/leaf blowers
+  | class tool
+> pickaxe/pickaxes
+  | class tool weapon
+> pistol/pistols
+  | class tool
+> spoon/spoons
+  | class tool long
+> fork/forks
+  | class tool weapon long
+> blender/blenders
+  | class tool
+> squeegee/squeegees
+  | class tool
+> shovel/shovels
+  | class long tool weapon
+> loincloth/loincloths
+  | class tool
+> nutcracker/nutcrackers
+  | class tool
+> hammer/hammers
+  | class long tool
+> chainsaw/chainsaws
+  | class tool weapon
+> microscope/microscopes
+  | class tool
+> pot/pots
+  | class tool
+> pan/pans
+  | class tool
+> screwdriver/screwdrivers
+  | class tool long
+> jackhammer/jackhammers
+  | class tool long
+> jockstrap/jockstraps
+  | class tool
+> hacksaw/hacksaws
+  | class tool
+> ladder/ladders
+  | class tool
+> shopping cart/shopping carts
+  | class tool
+> bomb/bombs
+  | class tool weapon
+> firecracker/firecrackers
+  | class tool
+> drug/drugs
+  | class tool
+> sword/swords
+  | class tool weapon long
+> spear/spears
+  | class tool long weapon
+> cattle prod/cattle prods
+  | class tool
+> vacuum/vacuums
+  | class tool
+> wrench/wrenches
+  | class long tool
+> phone/phones
+  | class tool
+> can opener/can openers
+  | class tool
+> stapler/staplers
+  | class tool weapon
+> pitchfork/pitchforks
+  | class tool weapon long
+> blowtorch/blowtorches
+  | class tool long
+> machete/machetes
+  | class tool long weapon
+> rumpus/rumpuses
+  | class tool
+> leech/leeches
+  | class animal
+> squid/squids
+  | class animal
+> octopus/octopi
+  | class animal
+> velociraptor/velociraptors
+  | class animal
+> tyrannosaurus rex/tyrannosaurus rexes
+  | class animal
+> sphinx/sphinxes
+  | class animal
+> viking/vikings
+  | class animal
+> tadpole/tadpoles
+  | class animal
+> skunk/skunks
+  | class animal
+> seagull/seagulls
+  | class animal
+> parrot/parrots
+  | class animal
+> weasel/weasels
+  | class animal
+> mammoth/mammoths
+  | class animal
+> bat/bats
+  | class animal
+> landlord/landlords
+  | class animal
+> moose/moose
+  | class animal
+> frog/frogs
+  | class animal
+> toad/toads
+  | class animal
+> ant/ants
+  | class animal
+> chihuahua/chihuahuas
+  | class animal
+> deer/deer
+  | class animal
+> dog/dogs
+  | class animal
+> bulldog/bulldogs
+  | class animal dog
+> beagle/beagles
+  | class animal dog
+> poodle/poodles
+  | class animal dog
+> rottweiler/rottweilers
+  | class animal dog
+> flamethrower/flamethrowers
+  | class tool weapon long
+> rat/rats
+  | class animal
+> cat/cats
+  | class animal
+> mayor/mayors
+  | class animal
+> flamingo/flamingos
+  | class animal
+> turtle/turtles
+  | class animal
+> blowfish/blowfish
+  | class animal
+> snake/snakes
+  | class animal long
+> anaconda/anacondas
+  | class animal
+> fish/fishes
+  | class animal
+> owl/owls
+  | class animal
+> otter/otters
+  | class animal
+> lemur/lemurs
+  | class animal
+> bull/bulls
+  | class animal
+> chicken/chickens
+  | class animal
+> peacock/peacocks
+  | class animal
+> gorilla/gorillas
+  | class animal
+> dove/doves
+  | class animal
+> pony/ponies
+  | class animal
+> squirrel/squirrels
+  | class animal
+> horse/horses
+  | class animal
+> donkey/donkeys
+  | class animal
+> baboon/baboon
+  | class animal
+> cockroach/cockroaches
+  | class animal
+> butler/butlers
+  | class animal
+> yeti/yetis
+  | class animal
+> demon/demons
+  | class animal
+> devil/devils
+  | class animal
+> umbilical cord/umbilical cords
+  | class long
+> garden hose/garden hoses
+  | class sex long tool
+> fanny/fannies
+  | class body
+> chin/chins
+  | class body
+> nostril/nostrils
+  | class body
+> unibrow/unibrows
+  | class body
+> mustache/mustaches
+  | class body
+> head/heads
+  | class body
+> armpit/armpits
+  | class body
+> rump/rumps
+  | class body
+> throat/throats
+  | class body
+> goatee/goatees
+  | class body
+> nose/noses
+  | class body
+> elbow/elbows
+  | class body
+> esophagus/esophaguses
+  | class body
+> toe/toes
+  | class body
+> leg/legs
+  | class body long
+> pancreas/pancreases
+  | class body
+> stinger/stingers
+  | class body
+> scapula/scapulas
+  | class body
+> gallbladder/gallbladders
+  | class body
+> skin/skin
+  | class body
+> neck/necks
+  | class body
+> toenail/toenails
+  | class body
+> horn/horns
+  | class body
+> epidermis/epidermises
+  | class body
+> duodenum/duodenums
+  | class body
+> heart/hearts
+  | class body
+> kidney/kidneys
+  | class body round
+> fibula/fibulas
+  | class body
+> tentacle/tentacles
+  | class body long
+> knuckle/knuckles
+  | class body
+> uvula/uvulas
+  | class body
+> tongue/tongues
+  | class body long
+> finger/fingers
+  | class body long
+> lip/lips
+  | class body
+> snout/snouts
+  | class body
+> tooth/teeth
+  | class body
+> body/bodies
+  | class body
+> jowl/jowls
+  | class body
+> whisker/whiskers
+  | class body
+> beak/beaks
+  | class body
+> navel/navels
+  | class body
+> LSD/LSD
+  | class drug
+> PCP/PCP
+  | class drug
+> mescaline/mescaline
+  | class drug
+> marijuana/marijuana
+  | class drug
+> meth/meth
+  | class drug
+> crack/crack
+  | class drug
+> roofie/roofies
+  | class drug
+> heroin/heroin
+  | class drug
+> smack/smack
+  | class drug
+> shroom/shrooms
+  | class drug
+> bath salts/bath salts
+  | class drug
+> extacy/extacy
+  | class drug
+> vest/vests
+  | class article
+> boot/boots
+  | class clothes article
+> zipper/zippers
+  | class clothes article
+> sock/socks
+  | class clothes article
+> shoe/shoes
+  | class clothes article
+> slipper/slippers
+  | class clothes article
+> pants/pants
+  | class article
+> sweatshirt/sweatshirts
+  | class article
+> kilt/kilts
+  | class article
+> belt/belts
+  | class article
+> skirt/skirts
+  | class article
+> girdle/girdles
+  | class article
+> pantaloons/pantaloons
+  | class article
+> shirt/shirts
+  | class article
+> dress/dresses
+  | class article
+> jacket/jackets
+  | class article
+> hat/hats
+  | class article
+> top hat/top hats
+  | class article
+> underwear/underwear
+  | class article
+> tuxedo/tuxedoes
+  | class article
+> suit/suits
+  | class article
+> boxers/boxers
+  | class article
+> mandible/mandibles
+  | class body
+> kneecap/kneecaps
+  | class body
+> face/faces
+  | class body
+> loin/loins
+  | class body
+> wand/wands
+  | class tool long
+> stun gun/stun guns
+  | class tool weapon
+> train/trains
+  | class vehicle
+> minivan/minivans
+  | class vehicle
+> semi/semis
+  | class vehicle
+> hot rod/hot rods
+  | class vehicle
+> truck/trucks
+  | class vehicle
+> boat/boats
+  | class vehicle
+> submarine/submarines
+  | class vehicle
+> aircraft carrier/aircraft carriers
+  | class vehicle
+> airplane/airplanes
+  | class vehicle
+> blimp/blimps
+  | class vehicle
+> motorcycle/motorcycles
+  | class vehicle
+> bunsen burner/bunsen burners
+  | class tool long
+> wrinkle/wrinkles
+> jalapeno/jalapenos
+  | class long
+> hubcap/hubcaps
+> hedge/hedges
+  | class plant
+> golf ball/golf balls
+  | class ball round
+> wig/wigs
+> skillet/skillets
+  | class container
+> titan/titans
+  | class animal
+> constitution/constitutions
+> femur/femurs
+  | class body
+> mohawk/mohawks
+> lizard/lizards
+  | class animal
+> hedgehog/hedgehogs
+  | class animal
+> dingleberry/dingleberries
+> teddy bear/teddy bears
+> ogre/ogres
+  | class animal
+> goat/goats
+  | class animal
+> llama/llamas
+  | class animal
+> porcupine/porcupines
+  | class animal
+> tiger/tigers
+  | class animal
+> lion/lions
+  | class animal
+> wolf/wolves
+  | class animal
+> hyena/hyenas
+  | class animal
+> dimple/dimples
+  | class body
+> shotgun/shotguns
+  | class weapon long
+> grasshopper/grasshoppers
+  | class animal insect
+> locust/locusts
+  | class animal insect
+> cricket/crickets
+  | class animal insect
+> beetle/beetles
+  | class animal insect
+> harpoon/harpoons
+  | class long weapon
+> tire/tires
+> silo/silos
+  | class long
+> shuttlecock/shuttlecocks
+> Communist/Communists
+> Democrat/Democrats
+> Republican/Republicans
+> president/presidents
+> anthill/anthills
+
+#nsfw
+> battering ram/battering rams
+  | class long weapon tool
+> cuntrocket/cuntrockets
+  | class sex
+> micropenis/micropenises
+  | class sex body
+> cuntwaffle/cuntwaffles
+  | class sex
+> blue waffle/blue waffles
+  | class sex
+> dildo/dildos
+  | class sex
+> double dildo/double dildos
+  | class sex long
+> dinocock/dinococks
+  | class sex
+> pussy/pussies
+  | class body sex
+> vagflap/vagflaps
+  | class body sex
+> cuntflap/cuntflaps
+  | class body sex
+> cunt/cunts
+  | class body sex
+> anus/anuses
+  | class body sex hole
+> sphincter/sphincters
+  | class body sex hole
+> tit/tits
+  | class body sex round
+> taint/taints
+  | class body sex
+> foreskin/foreskins
+  | class body sex
+> nipple clamp/nipple clamps
+  | class tool
+> goatse/goatses
+  | class sex hole
+> panties/panties
+  | class article
+> thong/thongs
+  | class article
+> shit/shits
+> boob/boobs
+  | class body sex round
+> butthair/butthairs
+  | class tool
+> poo-poo/poo-poos
+> boner/boners
+  | class body sex long
+> dick/dicks
+  | class body sex long
+> cock/cocks
+  | class body sex long
+> asshole/assholes
+  | class body hole
+> ballsack/ballsacks
+  | class body sex
+> testicle/testicles
+  | class body sex
+> scrotum/scrotums
+  | class body sex
+> pube/pubes
+  | class body
+> penis/penises
+  | class body sex long
+> vagina/vaginas
+  | class body hole sex
+> pussy/pussies
+  | class body hole sex
+> yeast/yeast infections
+> poop/poops
+> motherfucker/motherfuckers
+> bitch/bitches
+  | class animal
+> chesticle/chesticles
+  | class body
+> willy/willies
+  | class body sex long
+> prick/pricks
+  | class body sex long
+> manhood/manhoods
+  | class body sex long
+
+#sfw

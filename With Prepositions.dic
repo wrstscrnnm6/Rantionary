@@ -1,14 +1,10 @@
+#version 2
 #name with
-#one
-#entry
-    #values with
-#entry
-    #values without
-#entry
-    #values alongside
-#entry
-    #values inside of
-#entry
-    #values using
-#entry
-    #values with the help of
+#subs default
+
+> with
+> without
+> alongside
+> inside of
+> using
+> with the help of
