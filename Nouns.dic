@@ -12,6 +12,9 @@
   | class person
 > child/children
   | class person
+> dude/dudes
+  | class person
+  | pron D OOD/D OODZ
 > truth/truths
 > pedestrian/pedestrians
 > afro/afros
@@ -112,6 +115,7 @@
 > raisin/raisins
 > grape/grapes
   | class fruit
+  | pron g reyp/g reyps
 > kumquat/kumquats
   | class fruit
 > grass/grasses
@@ -135,6 +139,7 @@
 > ventricle/ventricles
 > brick/bricks
   | class weapon
+  | pron b r ik/b r iks
 > cement/cement
 > shrub/shrubs
 > almond/almonds
@@ -185,7 +190,8 @@
 > wool/wool
 > grapefruit/grapefruits
 > tea bag/tea bags
-> tea pot/tea pots
+> teapot/teapots
+  | pron TEE-pot/TEE-pots
 > canister/canisters
 > battery/batteries
 > clock/clocks
@@ -476,6 +482,7 @@
   | class container
 > toothpick/toothpicks
   | class long
+  | pron too th p ik/too th p iks
 > turd/turds
   | class long
 > rocket/rockets
@@ -520,6 +527,7 @@
   | class long
 > broomstick/broomsticks
   | class long weapon
+  | pron br oom s t ik/br oom s t iks
 > pole/poles
   | class long
 > crack pipe/crack pipes
@@ -1008,6 +1016,7 @@
   | class body sex
 > cunt/cunts
   | class body sex
+  | pron k unt/k unts
 > anus/anuses
   | class body sex hole
 > sphincter/sphincters
@@ -1036,6 +1045,7 @@
   | class body sex long
 > dick/dicks
   | class body sex long
+  | pron d ik/d iks
 > cock/cocks
   | class body sex long
 > asshole/assholes
@@ -1056,7 +1066,9 @@
   | class body hole sex
 > yeast/yeast infections
 > poop/poops
+  | pron p oop/p oops
 > motherfucker/motherfuckers
+  | pron muhth-er-fuhk-er/muhth-er-fuhk-ers
 > bitch/bitches
   | class animal
 > chesticle/chesticles
@@ -1065,6 +1077,7 @@
   | class body sex long
 > prick/pricks
   | class body sex long
+  | pron p r ik/p r iks
 > manhood/manhoods
   | class body sex long
 

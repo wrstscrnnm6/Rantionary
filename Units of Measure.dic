@@ -56,3 +56,29 @@
   | class pressure
 > cubic centimeter/cubic centimeters/cc
   | class volume
+> volt/volts/V
+  | class energy potential
+> millivolt/millivolts/mV
+  | class energy potential
+> kilovolt/kilovolts/kV
+  | class energy potential
+> farad/farads/F
+  | class energy capacitance
+> microfarad/microfarads/μF
+  | class energy capacitance
+> joule/joules/J
+  | class energy
+> ampere/amperes/A
+  | class energy current
+> milliampere/milliamperes/mA
+  | class energy current
+> watt/watts/W
+  | class energy work
+> kilowatt/kilowatts/kW
+  | class energy work
+> milliwatt/milliwatts/mW
+  | class energy work
+> megawatt/megawatts/MW
+  | class energy work
+> henry/henries/H
+  | class energy inductance
