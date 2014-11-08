@@ -3,10 +3,15 @@
 #subs normal ness
 
 > sensible/sensibility
+  | pron SEN-suh-buhl/sen-suh-BIL-i-tee
 > headless/headlessness
+  | pron HED-lis/HED-lis-nis
 > charitable/charitability
+  | pron CHAR-i-tuh-buhl/char-i-tuh-BIL-i-tee
 > sociopathic/sociopathicness
+  | pron so-shee-o-PA-thik/so-shee-o-PA-thik-nis
 > ergonomic/ergonomicness
+  | pron er-go-NAW-mik/er-go-NAW-mik-nis
 > organic/organicness
 > regal/regalness
 > constitutional/constitutionalness
@@ -18,8 +23,11 @@
 > luxurious/luxuriousness
 > invigorating/invigoratingness
 > tangy/tanginess
+  | pron TANG-ee/TANG-ee-nis
 > jazzy/jazziness
+  | pron JA-z ee/JA-z ee-nis
 > retro/retroness
+  | pron RE-troh/RE-troh-nis
 > ductile/ductileness
 > old-fashioned/old-fashionedness
 > flexible/flexibility
@@ -27,6 +35,7 @@
 > fabulous/fabulousness
 > fatherly/fatherliness
 > toasty/toastiness
+  | pron TOH S- t ee/TOH S-t ee-nis
 > mellow/mellowness
 > historical/historicalness
 > fragrant/fragrance
@@ -40,10 +49,12 @@
 > holy/holiness
 > organized/order
 > nifty/niftiness
+  | pron NI F-t ee/NI F-t ee-nis
 > athletic/athleticness
 > juvenile/juvenileness
 > gallant/gallantness
 > corny/corniness
+  | pron COR-n ee/COR-n ee-nis
 > groovy/grooviness
 > weightless/weightlessness
 > rough/roughness
@@ -60,7 +71,9 @@
 > patriotic/patrioticness
 > spine-tingling/tingliness
 > waddly/waddliness
+  | pron WOD-l-ee/WOD-l-ee-nis
 > wobbly/wobbliness
+  | pron WOB-l-ee/WOB-l-ee-nis
 > traditional/tradition
 > appetizing/appetizingness
 > strict/strictness
@@ -76,26 +89,35 @@
 > significant/significance
 > expressive/expression
 > cuddly/cuddliness
+  | pron CUD-l-ee/CUD-l-ee-nis
 > nude/nudity
+  | pron N OOD/NOO-di-tee
   | class appearance
+> rude/rudeness
+  | pron R OOD/R OOD-nis
 > political/politicalness
 > creative/creativity
 > sinful/sin
+  | pron SIN-fuh l/SIN
 > glorious/gloriousness
 > merciful/mercy
 > forgiving/forgiveness
 > smart/smartness
 > salty/saltiness
+  | pron SAWL-tee/SAWL-tee-nis
 > peppery/pepperiness
 > slurpee/slurpiness
+  | pron SLER-pee/SLER-pee-nis
 > criminal/criminality
 > domestic/domesticness
 > meaningful/meaning
 > manly/manliness
+  | pron MAN-lee/MAN-lee-nis
 > barbeque/barbequeness
 > casual/casualness
 > standard/standardness
 > nasty/nastiness
+  | pron NAS-tee/NAS-tee-nis
 > exquisite/exquisiteness
 > bold/boldness
 > proper/properness
@@ -120,6 +142,7 @@
 > ghetto/ghettoness
 > strange/strangeness
 > odd/oddness
+  | pron ODD/ODD-nis
 > wasted/wastedness
 > eccentric/eccentricity
 > satisfactory/satisfaction
@@ -136,6 +159,7 @@
 > celestial/celestial power
 > vibrating/vibration
 > wet/moisture
+  | pron WET/MOIS-cher
   | class appearance
 > silly/silliness
 > spidery/spideriness
@@ -143,7 +167,7 @@
 > flavorful/flavor
 > savory/flavor
 > silky/silkiness
-> slammin'/worth
+> slammin/worth
 > slimy/sliminess
 > impressive/impressiveness
 > appealing/appeal
@@ -170,6 +194,7 @@
 > blue/blueness
 > soft/softness
 > moist/moisture
+  | pron m oist/M OIS-cher
   | weight 10
 > smooth/smoothness
 > torturous/torturousness
@@ -191,6 +216,7 @@
 > metallic/luster
 > skinny/skininess
 > fat/fatness
+  | pron FAT/FAT-nis
 > painful/pain
 > oozing/excretory wetness
 > flaming/fire
@@ -203,10 +229,12 @@
 > romantic/romance
 > young/youth
 > old/age
+  | pron OHLD/EYJ
 > bloodthirsty/bloodthirstiness
 > fleshy/fleshiness
 > warm/warmth
 > cold/coldness
+  | pron KOHLD/K OHLD-nis
 > icy/iciness
 > electric/electricity
 > sharp/sharpness
@@ -266,6 +294,7 @@
 > dreary/dreariness
 > impish/impishness
 > sneaky/sneakiness
+  | pron SNEE-kee/SNEE-kee-nis
 > horrid/horridness
 > monsterous/largeness
 > acidic/acidity
@@ -284,6 +313,7 @@
 > scary/scariness
 > immense/immensity
 > woody/woodiness
+  | pron WOO-d ee/WOO-d ee-nis
 > dominant/dominance
 > submissive/submissiveness
 > pitiful/pity
@@ -716,17 +746,17 @@
 > foggy/fogginess
   | class weather
 > crapulous/crapulousness
-  | class 
+  | class
 > feckless/fecklessness
-  | class 
+  | class
 > peckish/peckishness
-  | class 
+  | class
 > comely/comeliness
-  | class 
+  | class
 > bilious/biliousness
-  | class 
+  | class
 > serene/serenity
-  | class 
+  | class
 > emaciated/emaciation
   | class appearance
 > African-American/African-Americanness
