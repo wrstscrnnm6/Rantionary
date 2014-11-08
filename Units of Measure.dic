@@ -3,11 +3,11 @@
 #subs singular plural abbr
 
 > centimeter/centimeters/cm
-  | class length
+  | class length small factor
 > meter/meters/m
   | class length
 > kilometer/kilometers/km
-  | class length
+  | class length large factor
 > inch/inches/in
   | class length
 > foot/feet/ft
@@ -23,11 +23,11 @@
 > gram/grams/g
   | class weight
 > kilogram/kilograms/kg
-  | class weight
+  | class weight large factor
 > ton/tons/t
   | class weight
 > megaton/megatons/Mt
-  | class weight
+  | class weight large factor
 > ounce/ounces/oz
   | class weight
 > gallon/gallons/gal
@@ -45,7 +45,7 @@
 > pint/pints/pt
   | class volume
 > milliliter/milliliters/mL
-  | class volume
+  | class volume small factor
 > tablespoon/tablespoons/tbsp
   | class volume
 > decibel/decibels/dB
@@ -53,32 +53,34 @@
 > pascal/pascals/Pa
   | class pressure
 > kilopascal/kilopascals/kPa
-  | class pressure
+  | class pressure large factor
 > cubic centimeter/cubic centimeters/cc
   | class volume
 > volt/volts/V
   | class energy potential
 > millivolt/millivolts/mV
-  | class energy potential
+  | class energy potential small factor
 > kilovolt/kilovolts/kV
-  | class energy potential
+  | class energy potential large factor
 > farad/farads/F
   | class energy capacitance
 > microfarad/microfarads/μF
-  | class energy capacitance
+  | class energy capacitance small factor
 > joule/joules/J
   | class energy
+> kilojoule/kilojoules/kJ
+  | class energy large factor
 > ampere/amperes/A
   | class energy current
 > milliampere/milliamperes/mA
-  | class energy current
+  | class energy current small factor
 > watt/watts/W
-  | class energy work
+  | class energy power
 > kilowatt/kilowatts/kW
-  | class energy work
+  | class energy power large factor
 > milliwatt/milliwatts/mW
-  | class energy work
+  | class energy power small factor
 > megawatt/megawatts/MW
-  | class energy work
+  | class energy power large factor
 > henry/henries/H
   | class energy inductance
