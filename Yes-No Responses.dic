@@ -1,104 +1,72 @@
+#version 2
 #name yesno
-#one
-#entry
-    #values yes
-    #classes yes
-#entry
-    #values yayaya
-    #classes yes
-#entry
-    #values yep
-    #classes yes
-#entry
-    #values yeppers
-    #classes yes
-#entry
-    #values definitely
-    #classes yes
-#entry
-    #values absolutely
-    #classes yes
-#entry
-    #values without a doubt
-    #classes yes
-#entry
-    #values indeed
-    #classes yes
-#entry
-    #values affirmative
-    #classes yes
-#entry
-    #values undoubtably
-    #classes yes
-#entry
-    #values undeniably
-    #classes yes
-#entry
-    #values yes, yes
-    #classes yes
-#entry
-    #values hell yes
-    #classes yes
-#entry
-    #values ya
-    #classes yes
-#entry
-    #values certainly
-    #classes yes
-#entry
-    #values obviously
-    #classes yes
-#entry
-    #values oh yes
-    #classes yes
-#entry
-    #values I couldn't agree more
-    #classes yes
-#entry
-    #values no
-    #classes no
-#entry
-    #values definitely not
-    #classes no
-#entry
-    #values absolutely not
-    #classes no
-#entry
-    #values no way
-    #classes no
-#entry
-    #values impossible
-    #classes no
-#entry
-    #values negative
-    #classes no
-#entry
-    #values nope
-    #classes no
-#entry
-    #values hell no
-    #classes no
-#entry
-    #values nooooo
-    #classes no
-#entry
-    #values not at all
-    #classes no
-#entry
-    #values certainly not
-    #classes no
-#entry
-    #values obviously not
-    #classes no
-#entry
-    #values oh no
-    #classes no
-#entry
-    #values most certainly not
-    #classes no
-#entry
-    #values there's no way
-    #classes no
-#entry
-    #values that can't be
-    #classes no
+#subs default
+
+> yes
+  | class yes
+> yayaya
+  | class yes
+> yep
+  | class yes
+> yeppers
+  | class yes
+> definitely
+  | class yes
+> absolutely
+  | class yes
+> without a doubt
+  | class yes
+> indeed
+  | class yes
+> affirmative
+  | class yes
+> undoubtably
+  | class yes
+> undeniably
+  | class yes
+> yes/yes
+  | class yes
+> hell yes
+  | class yes
+> ya
+  | class yes
+> certainly
+  | class yes
+> obviously
+  | class yes
+> oh yes
+  | class yes
+> I couldn't agree more
+  | class yes
+> no
+  | class no
+> definitely not
+  | class no
+> absolutely not
+  | class no
+> no way
+  | class no
+> impossible
+  | class no
+> negative
+  | class no
+> nope
+  | class no
+> hell no
+  | class no
+> nooooo
+  | class no
+> not at all
+  | class no
+> certainly not
+  | class no
+> obviously not
+  | class no
+> oh no
+  | class no
+> most certainly not
+  | class no
+> there's no way
+  | class no
+> that can't be
+  | class no

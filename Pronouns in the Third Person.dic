@@ -1,8 +1,8 @@
+#version 2
 #name pron
-#subtypes obj nom self poss s
-#entry
-    #values him, he, himself, his, his
-    #classes male
-#entry
-    #values her, she, herself, her, hers
-    #classes female
+#subs obj nom self poss s
+
+> him/he/himself/his/his
+  | class male
+> her/she/herself/her/hers
+  | class female

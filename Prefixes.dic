@@ -1,104 +1,64 @@
+#version 2
 #name prefix
-#one
-#entry
-	#values pre
-	#classes position
-#entry
-	#values post
-	#classes position
-#entry
-	#values extra
-	#classes position
-#entry
-	#values intra
-	#classes position
-#entry
-	#values mega
-#entry
-	#values exo
-#entry
-	#values endo
-	#classes position
-#entry
-	#values bi
-	#classes quantity
-#entry
-	#values tri
-	#classes quantity
-#entry
-	#values quad
-	#classes quantity
-#entry
-	#values octo
-	#classes quantity
-#entry
-	#values a
-#entry
-	#values anti
-#entry
-	#values un
-#entry
-	#values in
-#entry
-	#values pseudo
-#entry
-	#values penta
-	#classes quantity
-#entry
-	#values micro
-	#classes scale
-#entry
-	#values macro
-	#classes scale
-#entry
-	#values cardio
-	#classes anatomy
-#entry
-	#values neuro
-	#classes anatomy
-#entry
-	#values pyro
-#entry
-	#values super
-#entry
-	#values mini
-#entry
-	#values psycho
-#entry
-	#values trans
-#entry
-	#values fore
-#entry
-	#values semi
-#entry
-	#values mid
-	#classes position
-#entry
-	#values under
-	#classes position
-#entry
-	#values over
-	#classes position
-#entry
-	#values mis
-#entry
-	#values non
-#entry
-	#values auto
-#entry
-	#values circum
-#entry
-	#values contra
-#entry
-	#values homo
-#entry
-	#values hyper
-#entry
-	#values mono
-	#classes quantity
-#entry
-	#values sub
-#entry
-	#values omni
-#entry
-	#values uni
+#subs default
+
+> pre
+  | class position
+> post
+  | class position
+> extra
+  | class position
+> intra
+  | class position
+> mega
+> exo
+> endo
+  | class position
+> bi
+  | class quantity
+> tri
+  | class quantity
+> quad
+  | class quantity
+> octo
+  | class quantity
+> a
+> anti
+> un
+> in
+> pseudo
+> penta
+  | class quantity
+> micro
+  | class scale
+> macro
+  | class scale
+> cardio
+  | class anatomy
+> neuro
+  | class anatomy
+> pyro
+> super
+> mini
+> psycho
+> trans
+> fore
+> semi
+> mid
+  | class position
+> under
+  | class position
+> over
+  | class position
+> mis
+> non
+> auto
+> circum
+> contra
+> homo
+> hyper
+> mono
+  | class quantity
+> sub
+> omni
+> uni
