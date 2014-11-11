@@ -91,8 +91,10 @@
 > puppet/puppets
 > swag/swag
 > bread/bread
+  | class food
 > magnifying glass/magnifying glasses
 > cocaine/cocaine
+  | class drug
 > diaper/diapers
 > dishrag/dishrags
 > needle/needles
@@ -105,6 +107,7 @@
 > robot/robots
   | class tool
 > lady/ladies
+  | class person
 > bra/bras
   | class article
 > sharpie/sharpies
@@ -112,12 +115,13 @@
   | class tool weapon
 > carcass/carcasses
 > prune/prunes
+  | class fruit food
 > raisin/raisins
 > grape/grapes
-  | class fruit
+  | class fruit food
   | pron g reyp/g reyps
 > kumquat/kumquats
-  | class fruit
+  | class fruit food
 > grass/grasses
 > garbage can/garbage cans
   | class container
@@ -132,10 +136,13 @@
 > hemorroid/hemorroids
 > cork/corks
 > tuna/tuna
+  | class animal food
 > mirror/mirrors
 > urinal/urinals
 > hazelnut/hazelnuts
+  | class food
 > walnut/walnuts
+  | class food
 > ventricle/ventricles
 > brick/bricks
   | class weapon
@@ -143,9 +150,11 @@
 > cement/cement
 > shrub/shrubs
 > almond/almonds
+  | class food
 > laptop/laptops
 > wall/walls
 > cornea/corneas
+  | class body
 > cleat/cleats
   | class weapon
 > globe/globes
@@ -186,9 +195,11 @@
 > joint/joints
 > horseradish/horseradishes
 > onion/onions
+  | class food
 > cabbage/cabbages
 > wool/wool
 > grapefruit/grapefruits
+  | class fruit food
 > tea bag/tea bags
 > teapot/teapots
   | pron TEE-pot/TEE-pots
@@ -198,27 +209,38 @@
 > plug/plugs
 > towel/towels
 > peanut/peanuts
+  | class food
 > towelette/towelettes
 > moist towelette/moist towelettes
 > cuckoo/cuckoos
 > potato/potatoes
+  | class food
 > apricot/apricots
-  | class fruit
+  | class fruit food
 > doll/dolls
 > tampon/tampons
 > meatloaf/meatloaves
+  | class food
 > loaf/loaves
 > spinach/spinach
+  | class food
 > manhole/manholes
 > razor/razors
   | class weapon tool
 > pretzel/pretzels
+  | class food
 > cornflake/cornflakes
+  | class food
 > corn/corns
+  | class food
 > marshmallow/marshmallows
+  | class food
 > salmon/salmon
+  | class animal food
 > barrel/barrels
+  | class container
 > fudge/fudge
+  | class food
 > basket/baskets
 > coffin/coffins
   | class container
@@ -229,6 +251,7 @@
 > accordion/accordions
   | class instrument
 > biscuit/biscuits
+  | class food
 > pope/popes
 > flapjack/flapjacks
 > ointment/ointments
@@ -270,40 +293,44 @@
   | class ball
 > boulder/boulders
   | class ball
-> meatball/meatballs
-  | class ball
-> apple/apples
-  | class fruit
-> lime/limes
-  | class fruit
-> orange/oranges
-  | class fruit
-> lemon/lemons
-  | class fruit
-> watermelon/watermelons
-  | class fruit
-> pineapple/pineapples
-  | class fruit
-> coconut/coconuts
-  | class fruit
-> blueberry/blueberries
-  | class fruit
-> strawberry/strawberries
-  | class fruit
-> raspberry/raspberries
-  | class fruit
-> tangerine/tangerines
-  | class fruit
-> kiwi/kiwis
-  | class fruit
-> grape/grapes
-  | class fruit
-> tomato/tomatoes
-  | class fruit
+
+#class add food
+  > meatball/meatballs
+    | class ball
+  > apple/apples
+    | class fruit
+  > lime/limes
+    | class fruit
+  > orange/oranges
+    | class fruit
+  > lemon/lemons
+    | class fruit
+  > watermelon/watermelons
+    | class fruit
+  > pineapple/pineapples
+    | class fruit
+  > coconut/coconuts
+    | class fruit
+  > blueberry/blueberries
+    | class fruit
+  > strawberry/strawberries
+    | class fruit
+  > raspberry/raspberries
+    | class fruit
+  > tangerine/tangerines
+    | class fruit
+  > kiwi/kiwis
+    | class fruit
+  > grape/grapes
+    | class fruit
+  > tomato/tomatoes
+    | class fruit
+  > nectarine/nectarines
+    | class fruit
+#class remove food
+
 > baby/babies
   | class fruit person
-> nectarine/nectarines
-  | class fruit
 > floor/floors
   | class surface
 > wall/walls
@@ -342,144 +369,82 @@
   | class furniture
 > nightstand/nightstands
   | class furniture
-> saliva/saliva
-  | class liquid
-> tar/tar
-  | class liquid
-> water/water
-  | class liquid
-> soup/soups
-  | class liquid
-> soap/soaps
-  | class liquid
-> slime/slime
-  | class liquid
-> bleach/bleach
-  | class liquid
-> pudding/puddings
-  | class liquid
-> lotion/lotions
-  | class liquid
-> sauce/sauces
-  | class liquid
-> earwax/earwax
-  | class liquid
-> snot/snots
-  | class liquid
-> sweat/sweats
-  | class liquid
-> acid/acids
-  | class liquid
-> wine/wines
-  | class liquid
-> oil/oils
-  | class liquid
-> olive oil/olive oil
-  | class liquid
-> urine/urine
-  | class liquid
-> diarrhea/diarrhea
-  | class liquid
-> beer/beers
-  | class liquid
-> rain/rains
-  | class liquid
-> toothpaste/toothpastes
-  | class liquid
-> yogurt/yogurts
-  | class liquid
-> cream/creams
-  | class liquid
-> grease/grease
-  | class liquid
-> vodka/vodka
-  | class liquid
-> pickle jar/pickle jars
-  | class container
-> package/packages
-  | class container
-> cup/cups
-  | class container
-> wallet/wallets
-  | class container
-> glass/glasses
-  | class container
-> shot glass/shot glasses
-  | class container
-> bowl/bowls
-  | class container
-> container/containers
-  | class container
-> flask/flasks
-  | class container
-> bottle/bottles
-  | class container
-> pitcher/pitchers
-  | class container
-> pipe/pipes
-  | class container
-> bong/bongs
-  | class container
-> pouch/pouches
-  | class container
-> purse/purses
-  | class container
-> pocket/pockets
-  | class container
-> jar/jars
-  | class container
-> suitcase/suitcases
-  | class container
-> box/boxes
-  | class container
-> trunk/trunks
-  | class container
-> package/packages
-  | class container
-> case/cases
-  | class container
-> packet/packets
-  | class container
-> cell/cells
-  | class container
-> test tube/test tubes
-  | class container
-> vial/vials
-  | class container
-> vat/vats
-  | class container
-> pot/pots
-  | class container
-> turkey baster/turkey basters
-  | class container
-> trashcan/trashcans
-  | class container
-> drawer/drawers
-  | class container
-> chest/chests
-  | class container
-> well/wells
-  | class container
-> kettle/kettles
-  | class container
-> bag/bags
-  | class container
-> balloon/balloons
-  | class container
-> sack/sacks
-  | class container
-> basket/baskets
-  | class container
-> carton/cartons
-  | class container
-> oven/ovens
-  | class container
-> tub/tubs
-  | class container
-> toilet/toilets
-  | class container
-> freezer/freezers
-  | class container
+
+#class add liquid
+  > saliva/saliva
+  > tar/tar
+  > water/water
+  > soup/soups
+  > soap/soaps
+  > slime/slime
+  > bleach/bleach
+  > pudding/puddings
+  > lotion/lotions
+  > sauce/sauces
+  > earwax/earwax
+  > snot/snots
+  > sweat/sweats
+  > acid/acids
+  > wine/wines
+  > oil/oils
+  > olive oil/olive oil
+  > urine/urine
+  > diarrhea/diarrhea
+  > beer/beers
+  > rain/rains
+  > toothpaste/toothpastes
+  > yogurt/yogurts
+  > cream/creams
+  > grease/grease
+  > vodka/vodka
+#class remove liquid
+
+#class add container
+  > pickle jar/pickle jars
+  > package/packages
+  > cup/cups
+  > wallet/wallets
+  > glass/glasses
+  > shot glass/shot glasses
+  > bowl/bowls
+  > container/containers
+  > flask/flasks
+  > bottle/bottles
+  > pitcher/pitchers
+  > pipe/pipes
+  > bong/bongs
+  > pouch/pouches
+  > purse/purses
+  > pocket/pockets
+  > jar/jars
+  > suitcase/suitcases
+  > box/boxes
+  > trunk/trunks
+  > package/packages
+  > case/cases
+  > packet/packets
+  > cell/cells
+  > test tube/test tubes
+  > vial/vials
+  > vat/vats
+  > pot/pots
+  > turkey baster/turkey basters
+  > trashcan/trashcans
+  > drawer/drawers
+  > chest/chests
+  > well/wells
+  > kettle/kettles
+  > bag/bags
+  > balloon/balloons
+  > sack/sacks
+  > basket/baskets
+  > carton/cartons
+  > oven/ovens
+  > tub/tubs
+  > toilet/toilets
+  > freezer/freezers
+#class remove container
+
 > toothpick/toothpicks
   | class long
   | pron too th p ik/too th p iks
@@ -630,200 +595,134 @@
   | class tool long weapon
 > rumpus/rumpuses
   | class tool
-> leech/leeches
-  | class animal
-> squid/squids
-  | class animal
-> octopus/octopi
-  | class animal
-> velociraptor/velociraptors
-  | class animal
-> tyrannosaurus rex/tyrannosaurus rexes
-  | class animal
-> sphinx/sphinxes
-  | class animal
-> viking/vikings
-  | class animal
-> tadpole/tadpoles
-  | class animal
-> skunk/skunks
-  | class animal
-> seagull/seagulls
-  | class animal
-> parrot/parrots
-  | class animal
-> weasel/weasels
-  | class animal
-> mammoth/mammoths
-  | class animal
-> bat/bats
-  | class animal
-> landlord/landlords
-  | class animal
-> moose/moose
-  | class animal
-> frog/frogs
-  | class animal
-> toad/toads
-  | class animal
-> ant/ants
-  | class animal
-> chihuahua/chihuahuas
-  | class animal
-> deer/deer
-  | class animal
-> dog/dogs
-  | class animal
-> bulldog/bulldogs
-  | class animal dog
-> beagle/beagles
-  | class animal dog
-> poodle/poodles
-  | class animal dog
-> rottweiler/rottweilers
-  | class animal dog
 > flamethrower/flamethrowers
   | class tool weapon long
-> rat/rats
-  | class animal
-> cat/cats
-  | class animal
-> mayor/mayors
-  | class animal
-> flamingo/flamingos
-  | class animal
-> turtle/turtles
-  | class animal
-> blowfish/blowfish
-  | class animal
-> snake/snakes
-  | class animal long
-> anaconda/anacondas
-  | class animal
-> fish/fishes
-  | class animal
-> owl/owls
-  | class animal
-> otter/otters
-  | class animal
-> lemur/lemurs
-  | class animal
-> bull/bulls
-  | class animal
-> chicken/chickens
-  | class animal
-> peacock/peacocks
-  | class animal
-> gorilla/gorillas
-  | class animal
-> dove/doves
-  | class animal
-> pony/ponies
-  | class animal
-> squirrel/squirrels
-  | class animal
-> horse/horses
-  | class animal
-> donkey/donkeys
-  | class animal
-> baboon/baboon
-  | class animal
-> cockroach/cockroaches
-  | class animal
-> butler/butlers
-  | class animal
-> yeti/yetis
-  | class animal
-> demon/demons
-  | class animal
-> devil/devils
-  | class animal
-> umbilical cord/umbilical cords
-  | class long
 > garden hose/garden hoses
   | class sex long tool
-> fanny/fannies
-  | class body
-> chin/chins
-  | class body
-> nostril/nostrils
-  | class body
-> unibrow/unibrows
-  | class body
-> mustache/mustaches
-  | class body
-> head/heads
-  | class body
-> armpit/armpits
-  | class body
-> rump/rumps
-  | class body
-> throat/throats
-  | class body
-> goatee/goatees
-  | class body
-> nose/noses
-  | class body
-> elbow/elbows
-  | class body
-> esophagus/esophaguses
-  | class body
-> toe/toes
-  | class body
-> leg/legs
-  | class body long
-> pancreas/pancreases
-  | class body
-> stinger/stingers
-  | class body
-> scapula/scapulas
-  | class body
-> gallbladder/gallbladders
-  | class body
-> skin/skin
-  | class body
-> neck/necks
-  | class body
-> toenail/toenails
-  | class body
-> horn/horns
-  | class body
-> epidermis/epidermises
-  | class body
-> duodenum/duodenums
-  | class body
-> heart/hearts
-  | class body
-> kidney/kidneys
-  | class body round
-> fibula/fibulas
-  | class body
-> tentacle/tentacles
-  | class body long
-> knuckle/knuckles
-  | class body
-> uvula/uvulas
-  | class body
-> tongue/tongues
-  | class body long
-> finger/fingers
-  | class body long
-> lip/lips
-  | class body
-> snout/snouts
-  | class body
-> tooth/teeth
-  | class body
-> body/bodies
-  | class body
-> jowl/jowls
-  | class body
-> whisker/whiskers
-  | class body
-> beak/beaks
-  | class body
-> navel/navels
-  | class body
+
+#class add animal
+  > leech/leeches
+  > squid/squids
+  > octopus/octopi
+  > velociraptor/velociraptors
+  > tyrannosaurus rex/tyrannosaurus rexes
+  > sphinx/sphinxes
+  > viking/vikings
+  > tadpole/tadpoles
+  > skunk/skunks
+  > seagull/seagulls
+  > parrot/parrots
+  > weasel/weasels
+  > mammoth/mammoths
+  > bat/bats
+  > landlord/landlords
+  > moose/moose
+  > frog/frogs
+  > toad/toads
+  > ant/ants
+  > chihuahua/chihuahuas
+  > deer/deer
+  > rat/rats
+  > cat/cats
+  > mayor/mayors
+  > flamingo/flamingos
+  > turtle/turtles
+  > blowfish/blowfish
+  > snake/snakes
+    | class long
+  > anaconda/anacondas
+  > fish/fishes
+  > owl/owls
+  > otter/otters
+  > lemur/lemurs
+  > bull/bulls
+  > chicken/chickens
+  > peacock/peacocks
+  > gorilla/gorillas
+  > dove/doves
+  > pony/ponies
+  > squirrel/squirrels
+  > horse/horses
+  > donkey/donkeys
+  > baboon/baboon
+  > cockroach/cockroaches
+  > butler/butlers
+  > yeti/yetis
+  > demon/demons
+  > devil/devils
+  > ogre/ogres
+  > goat/goats
+  > llama/llamas
+  > porcupine/porcupines
+  > tiger/tigers
+  > lion/lions
+  > wolf/wolves
+  > hyena/hyenas
+  > titan/titans
+  > lizard/lizards
+  > hedgehog/hedgehogs
+
+  #class add dog
+    > dog/dogs
+    > bulldog/bulldogs
+    > beagle/beagles
+    > poodle/poodles
+    > rottweiler/rottweilers
+  #class remove dog
+
+#class remove animal
+
+#class add body
+  > umbilical cord/umbilical cords
+    | class long
+  > fanny/fannies
+  > chin/chins
+  > nostril/nostrils
+  > unibrow/unibrows
+  > mustache/mustaches
+  > head/heads
+  > armpit/armpits
+  > rump/rumps
+  > throat/throats
+  > goatee/goatees
+  > nose/noses
+  > elbow/elbows
+  > esophagus/esophaguses
+  > toe/toes
+  > leg/legs
+    | class long
+  > pancreas/pancreases
+  > stinger/stingers
+  > scapula/scapulas
+  > gallbladder/gallbladders
+  > skin/skin
+  > neck/necks
+  > toenail/toenails
+  > horn/horns
+  > epidermis/epidermises
+  > duodenum/duodenums
+  > heart/hearts
+  > kidney/kidneys
+    | class round
+  > fibula/fibulas
+  > tentacle/tentacles
+    | class long
+  > knuckle/knuckles
+  > uvula/uvulas
+  > tongue/tongues
+    | class long
+  > finger/fingers
+    | class long
+  > lip/lips
+  > snout/snouts
+  > tooth/teeth
+  > body/bodies
+  > jowl/jowls
+  > whisker/whiskers
+  > beak/beaks
+  > navel/navels
+#class remove body
+
 > LSD/LSD
   | class drug
 > PCP/PCP
@@ -939,34 +838,12 @@
 > wig/wigs
 > skillet/skillets
   | class container
-> titan/titans
-  | class animal
 > constitution/constitutions
 > femur/femurs
   | class body
 > mohawk/mohawks
-> lizard/lizards
-  | class animal
-> hedgehog/hedgehogs
-  | class animal
 > dingleberry/dingleberries
 > teddy bear/teddy bears
-> ogre/ogres
-  | class animal
-> goat/goats
-  | class animal
-> llama/llamas
-  | class animal
-> porcupine/porcupines
-  | class animal
-> tiger/tigers
-  | class animal
-> lion/lions
-  | class animal
-> wolf/wolves
-  | class animal
-> hyena/hyenas
-  | class animal
 > dimple/dimples
   | class body
 > shotgun/shotguns
