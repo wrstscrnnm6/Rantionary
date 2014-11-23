@@ -21,7 +21,13 @@
 > trillions of years ago
   | class time
 > today
-  | class time
+  | class time present
+> tonight
+  | class time present
+> presently
+  | class time present
+> now
+  | class time present
 > just 5 minutes ago
   | class time
 > 5 minutes later
