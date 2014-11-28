@@ -1,10 +1,10 @@
 RantVocab
 =========
 
-The official dictionary resources for Rant
+These are the official dictionaries for the Rant language.
 
-**Note:** These dictionaries contain potentially objectionable content. Such entries should be placed under a `#nsfw` context. Rant will exclude these entries by default when loading vocabulary, but if you want to include them, specify `NsfwFilter.Allow` in your `RantEngine` constructor.
+**Contributions are welcome.** I love new words! If you want to add something, be it big or small, send a pull request and I'll get to it within a couple days at the most.
 
-Contributions are welcome. If you want to add something, send a pull request and I'll get to it within a couple days at the most.
+**Note:** These dictionaries contain potentially objectionable content. Such entries should *always* be placed under a `#nsfw` context. Rant will exclude these entries by default when loading vocabulary, but if you want to include them, specify `NsfwFilter.Allow` in your `RantEngine` constructor.
 
 *These files are made available publicly without license or restriction. Use them in any way you wish.*
