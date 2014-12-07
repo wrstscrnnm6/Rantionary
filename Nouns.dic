@@ -661,6 +661,13 @@
   > titan/titans
   > lizard/lizards
   > hedgehog/hedgehogs
+  > zebra/zebras
+  > quokka/quokkas
+  > newt/newts
+  > vulture/vultures
+  > yak/yaks
+  > jaguar/jaguars
+  > xerus/xeruses
 
   #class add dog
     > dog/dogs
