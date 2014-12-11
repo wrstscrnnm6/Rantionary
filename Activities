@@ -1,0 +1,15 @@
+#version 2
+#name activity
+#subs default
+
+#class add sport
+
+#class remove sport
+
+#class add board
+
+#class remove board
+
+#class add video
+
+#class remove video
