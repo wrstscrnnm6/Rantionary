@@ -5,21 +5,21 @@
 > at sunrise
   | class time
 > a month ago
-  | class time
+  | class time past
 > a week ago
-  | class time
+  | class time past
 > a day ago
-  | class time
+  | class time past
 > an hour ago
-  | class time
+  | class time past
 > a year ago
-  | class time
+  | class time past
 > millions of years ago
-  | class time
+  | class time past
 > billions of years ago
-  | class time
+  | class time past
 > trillions of years ago
-  | class time
+  | class time past
 > today
   | class time present
 > tonight
@@ -29,7 +29,7 @@
 > now
   | class time present
 > just 5 minutes ago
-  | class time
+  | class time past
 > 5 minutes later
   | class time
 > 1 hour later
