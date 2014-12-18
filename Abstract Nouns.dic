@@ -1,0 +1,45 @@
+#version 2
+#name abstract
+#subs singular plural
+
+#class add concept
+  > idea/ideas
+  > lie/lies
+  > philosophy/philosophies
+  > hypothesis/hypotheses
+  > theory/theories
+  > concept/concepts
+  > thought/thoughts
+  > plan/plans
+  > scheme/schemes
+  > notion/notions
+  > conception/conceptions
+  > impression/impressions
+  > belief/beliefs
+    | class subjective
+  > opinion/opinions
+    | class subjective
+  > proposal/proposals
+  > law/laws
+  > vision/visions
+  > conclusion/conclusions
+#class remove concept
+
+#class add social
+  > relationship/relationships
+  > conflict/conflicts
+  > fight/fights
+  > disagreement/disagreements
+  > consensus/consensuses
+  > agreement/agreements
+  > understanding/understandings
+  > friendship/friendships
+  > rivalry/rivalries
+  > feud/feuds
+  > romance/romances
+#class remove social
+
+# class add linguistic
+  > question/questions
+  > answer/answers
+#class remove linguistic
