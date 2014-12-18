@@ -1,3 +1,16 @@
+@ SUBTYPES
+@ - simple: Present simple tense
+@ - ing: Present continuous tense
+@ - ed: Past simple tense
+@ - s: Present simple tense
+@ - er: Agent (one who does)
+@ - pp: Past participle
+@ - noun: The act of
+
+@ CLASSES
+@ - transitive: An action performed on something else
+@ - intransitive: An action with no direct object
+
 #version 2
 #name verb
 #subs simple ing ed s er pp noun
