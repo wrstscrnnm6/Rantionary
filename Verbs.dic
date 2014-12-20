@@ -15,6 +15,10 @@
 #name verb
 #subs simple ing ed s er pp noun
 
+> love/loving/loved/loves/lover/loved/loving
+  | class emotion
+> hate/hating/hated/hates/hater/hated/hating
+  | class emotion
 > whisper/whispering/whispered/whispers/whisperer/whispered/whispering
 > spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking
 > invigorate/invigorating/invigorated/invigorates/invigorator/invigorated/invigoration
