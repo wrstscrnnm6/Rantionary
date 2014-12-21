@@ -37,7 +37,6 @@
   > Brandon
   > Victor
   > William
-  > Alex
   > Ken
   > Gordon
   > Grover
@@ -437,7 +436,6 @@
 #class add female
   > Karen
   > Heidi
-  > Jessie
   > Gabrielle
   > Jessica
   > Laura
@@ -473,7 +471,6 @@
   > Gloria
   > Jane
   > Tina
-  > Tracy
   > Tiffany
   > Valerie
   > Lauren
@@ -487,7 +484,18 @@
   > Maggie
   > Crystal
   > Ember
-  > Fluffy
-    | class male
   > Papa
 #class remove female
+
+@ Gender-neutral names
+#class add male? female?
+  > Sam
+  > Adrian
+  > Quinn
+  > Sidney
+  > Jessie
+  > Jamie
+  > Jordan
+  > Tracy
+  > Alex
+#class remove male? female?
