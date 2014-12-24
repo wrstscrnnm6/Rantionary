@@ -3,70 +3,100 @@
 #subs singular plural
 
 > brother/brothers
+  | pron brV-D3`/brV-D3`z
   | class male
 > father/fathers
+  | pron fA-D3`/fA-D3`z
   | class male
 > grandpa/grandpas
   | class male
 > uncle/uncles
+  | pron VN-kVl/VN-kVlz
   | class male
 > boyfriend/boyfriends
+  | pron bOI-frEnd/bOI-frEnz
   | class male
 > husband/husbands
+  | pron hVz-bVnd/hVz-bVndz
   | class male
 > stepfather/stepfathers
   | class male
 > godfather/godfathers
   | class male
 > son/sons
+  | pron sVn/sVnz
   | class male
 > grandson/grandsons
+  | pron gr{n-sVn/gr{n-sVnz
   | class male
 > boy/boys
+  | pron bOI/bOIz
   | class male
 > man/men
+  | pron m{n/mEn
   | class male
 > mommy/mommies
+  | pron mA-mi/mA-miz
   | class female
 > daddy/daddies
+  | pron d{-di/d{-diz
   | class male
 > sister/sisters
+  | pron sI-st3`/sI-st3`z
   | class female
 > mother/mothers
+  | pron mV-D3`/mV-D3`z
   | class female
 > grandma/grandmas
+  | pron gr{nd-mA/gr{-mAz
   | class female
 > stepmother/stepmothers
   | class female
 > aunt/aunts
+  | pron Ont/Onts
   | class female
 > girlfriend/girlfriends
+  | pron g3`l-frEnd/g3`l-frEndz
   | class female
 > wife/wives
+  | pron waIf/waIvz
   | class female
 > daughter/daughters
+  | pron dO-t3`/dO-t3`z
   | class female
 > granddaughter/granddaughters
+  | pron gr{n-dO-t3`/gr{n-dO-t3`z
   | class female
 > girl/girls
+  | pron g3`l/g3`lz
   | class female
 > woman/women
+  | pron wU-mVn/wI-mVn
   | class female
 > friend/friends
+  | pron frEnd/frEnz
   | class neutral
 > cousin/cousins
+  | pron kV-zVn/kV-zVnz
   | class neutral
 > colleague/colleagues
+  | pron kA-lig/kA-ligz
   | class neutral
 > boss/bosses
+  | pron bOs/bO-sIz
   | class neutral
 > master/masters
+  | pron m{-st3`/m{-st3`z
   | class neutral
 > buddy/buddies
+  | pron bV-di/bV-diz
   | class neutral
 > child/children
+  | pron tSaIld/tSIl-drVn
   | class neutral
 > baby/babies
+  | pron beI-bi/beI-biz
   | class neutral
 > fella/fellas
+  | pron fE-lV/fE-lVs
   | class neutral

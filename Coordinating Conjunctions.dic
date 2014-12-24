@@ -3,9 +3,16 @@
 #subs default
 
 > and
+  | pron Vnd
 > or
+  | pron 3`
 > but
+  | pron bVt
 > nor
+  | pron nOrr
 > for
+  | pron fr3`
 > yet
+  | pron jEt
 > so
+  | pron soU

@@ -1,42 +1,103 @@
 #version 2
 #name yn
+#subs default
 
-#class add yes
-  > yes
-  > yayaya
-  > yep
-  > yeppers
-  > definitely
-  > absolutely
-  > without a doubt
-  > indeed
-  > affirmative
-  > undoubtedly
-  > undeniably
-  > yes/yes
-  > hell yes
-  > ya
-  > certainly
-  > obviously
-  > oh yes
-  > I couldn't agree more
-#class remove yes
-
-#class add no
-  > no
-  > definitely not
-  > absolutely not
-  > no way
-  > impossible
-  > negative
-  > nope
-  > hell no
-  > nooooo
-  > not at all
-  > certainly not
-  > obviously not
-  > oh no
-  > most certainly not
-  > there's no way
-  > that can't be
-#class remove no
+> yes
+  | pron jEs
+  | class yes
+> yayaya
+  | class yes
+> yep
+  | pron jEp
+  | class yes
+> yeppers
+  | class yes
+> definitely
+  | pron dE-fV-nVt-li
+  | class yes
+> absolutely
+  | pron {b-sV-lut-li
+  | class yes
+> without a doubt
+  | pron wID-aUt eI daUt
+  | class yes
+> indeed
+  | pron In-did
+  | class yes
+> affirmative
+  | pron V-f3`-mV-tIv
+  | class yes
+> undoubtedly
+  | pron Vn-daU-tId-li
+  | class yes
+> undeniably
+  | pron Vn-dI-naI-V-bli
+  | class yes
+> yes/yes
+  | pron jEs/jEs
+  | class yes
+> hell yes
+  | pron hEl jEs
+  | class yes
+> ya
+  | pron jA
+  | class yes
+> certainly
+  | pron s3`-tVn-li
+  | class yes
+> obviously
+  | pron Ab-vi-Vs-li
+  | class yes
+> oh yes
+  | pron oU jEs
+  | class yes
+> I couldn't agree more
+  | pron kU-dVn V-gri mOrr
+  | class yes
+> no
+  | pron noU
+  | class no
+> definitely not
+  | pron dE-fV-nVt-li nAt
+  | class no
+> absolutely not
+  | pron {b-sV-lut-li nAt
+  | class no
+> no way
+  | pron noU weI
+  | class no
+> impossible
+  | pron Im-pA-sV-bVl
+  | class no
+> negative
+  | pron nE-gV-tIv
+  | class no
+> nope
+  | pron noUp
+  | class no
+> hell no
+  | pron hEl noU
+  | class no
+> nooooo
+  | class no
+> not at all
+  | pron nAt {t Ol
+  | class no
+> certainly not
+  | pron s3`-tVn-li nAt
+  | class no
+> obviously not
+  | pron Ab-vi-Vs-li nAt
+  | class no
+> oh no
+  | pron oU noU
+  | class no
+> most certainly not
+  | pron moUs s3`-tVn-li nAt
+  | class no
+> there's no way
+  | pron Derrz noU weI
+  | class no
+> that can't be
+  | pron DVt k{nt bi
+  | class no

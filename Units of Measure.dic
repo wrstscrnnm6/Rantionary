@@ -5,40 +5,50 @@
 > centimeter/centimeters/cm
   | class length small factor
 > meter/meters/m
+  | pron mi-t3`/mi-t3`z/Em
   | class length
 > kilometer/kilometers/km
   | class length large factor
 > inch/inches/in
+  | pron IntS/In-tSIz/In
   | class length
 > foot/feet/ft
   | class length
 > yard/yards/y
+  | pron jArrd/jArrdz/waI
   | class length
 > mile/miles/mi
+  | pron maIl/maI-Vlz/mi
   | class length
 > light-year/light-years/ly
   | class length
 > pound/pounds/lb
   | class weight
 > gram/grams/g
+  | pron gr{m/gr{mz/dZi
   | class weight
 > kilogram/kilograms/kg
   | class weight large factor
 > ton/tons/t
+  | pron tVn/tVnz/ti
   | class weight
 > megaton/megatons/Mt
   | class weight large factor
 > ounce/ounces/oz
+  | pron aUns/aUn-sIz/Az
   | class weight
 > gallon/gallons/gal
+  | pron g{-lVn/g{-lVnz/g{l
   | class volume
 > bucket/buckets/bucket
+  | pron bV-kIt/bV-kVts/bV-kIt
   | class volume
 > liter/liters/L
   | class volume
 > teaspoon/teaspoons/tsp
   | class volume
 > cup/cups/c
+  | pron kVp/kVps/si
   | class volume
 > quart/quarts/qt
   | class volume
@@ -55,6 +65,7 @@
 > kilopascal/kilopascals/kPa
   | class pressure large factor
 > cubic centimeter/cubic centimeters/cc
+  | pron kju-bIk sEn-tV-mi-t3`/kju-bIk sEn-tV-mi-t3`z/si-si
   | class volume
 > volt/volts/V
   | class energy potential

@@ -3,114 +3,170 @@
 #subs default
 
 > aboard
+  | pron V-bOrrd
   | class space
 > about
+  | pron V-baUt
   | class space
 > above
+  | pron V-bVv
   | class space
 > across
+  | pron V-krOs
   | class space
 > against
+  | pron V-gEnst
   | class space
 > along
+  | pron V-lON
   | class space
 > amid
+  | pron V-mId
   | class space
 > among
+  | pron V-mVN
   | class space
 > around
+  | pron 3`-aUn
   | class space
 > as
+  | pron Ez
   | class space
 > at
+  | pron {t
   | class space
 > behind
+  | pron bI-haInd
   | class space
 > below
+  | pron bi-loU
   | class space
 > beneath
+  | pron bI-niT
   | class space
 > beside
+  | pron bI-saId
   | class space
 > besides
+  | pron bI-saIdz
   | class space
 > between
+  | pron bi-twin
   | class space
 > beyond
+  | pron bI-Ond
   | class space
 > by
+  | pron baI
   | class space
 > down
+  | pron daUn
   | class space
 > from
+  | pron f3`m
   | class space
 > in
+  | pron In
   | class space
 > inside
+  | pron In-saId
   | class space
 > into
+  | pron In-tV
   | class space
 > near
+  | pron nIrr
   | class space
 > of
+  | pron Vv
   | class space
 > off
+  | pron Of
   | class space
 > on
+  | pron On
   | class space
 > onto
+  | pron On-tu
   | class space
 > opposite
+  | pron Ap-zVt
   | class space
 > outside
+  | pron aUt-saId
   | class space
 > over
+  | pron oU-v3`
   | class space
 > past
+  | pron p{st
   | class space
 > round
+  | pron raUnd
   | class space
 > through
+  | pron Tru
   | class space
 > to
+  | pron tV
   | class space
 > toward
+  | pron tOrrd
   | class space
 > towards
+  | pron tOrrdz
   | class space
 > under
+  | pron Vn-d3`
   | class space
 > underneath
+  | pron Vn-d3`-niT
   | class space
 > up
+  | pron Vp
   | class space
 > upon
+  | pron V-pAn
   | class space
 > versus
+  | pron v3`-sVz
   | class space
 > via
+  | pron vi-V
   | class space
 > with
+  | pron wID
   | class space
 > within
+  | pron wI-TIn
   | class space
 > without
+  | pron wID-aUt
   | class space
 > after
+  | pron {f-t3`
   | class time
 > before
+  | pron bi-fOrr
   | class time
 > during
+  | pron d3`-IN
   | class time
 > despite
+  | pron dI-spaIt
   | class time
 > following
+  | pron fA-loU-IN
   | class time
 > for
+  | pron fr3`
   | class time
 > until
+  | pron Vn-tIl
   | class time
 > since
+  | pron sIns
   | class time
 > regarding
+  | pron rI-gArr-dIN
   | class time

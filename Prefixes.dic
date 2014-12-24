@@ -3,62 +3,101 @@
 #subs default
 
 > pre
+  | pron pri
   | class position
 > post
+  | pron poUst
   | class position
 > extra
+  | pron Ek-strV
   | class position
 > intra
+  | pron In-trV
   | class position
 > mega
+  | pron mE-gV
 > exo
 > endo
+  | pron En-doU
   | class position
 > bi
+  | pron baI
   | class quantity
 > tri
+  | pron traI
   | class quantity
 > quad
+  | pron kwAd
   | class quantity
 > octo
   | class quantity
 > a
+  | pron eI
 > anti
+  | pron {n-taI
 > un
+  | pron ju-En
 > in
+  | pron In
 > pseudo
+  | pron su-doU
 > penta
+  | pron pEn-tV
   | class quantity
 > micro
+  | pron maI-kroU
   | class scale
 > macro
+  | pron m{-kroU
   | class scale
 > cardio
+  | pron kArr-di-oU
   | class anatomy
 > neuro
+  | pron nU-roU
   | class anatomy
 > pyro
+  | pron paI-roU
 > super
+  | pron su-p3`
 > mini
+  | pron mI-ni
 > psycho
+  | pron saI-koU
 > trans
+  | pron tr{nz
 > fore
+  | pron fOrr
 > semi
+  | pron sE-maI
 > mid
+  | pron mId
   | class position
 > under
+  | pron Vn-d3`
   | class position
 > over
+  | pron oU-v3`
   | class position
 > mis
+  | pron mIs
 > non
+  | pron nAn
 > auto
+  | pron O-toU
 > circum
 > contra
+  | pron kAn-trV
 > homo
+  | pron hoU-moU
 > hyper
+  | pron haI-p3`
 > mono
+  | pron moU-noU
   | class quantity
 > sub
+  | pron sVb
 > omni
+  | pron Am-ni
 > uni
+  | pron ju-ni

@@ -2,44 +2,95 @@
 #name abstract
 #subs singular plural
 
-#class add concept
-  > idea/ideas
-  > lie/lies
-  > philosophy/philosophies
-  > hypothesis/hypotheses
-  > theory/theories
-  > concept/concepts
-  > thought/thoughts
-  > plan/plans
-  > scheme/schemes
-  > notion/notions
-  > conception/conceptions
-  > impression/impressions
-  > belief/beliefs
-    | class subjective
-  > opinion/opinions
-    | class subjective
-  > proposal/proposals
-  > law/laws
-  > vision/visions
-  > conclusion/conclusions
-#class remove concept
-
-#class add social
-  > relationship/relationships
-  > conflict/conflicts
-  > fight/fights
-  > disagreement/disagreements
-  > consensus/consensuses
-  > agreement/agreements
-  > understanding/understandings
-  > friendship/friendships
-  > rivalry/rivalries
-  > feud/feuds
-  > romance/romances
-#class remove social
-
-# class add linguistic
-  > question/questions
-  > answer/answers
-#class remove linguistic
+> idea/ideas
+  | pron aI-di-V/aI-di-Vz
+  | class concept
+> lie/lies
+  | pron laI/laIz
+  | class concept
+> philosophy/philosophies
+  | pron fV-lA-sV-fi/fV-lA-sV-fiz
+  | class concept
+> hypothesis/hypotheses
+  | pron haI-pA-TV-sVs/haI-pA-TV-siz
+  | class concept
+> theory/theories
+  | pron Ti-3`-i/Ti-3`-iz
+  | class concept
+> concept/concepts
+  | pron kAn-sEpt/kAn-sEps
+  | class concept
+> thought/thoughts
+  | pron TOt/TOts
+  | class concept
+> plan/plans
+  | pron pl{n/pl{nz
+  | class concept
+> scheme/schemes
+  | pron skim/skimz
+  | class concept
+> notion/notions
+  | pron noU-SVn/noU-SVnz
+  | class concept
+> conception/conceptions
+  | pron kVn-sEp-SVn/kVn-sEp-SVnz
+  | class concept
+> impression/impressions
+  | pron Im-prE-SVn/Im-prE-SVnz
+  | class concept
+> belief/beliefs
+  | pron bI-lif/bI-lifs
+  | class concept subjective
+> opinion/opinions
+  | pron V-pI-njVn/V-pI-njVnz
+  | class concept subjective
+> proposal/proposals
+  | pron prV-poU-zVl/prV-poU-zVlz
+  | class concept
+> law/laws
+  | pron lA/lOz
+  | class concept
+> vision/visions
+  | pron vI-ZVn/vI-ZVnz
+  | class concept
+> conclusion/conclusions
+  | pron kVn-klu-ZVn/kVn-klu-ZVnz
+  | class concept
+> relationship/relationships
+  | pron ri-leI-SVn-SIp/ri-leI-SVn-SIps
+  | class social
+> conflict/conflicts
+  | pron kVn-flIkt/kAn-flIks
+  | class social
+> fight/fights
+  | pron faIt/faIts
+  | class social
+> disagreement/disagreements
+  | pron dIs-V-gri-mVnt/dIs-V-gri-mVnts
+  | class social
+> consensus/consensuses
+  | class social
+> agreement/agreements
+  | pron V-gri-mVnt/V-gri-mVnts
+  | class social
+> understanding/understandings
+  | pron Vn-d3`-st{n-dIN/Vn-d3`-st{n-dINz
+  | class social
+> friendship/friendships
+  | pron frEn-SIp/frEn-SIps
+  | class social
+> rivalry/rivalries
+  | pron raI-vVl-ri/raI-vVl-riz
+  | class social
+> feud/feuds
+  | pron fjud/fjudz
+  | class social
+> romance/romances
+  | pron roU-m{ns/roU-m{n-sIz
+  | class social
+> question/questions
+  | pron kwE-SVn/kwEs-tSVnz
+  | class linguistic
+> answer/answers
+  | pron {n-s3`/{n-s3`z
+  | class linguistic

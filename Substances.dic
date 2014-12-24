@@ -3,95 +3,141 @@
 #subs default
 
 > water
+  | pron wO-t3`
   | class liquid
 > vomit
+  | pron vA-mVt
   | class liquid
 > orange juice
+  | pron O-rIndZ dZus
   | class liquid
 > sweat
+  | pron swEt
   | class liquid
 > blood
+  | pron blVd
   | class liquid
 > lava
+  | pron lA-vV
   | class liquid
 > gasoline
+  | pron g{-sV-lin
   | class liquid
 > sand
+  | pron s{nd
 > oil
+  | pron OIl
   | class liquid
 > molten iron
+  | pron moUl-tVn aI-3`n
   | class liquid
 > grease
+  | pron gris
   | class liquid
 > tears
+  | pron tIrrz
   | class liquid
 > ketchup
+  | pron kE-tSVp
   | class liquid
 > mustard
+  | pron mV-st3`d
   | class liquid
 > mayonnaise
+  | pron meI-V-neIz
   | class liquid
 > soy sauce
+  | pron sOI sOs
   | class liquid
 > beer
+  | pron bIrr
   | class liquid
 > wine
+  | pron waIn
   | class liquid
 > vodka
+  | pron vAd-kV
   | class liquid
 > olive oil
+  | pron A-lIv OIl
   | class liquid
 > extra-virgin olive oil
+  | pron A-lIv OIl
   | class liquid
 > earwax
+  | pron Irr-w{ks
 > vinegar
+  | pron vI-nV-g3`
   | class liquid
 > paint
+  | pron peInt
   | class liquid
 > liquid nitrogen
+  | pron lI-kwId naI-trV-dZVn
   | class liquid
 > tomato sauce
+  | pron tV-mA-toU sOs
   | class liquid
 > ink
+  | pron INk
   | class liquid
 > lemonade
+  | pron lE-mV-neId
   | class liquid
 > oatmeal
+  | pron oUt-mil
 > spaghetti
+  | pron spV-gE-ti
 > flour
+  | pron fl@rr
 > sap
+  | pron s{p
   | class liquid
 > plasma
+  | pron pl{z-mV
   | class liquid
 > dark matter
+  | pron dArrk m{-t3`
 > antimatter
 > corn
+  | pron kOrrn
 > snow
+  | pron snoU
 > acid
+  | pron {-sVd
   | class liquid
 > magma
+  | pron m{g-mV
   | class liquid
 
 #nsfw
+
 > happiness
+  | pron h{-pi-nVs
 > dick cheese
+  | pron dIk tSiz
 > cum
+  | pron kVm
   | class liquid
 > lube
+  | pron lub
   | class liquid
 > crotch juice
+  | pron krAtS dZus
   | class liquid
 > pee
+  | pron pi
   | class liquid
 > piss
+  | pron pIs
   | class liquid
 > pisswater
   | class liquid
 > diarrhea
+  | pron daI-3`-i-V
   | class liquid
 > jizz
   | class liquid
 > urine
+  | pron jU-rVn
   | class liquid
-
-#sfw

@@ -3,20 +3,27 @@
 #subs singular plural
 
 > dawn/dawns
+  | pron dOn/dOnz
   | class timeofday
 > morning/mornings
+  | pron mOrr-nIN/mOrr-nINz
   | class timeofday
 > noon/noons
+  | pron nun/nunz
   | class timeofday
 > day/days
+  | pron deI/deIz
   | class timeofday
 > afternoon/afternoons
+  | pron {f-t3`-nun/{f-t3`-nunz
   | class timeofday
 > evening/evenings
+  | pron iv-nIN/iv-nINz
   | class timeofday
 > dusk/dusks
   | class timeofday
 > night/nights
+  | pron naIt/naIts
   | class timeofday
 > midnight/midnights
   | class timeofday
@@ -91,18 +98,26 @@
 > Groundhog Day/Groundhog Days
   | class holiday
 > millisecond/milliseconds
+  | pron mI-lI-sE-kVnd/mI-lI-sE-kVndz
   | class unit
 > second/seconds
+  | pron sE-kVn/sE-kVnz
   | class unit
 > minute/minutes
+  | pron maI-njut/mI-nVts
   | class unit
 > hour/hours
+  | pron @rr/@rrz
   | class unit
 > day/days
+  | pron deI/deIz
   | class unit
 > month/months
+  | pron mVnT/mVnTs
   | class unit
 > year/years
+  | pron jIrr/j3`z
   | class unit
 > century/centuries
+  | pron sEn-tS3`-i/sEn-tS3`-iz
   | class unit

@@ -15,11 +15,13 @@
 > Anguilla
 > Antarctica
 > Antigua and Barbuda
+  | pron Vnd
 > Argentina
   | class south-america
 > Armenia
 > Aruba
 > Ashmore and Cartier Islands
+  | pron Vnd
 > Australia
   | class oceania
 > Austria
@@ -30,6 +32,7 @@
 > Bangladesh
 > Barbados
 > Bassas da India
+  | pron di-eI
 > Belarus
 > Belgium
   | class europe
@@ -39,6 +42,7 @@
 > Bhutan
 > Bolivia
 > Bosnia and Herzegovina
+  | pron Vnd
 > Botswana
 > Bouvet Island
 > Brazil
@@ -71,8 +75,10 @@
   | class south-america
 > Comoros
 > Democratic Republic of the Congo
+  | pron Vv Di
   | class africa
 > Republic of the Congo
+  | pron Vv Di
   | class africa
 > Cook Islands
 > Coral Sea Islands
@@ -111,6 +117,7 @@
 > French Guiana
 > French Polynesia
 > French Southern and Antarctic Lands
+  | pron Vnd
 > Gabon
 > The Gambia
 > Gaza Strip
@@ -137,6 +144,7 @@
 > Haiti
   | class central-america
 > Heard Island and McDonald Islands
+  | pron Vnd
 > Holy See
 > Honduras
   | class central-america
@@ -156,6 +164,7 @@
 > Ireland
   | class europe
 > Isle of Man
+  | pron Vv
 > Israel
   | class middle-east
 > Italy
@@ -168,6 +177,7 @@
 > Jersey
 > Jordan
 > Juan de Nova Island
+  | pron dV
 > Kazakhstan
 > Kenya
   | class africa
@@ -210,6 +220,7 @@
 > Mexico
   | class north-america
 > Federated States of Micronesia
+  | pron Vv
 > Moldova
 > Monaco
 > Mongolia
@@ -270,17 +281,22 @@
   | class africa
 > Saint Helena
 > Saint Kitts and Nevis
+  | pron Vnd
 > Saint Lucia
 > Saint Pierre and Miquelon
+  | pron Vnd
 > Saint Vincent and the Grenadines
+  | pron Vnd Di
 > Samoa
   | class oceania
 > San Marino
 > Sao Tome and Principe
+  | pron Vnd
 > Saudi Arabia
   | class middle-east
 > Senegal
 > Serbia and Montenegro
+  | pron Vnd
 > Seychelles
 > Sierra Leone
 > Singapore
@@ -296,6 +312,7 @@
 > South Africa
   | class africa
 > South Georgia and the South Sandwich Islands
+  | pron Vnd Di
 > Spain
   | class europe
 > Spratly Islands
@@ -322,12 +339,14 @@
 > Tokelau
 > Tonga
 > Trinidad and Tobago
+  | pron Vnd
 > Tromelin Island
 > Tunisia
 > Turkey
   | class europe
 > Turkmenistan
 > Turks and Caicos Islands
+  | pron Vnd
 > Tuvalu
 > Uganda
 > Ukraine
@@ -345,6 +364,7 @@
 > Virgin Islands
 > Wake Island
 > Wallis and Futuna
+  | pron Vnd
 > West Bank
 > Western Sahara
 > Yemen
