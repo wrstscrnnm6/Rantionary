@@ -2,182 +2,140 @@
 #name timeadv
 #subs default
 
-> at sunrise
-  | pron {t sVn-raIz
-  | class time
-> a month ago
-  | pron eI mVnT V-goU
-  | class time past
-> a week ago
-  | pron eI wik V-goU
-  | class time past
-> a day ago
-  | pron eI deI V-goU
-  | class time past
-> an hour ago
-  | pron Vn @rr V-goU
-  | class time past
-> a year ago
-  | pron eI jIrr V-goU
-  | class time past
-> millions of years ago
-  | pron mI-ljVnz Vv j3`z V-goU
-  | class time past
-> billions of years ago
-  | pron bI-ljVnz Vv j3`z V-goU
-  | class time past
-> trillions of years ago
-  | pron trI-ljVnz Vv j3`z V-goU
-  | class time past
-> today
-  | pron tu-deI
-  | class time present
-> tonight
-  | pron tu-naIt
-  | class time present
-> presently
-  | pron prE-zVnt-li
-  | class time present
-> now
-  | pron naU
-  | class time present
-> just 5 minutes ago
-  | pron dZIst mI-nVts V-goU
-  | class time past
-> 5 minutes later
-  | pron mI-nVts leI-t3`
-  | class time
-> 1 hour later
-  | pron @rr leI-t3`
-  | class time
-> 1 day later
-  | pron deI leI-t3`
-  | class time
-> 1 week later
-  | pron wik leI-t3`
-  | class time
-> 1 month later
-  | pron mVnT leI-t3`
-  | class time
-> 6 months later
-  | pron mVnTs leI-t3`
-  | class time
-> a year later
-  | pron eI jIrr leI-t3`
-  | class time
-> 5 years later
-  | pron j3`z leI-t3`
-  | class time
-> 10 years later
-  | pron j3`z leI-t3`
-  | class time
-> at the full moon
-  | pron {t Di fUl mun
-  | class time
-> at sunset
-  | pron {t sVn-sEt
-  | class time
-> later
-  | pron leI-t3`
-  | class time
-> recently
-  | pron ri-sVn-li
-  | class time
-> once again
-  | pron wVns V-geIn
-  | class frequency
-> never again
-  | pron nE-v3` V-geIn
-  | class frequency
-> instantly
-  | pron In-stVnt-li
-  | class frequency
-> usually
-  | pron ju-ZV-li
-  | class frequency
-> yesterday
-  | pron jE-st3`-di
-  | class frequency
-> sometimes
-  | pron sVm-taImz
-  | class frequency
-> occasionally
-  | pron V-keI-ZVn-li
-  | class frequency
-> often
-  | pron Of-tVn
-  | class frequency
-> once in a while
-  | pron wVns In eI hwaIl
-  | class frequency
-> never
-  | pron nE-v3`
-  | class frequency
-> frequently
-  | pron fri-kwVnt-li
-  | class frequency
-> once a week
-  | pron wVns eI wik
-  | class frequency
-> daily
-  | pron deI-li
-  | class frequency
-> once a month
-  | pron wVns eI mVnT
-  | class frequency
-> again
-  | pron V-geIn
-  | class frequency
-> repeatedly
-  | pron rI-pi-tId-li
-  | class frequency
-> all the time
-  | pron Ol Di taIm
-  | class frequency
-> hardly
-  | pron hArrd-li
-  | class frequency
-> barely
-  | pron berr-li
-  | class frequency
-> several times
-  | pron sE-v3`-Vl taImz
-  | class frequency
-> every night
-  | pron E-vri naIt
-  | class frequency
-> this time
-  | pron DIs taIm
-  | class frequency
-> biweekly
-  | pron baI-wik-li
-  | class frequency
-> centenially
-  | class frequency
-> every now and then
-  | pron E-vri naU Vnd DEn
-  | class frequency
-> from now on
-  | pron f3`m naU On
-  | class frequency
-> until further notice
-  | pron Vn-tIl f3`-D3` noU-tIs
-  | class frequency
-> for 10 weeks
-  | pron fr3` wiks
-  | class frequency
-> for 36 hours
-  | pron fr3` @rrz
-  | class frequency
-> on Mondays
-  | pron On
-  | class frequency
-> every Tuesday
-  | pron E-vri
-  | class frequency
-> profusely
-  | pron prV-fjus-li
-  | class frequency
-> perpetually
-  | pron p3`-pE-tSu-V-li
-  | class frequency
+#class add time
+  > at sunrise
+    | pron {t sVn-raIz
+  > a month ago
+    | pron eI mVnT V-goU
+    | class past
+  > a week ago
+    | pron eI wik V-goU
+    | class past
+  > a day ago
+    | pron eI deI V-goU
+    | class past
+  > an hour ago
+    | pron Vn @rr V-goU
+    | class past
+  > a year ago
+    | pron eI jIrr V-goU
+    | class past
+  > millions of years ago
+    | pron mI-ljVnz Vv j3`z V-goU
+    | class past
+  > billions of years ago
+    | pron bI-ljVnz Vv j3`z V-goU
+    | class past
+  > trillions of years ago
+    | pron trI-ljVnz Vv j3`z V-goU
+    | class past
+  > today
+    | pron tu-deI
+    | class present
+  > tonight
+    | pron tu-naIt
+    | class present
+  > presently
+    | pron prE-zVnt-li
+    | class present
+  > now
+    | pron naU
+    | class present
+  > just 5 minutes ago
+    | pron dZIst mI-nVts V-goU
+    | class past
+  > 5 minutes later
+    | pron mI-nVts leI-t3`
+  > 1 hour later
+    | pron @rr leI-t3`
+  > 1 day later
+    | pron deI leI-t3`
+  > 1 week later
+    | pron wik leI-t3`
+  > 1 month later
+    | pron mVnT leI-t3`
+  > 6 months later
+    | pron mVnTs leI-t3`
+  > a year later
+    | pron eI jIrr leI-t3`
+  > 5 years later
+    | pron j3`z leI-t3`
+  > 10 years later
+    | pron j3`z leI-t3`
+  > at the full moon
+    | pron {t Di fUl mun
+  > at sunset
+    | pron {t sVn-sEt
+  > later
+    | pron leI-t3`
+  > recently
+    | pron ri-sVn-li
+#class remove time
+
+#class add frequency
+  > once again
+    | pron wVns V-geIn
+  > never again
+    | pron nE-v3` V-geIn
+  > instantly
+    | pron In-stVnt-li
+  > usually
+    | pron ju-ZV-li
+  > yesterday
+    | pron jE-st3`-di
+  > sometimes
+    | pron sVm-taImz
+  > occasionally
+    | pron V-keI-ZVn-li
+  > often
+    | pron Of-tVn
+  > once in a while
+    | pron wVns In eI hwaIl
+  > never
+    | pron nE-v3`
+  > frequently
+    | pron fri-kwVnt-li
+  > once a week
+    | pron wVns eI wik
+  > daily
+    | pron deI-li
+  > once a month
+    | pron wVns eI mVnT
+  > again
+    | pron V-geIn
+  > repeatedly
+    | pron rI-pi-tId-li
+  > all the time
+    | pron Ol Di taIm
+  > hardly
+    | pron hArrd-li
+  > barely
+    | pron berr-li
+  > several times
+    | pron sE-v3`-Vl taImz
+  > every night
+    | pron E-vri naIt
+  > this time
+    | pron DIs taIm
+  > biweekly
+    | pron baI-wik-li
+  > centenially
+  > every now and then
+    | pron E-vri naU Vnd DEn
+  > from now on
+    | pron f3`m naU On
+  > until further notice
+    | pron Vn-tIl f3`-D3` noU-tIs
+  > for 10 weeks
+    | pron fr3` wiks
+  > for 36 hours
+    | pron fr3` @rrz
+  > on Mondays
+    | pron On
+  > every Tuesday
+    | pron E-vri
+  > profusely
+    | pron prV-fjus-li
+  > perpetually
+    | pron p3`-pE-tSu-V-li
+#class remove frequency

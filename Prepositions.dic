@@ -2,171 +2,120 @@
 #name prepos
 #subs default
 
-> aboard
-  | pron V-bOrrd
-  | class space
-> about
-  | pron V-baUt
-  | class space
-> above
-  | pron V-bVv
-  | class space
-> across
-  | pron V-krOs
-  | class space
-> against
-  | pron V-gEnst
-  | class space
-> along
-  | pron V-lON
-  | class space
-> amid
-  | pron V-mId
-  | class space
-> among
-  | pron V-mVN
-  | class space
-> around
-  | pron 3`-aUn
-  | class space
-> as
-  | pron Ez
-  | class space
-> at
-  | pron {t
-  | class space
-> behind
-  | pron bI-haInd
-  | class space
-> below
-  | pron bi-loU
-  | class space
-> beneath
-  | pron bI-niT
-  | class space
-> beside
-  | pron bI-saId
-  | class space
-> besides
-  | pron bI-saIdz
-  | class space
-> between
-  | pron bi-twin
-  | class space
-> beyond
-  | pron bI-Ond
-  | class space
-> by
-  | pron baI
-  | class space
-> down
-  | pron daUn
-  | class space
-> from
-  | pron f3`m
-  | class space
-> in
-  | pron In
-  | class space
-> inside
-  | pron In-saId
-  | class space
-> into
-  | pron In-tV
-  | class space
-> near
-  | pron nIrr
-  | class space
-> of
-  | pron Vv
-  | class space
-> off
-  | pron Of
-  | class space
-> on
-  | pron On
-  | class space
-> onto
-  | pron On-tu
-  | class space
-> opposite
-  | pron Ap-zVt
-  | class space
-> outside
-  | pron aUt-saId
-  | class space
-> over
-  | pron oU-v3`
-  | class space
-> past
-  | pron p{st
-  | class space
-> round
-  | pron raUnd
-  | class space
-> through
-  | pron Tru
-  | class space
-> to
-  | pron tV
-  | class space
-> toward
-  | pron tOrrd
-  | class space
-> towards
-  | pron tOrrdz
-  | class space
-> under
-  | pron Vn-d3`
-  | class space
-> underneath
-  | pron Vn-d3`-niT
-  | class space
-> up
-  | pron Vp
-  | class space
-> upon
-  | pron V-pAn
-  | class space
-> versus
-  | pron v3`-sVz
-  | class space
-> via
-  | pron vi-V
-  | class space
-> with
-  | pron wID
-  | class space
-> within
-  | pron wI-TIn
-  | class space
-> without
-  | pron wID-aUt
-  | class space
-> after
-  | pron {f-t3`
-  | class time
-> before
-  | pron bi-fOrr
-  | class time
-> during
-  | pron d3`-IN
-  | class time
-> despite
-  | pron dI-spaIt
-  | class time
-> following
-  | pron fA-loU-IN
-  | class time
-> for
-  | pron fr3`
-  | class time
-> until
-  | pron Vn-tIl
-  | class time
-> since
-  | pron sIns
-  | class time
-> regarding
-  | pron rI-gArr-dIN
-  | class time
+#class add space
+  > aboard
+    | pron V-bOrrd
+  > about
+    | pron V-baUt
+  > above
+    | pron V-bVv
+  > across
+    | pron V-krOs
+  > against
+    | pron V-gEnst
+  > along
+    | pron V-lON
+  > amid
+    | pron V-mId
+  > among
+    | pron V-mVN
+  > around
+    | pron 3`-aUn
+  > as
+    | pron Ez
+  > at
+    | pron {t
+  > behind
+    | pron bI-haInd
+  > below
+    | pron bi-loU
+  > beneath
+    | pron bI-niT
+  > beside
+    | pron bI-saId
+  > besides
+    | pron bI-saIdz
+  > between
+    | pron bi-twin
+  > beyond
+    | pron bI-Ond
+  > by
+    | pron baI
+  > down
+    | pron daUn
+  > from
+    | pron f3`m
+  > in
+    | pron In
+  > inside
+    | pron In-saId
+  > into
+    | pron In-tV
+  > near
+    | pron nIrr
+  > of
+    | pron Vv
+  > off
+    | pron Of
+  > on
+    | pron On
+  > onto
+    | pron On-tu
+  > opposite
+    | pron Ap-zVt
+  > outside
+    | pron aUt-saId
+  > over
+    | pron oU-v3`
+  > past
+    | pron p{st
+  > round
+    | pron raUnd
+  > through
+    | pron Tru
+  > to
+    | pron tV
+  > toward
+    | pron tOrrd
+  > towards
+    | pron tOrrdz
+  > under
+    | pron Vn-d3`
+  > underneath
+    | pron Vn-d3`-niT
+  > up
+    | pron Vp
+  > upon
+    | pron V-pAn
+  > versus
+    | pron v3`-sVz
+  > via
+    | pron vi-V
+  > with
+    | pron wID
+  > within
+    | pron wI-TIn
+  > without
+    | pron wID-aUt
+#class remove space
+
+#class add time
+  > after
+    | pron {f-t3`
+  > before
+    | pron bi-fOrr
+  > during
+    | pron d3`-IN
+  > despite
+    | pron dI-spaIt
+  > following
+    | pron fA-loU-IN
+  > for
+    | pron fr3`
+  > until
+    | pron Vn-tIl
+  > since
+    | pron sIns
+  > regarding
+    | pron rI-gArr-dIN
+#class remove time

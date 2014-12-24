@@ -270,93 +270,69 @@
   | pron braIt-li
 > correctly
   | pron k3`-Ekt-li
-> smoothly
-  | pron smuD-li
-  | class sexy
-> slowly
-  | pron sloU-li
-  | class sexy
-> lovingly
-  | pron lV-vIN-li
-  | class sexy
-> forcibly
-  | pron fOrr-sV-bli
-  | class sexy
-> up and down
-  | pron Vp Vnd daUn
-  | class sexy
-> side to side
-  | pron saId tV saId
-  | class sexy
-> romantically
-  | pron roU-m{n-tIk-li
-  | class sexy
-> hungrily
-  | pron hVN-grV-li
-  | class sexy
-> sweetly
-  | pron swit-li
-  | class sexy
-> roughly
-  | pron rVf-li
-  | class sexy
-> delightedly
-  | class sexy
-> happily
-  | pron h{-pV-li
-  | class emotion
-> gladly
-  | pron gl{d-li
-  | class emotion
-> grudgingly
-  | pron grV-dZIN-gli
-  | class emotion
-> arrogantly
-  | pron E-rV-gVnt-li
-  | class emotion
-> sadly
-  | pron s{d-li
-  | class emotion
-> frantically
-  | pron fr{-nVk-li
-  | class emotion
-> greedily
-  | pron gri-dV-li
-  | class emotion
-> cautiously
-  | pron kO-SVs-li
-  | class emotion
-> hollowly
-  | class emotion
-> enviously
-  | pron En-vi-Vs-li
-  | class emotion
-> angrily
-  | pron {N-grV-li
-  | class emotion
-> warily
-  | pron wE-rV-li
-  | class emotion
-> shamefully
-  | class emotion
-> gleefully
-  | pron gli-fV-li
-  | class emotion
-> grumpily
-  | class emotion
-> anxiously
-  | pron {Nk-SVs-li
-  | class emotion
-> regretfully
-  | pron rI-grEt-fV-li
-  | class emotion
-> patiently
-  | pron peI-SVnt-li
-  | class emotion
-> evilly
-  | class emotion
-> terrifyingly
-  | class emotion
+
+#class add sexy
+  > smoothly
+    | pron smuD-li
+  > slowly
+    | pron sloU-li
+  > lovingly
+    | pron lV-vIN-li
+  > forcibly
+    | pron fOrr-sV-bli
+  > up and down
+    | pron Vp Vnd daUn
+  > side to side
+    | pron saId tV saId
+  > romantically
+    | pron roU-m{n-tIk-li
+  > hungrily
+    | pron hVN-grV-li
+  > sweetly
+    | pron swit-li
+  > roughly
+    | pron rVf-li
+  > delightedly
+#class remove sexy
+
+#class add emotion
+  > happily
+    | pron h{-pV-li
+  > gladly
+    | pron gl{d-li
+  > grudgingly
+    | pron grV-dZIN-gli
+  > arrogantly
+    | pron E-rV-gVnt-li
+  > sadly
+    | pron s{d-li
+  > frantically
+    | pron fr{-nVk-li
+  > greedily
+    | pron gri-dV-li
+  > cautiously
+    | pron kO-SVs-li
+  > hollowly
+  > enviously
+    | pron En-vi-Vs-li
+  > angrily
+    | pron {N-grV-li
+  > warily
+    | pron wE-rV-li
+  > shamefully
+  > gleefully
+    | pron gli-fV-li
+  > grumpily
+  > anxiously
+    | pron {Nk-SVs-li
+  > regretfully
+    | pron rI-grEt-fV-li
+  > patiently
+    | pron peI-SVnt-li
+  > evilly
+  > terrifyingly
+#class remove emotion
+
 > curiously
   | pron kjU-ri-Vs-li
 > intentionally

@@ -455,53 +455,43 @@
 > meatball/meatballs
   | pron mit-bOl/mit-bOlz
   | class food ball
-> apple/apples
-  | pron {-pVl/{-pVlz
-  | class food fruit
-> lime/limes
-  | pron laIm/laImz
-  | class food fruit
-> orange/oranges
-  | pron O-rIndZ/O-rIn-dZIz
-  | class food fruit
-> lemon/lemons
-  | pron lE-mVn/lE-mVnz
-  | class food fruit
-> watermelon/watermelons
-  | pron wO-t3`-mE-lVn/wO-t3`-mE-lVnz
-  | class food fruit
-> pineapple/pineapples
-  | pron paIn-{-pVl/paIn-{-pVlz
-  | class food fruit
-> coconut/coconuts
-  | pron koU-kV-nVt/koU-kV-nVts
-  | class food fruit
-> blueberry/blueberries
-  | pron blu-bE-ri/blu-bE-riz
-  | class food fruit
-> strawberry/strawberries
-  | pron strO-bE-ri/strO-bE-riz
-  | class food fruit
-> raspberry/raspberries
-  | pron r{z-bE-ri/r{z-bE-riz
-  | class food fruit
-> tangerine/tangerines
-  | pron t{n-dZ3`-in/t{n-dZ3`-inz
-  | class food fruit
-> kiwi/kiwis
-  | pron ki-wi/ki-wiz
-  | class food fruit
-> grape/grapes
-  | pron greIp/greIps
-  | class food fruit
-> tomato/tomatoes
-  | pron tV-mA-toU/tV-mA-toUz
-  | class food fruit
-> nectarine/nectarines
-  | class food fruit
-> baby/babies
-  | pron beI-bi/beI-biz
-  | class fruit person
+
+#class add fruit
+  #class add food
+    > apple/apples
+      | pron {-pVl/{-pVlz
+    > lime/limes
+      | pron laIm/laImz
+    > orange/oranges
+      | pron O-rIndZ/O-rIn-dZIz
+    > lemon/lemons
+      | pron lE-mVn/lE-mVnz
+    > watermelon/watermelons
+      | pron wO-t3`-mE-lVn/wO-t3`-mE-lVnz
+    > pineapple/pineapples
+      | pron paIn-{-pVl/paIn-{-pVlz
+    > coconut/coconuts
+      | pron koU-kV-nVt/koU-kV-nVts
+    > blueberry/blueberries
+      | pron blu-bE-ri/blu-bE-riz
+    > strawberry/strawberries
+      | pron strO-bE-ri/strO-bE-riz
+    > raspberry/raspberries
+      | pron r{z-bE-ri/r{z-bE-riz
+    > tangerine/tangerines
+      | pron t{n-dZ3`-in/t{n-dZ3`-inz
+    > kiwi/kiwis
+      | pron ki-wi/ki-wiz
+    > grape/grapes
+      | pron greIp/greIps
+    > tomato/tomatoes
+      | pron tV-mA-toU/tV-mA-toUz
+    > nectarine/nectarines
+  #class remove food
+  > baby/babies
+    | pron beI-bi/beI-biz
+    | class person
+#class remove fruit
 > floor/floors
   | pron flOrr/flOrrz
   | class surface
@@ -631,238 +621,172 @@
 > vodka/vodka
   | pron vAd-kV/vAd-kV
   | class liquid
-> pickle jar/pickle jars
-  | pron pI-kVl dZArr/pI-kVl dZArrz
-  | class container
-> package/packages
-  | pron p{-kIdZ/p{-kI-dZIz
-  | class container
-> cup/cups
-  | pron kVp/kVps
-  | class container
-> wallet/wallets
-  | pron wO-lVt/wO-lVts
-  | class container
-> glass/glasses
-  | pron gl{s/gl{-sIz
-  | class container
-> shot glass/shot glasses
-  | pron SAt gl{s/SAt gl{-sIz
-  | class container
-> bowl/bowls
-  | pron boUl/boUlz
-  | class container
-> container/containers
-  | pron kVn-teI-n3`/kVn-teI-n3`z
-  | class container
-> flask/flasks
-  | pron fl{sk/fl{sks
-  | class container
-> bottle/bottles
-  | pron bA-tVl/bA-tVlz
-  | class container
-> pitcher/pitchers
-  | pron pI-tS3`/pI-tS3`z
-  | class container
-> pipe/pipes
-  | pron paIp/paIps
-  | class container
-> bong/bongs
-  | class container
-> pouch/pouches
-  | pron paUtS/paU-tSVz
-  | class container
-> purse/purses
-  | pron p3`s/p3`-sIz
-  | class container
-> pocket/pockets
-  | pron pA-kVt/pA-kVts
-  | class container
-> jar/jars
-  | pron dZArr/dZArrz
-  | class container
-> suitcase/suitcases
-  | pron sut-keIs/sut-keI-sIz
-  | class container
-> box/boxes
-  | pron bAks/bAk-sIz
-  | class container
-> trunk/trunks
-  | pron trVNk/trVNks
-  | class container
-> package/packages
-  | pron p{-kIdZ/p{-kI-dZIz
-  | class container
-> case/cases
-  | pron keIs/keI-sIz
-  | class container
-> packet/packets
-  | pron p{-kIt/p{-kIts
-  | class container
-> cell/cells
-  | pron sEl/sElz
-  | class container
-> test tube/test tubes
-  | pron tEst tjub/tEst tubz
-  | class container
-> vial/vials
-  | pron vaI-Vl/vaI-Vlz
-  | class container
-> vat/vats
-  | pron v{t/v{ts
-  | class container
-> pot/pots
-  | pron pAt/pAts
-  | class container
-> turkey baster/turkey basters
-  | pron t3`-ki/t3`-ki
-  | class container
-> trashcan/trashcans
-  | class container
-> drawer/drawers
-  | pron drOrr/drOrrz
-  | class container
-> chest/chests
-  | pron tSEst/tSEsts
-  | class container
-> well/wells
-  | pron wEl/wElz
-  | class container
-> kettle/kettles
-  | pron kE-tVl/kE-tVlz
-  | class container
-> bag/bags
-  | pron b{g/b{gz
-  | class container
-> balloon/balloons
-  | pron bV-lun/bV-lunz
-  | class container
-> sack/sacks
-  | pron s{k/s{ks
-  | class container
-> basket/baskets
-  | pron b{-skVt/b{-skVts
-  | class container
-> carton/cartons
-  | pron kArr-tVn/kArr-tVnz
-  | class container
-> oven/ovens
-  | pron V-vVn/V-vVnz
-  | class container
-> tub/tubs
-  | pron tVb/tVbz
-  | class container
-> toilet/toilets
-  | pron tOI-lVt/tOI-lVts
-  | class container
-> freezer/freezers
-  | pron fri-z3`/fri-z3`z
-  | class container
-> toothpick/toothpicks
-  | pron tuT-pIk/tuT-pIks
-  | class long
-> turd/turds
-  | class long
-> rocket/rockets
-  | pron rA-kVt/rA-kVts
-  | class long
-> flute/flutes
-  | pron flut/fluts
-  | class long instrument
-> clarinet/clarinets
-  | class long instrument
-> trumpet/trumpets
-  | pron trVm-pVt/trVm-pVts
-  | class long instrument
-> arrow/arrows
-  | pron E-roU/E-roUz
-  | class long weapon tool
-> dart/darts
-  | pron dArrt/dArrts
-  | class long weapon
-> pencil/pencils
-  | pron pEn-sVl/pEn-sVlz
-  | class long weapon tool
-> cigarette/cigarettes
-  | pron sI-g3`-Et/sI-g3`-Ets
-  | class long
-> pickle/pickles
-  | pron pI-kVl/pI-kVlz
-  | class long
-> ruler/rulers
-  | pron ru-l3`/ru-l3`z
-  | class long
-> cucumber/cucumbers
-  | pron kju-kVm-b3`/kju-kVm-3`z
-  | class long
-> staple/staples
-  | pron steI-pVl/steI-pVlz
-  | class long
-> panhandle/panhandles
-  | class long
-> telephone pole/telephone poles
-  | pron tE-lV-foUn poUl/tE-lV-foUn poUlz
-  | class long weapon
-> extension cord/extension cords
-  | pron Ik-stEn-SVn kOrrd/Ik-stEn-SVn kOrrdz
-  | class long
-> candle/candles
-  | pron k{n-dVl/k{n-dVlz
-  | class long
-> tree/trees
-  | pron tri/triz
-  | class long
-> knife/knives
-  | pron naIf/naIvz
-  | class long
-> torch/torches
-  | pron tOrrtS/tOrr-tSIz
-  | class long weapon
-> broom/brooms
-  | pron brum/brumz
-  | class long
-> broomstick/broomsticks
-  | pron brum-stIk/brum-stIks
-  | class long weapon
-> pole/poles
-  | pron poUl/poUlz
-  | class long
-> crack pipe/crack pipes
-  | pron kr{k paIp/kr{k paIps
-  | class long
-> lightbulb/lightbulbs
-  | pron laIt-bVlb/laIt-bVlbz
-  | class long
-> umbrella/umbrellas
-  | pron Vm-brE-lV/Vm-brE-lVz
-  | class long
-> cannon/cannons
-  | pron k{-nVn/k{-nVnz
-  | class long
-> sausage/sausages
-  | pron sO-sIdZ/sO-sI-dZIz
-  | class long
-> chain/chains
-  | pron tSeIn/tSeInz
-  | class long
-> banana/bananas
-  | pron bV-n{-nV/bV-n{-nVz
-  | class long
-> plunger/plungers
-  | class long
-> spork/sporks
-  | class long
-> toothbrush/toothbrushes
-  | pron tuT-brVS/tuT-brV-SIz
-  | class long
-> banister/banisters
-  | class long
-> baton/batons
-  | pron b{-tVn/b{-tAnz
-  | class long weapon
-> drill/drills
-  | pron drIl/drIlz
-  | class long tool weapon
+
+#class add container
+  > pickle jar/pickle jars
+    | pron pI-kVl dZArr/pI-kVl dZArrz
+  > package/packages
+    | pron p{-kIdZ/p{-kI-dZIz
+  > cup/cups
+    | pron kVp/kVps
+  > wallet/wallets
+    | pron wO-lVt/wO-lVts
+  > glass/glasses
+    | pron gl{s/gl{-sIz
+  > shot glass/shot glasses
+    | pron SAt gl{s/SAt gl{-sIz
+  > bowl/bowls
+    | pron boUl/boUlz
+  > container/containers
+    | pron kVn-teI-n3`/kVn-teI-n3`z
+  > flask/flasks
+    | pron fl{sk/fl{sks
+  > bottle/bottles
+    | pron bA-tVl/bA-tVlz
+  > pitcher/pitchers
+    | pron pI-tS3`/pI-tS3`z
+  > pipe/pipes
+    | pron paIp/paIps
+  > bong/bongs
+  > pouch/pouches
+    | pron paUtS/paU-tSVz
+  > purse/purses
+    | pron p3`s/p3`-sIz
+  > pocket/pockets
+    | pron pA-kVt/pA-kVts
+  > jar/jars
+    | pron dZArr/dZArrz
+  > suitcase/suitcases
+    | pron sut-keIs/sut-keI-sIz
+  > box/boxes
+    | pron bAks/bAk-sIz
+  > trunk/trunks
+    | pron trVNk/trVNks
+  > package/packages
+    | pron p{-kIdZ/p{-kI-dZIz
+  > case/cases
+    | pron keIs/keI-sIz
+  > packet/packets
+    | pron p{-kIt/p{-kIts
+  > cell/cells
+    | pron sEl/sElz
+  > test tube/test tubes
+    | pron tEst tjub/tEst tubz
+  > vial/vials
+    | pron vaI-Vl/vaI-Vlz
+  > vat/vats
+    | pron v{t/v{ts
+  > pot/pots
+    | pron pAt/pAts
+  > turkey baster/turkey basters
+    | pron t3`-ki/t3`-ki
+  > trashcan/trashcans
+  > drawer/drawers
+    | pron drOrr/drOrrz
+  > chest/chests
+    | pron tSEst/tSEsts
+  > well/wells
+    | pron wEl/wElz
+  > kettle/kettles
+    | pron kE-tVl/kE-tVlz
+  > bag/bags
+    | pron b{g/b{gz
+  > balloon/balloons
+    | pron bV-lun/bV-lunz
+  > sack/sacks
+    | pron s{k/s{ks
+  > basket/baskets
+    | pron b{-skVt/b{-skVts
+  > carton/cartons
+    | pron kArr-tVn/kArr-tVnz
+  > oven/ovens
+    | pron V-vVn/V-vVnz
+  > tub/tubs
+    | pron tVb/tVbz
+  > toilet/toilets
+    | pron tOI-lVt/tOI-lVts
+  > freezer/freezers
+    | pron fri-z3`/fri-z3`z
+#class remove container
+
+#class add long
+  > toothpick/toothpicks
+    | pron tuT-pIk/tuT-pIks
+  > turd/turds
+  > rocket/rockets
+    | pron rA-kVt/rA-kVts
+  > flute/flutes
+    | pron flut/fluts instrument
+  > clarinet/clarinets instrument
+  > trumpet/trumpets
+    | pron trVm-pVt/trVm-pVts instrument
+  > arrow/arrows
+    | pron E-roU/E-roUz weapon tool
+  > dart/darts
+    | pron dArrt/dArrts
+    | class weapon
+  > pencil/pencils
+    | pron pEn-sVl/pEn-sVlz
+    | class weapon tool
+  > cigarette/cigarettes
+    | pron sI-g3`-Et/sI-g3`-Ets
+  > pickle/pickles
+    | pron pI-kVl/pI-kVlz
+  > ruler/rulers
+    | pron ru-l3`/ru-l3`z
+  > cucumber/cucumbers
+    | pron kju-kVm-b3`/kju-kVm-3`z
+  > staple/staples
+    | pron steI-pVl/steI-pVlz
+  > panhandle/panhandles
+  > telephone pole/telephone poles
+    | pron tE-lV-foUn poUl/tE-lV-foUn poUlz
+    | class weapon
+  > extension cord/extension cords
+    | pron Ik-stEn-SVn kOrrd/Ik-stEn-SVn kOrrdz
+  > candle/candles
+    | pron k{n-dVl/k{n-dVlz
+  > tree/trees
+    | pron tri/triz
+  > knife/knives
+    | pron naIf/naIvz
+  > torch/torches
+    | pron tOrrtS/tOrr-tSIz
+    | class weapon
+  > broom/brooms
+    | pron brum/brumz
+  > broomstick/broomsticks
+    | pron brum-stIk/brum-stIks
+    | class weapon
+  > pole/poles
+    | pron poUl/poUlz
+  > crack pipe/crack pipes
+    | pron kr{k paIp/kr{k paIps
+  > lightbulb/lightbulbs
+    | pron laIt-bVlb/laIt-bVlbz
+  > umbrella/umbrellas
+    | pron Vm-brE-lV/Vm-brE-lVz
+  > cannon/cannons
+    | pron k{-nVn/k{-nVnz
+  > sausage/sausages
+    | pron sO-sIdZ/sO-sI-dZIz
+  > chain/chains
+    | pron tSeIn/tSeInz
+  > banana/bananas
+    | pron bV-n{-nV/bV-n{-nVz
+  > plunger/plungers
+  > spork/sporks
+  > toothbrush/toothbrushes
+    | pron tuT-brVS/tuT-brV-SIz
+  > banister/banisters
+  > baton/batons
+    | pron b{-tVn/b{-tAnz
+    | class weapon
+  > drill/drills
+    | pron drIl/drIlz
+    | class tool weapon
+#class remove long
+
 > iron maiden/iron maidens
   | pron aI-3`n meI-dVn/aI-3`n meI-dVnz
   | class tool
@@ -1172,230 +1096,157 @@
   | class animal dog
 > rottweiler/rottweilers
   | class animal dog
-> carpenter/carpenters
-  | pron kArr-pVn-t3`/kArr-pVn-t3`z
-  | class job
-> reporter/reporters
-  | pron rI-pOrr-t3`/rI-pOrr-t3`z
-  | class job
-> journalist/journalists
-  | pron dZ3`-nV-lIst/dZ3`-nV-lIs
-  | class job
-> guitarist/guitarists
-  | pron gI-tA-rVst/gI-tA-rVs
-  | class job
-> archaeologist/archaeologists
-  | pron Arr-ki-A-lV-dZIst/Arr-ki-A-lV-dZIs
-  | class job
-> urologist/urologists
-  | pron j3`-A-lV-dZVst/j3`-A-lV-dZVsts
-  | class job
-> circus performer/circus performers
-  | pron s3`-kVs p3`-fOrr-m3`/s3`-kVs p3`-fOrr-m3`z
-  | class job
-> juggler/jugglers
-  | pron dZVg-l3`/dZVg-l3`z
-  | class job
-> explorer/explorers
-  | pron Ik-splO-r3`/Ik-splO-r3`z
-  | class job
-> artist/artists
-  | pron Arr-tIst/Arr-tIs
-  | class job
-> mechanic/mechanics
-  | pron mI-k{-nIk/mV-k{-nIks
-  | class job
-> hunter/hunters
-  | pron hVn-t3`/hVn-t3`z
-  | class job
-> spelunker/spelunkers
-  | class job
-> bartender/bartenders
-  | pron bArr-tEn-d3`/bArr-tEn-d3`z
-  | class job
-> accountant/accountants
-  | pron V-kaUn-tVnt/V-kaUn-tVnts
-  | class job
-> movie star/movie stars
-  | pron mu-vi stArr/mu-vi stArrz
-  | class job
-> mailman/mailmen
-  | class job
-> construction worker/construction workers
-  | pron kVn-strVk-SVn w3`-k3`/kVn-strVk-SVn w3`-k3`z
-  | class job
-> principal/principals
-  | pron prIn-sV-pVl/prIn-sV-pVlz
-  | class job
-> prince/princes
-  | pron prIns/prIn-sIz
-  | class job
-> princess/princesses
-  | pron prIn-sEs/prIn-sE-sIz
-  | class job
-> surgeon/surgeons
-  | pron s3`-dZIn/s3`-dZVnz
-  | class job
-> gambler/gamblers
-  | pron g{m-bl3`/g{m-bl3`z
-  | class job
-> dentist/dentists
-  | pron dE-nIst/dE-nIs
-  | class job
-> chef/chefs
-  | pron SEf/SEfs
-  | class job
-> celebrity/celebrities
-  | pron sV-lE-brI-ti/sV-lE-brI-tiz
-  | class job
-> waitress/waitresses
-  | pron weI-trVs/weI-trV-sIz
-  | class job
-> burglar/burglars
-  | pron b3`-gl3`/b3`-gl3`z
-  | class job
-> waiter/waiters
-  | pron weI-t3`/weI-t3`z
-  | class job
-> doctor/doctors
-  | pron dOk-t3`/dAk-t3`z
-  | class job
-> nurse/nurses
-  | pron n3`s/n3`-sIz
-  | class job
-> lawyer/lawyers
-  | pron lOI-3`/lOI-3`z
-  | class job
-> butler/butlers
-  | pron bVt-l3`/bVt-l3`z
-  | class job
-> actor/actors
-  | pron {k-t3`/{k-t3`z
-  | class job
-> athlete/athletes
-  | pron {T-lit/{T-lits
-  | class job
-> babysitter/babysitters
-  | pron beI-bi-sI-t3`/beI-bi-sI-t3`z
-  | class job
-> golfer/golfers
-  | pron gAl-f3`/gAl-f3`z
-  | class job
-> vampire/vampires
-  | pron v{m-paIr/v{m-paIrz
-  | class job
-> fireman/firemen
-  | pron faIr-mVn/faIr-mVn
-  | class job
-> rapper/rappers
-  | pron r{-p3`/r{-p3`z
-  | class job
-> gangster/gangsters
-  | pron g{N-st3`/g{N-st3`z
-  | class job
-> hippie/hippies
-  | pron hI-pi/hI-piz
-  | class job
-> clown/clowns
-  | pron klaUn/klaUnz
-  | class job
-> banker/bankers
-  | pron b{N-k3`/b{N-k3`z
-  | class job
-> pianist/pianists
-  | pron pi-V-nIst/pi-V-nIs
-  | class job
-> politician/politicians
-  | pron pA-lV-tI-SVn/pA-lV-tI-SVnz
-  | class job
-> president/presidents
-  | pron prE-zI-dVnt/prE-zI-dVns
-  | class job
-> magician/magicians
-  | pron mV-dZI-SVn/mV-dZI-SVnz
-  | class job
-> stock broker/stock brokers
-  | pron stAk broU-k3`/stAk broU-k3`z
-  | class job
-> cop/cops
-  | pron kAp/kAps
-  | class job
-> sky diver/sky divers
-  | pron skaI daI-v3`/skaI daI-v3`z
-  | class job
-> snake charmer/snake charmers
-  | pron sneIk tSArr-m3`/sneIk tSArr-m3`z
-  | class job
-> fortune teller/fortune tellers
-  | pron fOrr-tSun tE-l3`/fOrr-tSun tE-l3`z
-  | class job
-> serial killer/serial killers
-  | pron sI-ri-Vl kI-l3`/sI-ri-Vl kI-l3`z
-  | class job
-> plumber/plumbers
-  | pron plV-m3`/plV-m3`z
-  | class job
-> FBI agent/FBI agents
-  | pron eI-dZVnt/eI-dZVnts
-  | class job
-> assassin/assassins
-  | pron V-s{-sVn/V-s{-sVnz
-  | class job
-> wizard/wizards
-  | pron wI-z3`d/wI-z3`dz
-  | class job
-> salesman/salesmen
-  | pron seIlz-mVn/seIlz-mIn
-  | class job
-> singer/singers
-  | pron sI-N3`/sI-N3`z
-  | class job
-> policeman/policemen
-  | pron pV-lis-mVn/pV-lis-mIn
-  | class job
-> physician/physicians
-  | pron fV-zI-SVn/fI-zI-SVnz
-  | class job
-> paramedic/paramedics
-  | pron pE-rV-mE-dIk/pE-rV-mE-dIks
-  | class job
-> ninja/ninjas
-  | pron nIn-dZV/nIn-dZVz
-  | class job
-> teacher/teachers
-  | pron ti-tS3`/ti-tS3`z
-  | class job
-> senator/senators
-  | pron sE-nV-t3`/sE-nV-t3`z
-  | class job
-> scientist/scientists
-  | pron saI-Vn-tIst/saI-Vn-tIs
-  | class job
-> constable/constables
-  | pron kAn-stV-bVl/kAn-stV-bVlz
-  | class job
-> taxidermist/taxidermists
-  | class job
-> biologist/biologists
-  | pron baI-A-lV-dZVst/baI-A-lV-dZVs
-  | class job
-> pope/popes
-  | pron poUp/poUpz
-  | class job
-> bachelor/bachelors
-  | pron b{tS-l3`/b{tS-l3`z
-  | class job
-> haberdasher/haberdashers
-  | class job
-> armorer/armorers
-  | class job
-> tanner/tanners
-  | class job
-> hobbit/hobbits
-  | class job
-> pirate/pirates
-  | pron paI-rVt/paI-rVts
-  | class job
+
+#class add job
+  > carpenter/carpenters
+    | pron kArr-pVn-t3`/kArr-pVn-t3`z
+  > reporter/reporters
+    | pron rI-pOrr-t3`/rI-pOrr-t3`z
+  > journalist/journalists
+    | pron dZ3`-nV-lIst/dZ3`-nV-lIs
+  > guitarist/guitarists
+    | pron gI-tA-rVst/gI-tA-rVs
+  > archaeologist/archaeologists
+    | pron Arr-ki-A-lV-dZIst/Arr-ki-A-lV-dZIs
+  > urologist/urologists
+    | pron j3`-A-lV-dZVst/j3`-A-lV-dZVsts
+  > circus performer/circus performers
+    | pron s3`-kVs p3`-fOrr-m3`/s3`-kVs p3`-fOrr-m3`z
+  > juggler/jugglers
+    | pron dZVg-l3`/dZVg-l3`z
+  > explorer/explorers
+    | pron Ik-splO-r3`/Ik-splO-r3`z
+  > artist/artists
+    | pron Arr-tIst/Arr-tIs
+  > mechanic/mechanics
+    | pron mI-k{-nIk/mV-k{-nIks
+  > hunter/hunters
+    | pron hVn-t3`/hVn-t3`z
+  > spelunker/spelunkers
+  > bartender/bartenders
+    | pron bArr-tEn-d3`/bArr-tEn-d3`z
+  > accountant/accountants
+    | pron V-kaUn-tVnt/V-kaUn-tVnts
+  > movie star/movie stars
+    | pron mu-vi stArr/mu-vi stArrz
+  > mailman/mailmen
+  > construction worker/construction workers
+    | pron kVn-strVk-SVn w3`-k3`/kVn-strVk-SVn w3`-k3`z
+  > principal/principals
+    | pron prIn-sV-pVl/prIn-sV-pVlz
+  > prince/princes
+    | pron prIns/prIn-sIz
+  > princess/princesses
+    | pron prIn-sEs/prIn-sE-sIz
+  > surgeon/surgeons
+    | pron s3`-dZIn/s3`-dZVnz
+  > gambler/gamblers
+    | pron g{m-bl3`/g{m-bl3`z
+  > dentist/dentists
+    | pron dE-nIst/dE-nIs
+  > chef/chefs
+    | pron SEf/SEfs
+  > celebrity/celebrities
+    | pron sV-lE-brI-ti/sV-lE-brI-tiz
+  > waitress/waitresses
+    | pron weI-trVs/weI-trV-sIz
+  > burglar/burglars
+    | pron b3`-gl3`/b3`-gl3`z
+  > waiter/waiters
+    | pron weI-t3`/weI-t3`z
+  > doctor/doctors
+    | pron dOk-t3`/dAk-t3`z
+  > nurse/nurses
+    | pron n3`s/n3`-sIz
+  > lawyer/lawyers
+    | pron lOI-3`/lOI-3`z
+  > butler/butlers
+    | pron bVt-l3`/bVt-l3`z
+  > actor/actors
+    | pron {k-t3`/{k-t3`z
+  > athlete/athletes
+    | pron {T-lit/{T-lits
+  > babysitter/babysitters
+    | pron beI-bi-sI-t3`/beI-bi-sI-t3`z
+  > golfer/golfers
+    | pron gAl-f3`/gAl-f3`z
+  > vampire/vampires
+    | pron v{m-paIr/v{m-paIrz
+  > fireman/firemen
+    | pron faIr-mVn/faIr-mVn
+  > rapper/rappers
+    | pron r{-p3`/r{-p3`z
+  > gangster/gangsters
+    | pron g{N-st3`/g{N-st3`z
+  > hippie/hippies
+    | pron hI-pi/hI-piz
+  > clown/clowns
+    | pron klaUn/klaUnz
+  > banker/bankers
+    | pron b{N-k3`/b{N-k3`z
+  > pianist/pianists
+    | pron pi-V-nIst/pi-V-nIs
+  > politician/politicians
+    | pron pA-lV-tI-SVn/pA-lV-tI-SVnz
+  > president/presidents
+    | pron prE-zI-dVnt/prE-zI-dVns
+  > magician/magicians
+    | pron mV-dZI-SVn/mV-dZI-SVnz
+  > stock broker/stock brokers
+    | pron stAk broU-k3`/stAk broU-k3`z
+  > cop/cops
+    | pron kAp/kAps
+  > sky diver/sky divers
+    | pron skaI daI-v3`/skaI daI-v3`z
+  > snake charmer/snake charmers
+    | pron sneIk tSArr-m3`/sneIk tSArr-m3`z
+  > fortune teller/fortune tellers
+    | pron fOrr-tSun tE-l3`/fOrr-tSun tE-l3`z
+  > serial killer/serial killers
+    | pron sI-ri-Vl kI-l3`/sI-ri-Vl kI-l3`z
+  > plumber/plumbers
+    | pron plV-m3`/plV-m3`z
+  > FBI agent/FBI agents
+    | pron eI-dZVnt/eI-dZVnts
+  > assassin/assassins
+    | pron V-s{-sVn/V-s{-sVnz
+  > wizard/wizards
+    | pron wI-z3`d/wI-z3`dz
+  > salesman/salesmen
+    | pron seIlz-mVn/seIlz-mIn
+  > singer/singers
+    | pron sI-N3`/sI-N3`z
+  > policeman/policemen
+    | pron pV-lis-mVn/pV-lis-mIn
+  > physician/physicians
+    | pron fV-zI-SVn/fI-zI-SVnz
+  > paramedic/paramedics
+    | pron pE-rV-mE-dIk/pE-rV-mE-dIks
+  > ninja/ninjas
+    | pron nIn-dZV/nIn-dZVz
+  > teacher/teachers
+    | pron ti-tS3`/ti-tS3`z
+  > senator/senators
+    | pron sE-nV-t3`/sE-nV-t3`z
+  > scientist/scientists
+    | pron saI-Vn-tIst/saI-Vn-tIs
+  > constable/constables
+    | pron kAn-stV-bVl/kAn-stV-bVlz
+  > taxidermist/taxidermists
+  > biologist/biologists
+    | pron baI-A-lV-dZVst/baI-A-lV-dZVs
+  > pope/popes
+    | pron poUp/poUpz
+  > bachelor/bachelors
+    | pron b{tS-l3`/b{tS-l3`z
+  > haberdasher/haberdashers
+  > armorer/armorers
+  > tanner/tanners
+  > hobbit/hobbits
+  > pirate/pirates
+    | pron paI-rVt/paI-rVts
+#class remove job
+
 > umbilical cord/umbilical cords
   | pron Vm-bI-lI-kVl kOrrd/Vm-bI-lI-kVl kOrrdz
   | class body long
