@@ -15,7 +15,7 @@
     | pron eI deI V-goU
     | class past
   > an hour ago
-    | pron Vn @rr V-goU
+    | pron Vn ^rr V-goU
     | class past
   > a year ago
     | pron eI jIrr V-goU
@@ -47,7 +47,7 @@
   > 5 minutes later
     | pron mI-nVts leI-t3`
   > 1 hour later
-    | pron @rr leI-t3`
+    | pron ^rr leI-t3`
   > 1 day later
     | pron deI leI-t3`
   > 1 week later
@@ -129,7 +129,7 @@
   > for 10 weeks
     | pron fr3` wiks
   > for 36 hours
-    | pron fr3` @rrz
+    | pron fr3` ^rrz
   > on Mondays
     | pron On
   > every Tuesday
