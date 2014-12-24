@@ -3,20 +3,27 @@
 #subs singular plural
 
 > dawn/dawns
+  | pron dOn/dOnz
   | class timeofday
 > morning/mornings
+  | pron mOrr-nIN/mOrr-nINz
   | class timeofday
 > noon/noons
+  | pron nun/nunz
   | class timeofday
 > day/days
+  | pron deI/deIz
   | class timeofday
 > afternoon/afternoons
+  | pron {f-t3`-nun/{f-t3`-nunz
   | class timeofday
 > evening/evenings
+  | pron iv-nIN/iv-nINz
   | class timeofday
 > dusk/dusks
   | class timeofday
 > night/nights
+  | pron naIt/naIts
   | class timeofday
 > midnight/midnights
   | class timeofday
@@ -34,75 +41,68 @@
   | class dayofweek
 > Saturday/Saturdays
   | class dayofweek
-> January/Januaries
-  | class month
-> February/Februaries
-  | class month
-> March/Marches
-  | class month
-> April/Aprils
-  | class month
-> May/Mays
-  | class month
-> June/Junes
-  | class month
-> July/Julies
-  | class month
-> August/Augusts
-  | class month
-> September/Septembers
-  | class month
-> October/Octobers
-  | class month
-> November/Novembers
-  | class month
-> December/Decembers
-  | class month
-> New Year's Eve/New Year's Eves
-  | class holiday
-> New Year's Day/New Year's Days
-  | class holiday
-> Valentine's Day/Valentine's Days
-  | class holiday
-> Easter/Easters
-  | class holiday
-> Labor Day/Labor Days
-  | class holiday
-> Halloween/Halloweens
-  | class holiday
-> Thanksgiving/Thanksgivings
-  | class holiday
-> Christmas/Christmasses
-  | class holiday
-> Hanukkah/Hanukkahs
-  | class holiday
-> Black Friday/Black Fridays
-  | class holiday
-> Kwanzaa/Kwanzaas
-  | class holiday
-> Boxing Day/Boxing Days
-  | class holiday
-> Labor Day/Labor Days
-  | class holiday
-> Father's Day/Father's Days
-  | class holiday
-> Mother's Day/Mother's Days
-  | class holiday
-> Groundhog Day/Groundhog Days
-  | class holiday
-> millisecond/milliseconds
-  | class unit
-> second/seconds
-  | class unit
-> minute/minutes
-  | class unit
-> hour/hours
-  | class unit
-> day/days
-  | class unit
-> month/months
-  | class unit
-> year/years
-  | class unit
-> century/centuries
-  | class unit
+
+#class add month
+  > January/Januaries
+    | class month
+  > February/Februaries
+    | class month
+  > March/Marches
+    | class month
+  > April/Aprils
+    | class month
+  > May/Mays
+    | class month
+  > June/Junes
+    | class month
+  > July/Julies
+    | class month
+  > August/Augusts
+    | class month
+  > September/Septembers
+    | class month
+  > October/Octobers
+    | class month
+  > November/Novembers
+    | class month
+  > December/Decembers
+    | class month
+#class remove month
+
+#class add holiday
+  > New Year's Eve/New Year's Eves
+  > New Year's Day/New Year's Days
+  > Valentine's Day/Valentine's Days
+  > Easter/Easters
+  > Labor Day/Labor Days
+  > Halloween/Halloweens
+  > Thanksgiving/Thanksgivings
+  > Christmas/Christmasses
+  > Hanukkah/Hanukkahs
+  > Black Friday/Black Fridays
+  > Kwanzaa/Kwanzaas
+  > Boxing Day/Boxing Days
+  > Labor Day/Labor Days
+  > Father's Day/Father's Days
+  > Mother's Day/Mother's Days
+  > Groundhog Day/Groundhog Days
+#class remove holiday
+
+#class add unit
+  > millisecond/milliseconds
+    | pron mI-lI-sE-kVnd/mI-lI-sE-kVndz
+  > second/seconds
+    | pron sE-kVn/sE-kVnz
+  > minute/minutes
+    | pron maI-njut/mI-nVts
+  > hour/hours
+    | pron @rr/@rrz
+  > day/days
+    | pron deI/deIz
+  > month/months
+    | pron mVnT/mVnTs
+  > year/years
+    | pron jIrr/j3`z
+  > century/centuries
+    | pron sEn-tS3`-i/sEn-tS3`-iz
+#class remove unit

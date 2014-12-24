@@ -487,15 +487,16 @@
   > Papa
 #class remove female
 
-@ Gender-neutral names
-#class add male? female?
-  > Sam
-  > Adrian
-  > Quinn
-  > Sidney
-  > Jessie
-  > Jamie
-  > Jordan
-  > Tracy
-  > Alex
-#class remove male? female?
+#class add male
+  #class add female
+    > Sam
+    > Adrian
+    > Quinn
+    > Sidney
+    > Jessie
+    > Jamie
+    > Jordan
+    > Tracy
+    > Alex
+  #class remove female
+#class remove male

@@ -3,25 +3,43 @@
 #subs default
 
 > hello
+  | pron hE-loU
 > greetings
+  | pron gri-tINz
 > hola
 > hey
+  | pron heI
 > what's up
+  | pron hwVts Vp
 > whazzup
 > yo
+  | pron joU
 > good day
+  | pron gId deI
 > good morning
+  | pron gId mOrr-nIN
 > good afternoon
+  | pron gId {f-t3`-nun
 > good evening
+  | pron gId iv-nIN
 > good night
+  | pron gId naIt
 > hey buddy
+  | pron heI bV-di
 > ahoy
 > sup
+  | pron sVp
 > salutations
 > aloha
+  | pron V-loU-hA
 > konichi wa
+  | pron wA
 > what's happening
+  | pron hwVts h{p-nIN
 > how's it hanging
+  | pron haUz It h{-NgIN
 > how's it going
+  | pron haUz It goU-In
 > what's new
+  | pron hwVts nju
 > guten Tag

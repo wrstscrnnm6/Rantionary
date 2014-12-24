@@ -2,96 +2,121 @@
 #name substance
 #subs default
 
-> water
-  | class liquid
-> vomit
-  | class liquid
-> orange juice
-  | class liquid
-> sweat
-  | class liquid
-> blood
-  | class liquid
-> lava
-  | class liquid
-> gasoline
-  | class liquid
+#class add liquid
+  > water
+    | pron wO-t3`
+  > vomit
+    | pron vA-mVt
+  > orange juice
+    | pron O-rIndZ dZus
+  > sweat
+    | pron swEt
+  > blood
+    | pron blVd
+  > lava
+    | pron lA-vV
+  > gasoline
+    | pron g{-sV-lin
+  > oil
+    | pron OIl
+  > molten iron
+    | pron moUl-tVn aI-3`n
+  > grease
+    | pron gris
+  > tears
+    | pron tIrrz
+  > ketchup
+    | pron kE-tSVp
+  > mustard
+    | pron mV-st3`d
+  > mayonnaise
+    | pron meI-V-neIz
+  > soy sauce
+    | pron sOI sOs
+  > beer
+    | pron bIrr
+  > wine
+    | pron waIn
+  > vodka
+    | pron vAd-kV
+  > olive oil
+    | pron A-lIv OIl
+  > extra-virgin olive oil
+    | pron A-lIv OIl
+  > earwax
+    | pron Irr-w{ks
+  > vinegar
+    | pron vI-nV-g3`
+  > paint
+    | pron peInt
+  > liquid nitrogen
+    | pron lI-kwId naI-trV-dZVn
+  > tomato sauce
+    | pron tV-mA-toU sOs
+  > ink
+    | pron INk
+  > lemonade
+    | pron lE-mV-neId
+#class remove liquid
+
 > sand
-> oil
-  | class liquid
-> molten iron
-  | class liquid
-> grease
-  | class liquid
-> tears
-  | class liquid
-> ketchup
-  | class liquid
-> mustard
-  | class liquid
-> mayonnaise
-  | class liquid
-> soy sauce
-  | class liquid
-> beer
-  | class liquid
-> wine
-  | class liquid
-> vodka
-  | class liquid
-> olive oil
-  | class liquid
-> extra-virgin olive oil
-  | class liquid
-> earwax
-> vinegar
-  | class liquid
-> paint
-  | class liquid
-> liquid nitrogen
-  | class liquid
-> tomato sauce
-  | class liquid
-> ink
-  | class liquid
-> lemonade
-  | class liquid
+  | pron s{nd
 > oatmeal
+  | pron oUt-mil
 > spaghetti
+  | pron spV-gE-ti
 > flour
+  | pron fl@rr
 > sap
+  | pron s{p
   | class liquid
 > plasma
+  | pron pl{z-mV
   | class liquid
 > dark matter
+  | pron dArrk m{-t3`
 > antimatter
 > corn
+  | pron kOrrn
 > snow
+  | pron snoU
 > acid
+  | pron {-sVd
   | class liquid
 > magma
+  | pron m{g-mV
   | class liquid
-
 #nsfw
-> happiness
-> dick cheese
-> cum
-  | class liquid
-> lube
-  | class liquid
-> crotch juice
-  | class liquid
-> pee
-  | class liquid
-> piss
-  | class liquid
-> pisswater
-  | class liquid
-> diarrhea
-  | class liquid
-> jizz
-  | class liquid
-> urine
-  | class liquid
 
-#sfw
+> happiness
+  | pron h{-pi-nVs
+> dick cheese
+  | pron dIk tSiz
+
+#class add liquid
+  > cum
+    | pron kVm
+    | class liquid
+  > lube
+    | pron lub
+    | class liquid
+  > crotch juice
+    | pron krAtS dZus
+    | class liquid
+  > pee
+    | pron pi
+    | class liquid
+  > piss
+    | pron pIs
+    | class liquid
+  > pisswater
+    | class liquid
+  > diarrhea
+    | pron daI-3`-i-V
+    | class liquid
+  > jizz
+    | class liquid
+  > urine
+    | pron jU-rVn
+    | class liquid
+#class remove liquid

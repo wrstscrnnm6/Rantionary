@@ -2,26 +2,34 @@
 #name color
 #subs default ish
 
-> red/reddish
-  | class primary
-> green/greenish
-  | class primary
-> blue/bluish
-  | class primary
-> cyan/cyan-ish
-  | class secondary
-> magenta/magenta-ish
-  | class secondary
-> yellow/yellowish
-  | class secondary
+# class add primary
+  > red/reddish
+    | pron rEd/rE-dIS
+  > green/greenish
+    | pron grin/gri-nIS
+  > blue/bluish
+    | pron blu/blu-IS
+#class remove primary
+
+#class add secondary
+  > cyan/cyan-ish
+  > magenta/magenta-ish
+  > yellow/yellowish
+    | pron jE-loU/jE-loU-IS
+#class remove secondary
+
 > orange/orangish
 > purple/purplish
+  | pron p3`-pVl/p3`-plIS
 > turquoise/turquoise-ish
 > pink/pinkish
+  | pron pINk/pIN-kIS
 > grey/greyish
 > black/blackish
 > white/whitish
+  | pron hwaIt/hwaI-tIS
 > brown/brownish
+  | pron braUn/braU-nIS
 > lime green/lime-green-ish
 > lavender/lavenderish
 > maroon/maroonish

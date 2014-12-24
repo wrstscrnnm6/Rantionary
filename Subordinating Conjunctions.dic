@@ -3,52 +3,102 @@
 #subs default
 
 > after
+  | pron {f-t3`
 > although
+  | pron Ol-DoU
 > as
+  | pron Ez
 > as if
+  | pron Ez If
 > as long as
+  | pron Ez lON Ez
 > as much as
+  | pron Ez mVtS Ez
 > as soon as
+  | pron Ez sun Ez
 > as though
+  | pron Ez DoU
 > because
+  | pron bI-kVz
 > before
+  | pron bi-fOrr
 > even
+  | pron i-vIn
 > even if
+  | pron i-vIn If
 > even though
+  | pron i-vIn DoU
 > if
+  | pron If
 > if only
+  | pron If oUn-li
 > if when
+  | pron If hwIn
 > if then
+  | pron If DEn
 > inasmuch
+  | pron In-{s-mVk
 > in order that
+  | pron In Orr-d3` DVt
 > just as
+  | pron dZIst Ez
 > lest
+  | pron lEst
 > now
+  | pron naU
 > now since
+  | pron naU sIns
 > now that
+  | pron naU DVt
 > now when
+  | pron naU hwIn
 > once
+  | pron wVns
 > provided
+  | pron prV-vaI-dId
 > provided that
+  | pron prV-vaI-dId DVt
 > rather than
+  | pron rV-D3` DVn
 > since
+  | pron sIns
 > so that
+  | pron soU DVt
 > supposing
+  | pron sV-poU-zIN
 > than
+  | pron DVn
 > that
+  | pron DVt
 > though
+  | pron DoU
 > til
+  | pron tIl
 > unless
+  | pron Vn-lEs
 > until
+  | pron Vn-tIl
 > when
+  | pron hwIn
 > whenever
+  | pron hwE-nE-v3`
 > where
+  | pron hwerr
 > whereas
+  | pron hwE-r{z
 > where if
+  | pron hwerr If
 > wherever
+  | pron hwE-rE-v3`
 > whether
+  | pron hwE-D3`
 > which
+  | pron hwItS
 > while
+  | pron hwaIl
 > who
+  | pron hu
 > whoever
+  | pron hu-E-v3`
 > why
+  | pron hwaI
