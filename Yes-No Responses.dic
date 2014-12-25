@@ -14,7 +14,7 @@
 > absolutely
   | pron {b-sV-lut-li
 > without a doubt
-  | pron wID-aUt eI daUt
+  | pron wID-aUt-eI-daUt
 > indeed
   | pron In-did
 > affirmative
@@ -26,7 +26,7 @@
 > yes/yes
   | pron jEs/jEs
 > hell yes
-  | pron hEl jEs
+  | pron hEl-jEs
 > ya
   | pron jA
 > certainly
@@ -34,20 +34,20 @@
 > obviously
   | pron Ab-vi-Vs-li
 > oh yes
-  | pron oU jEs
+  | pron oU-jEs
 > I couldn't agree more
-  | pron I kU-dVn V-gri mOrr
+  | pron I-kU-dVn-V-gri-mOrr
 #class remove yes
 
 #class add no
 > no
   | pron noU
 > definitely not
-  | pron dE-fV-nVt-li nAt
+  | pron dE-fV-nVt-li-nAt
 > absolutely not
-  | pron {b-sV-lut-li nAt
+  | pron {b-sV-lut-li-nAt
 > no way
-  | pron noU weI
+  | pron noU-weI
 > impossible
   | pron Im-pA-sV-bVl
 > negative
@@ -55,20 +55,20 @@
 > nope
   | pron noUp
 > hell no
-  | pron hEl noU
+  | pron hEl-noU
 > nooooo
 > not at all
-  | pron nAt {t Ol
+  | pron nAt-{t-Ol
 > certainly not
-  | pron s3`-tVn-li nAt
+  | pron s3`-tVn-li-nAt
 > obviously not
-  | pron Ab-vi-Vs-li nAt
+  | pron Ab-vi-Vs-li-nAt
 > oh no
-  | pron oU noU
+  | pron oU-noU
 > most certainly not
-  | pron moUs s3`-tVn-li nAt
+  | pron moUs-s3`-tVn-li-nAt
 > there's no way
-  | pron Derrz noU weI
+  | pron Derrz-noU-weI
 > that can't be
-  | pron DVt k{nt bi
+  | pron DVt-k{nt-bi
 #class remove no

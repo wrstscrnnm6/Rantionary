@@ -151,10 +151,10 @@
     | pron werr-haUs/werr-haU-sIz
     | class building
   > bomb shelter/bomb shelters
-    | pron bOm SEl-t3`/bOm SEl-t3`z
+    | pron bOm-SEl-t3`/bOm-SEl-t3`z
     | class building
   > homeless shelter/homeless shelters
-    | pron hoUm-lVs SEl-t3`/hoUm-lVs SEl-t3`z
+    | pron hoUm-lVs-SEl-t3`/hoUm-lVs-SEl-t3`z
     | class building
   > firetruck/firetrucks
   > ambulance/ambulances
@@ -174,7 +174,7 @@
     | pron mOrrg/mOrrgz
     | class building
   > funeral home/funeral homes
-    | pron fju-n3`-Vl hoUm/fju-n3`-Vl hoUmz
+    | pron fju-n3`-Vl-hoUm/fju-n3`-Vl-hoUmz
     | class building
   > courthouse/courthouses
     | pron kOrrt-haUs/kOrrt-haU-sIz
@@ -212,7 +212,7 @@
   > bus/buses
     | pron bVs/bV-sIz
   > post office/post offices
-    | pron poUst O-fVs/poUst O-fV-sIz
+    | pron poUst-O-fVs/poUst-O-fV-sIz
     | class building
   > skyway/skyways
   > opera/operas
@@ -256,7 +256,7 @@
 > lakeside/lakesides
   | class natural outdoor
 > grassy plain/grassy plains
-  | pron gr{-si pleIn/gr{-si pleInz
+  | pron gr{-si-pleIn/gr{-si-pleInz
   | class natural outdoor
 > crater/craters
   | pron kreI-t3`/kreI-t3`z
@@ -277,7 +277,7 @@
   | pron ruf-tAp/ruf-tAps
   | class outdoor
 > dance floor/dance floors
-  | pron d{ns flOrr/d{ns flOrrz
+  | pron d{ns-flOrr/d{ns-flOrrz
   | class outdoor
 > graveyard/graveyards
   | pron greIv-jArrd/greIv-jArrdz
@@ -300,5 +300,5 @@
   | pron pleI-graUn/pleI-graUnz
   | class outdoor
 > amusement park/amusement parks
-  | pron V-mjuz-mVnt pArrk/V-mjuz-mVnt pArrks
+  | pron V-mjuz-mVnt-pArrk/V-mjuz-mVnt-pArrks
   | class outdoor

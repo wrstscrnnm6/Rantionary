@@ -75,10 +75,10 @@
   | class south-america
 > Comoros
 > Democratic Republic of the Congo
-  | pron Vv Di
+  | pron Vv-Di
   | class africa
 > Republic of the Congo
-  | pron Vv Di
+  | pron Vv-Di
   | class africa
 > Cook Islands
 > Coral Sea Islands
@@ -286,7 +286,7 @@
 > Saint Pierre and Miquelon
   | pron Vnd
 > Saint Vincent and the Grenadines
-  | pron Vnd Di
+  | pron Vnd-Di
 > Samoa
   | class oceania
 > San Marino
@@ -312,7 +312,7 @@
 > South Africa
   | class africa
 > South Georgia and the South Sandwich Islands
-  | pron Vnd Di
+  | pron Vnd-Di
 > Spain
   | class europe
 > Spratly Islands

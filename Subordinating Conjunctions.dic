@@ -9,15 +9,15 @@
 > as
   | pron Ez
 > as if
-  | pron Ez If
+  | pron Ez-If
 > as long as
-  | pron Ez lON Ez
+  | pron Ez-lON-Ez
 > as much as
-  | pron Ez mVtS Ez
+  | pron Ez-mVtS-Ez
 > as soon as
-  | pron Ez sun Ez
+  | pron Ez-sun-Ez
 > as though
-  | pron Ez DoU
+  | pron Ez-DoU
 > because
   | pron bI-kVz
 > before
@@ -25,45 +25,45 @@
 > even
   | pron i-vIn
 > even if
-  | pron i-vIn If
+  | pron i-vIn-If
 > even though
-  | pron i-vIn DoU
+  | pron i-vIn-DoU
 > if
   | pron If
 > if only
-  | pron If oUn-li
+  | pron If-oUn-li
 > if when
-  | pron If hwIn
+  | pron If-hwIn
 > if then
-  | pron If DEn
+  | pron If-DEn
 > inasmuch
   | pron In-{s-mVk
 > in order that
-  | pron In Orr-d3` DVt
+  | pron In-Orr-d3`-DVt
 > just as
-  | pron dZIst Ez
+  | pron dZIst-Ez
 > lest
   | pron lEst
 > now
   | pron naU
 > now since
-  | pron naU sIns
+  | pron naU-sIns
 > now that
-  | pron naU DVt
+  | pron naU-DVt
 > now when
-  | pron naU hwIn
+  | pron naU-hwIn
 > once
   | pron wVns
 > provided
   | pron prV-vaI-dId
 > provided that
-  | pron prV-vaI-dId DVt
+  | pron prV-vaI-dId-DVt
 > rather than
-  | pron rV-D3` DVn
+  | pron rV-D3`-DVn
 > since
   | pron sIns
 > so that
-  | pron soU DVt
+  | pron soU-DVt
 > supposing
   | pron sV-poU-zIN
 > than
@@ -87,7 +87,7 @@
 > whereas
   | pron hwE-r{z
 > where if
-  | pron hwerr If
+  | pron hwerr-If
 > wherever
   | pron hwE-rE-v3`
 > whether

@@ -8,7 +8,7 @@
   > vomit
     | pron vA-mVt
   > orange juice
-    | pron O-rIndZ dZus
+    | pron O-rIndZ-dZus
   > sweat
     | pron swEt
   > blood
@@ -20,7 +20,7 @@
   > oil
     | pron OIl
   > molten iron
-    | pron moUl-tVn aI-3`n
+    | pron moUl-tVn-aI-3`n
   > grease
     | pron gris
   > tears
@@ -32,7 +32,7 @@
   > mayonnaise
     | pron meI-V-neIz
   > soy sauce
-    | pron sOI sOs
+    | pron sOI-sOs
   > beer
     | pron bIrr
   > wine
@@ -40,9 +40,9 @@
   > vodka
     | pron vAd-kV
   > olive oil
-    | pron A-lIv OIl
+    | pron A-lIv-OIl
   > extra-virgin olive oil
-    | pron A-lIv OIl
+    | pron A-lIv-OIl
   > earwax
     | pron Irr-w{ks
   > vinegar
@@ -50,9 +50,9 @@
   > paint
     | pron peInt
   > liquid nitrogen
-    | pron lI-kwId naI-trV-dZVn
+    | pron lI-kwId-naI-trV-dZVn
   > tomato sauce
-    | pron tV-mA-toU sOs
+    | pron tV-mA-toU-sOs
   > ink
     | pron INk
   > lemonade
@@ -74,7 +74,7 @@
   | pron pl{z-mV
   | class liquid
 > dark matter
-  | pron dArrk m{-t3`
+  | pron dArrk-m{-t3`
 > antimatter
 > corn
   | pron kOrrn
@@ -91,7 +91,7 @@
 > happiness
   | pron h{-pi-nVs
 > dick cheese
-  | pron dIk tSiz
+  | pron dIk-tSiz
 
 #class add liquid
   > cum
@@ -101,7 +101,7 @@
     | pron lub
     | class liquid
   > crotch juice
-    | pron krAtS dZus
+    | pron krAtS-dZus
     | class liquid
   > pee
     | pron pi
