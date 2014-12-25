@@ -10,22 +10,22 @@
 > hey
   | pron heI
 > what's up
-  | pron hwVts Vp
+  | pron hwVts-Vp
 > whazzup
 > yo
   | pron joU
 > good day
-  | pron gId deI
+  | pron gId-deI
 > good morning
-  | pron gId mOrr-nIN
+  | pron gId-mOrr-nIN
 > good afternoon
-  | pron gId {f-t3`-nun
+  | pron gId-{f-t3`-nun
 > good evening
-  | pron gId iv-nIN
+  | pron gId-iv-nIN
 > good night
-  | pron gId naIt
+  | pron gId-naIt
 > hey buddy
-  | pron heI bV-di
+  | pron heI-bV-di
 > ahoy
 > sup
   | pron sVp
@@ -35,11 +35,11 @@
 > konichi wa
   | pron wA
 > what's happening
-  | pron hwVts h{p-nIN
+  | pron hwVts-h{p-nIN
 > how's it hanging
-  | pron haUz It h{-NgIN
+  | pron haUz-It-h{-NgIN
 > how's it going
-  | pron haUz It goU-In
+  | pron haUz-It-goU-In
 > what's new
-  | pron hwVts nju
+  | pron hwVts-nju
 > guten Tag

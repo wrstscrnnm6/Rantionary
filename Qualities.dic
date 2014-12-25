@@ -14,10 +14,10 @@
   > weight/heavier/lighter/heaviest
     | pron weIt/hE-vi-3`/laI-t3`/hE-vi-Vst
   > color/more colorful/duller/most colorful
-    | pron kO-l3`/mOrr kV-l3`-fVl/dV-l3`/moUs kV-l3`-fVl
+    | pron kO-l3`/mOrr-kV-l3`-fVl/dV-l3`/moUs-kV-l3`-fVl
   > luminosity/brighter/darker/brightest
   > power level/more powerful/weaker/most powerful
-    | pron paU-3` lE-vVl/mOrr paU-3`-fVl/wi-k3`/moUs paU-3`-fVl
+    | pron paU-3`-lE-vVl/mOrr-paU-3`-fVl/wi-k3`/moUs-paU-3`-fVl
   > height/taller/shorter/tallest
     | pron haIt/tO-l3`/SOrr-t3`/tO-lIst
   > length/longer/shorter/longest
@@ -32,9 +32,9 @@
   > age/older/younger/oldest
     | pron eIdZ/oUl-d3`/jVN-g3`/oUl-dVst
   > gender/sexier/more gender neutral/sexiest
-    | pron dZEn-d3`/sEk-si-3`/mOrr dZEn-d3` nu-trVl/sEk-si-Vst
+    | pron dZEn-d3`/sEk-si-3`/mOrr-dZEn-d3`-nu-trVl/sEk-si-Vst
   > ethnicity/more ethnic/less ethnic/most ethnic
-    | pron ET-nI-sI-ti/mOrr ET-nIk/lEs ET-nIk/moUs ET-nIk
+    | pron ET-nI-sI-ti/mOrr-ET-nIk/lEs-ET-nIk/moUs-ET-nIk
   > honesty/more thuthful/less truthful/most truthful
-    | pron A-nV-sti/mOrr/lEs truT-fVl/moUs truT-fVl
+    | pron A-nV-sti/mOrr/lEs-truT-fVl/moUs-truT-fVl
 #class remove human

@@ -174,7 +174,7 @@
 > divine/divinity
   | pron dI-vaIn/dI-vI-nV-ti
 > celestial/celestial power
-  | pron sV-lE-stSVl/sV-lE-stSVl paU-3`
+  | pron sV-lE-stSVl/sV-lE-stSVl-paU-3`
 > vibrating/vibration
   | pron vaI-breI-tIN/vaI-breI-SVn
 > wet/moisture
@@ -201,7 +201,7 @@
 > masculine/masculinity
   | pron m{s-kjV-lVn/m{s-kjV-lI-nV-ti
 > gelatinous/gelatinous goodness
-  | pron dZV-l{-tV-nVs/dZV-l{-tV-nVs gUd-nIs
+  | pron dZV-l{-tV-nVs/dZV-l{-tV-nVs-gUd-nIs
 > disjointed/disjointedness
 > veiny/veininess
   | class appearance
@@ -210,7 +210,7 @@
 > steamy/steaminess
 > lumpy/lumpiness
 > swift/lightning speed
-  | pron swIft/laIt-nIN spid
+  | pron swIft/laIt-nIN-spid
 > long/longness
 > large/largeness
   | pron lArrdZ/lArrdZ-nIs
@@ -244,12 +244,12 @@
 > terrible/terror
   | pron tE-rV-bVl/tE-r3`
 > throbbing/throbbing pleasure
-  | pron TrA-bIN/TrA-bIN plE-Z3`
+  | pron TrA-bIN/TrA-bIN-plE-Z3`
 > fluttering/light-weightedness
 > mysterious/mystery
   | pron mI-stI-ri-Vs/mI-st3`-i
 > velvety/velvety goodness
-  | pron vEl-vV-ti/vEl-vV-ti gUd-nIs
+  | pron vEl-vV-ti/vEl-vV-ti-gUd-nIs
 > dangerous/danger
   | pron deIn-dZ3`-Vs/deIn-dZ3`
 > metallic/luster
@@ -259,7 +259,7 @@
 > painful/pain
   | pron peIn-fVl/peIn
 > oozing/excretory wetness
-  | pron u-zIN/Ek-skrV-tO-ri wEt-nVs
+  | pron u-zIN/Ek-skrV-tO-ri-wEt-nVs
 > flaming/fire
   | pron fleI-mIN/faIr
 > exploding/explosiveness
@@ -390,7 +390,7 @@
   | pron V-d{p-tV-bVl/V-d{p-tV-bI-lV-ti
 > aggressive/agressiveness
 > additional/extra cheese
-  | pron V-dIS-nVl/Ek-strV tSiz
+  | pron V-dIS-nVl/Ek-strV-tSiz
 > adequate/adequacy
   | pron {-dV-kweIt/{-dV-kwV-si
 > administrative/domination
@@ -501,11 +501,11 @@
 > insane/insanity
   | pron In-seIn/In-s{-nI-ti
 > unpleasant/unpleasant nature
-  | pron Vn-plE-zVnt/Vn-plE-zVnt neI-tS3`
+  | pron Vn-plE-zVnt/Vn-plE-zVnt-neI-tS3`
 > inadvisable/inadvisable nature
-  | pron In-{d-vaI-zV-bVl/In-{d-vaI-zV-bVl neI-tS3`
+  | pron In-{d-vaI-zV-bVl/In-{d-vaI-zV-bVl-neI-tS3`
 > pleasant/pleasant nature
-  | pron plE-zVnt/plE-zVnt neI-tS3`
+  | pron plE-zVnt/plE-zVnt-neI-tS3`
 > sandy/sandiness
 > stinky/stinkiness
 > dead/deadness
@@ -568,7 +568,7 @@
   > grimy/griminess
   > funny-looking/funny looks
   > gigantic/impressive size
-    | pron dZaI-g{-nIk/Im-prE-sIv saIz
+    | pron dZaI-g{-nIk/Im-prE-sIv-saIz
   > limp/limpness
   > naked/nakedness
   > revealing/nakedness
@@ -635,7 +635,7 @@
     | pron spAt-lVs/klEn-li-nIs
   > wide-eyed/wideness
   > cubic/cubic shape
-    | pron kju-bIk/kju-bIk SeIp
+    | pron kju-bIk/kju-bIk-SeIp
   > symmetrical/symmetry
     | pron sV-mE-trI-kVl/sI-mV-tri
   > orbital/roundness
@@ -674,7 +674,7 @@
   > tall/height
     | pron tOl/haIt
   > menthol/menthol goodness
-    | pron mEn-TOl/mEn-TOl gUd-nIs
+    | pron mEn-TOl/mEn-TOl-gUd-nIs
 #class remove appearance
 
 #class add nationality
@@ -828,7 +828,7 @@
 > iridescent/iridescence
   | class appearance
 > golden/golden luster
-  | pron goUl-dVn/goUl-dVn lV-st3`
+  | pron goUl-dVn/goUl-dVn-lV-st3`
   | class appearance
 > spontaneous/spontaneity
   | pron spAn-teI-ni-Vs/spAn-tV-ni-V-ti
@@ -957,7 +957,7 @@
 > flaccid/flaccidness
   | class appearance
 > sexy/sex appeal
-  | pron sEk-si/sEks V-pil
+  | pron sEk-si/sEks-V-pil
 > ravishing/rock-solid arousal
   | pron r{-vI-SIN/3`-aU-zVl
 > horny/horniness

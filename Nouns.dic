@@ -26,7 +26,7 @@
 > afro/afros
   | class body
 > disco ball/disco balls
-  | pron dI-skoU bOl/dI-skoU bOlz
+  | pron dI-skoU-bOl/dI-skoU-bOlz
 > rotisserie/rotisseries
 > pizza/pizzas
   | pron pit-sV/pit-sVz
@@ -56,7 +56,7 @@
 > musket/muskets
   | class weapon
 > credit card/credit cards
-  | pron krE-dIt kArrd/krE-dIt kArrdz
+  | pron krE-dIt-kArrd/krE-dIt-kArrdz
 > truffle/truffles
   | pron trV-fVl/trV-fVlz
 > gearshift/gearshifts
@@ -73,7 +73,7 @@
   | pron {-sImp-toUt/{-sImp-toUts
 > peppermint/peppermints
 > candy cane/candy canes
-  | pron k{n-di keIn/k{n-di keInz
+  | pron k{n-di-keIn/k{n-di-keInz
 > bulge/bulges
   | pron bVldZ/bVl-dZIz
 > lump/lumps
@@ -92,11 +92,11 @@
 > football/footballs
   | pron fUt-bOl/fUt-bOlz
 > dollar bill/dollar bills
-  | pron dO-l3` bIl/dO-l3` bIlz
+  | pron dO-l3`-bIl/dO-l3`-bIlz
 > log/logs
   | pron lOg/lOgz
 > chicken wing/chicken wings
-  | pron tSI-kVn wIN/tSI-kVn wINz
+  | pron tSI-kVn-wIN/tSI-kVn-wINz
 > pylon/pylons
   | pron paI-lAn/paI-lAnz
 > card/cards
@@ -130,7 +130,7 @@
 > waffle/waffles
   | pron wA-fVl/wA-fVlz
 > jelly bean/jelly beans
-  | pron dZE-li bin/dZE-li binz
+  | pron dZE-li-bin/dZE-li-binz
 > sofa/sofas
   | pron soU-fV/soU-fVz
 > muffin/muffins
@@ -149,7 +149,7 @@
   | pron brEd/brEd
   | class food
 > magnifying glass/magnifying glasses
-  | pron m{g-nV-faI-IN gl{s/m{g-nV-faI-IN gl{-sIz
+  | pron m{g-nV-faI-IN-gl{s/m{g-nV-faI-IN-gl{-sIz
 > cocaine/cocaine
   | pron koU-keIn/koU-keIn
   | class drug
@@ -178,7 +178,7 @@
   | class article
 > sharpie/sharpies
 > lawn mower/lawn mowers
-  | pron lOn moU-3`/lOn moU-3`z
+  | pron lOn-moU-3`/lOn-moU-3`z
   | class tool weapon
 > carcass/carcasses
   | pron kArr-kVs/kArr-kV-sIz
@@ -195,7 +195,7 @@
 > grass/grasses
   | pron gr{s/gr{-sIz
 > garbage can/garbage cans
-  | pron gArr-bIdZ kVn/gArr-bIdZ k{nz
+  | pron gArr-bIdZ-kVn/gArr-bIdZ-k{nz
   | class container
 > manure/manure
   | pron mV-nUrr/mV-nUrr
@@ -294,7 +294,7 @@
 > mask/masks
   | pron m{sk/m{sks
 > duct tape/duct tape
-  | pron dVkt teIp/dVkt teIp
+  | pron dVkt-teIp/dVkt-teIp
 > chair/chairs
   | pron tSerr/tSerrz
   | class furniture
@@ -315,7 +315,7 @@
   | pron greIp-frut/greIp-fruts
   | class fruit food
 > tea bag/tea bags
-  | pron ti b{g/ti b{gz
+  | pron ti-b{g/ti-b{gz
 > teapot/teapots
 > canister/canisters
   | pron k{-nI-st3`/k{-nI-st3`z
@@ -404,7 +404,7 @@
   | pron f3`n/f3`nz
   | class plant
 > maple tree/maple trees
-  | pron meI-pVl tri/meI-pVl triz
+  | pron meI-pVl-tri/meI-pVl-triz
   | class plant
 > thistle/thistles
   | pron TI-sVl/TI-sVlz
@@ -413,7 +413,7 @@
   | pron deI-zi/deI-ziz
   | class plant
 > stinging nettle/stinging nettles
-  | pron stI-NIN nE-tVl/stI-NIN nE-tVlz
+  | pron stI-NIN-nE-tVl/stI-NIN-nE-tVlz
   | class plant
 > dandelion/dandelions
   | pron d{n-dV-laI-Vn/d{n-dV-laI-Vnz
@@ -444,10 +444,10 @@
   | pron beIs-bOl/beIs-bOlz
   | class ball
 > beach ball/beach balls
-  | pron bitS bOl/bitS bOlz
+  | pron bitS-bOl/bitS-bOlz
   | class ball
 > tennis ball/tennis balls
-  | pron tE-nIs bOl/tE-nIs bOlz
+  | pron tE-nIs-bOl/tE-nIs-bOlz
   | class ball
 > boulder/boulders
   | pron boUl-d3`/boUl-d3`z
@@ -530,7 +530,7 @@
 > tabletop/tabletops
   | class surface
 > coffee table/coffee tables
-  | pron kO-fi teI-bVl/kO-fi teI-bVlz
+  | pron kO-fi-teI-bVl/kO-fi-teI-bVlz
   | class furniture
 > couch/couches
   | pron kaUtS/kaU-tSIz
@@ -538,10 +538,10 @@
 > recliner/recliners
   | class furniture
 > lawn chair/lawn chairs
-  | pron lOn tSerr/lOn tSerrz
+  | pron lOn-tSerr/lOn-tSerrz
   | class furniture
 > rocking chair/rocking chairs
-  | pron rA-kIN tSerr/rA-kIN tSerrz
+  | pron rA-kIN-tSerr/rA-kIN-tSerrz
   | class furniture
 > nightstand/nightstands
   | class furniture
@@ -593,7 +593,7 @@
   | pron OIl/OIlz
   | class liquid
 > olive oil/olive oil
-  | pron A-lIv OIl/A-lIv OIl
+  | pron A-lIv-OIl/A-lIv-OIl
   | class liquid
 > urine/urine
   | pron jU-rVn/jU-rVn
@@ -624,7 +624,7 @@
 
 #class add container
   > pickle jar/pickle jars
-    | pron pI-kVl dZArr/pI-kVl dZArrz
+    | pron pI-kVl-dZArr/pI-kVl-dZArrz
   > package/packages
     | pron p{-kIdZ/p{-kI-dZIz
   > cup/cups
@@ -634,7 +634,7 @@
   > glass/glasses
     | pron gl{s/gl{-sIz
   > shot glass/shot glasses
-    | pron SAt gl{s/SAt gl{-sIz
+    | pron SAt-gl{s/SAt-gl{-sIz
   > bowl/bowls
     | pron boUl/boUlz
   > container/containers
@@ -671,7 +671,7 @@
   > cell/cells
     | pron sEl/sElz
   > test tube/test tubes
-    | pron tEst tjub/tEst tubz
+    | pron tEst-tjub/tEst-tubz
   > vial/vials
     | pron vaI-Vl/vaI-Vlz
   > vat/vats
@@ -716,12 +716,12 @@
   > rocket/rockets
     | pron rA-kVt/rA-kVts
   > flute/flutes
-    | pron flut/fluts instrument
+    | pron flut/fluts-instrument
   > clarinet/clarinets instrument
   > trumpet/trumpets
-    | pron trVm-pVt/trVm-pVts instrument
+    | pron trVm-pVt/trVm-pVts-instrument
   > arrow/arrows
-    | pron E-roU/E-roUz weapon tool
+    | pron E-roU/E-roUz-weapon-tool
   > dart/darts
     | pron dArrt/dArrts
     | class weapon
@@ -740,10 +740,10 @@
     | pron steI-pVl/steI-pVlz
   > panhandle/panhandles
   > telephone pole/telephone poles
-    | pron tE-lV-foUn poUl/tE-lV-foUn poUlz
+    | pron tE-lV-foUn-poUl/tE-lV-foUn-poUlz
     | class weapon
   > extension cord/extension cords
-    | pron Ik-stEn-SVn kOrrd/Ik-stEn-SVn kOrrdz
+    | pron Ik-stEn-SVn-kOrrd/Ik-stEn-SVn-kOrrdz
   > candle/candles
     | pron k{n-dVl/k{n-dVlz
   > tree/trees
@@ -761,7 +761,7 @@
   > pole/poles
     | pron poUl/poUlz
   > crack pipe/crack pipes
-    | pron kr{k paIp/kr{k paIps
+    | pron kr{k-paIp/kr{k-paIps
   > lightbulb/lightbulbs
     | pron laIt-bVlb/laIt-bVlbz
   > umbrella/umbrellas
@@ -788,10 +788,10 @@
 #class remove long
 
 > iron maiden/iron maidens
-  | pron aI-3`n meI-dVn/aI-3`n meI-dVnz
+  | pron aI-3`n-meI-dVn/aI-3`n-meI-dVnz
   | class tool
 > leaf blower/leaf blowers
-  | pron lif bloU-3`/lif bloU-3`z
+  | pron lif-bloU-3`/lif-bloU-3`z
   | class tool
 > pickaxe/pickaxes
   | class tool weapon
@@ -845,7 +845,7 @@
   | pron l{-d3`/l{-d3`z
   | class tool
 > shopping cart/shopping carts
-  | pron SA-pIN kArrt/SA-pIN kArrts
+  | pron SA-pIN-kArrt/SA-pIN-kArrts
   | class tool
 > bomb/bombs
   | pron bOm/bAmz
@@ -863,7 +863,7 @@
   | pron spIrr/spIrrz
   | class tool long weapon
 > cattle prod/cattle prods
-  | pron k{-tVl prAd/k{-tVl prAdz
+  | pron k{-tVl-prAd/k{-tVl-prAdz
   | class tool
 > vacuum/vacuums
   | pron v{-kjum/v{-kjumz
@@ -875,7 +875,7 @@
   | pron foUn/foUnz
   | class tool
 > can opener/can openers
-  | pron kVn oU-pVn-3`/kVn oU-pVn-3`z
+  | pron kVn-oU-pVn-3`/kVn-oU-pVn-3`z
   | class tool
 > stapler/staplers
   | pron steIp-l3`/steIp-l3`z
@@ -893,7 +893,7 @@
 > flamethrower/flamethrowers
   | class tool weapon long
 > garden hose/garden hoses
-  | pron gArr-dVn hoUz/gArr-dVn hoU-zIz
+  | pron gArr-dVn-hoUz/gArr-dVn-hoU-zIz
   | class sex long tool
 > leech/leeches
   | pron litS/li-tSIz
@@ -906,7 +906,7 @@
 > velociraptor/velociraptors
   | class animal
 > tyrannosaurus rex/tyrannosaurus rexes
-  | pron tI-r{-nV-sO-rVs rEks/tI-r{-nV-sO-rVs
+  | pron tI-r{-nV-sO-rVs-rEks/tI-r{-nV-sO-rVs
   | class animal
 > sphinx/sphinxes
   | class animal
@@ -1111,7 +1111,7 @@
   > urologist/urologists
     | pron j3`-A-lV-dZVst/j3`-A-lV-dZVsts
   > circus performer/circus performers
-    | pron s3`-kVs p3`-fOrr-m3`/s3`-kVs p3`-fOrr-m3`z
+    | pron s3`-kVs-p3`-fOrr-m3`/s3`-kVs-p3`-fOrr-m3`z
   > juggler/jugglers
     | pron dZVg-l3`/dZVg-l3`z
   > explorer/explorers
@@ -1128,10 +1128,10 @@
   > accountant/accountants
     | pron V-kaUn-tVnt/V-kaUn-tVnts
   > movie star/movie stars
-    | pron mu-vi stArr/mu-vi stArrz
+    | pron mu-vi-stArr/mu-vi-stArrz
   > mailman/mailmen
   > construction worker/construction workers
-    | pron kVn-strVk-SVn w3`-k3`/kVn-strVk-SVn w3`-k3`z
+    | pron kVn-strVk-SVn-w3`-k3`/kVn-strVk-SVn-w3`-k3`z
   > principal/principals
     | pron prIn-sV-pVl/prIn-sV-pVlz
   > prince/princes
@@ -1193,17 +1193,17 @@
   > magician/magicians
     | pron mV-dZI-SVn/mV-dZI-SVnz
   > stock broker/stock brokers
-    | pron stAk broU-k3`/stAk broU-k3`z
+    | pron stAk-broU-k3`/stAk-broU-k3`z
   > cop/cops
     | pron kAp/kAps
   > sky diver/sky divers
-    | pron skaI daI-v3`/skaI daI-v3`z
+    | pron skaI-daI-v3`/skaI-daI-v3`z
   > snake charmer/snake charmers
-    | pron sneIk tSArr-m3`/sneIk tSArr-m3`z
+    | pron sneIk-tSArr-m3`/sneIk-tSArr-m3`z
   > fortune teller/fortune tellers
-    | pron fOrr-tSun tE-l3`/fOrr-tSun tE-l3`z
+    | pron fOrr-tSun-tE-l3`/fOrr-tSun-tE-l3`z
   > serial killer/serial killers
-    | pron sI-ri-Vl kI-l3`/sI-ri-Vl kI-l3`z
+    | pron sI-ri-Vl-kI-l3`/sI-ri-Vl-kI-l3`z
   > plumber/plumbers
     | pron plV-m3`/plV-m3`z
   > FBI agent/FBI agents
@@ -1248,7 +1248,7 @@
 #class remove job
 
 > umbilical cord/umbilical cords
-  | pron Vm-bI-lI-kVl kOrrd/Vm-bI-lI-kVl kOrrdz
+  | pron Vm-bI-lI-kVl-kOrrd/Vm-bI-lI-kVl-kOrrdz
   | class body long
 > fanny/fannies
   | class body
@@ -1384,7 +1384,7 @@
 > shroom/shrooms
   | class drug
 > bath salts/bath salts
-  | pron b{T sOlts/b{T sOlts
+  | pron b{T-sOlts/b{T-sOlts
   | class drug
 > extacy/extacy
   | class drug
@@ -1439,7 +1439,7 @@
   | pron h{t/h{ts
   | class article
 > top hat/top hats
-  | pron tOp h{t/tOp h{ts
+  | pron tOp-h{t/tOp-h{ts
   | class article
 > underwear/underwear
   | pron Vn-d3`-werr/Vn-d3`-werr
@@ -1466,7 +1466,7 @@
   | pron wAnd/wAndz
   | class tool long
 > stun gun/stun guns
-  | pron stVn gVn/stVn gVnz
+  | pron stVn-gVn/stVn-gVnz
   | class tool weapon
 > train/trains
   | pron treIn/treInz
@@ -1478,7 +1478,7 @@
   | pron sE-maI/sE-maIz
   | class vehicle
 > hot rod/hot rods
-  | pron hAt rAd/hAt rAdz
+  | pron hAt-rAd/hAt-rAdz
   | class vehicle
 > truck/trucks
   | pron trVk/trVks
@@ -1490,7 +1490,7 @@
   | pron sVb-m3`-in/sVb-m3`-inz
   | class vehicle
 > aircraft carrier/aircraft carriers
-  | pron err-kr{ft kE-ri-3`/err-kr{ft kE-ri-3`z
+  | pron err-kr{ft-kE-ri-3`/err-kr{ft-kE-ri-3`z
   | class vehicle
 > airplane/airplanes
   | pron err-pleIn/err-pleInz
@@ -1514,7 +1514,7 @@
   | pron hEdZ/hE-dZIz
   | class plant
 > golf ball/golf balls
-  | pron gOlf bOl/gOlf bOlz
+  | pron gOlf-bOl/gOlf-bOlz
   | class ball round
 > wig/wigs
   | pron wIg/wIgz
@@ -1528,7 +1528,7 @@
   | pron moU-hOk/moU-hOks
 > dingleberry/dingleberries
 > teddy bear/teddy bears
-  | pron tE-di berr/tE-di berrz
+  | pron tE-di-berr/tE-di-berrz
 > dimple/dimples
   | class body
 > shotgun/shotguns
@@ -1574,7 +1574,7 @@
 > pornstar/pornstars
   | class job
 > battering ram/battering rams
-  | pron b{-t3`-IN r{m/b{-t3`-IN r{mz
+  | pron b{-t3`-IN-r{m/b{-t3`-IN-r{mz
   | class long weapon tool
 > cuntrocket/cuntrockets
   | class sex
@@ -1583,7 +1583,7 @@
 > cuntwaffle/cuntwaffles
   | class sex
 > blue waffle/blue waffles
-  | pron blu wA-fVl/blu wA-fVlz
+  | pron blu-wA-fVl/blu-wA-fVlz
   | class sex
 > dildo/dildos
   | class sex
@@ -1612,7 +1612,7 @@
 > foreskin/foreskins
   | class body sex
 > nipple clamp/nipple clamps
-  | pron nI-pVl kl{mp/nI-pVl kl{mps
+  | pron nI-pVl-kl{mp/nI-pVl-kl{mps
   | class tool
 > goatse/goatses
   | class sex hole
@@ -1655,7 +1655,7 @@
 > pussy/pussies
   | class body hole sex
 > yeast/yeast infections
-  | pron jist/jist In-fEk-SVnz
+  | pron jist/jist-In-fEk-SVnz
 > poop/poops
   | pron pup/pups
 > motherfucker/motherfuckers

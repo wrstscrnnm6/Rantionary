@@ -4,30 +4,30 @@
 
 #class add time
   > at sunrise
-    | pron {t sVn-raIz
+    | pron {t-sVn-raIz
   > a month ago
-    | pron eI mVnT V-goU
+    | pron eI-mVnT-V-goU
     | class past
   > a week ago
-    | pron eI wik V-goU
+    | pron eI-wik-V-goU
     | class past
   > a day ago
-    | pron eI deI V-goU
+    | pron eI-deI-V-goU
     | class past
   > an hour ago
-    | pron Vn ^rr V-goU
+    | pron Vn-^rr-V-goU
     | class past
   > a year ago
-    | pron eI jIrr V-goU
+    | pron eI-jIrr-V-goU
     | class past
   > millions of years ago
-    | pron mI-ljVnz Vv j3`z V-goU
+    | pron mI-ljVnz-Vv-j3`z-V-goU
     | class past
   > billions of years ago
-    | pron bI-ljVnz Vv j3`z V-goU
+    | pron bI-ljVnz-Vv-j3`z-V-goU
     | class past
   > trillions of years ago
-    | pron trI-ljVnz Vv j3`z V-goU
+    | pron trI-ljVnz-Vv-j3`z-V-goU
     | class past
   > today
     | pron tu-deI
@@ -42,30 +42,30 @@
     | pron naU
     | class present
   > just 5 minutes ago
-    | pron dZIst mI-nVts V-goU
+    | pron dZIst-mI-nVts-V-goU
     | class past
   > 5 minutes later
-    | pron mI-nVts leI-t3`
+    | pron mI-nVts-leI-t3`
   > 1 hour later
-    | pron ^rr leI-t3`
+    | pron ^rr-leI-t3`
   > 1 day later
-    | pron deI leI-t3`
+    | pron deI-leI-t3`
   > 1 week later
-    | pron wik leI-t3`
+    | pron wik-leI-t3`
   > 1 month later
-    | pron mVnT leI-t3`
+    | pron mVnT-leI-t3`
   > 6 months later
-    | pron mVnTs leI-t3`
+    | pron mVnTs-leI-t3`
   > a year later
-    | pron eI jIrr leI-t3`
+    | pron eI-jIrr-leI-t3`
   > 5 years later
-    | pron j3`z leI-t3`
+    | pron j3`z-leI-t3`
   > 10 years later
-    | pron j3`z leI-t3`
+    | pron j3`z-leI-t3`
   > at the full moon
-    | pron {t Di fUl mun
+    | pron {t-Di-fUl-mun
   > at sunset
-    | pron {t sVn-sEt
+    | pron {t-sVn-sEt
   > later
     | pron leI-t3`
   > recently
@@ -74,9 +74,9 @@
 
 #class add frequency
   > once again
-    | pron wVns V-geIn
+    | pron wVns-V-geIn
   > never again
-    | pron nE-v3` V-geIn
+    | pron nE-v3`-V-geIn
   > instantly
     | pron In-stVnt-li
   > usually
@@ -90,46 +90,46 @@
   > often
     | pron Of-tVn
   > once in a while
-    | pron wVns In eI hwaIl
+    | pron wVns-In-eI-hwaIl
   > never
     | pron nE-v3`
   > frequently
     | pron fri-kwVnt-li
   > once a week
-    | pron wVns eI wik
+    | pron wVns-eI-wik
   > daily
     | pron deI-li
   > once a month
-    | pron wVns eI mVnT
+    | pron wVns-eI-mVnT
   > again
     | pron V-geIn
   > repeatedly
     | pron rI-pi-tId-li
   > all the time
-    | pron Ol Di taIm
+    | pron Ol-Di-taIm
   > hardly
     | pron hArrd-li
   > barely
     | pron berr-li
   > several times
-    | pron sE-v3`-Vl taImz
+    | pron sE-v3`-Vl-taImz
   > every night
-    | pron E-vri naIt
+    | pron E-vri-naIt
   > this time
-    | pron DIs taIm
+    | pron DIs-taIm
   > biweekly
     | pron baI-wik-li
   > centenially
   > every now and then
-    | pron E-vri naU Vnd DEn
+    | pron E-vri-naU-Vnd-DEn
   > from now on
-    | pron f3`m naU On
+    | pron f3`m-naU-On
   > until further notice
-    | pron Vn-tIl f3`-D3` noU-tIs
+    | pron Vn-tIl-f3`-D3`-noU-tIs
   > for 10 weeks
-    | pron fr3` wiks
+    | pron fr3`-wiks
   > for 36 hours
-    | pron fr3` ^rrz
+    | pron fr3`-^rrz
   > on Mondays
     | pron On
   > every Tuesday
