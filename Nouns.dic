@@ -716,12 +716,16 @@
   > rocket/rockets
     | pron rA-kVt/rA-kVts
   > flute/flutes
-    | pron flut/fluts-instrument
-  > clarinet/clarinets instrument
+    | pron flut/fluts
+    | class instrument
+  > clarinet/clarinets 
+    | class instrument
   > trumpet/trumpets
-    | pron trVm-pVt/trVm-pVts-instrument
+    | pron trVm-pVt/trVm-pVts
+    | class instrument
   > arrow/arrows
-    | pron E-roU/E-roUz-weapon-tool
+    | pron E-roU/E-roUz
+    | class weapon tool
   > dart/darts
     | pron dArrt/dArrts
     | class weapon
