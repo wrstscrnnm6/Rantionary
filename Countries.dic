@@ -2,12 +2,115 @@
 #name country
 #subs default
 
-> Afghanistan
-  | class asia middle-east
-> Akrotiri
-  | class mediterranean
-> Albania
-  | class europe
+#class add africa
+  > Democratic Republic of the Congo
+    | pron Vv-Di
+  > Egypt
+  > Ghana
+  > Kenya
+  > Libya
+  > Madagascar
+  > Morocco
+  > Niger
+  > Nigeria
+  > Republic of the Congo
+    | pron Vv-Di
+  > Rwanda
+  > Somalia
+  > South Africa
+  > Sudan
+#class remove africa
+
+#class add asia
+  > Afghanistan
+    | class middle-east
+  > Cambodia
+  > China
+  > Hong Kong
+  > India
+  > Indonesia
+    | class oceania
+  > Japan
+  > Kyrgyzstan
+  > Malaysia
+  > Mongolia
+  > Nepal
+  > North Korea
+  > Singapore
+  > South Korea
+  > Taiwan
+  > Thailand
+#class remove asia
+
+#class add central-america
+  > Costa Rica
+  > Guatemala
+  > Haiti
+  > Honduras
+  > Nicaragua
+  > Panama
+#class remove central-america
+
+#class add europe
+  > Albania
+  > Austria
+  > Belgium
+  > Bulgaria
+  > Denmark
+  > Finland
+  > France
+  > Germany
+  > Greece
+  > Hungary
+  > Ireland
+  > Italy
+  > Latvia
+  > Lithuania
+  > Luxembourg
+  > Netherlands
+  > Norway
+  > Poland
+  > Portugal
+  > Romania
+  > Russia
+    | class asia eurasia
+  > Slovakia
+  > Slovenia
+  > Spain
+  > Sweden
+  > Switzerland
+  > Turkey
+  > United Kingdom
+#class remove europe
+
+#class add middle-east
+  > Iran
+  > Iraq
+  > Israel
+  > Pakistan
+  > Saudi Arabia
+  > Syria
+  > United Arab Emirates
+#class remove middle-east
+
+#class add oceania
+  > Australia
+  > Guam
+  > New Zealand
+  > Papua New Guinea
+  > Philippines
+  > Samoa
+  > Solomon Islands
+#class remove oceania
+
+#class add south-america
+  > Argentina
+  > Brazil
+  > Chile
+  > Colombia
+  > Peru
+#class remove south-america
+
 > Algeria
 > American Samoa
 > Andorra
@@ -16,26 +119,17 @@
 > Antarctica
 > Antigua and Barbuda
   | pron Vnd
-> Argentina
-  | class south-america
 > Armenia
 > Aruba
 > Ashmore and Cartier Islands
   | pron Vnd
-> Australia
-  | class oceania
-> Austria
-  | class europe
 > Azerbaijan
-> The Bahamas
 > Bahrain
 > Bangladesh
 > Barbados
 > Bassas da India
   | pron di-eI
 > Belarus
-> Belgium
-  | class europe
 > Belize
 > Benin
 > Bermuda
@@ -45,62 +139,30 @@
   | pron Vnd
 > Botswana
 > Bouvet Island
-> Brazil
-  | class south-america
 > British Indian Ocean Territory
 > British Virgin Islands
 > Brunei
-> Bulgaria
-  | class europe
 > Burkina Faso
 > Burma
 > Burundi
-> Cambodia
-  | class asia
 > Cameroon
-> Canada
-  | class north-america
 > Cape Verde
 > Cayman Islands
 > Central African Republic
 > Chad
-> Chile
-  | class south-america
-> China
-  | class asia
 > Christmas Island
 > Clipperton Island
 > Cocos Islands
-> Colombia
-  | class south-america
 > Comoros
-> Democratic Republic of the Congo
-  | pron Vv-Di
-  | class africa
-> Republic of the Congo
-  | pron Vv-Di
-  | class africa
 > Cook Islands
 > Coral Sea Islands
-> Costa Rica
-  | class central-america
 > Cote d'Ivoire
 > Croatia
-> Cuba
-  | class caribbean
-> Cyprus
-  | class mediterranean
 > Czech Republic
-> Denmark
-  | class europe
 > Dhekelia
 > Djibouti
-> Dominica
-  | class caribbean
 > Dominican Republic
 > Ecuador
-> Egypt
-  | class africa
 > El Salvador
 > Equatorial Guinea
 > Eritrea
@@ -109,106 +171,47 @@
 > Europa Island
 > Falkland Islands
 > Faroe Islands
+> Federated States of Micronesia
+  | pron Vv
 > Fiji
-> Finland
-  | class europe
-> France
-  | class europe
 > French Guiana
 > French Polynesia
 > French Southern and Antarctic Lands
   | pron Vnd
 > Gabon
-> The Gambia
 > Gaza Strip
 > Georgia
-> Germany
-  | class europe
-> Ghana
-  | class africa
 > Gibraltar
 > Glorioso Islands
-> Greece
-  | class europe
 > Greenland
 > Grenada
 > Guadeloupe
-> Guam
-  | class oceania
-> Guatemala
-  | class central-america
 > Guernsey
 > Guinea
 > Guinea-Bissau
 > Guyana
-> Haiti
-  | class central-america
 > Heard Island and McDonald Islands
   | pron Vnd
 > Holy See
-> Honduras
-  | class central-america
-> Hong Kong
-  | class asia
-> Hungary
-  | class europe
 > Iceland
-> India
-  | class asia
-> Indonesia
-  | class asia oceania
-> Iran
-  | class middle-east
-> Iraq
-  | class middle-east
-> Ireland
-  | class europe
 > Isle of Man
   | pron Vv
-> Israel
-  | class middle-east
-> Italy
-  | class europe
-> Jamaica
-  | class caribbean
 > Jan Mayen
-> Japan
-  | class asia
 > Jersey
 > Jordan
 > Juan de Nova Island
   | pron dV
 > Kazakhstan
-> Kenya
-  | class africa
 > Kiribati
-> North Korea
-  | class asia
-> South Korea
-  | class asia
 > Kuwait
-> Kyrgyzstan
-  | class asia
 > Laos
-> Latvia
-  | class europe
 > Lebanon
 > Lesotho
 > Liberia
-> Libya
-  | class africa
 > Liechtenstein
-> Lithuania
-  | class europe
-> Luxembourg
-  | class europe
 > Macau
 > Macedonia
-> Madagascar
-  | class africa
 > Malawi
-> Malaysia
-  | class asia
 > Maldives
 > Mali
 > Malta
@@ -217,68 +220,26 @@
 > Mauritania
 > Mauritius
 > Mayotte
-> Mexico
-  | class north-america
-> Federated States of Micronesia
-  | pron Vv
 > Moldova
 > Monaco
-> Mongolia
-  | class asia
 > Montserrat
-> Morocco
-  | class africa
 > Mozambique
 > Namibia
 > Nauru
 > Navassa Island
-> Nepal
-  | class asia
-> Netherlands
-  | class europe
 > Netherlands Antilles
 > New Caledonia
-> New Zealand
-  | class oceania
-> Nicaragua
-  | class central-america
-> Niger
-  | class africa
-> Nigeria
-  | class africa
 > Niue
 > Norfolk Island
 > Northern Mariana Islands
-> Norway
-  | class europe
 > Oman
-> Pakistan
-  | class middle-east
 > Palau
-> Panama
-  | class central-america
-> Papua New Guinea
-  | class oceania
 > Paracel Islands
 > Paraguay
-> Peru
-  | class south-america
-> Philippines
-  | class oceania
 > Pitcairn Islands
-> Poland
-  | class europe
-> Portugal
-  | class europe
 > Puerto Rico
 > Qatar
 > Reunion
-> Romania
-  | class europe
-> Russia
-  | class europe asia eurasia
-> Rwanda
-  | class africa
 > Saint Helena
 > Saint Kitts and Nevis
   | pron Vnd
@@ -287,53 +248,25 @@
   | pron Vnd
 > Saint Vincent and the Grenadines
   | pron Vnd-Di
-> Samoa
-  | class oceania
 > San Marino
 > Sao Tome and Principe
   | pron Vnd
-> Saudi Arabia
-  | class middle-east
 > Senegal
 > Serbia and Montenegro
   | pron Vnd
 > Seychelles
 > Sierra Leone
-> Singapore
-  | class asia
-> Slovakia
-  | class europe
-> Slovenia
-  | class europe
-> Solomon Islands
-  | class oceania
-> Somalia
-  | class africa
-> South Africa
-  | class africa
 > South Georgia and the South Sandwich Islands
   | pron Vnd-Di
-> Spain
-  | class europe
 > Spratly Islands
 > Sri Lanka
-> Sudan
-  | class africa
 > Suriname
 > Svalbard
 > Swaziland
-> Sweden
-  | class europe
-> Switzerland
-  | class europe
-> Syria
-  | class middle-east
-> Taiwan
-  | class asia
 > Tajikistan
 > Tanzania
-> Thailand
-  | class asia
+> The Bahamas
+> The Gambia
 > Timor-Leste
 > Togo
 > Tokelau
@@ -342,20 +275,12 @@
   | pron Vnd
 > Tromelin Island
 > Tunisia
-> Turkey
-  | class europe
 > Turkmenistan
 > Turks and Caicos Islands
   | pron Vnd
 > Tuvalu
 > Uganda
 > Ukraine
-> United Arab Emirates
-  | class middle-east
-> United Kingdom
-  | class europe
-> United States
-  | class north-america
 > Uruguay
 > Uzbekistan
 > Vanuatu

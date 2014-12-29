@@ -3,71 +3,65 @@
 #subs singular plural
 
 #class add concept
-  > idea/ideas
-    | pron aI-di-V/aI-di-Vz
-  > lie/lies
-    | pron laI/laIz
-  > philosophy/philosophies
-    | pron fV-lA-sV-fi/fV-lA-sV-fiz
-  > hypothesis/hypotheses
-    | pron haI-pA-TV-sVs/haI-pA-TV-siz
-  > theory/theories
-    | pron Ti-3`-i/Ti-3`-iz
-  > concept/concepts
-    | pron kAn-sEpt/kAn-sEps
-  > thought/thoughts
-    | pron TOt/TOts
-  > plan/plans
-    | pron pl{n/pl{nz
-  > scheme/schemes
-    | pron skim/skimz
-  > notion/notions
-    | pron noU-SVn/noU-SVnz
-  > conception/conceptions
-    | pron kVn-sEp-SVn/kVn-sEp-SVnz
-  > impression/impressions
-    | pron Im-prE-SVn/Im-prE-SVnz
   > belief/beliefs
     | pron bI-lif/bI-lifs
-  > opinion/opinions
-    | pron V-pI-njVn/V-pI-njVnz
-  > proposal/proposals
-    | pron prV-poU-zVl/prV-poU-zVlz
-  > law/laws
-    | pron lA/lOz
-  > vision/visions
-    | pron vI-ZVn/vI-ZVnz
+  > concept/concepts
+    | pron kAn-sEpt/kAn-sEps
+  > conception/conceptions
+    | pron kVn-sEp-SVn/kVn-sEp-SVnz
   > conclusion/conclusions
     | pron kVn-klu-ZVn/kVn-klu-ZVnz
+  > hypothesis/hypotheses
+    | pron haI-pA-TV-sVs/haI-pA-TV-siz
+  > idea/ideas
+    | pron aI-di-V/aI-di-Vz
+  > impression/impressions
+    | pron Im-prE-SVn/Im-prE-SVnz
+  > law/laws
+    | pron lA/lOz
+  > lie/lies
+    | pron laI/laIz
+  > notion/notions
+    | pron noU-SVn/noU-SVnz
+  > opinion/opinions
+    | pron V-pI-njVn/V-pI-njVnz
+  > philosophy/philosophies
+    | pron fV-lA-sV-fi/fV-lA-sV-fiz
+  > plan/plans
+    | pron pl{n/pl{nz
+  > proposal/proposals
+    | pron prV-poU-zVl/prV-poU-zVlz
+  > scheme/schemes
+    | pron skim/skimz
+  > theory/theories
+    | pron Ti-3`-i/Ti-3`-iz
+  > thought/thoughts
+    | pron TOt/TOts
+  > vision/visions
+    | pron vI-ZVn/vI-ZVnz
 #class remove concept
 
 #class add social
-  > relationship/relationships
-    | pron ri-leI-SVn-SIp/ri-leI-SVn-SIps
-  > conflict/conflicts
-    | pron kVn-flIkt/kAn-flIks
-  > fight/fights
-    | pron faIt/faIts
-  > disagreement/disagreements
-    | pron dIs-V-gri-mVnt/dIs-V-gri-mVnts
-  > consensus/consensuses
   > agreement/agreements
     | pron V-gri-mVnt/V-gri-mVnts
-  > understanding/understandings
-    | pron Vn-d3`-st{n-dIN/Vn-d3`-st{n-dINz
-  > friendship/friendships
-    | pron frEn-SIp/frEn-SIps
-  > rivalry/rivalries
-    | pron raI-vVl-ri/raI-vVl-riz
+  > conflict/conflicts
+    | pron kVn-flIkt/kAn-flIks
+  > consensus/consensuses
+  > disagreement/disagreements
+    | pron dIs-V-gri-mVnt/dIs-V-gri-mVnts
   > feud/feuds
     | pron fjud/fjudz
+  > fight/fights
+    | pron faIt/faIts
+  > friendship/friendships
+    | pron frEn-SIp/frEn-SIps
+  > relationship/relationships
+    | pron ri-leI-SVn-SIp/ri-leI-SVn-SIps
+  > rivalry/rivalries
+    | pron raI-vVl-ri/raI-vVl-riz
   > romance/romances
     | pron roU-m{ns/roU-m{n-sIz
+  > understanding/understandings
+    | pron Vn-d3`-st{n-dIN/Vn-d3`-st{n-dINz
 #class remove social
 
-#class add linguistic
-  > question/questions
-    | pron kwE-SVn/kwEs-tSVnz
-  > answer/answers
-    | pron {n-s3`/{n-s3`z
-#class remove linguistic

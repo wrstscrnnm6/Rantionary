@@ -104,18 +104,19 @@
     | pron {f-t3`
   > before
     | pron bi-fOrr
-  > during
-    | pron d3`-IN
   > despite
     | pron dI-spaIt
+  > during
+    | pron d3`-IN
   > following
     | pron fA-loU-IN
   > for
     | pron fr3`
-  > until
-    | pron Vn-tIl
-  > since
-    | pron sIns
   > regarding
     | pron rI-gArr-dIN
+  > since
+    | pron sIns
+  > until
+    | pron Vn-tIl
 #class remove time
+

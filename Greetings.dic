@@ -2,44 +2,44 @@
 #name greet
 #subs default
 
-> hello
-  | pron hE-loU
+> ahoy
+> aloha
+  | pron V-loU-hA
+> good afternoon
+  | pron gId-{f-t3`-nun
+> good day
+  | pron gId-deI
+> good evening
+  | pron gId-iv-nIN
+> good morning
+  | pron gId-mOrr-nIN
+> good night
+  | pron gId-naIt
 > greetings
   | pron gri-tINz
-> hola
+> guten Tag
+> hello
+  | pron hE-loU
 > hey
   | pron heI
+> hey buddy
+  | pron heI-bV-di
+> hola
+> how's it going
+  | pron haUz-It-goU-In
+> how's it hanging
+  | pron haUz-It-h{-NgIN
+> konichi wa
+  | pron wA
+> salutations
+> sup
+  | pron sVp
+> what's happening
+  | pron hwVts-h{p-nIN
+> what's new
+  | pron hwVts-nju
 > what's up
   | pron hwVts-Vp
 > whazzup
 > yo
   | pron joU
-> good day
-  | pron gId-deI
-> good morning
-  | pron gId-mOrr-nIN
-> good afternoon
-  | pron gId-{f-t3`-nun
-> good evening
-  | pron gId-iv-nIN
-> good night
-  | pron gId-naIt
-> hey buddy
-  | pron heI-bV-di
-> ahoy
-> sup
-  | pron sVp
-> salutations
-> aloha
-  | pron V-loU-hA
-> konichi wa
-  | pron wA
-> what's happening
-  | pron hwVts-h{p-nIN
-> how's it hanging
-  | pron haUz-It-h{-NgIN
-> how's it going
-  | pron haUz-It-goU-In
-> what's new
-  | pron hwVts-nju
-> guten Tag

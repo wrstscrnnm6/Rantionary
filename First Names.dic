@@ -2,210 +2,84 @@
 #name name
 #subs default abbr
 
+#class add female
+  > Alice
+  > Amanda
+  > Bertha
+  > Betty
+  > Britney
+  > Christina
+  > Crystal
+  > Debbie
+  > Delores
+  > Ember
+  > Gabrielle
+  > Gloria
+  > Heidi
+  > Helen
+  > Jacki
+  > Jane
+  > Jennifer
+  > Jessica
+  > Karen
+  > Kat
+  > Kate
+  > Kimberly
+  > Kristin
+  > Laura
+  > Lauren
+  > Linda
+  > Lindsey
+  > Maggie
+  > Marge
+  > Maria
+  > Martha
+  > Mary
+  > Megan
+  > Michelle
+  > Papa
+  > Rebecca
+  > Renae
+  > Ruth
+  > Sadie
+  > Sandra
+  > Sara
+  > Saralyn
+  > Scarlett
+  > Stacey
+  > Stephanie
+  > Susan
+  > Tiffany
+  > Tina
+  > Valerie
+  > Varlerie
+  > Vicki
+#class remove female
+
 #class add male
-  > Billybob/B
-  > Moses/M
-  > Barack/B
-  > Vijay/V
-  > Rex/R
-  > Sasquatch/S
-  > Elvis/E
-  > Zachy/Z
-  > John/J
-  > Mickey/M
-  > Jake/J
-  > Stan/S
-  > Jamier/J
-  > Sean/S
-  > Snuggles/S
-  > Max/M
-  > Mitchell/M
-  > Collin/C
-  > Nick/N
-  > Danny/D
-  > Ronald/R
-  > Tim/T
-  > Timmy/T
-  > Scott/S
-  > Cody/C
-  > Louie/L
-  > Keith/K
-  > Luke/L
-  > Nicholas
-  > Todd
-  > Barney
-  > Brandon
-  > Victor
-  > William
-  > Ken
-  > Gordon
-  > Grover
-  > Steve
-  > Kyle
-  > George
-  > Rick
-  > Craig
-  > Greg
-  > Andy
-  > Kevin
-  > Dick
-  > Tom
-  > Harry
-  > Bill
-  > Brian
-  > Francis
-  > Corbin
-  > Gilbert
-  > Jeff
-  > Bruce
-  > Benny
-  > Justin
-  > Tony
-  > Robin
-  > Roger
-  > Parker
-  > Vanshay
-  > Lee
-  > Ian
-  > Joshua
-  > Michael
-  > Shonuff
-  > Tristan
-  > Kermit
-  > Wilbur
-  > Malcolm
-  > Akbar
-  > Ambar
-  > Athumani
-  > Jela
-  > Jengo
-  > Kabili
-  > Kanaifu
-  > Kandoro
-  > Keto
-  > Khalfan
-  > Kiango
-  > Kijani
-  > Kondo
-  > Nuru
-  > Penda
-  > Penha
-  > Safari
-  > Thimba
-  > Adish
-  > Arash
-  > Ariabod
-  > Arwan
-  > Arya
-  > Asho
-  > Atish
-  > Baback
-  > Baraz
-  > Barbod
-  > Bardia
-  > Barid
-  > Bast
-  > Benham
-  > Bian
-  > Dareh
-  > Darius
-  > Darrius
-  > Dastan
-  > Gul
-  > Jahan
-  > Kamran
-  > Kaveh
-  > Kaysar
-  > Menelin
-  > Masih
-  > Meghdad
-  > Milad
-  > Nasha
-  > Naveed
-  > Navid
-  > Parham
-  > Pouria
-  > Radwan
-  > Roshan
-  > Saman
-  > Sardar
-  > Sarmad
-  > Shadan
-  > Shahan
-  > Shahin
-  > Shahryar
-  > Shapur
-  > Sher
+  > Abbot
+  > Abe
   > Abeeku
   > Abu
+  > Acton
+  > Adair
   > Addae
   > Ade
   > Adeben
+  > Adish
   > Adjatay
   > Adjo
   > Adwin
   > Agu
+  > Aidric
   > Ajamu
   > Ajani
+  > Akbar
   > Akello
   > Akia
   > Akins
   > Akintunde
-  > Anane
-  > Ande
-  > Andwele
-  > Armani
-  > Asante
-  > Ashanti
-  > Ayele
-  > Ayinde
-  > Ayzize
-  > Azibo
-  > Badru
-  > Bahari
-  > Bandele
-  > Banji
-  > Barke
-  > Belay
-  > Bem
-  > Berta
-  > Birungi
-  > Braima
-  > Camara
-  > Chiazam
-  > Chincha
-  > Chikezie
-  > Chimelu
-  > Chinelo
-  > Chinua
-  > Davu
-  > Deka
   > Akuna
-  > Binda
-  > Euroa
-  > Thor
-  > Gidja
-  > Kaawa
-  > Kinta
-  > Kumba
-  > Mani
-  > Omeo
-  > Onyx
-  > Paratyl
-  > Ponto
-  > Quoba
-  > Taworri
-  > Teangi
-  > Thono
-  > Tyipa
-  > Yamparti
-  > Yarran
-  > Yoyko
-  > Abbot
-  > Abe
-  > Acton
-  > Adair
-  > Aidric
   > Alan
   > Alastair
   > Albert
@@ -218,47 +92,88 @@
   > Alick
   > Allard
   > Alvar
+  > Ambar
+  > Anane
+  > Ande
+  > Andwele
+  > Andy
   > Ansley
   > Anson
   > Aragorn
+  > Arash
   > Arathorn
   > Arden
   > Argyle
+  > Ariabod
+  > Armani
   > Art
+  > Arwan
+  > Arya
+  > Asante
   > Ash
+  > Ashanti
   > Ashford
+  > Asho
   > Ashton
   > Atherton
+  > Athumani
+  > Atish
   > Atticus
   > Aubrey
   > August
   > Austin
   > Axton
+  > Ayele
+  > Ayinde
+  > Ayzize
+  > Azibo
+  > Baback
+  > Badru
+  > Bahari
   > Bailey
   > Baker
   > Baldwin
   > Balthasar
+  > Bandele
+  > Banji
+  > Barack/B
+  > Baraz
+  > Barbod
+  > Bardia
   > Bardolf
+  > Barid
+  > Barke
   > Barnaby
+  > Barney
   > Baron
   > Barrett
   > Barrington
   > Barton
+  > Bast
   > Baxter
   > Beauchamp
   > Beauregard
   > Beck
   > Beckett
   > Beckham
+  > Belay
+  > Bem
+  > Benham
   > Benjamin
+  > Benny
   > Benson
   > Bently
   > Benton
   > Berke
+  > Berta
   > Beverly
   > Bevis
-  > Bringham
+  > Bian
+  > Bill
+  > Billybob/B
+  > Binda
   > Birch
+  > Birungi
   > Bishop
   > Blake
   > Blaze
@@ -269,19 +184,24 @@
   > Brad
   > Bradley
   > Bradshaw
+  > Braima
+  > Brandon
   > Brantley
   > Brenton
   > Brett
   > Brewster
   > Breyson
+  > Brian
   > Briar
   > Brice
   > Bridger
   > Brighton
+  > Bringham
   > Bristol
   > Brock
   > Bronson
   > Brook
+  > Bruce
   > Bryan
   > Buckley
   > Burgess
@@ -291,6 +211,7 @@
   > Caldwell
   > Caledon
   > Calico
+  > Camara
   > Camden
   > Canon
   > Carlton
@@ -312,38 +233,55 @@
   > Chay
   > Chester
   > Chet
+  > Chiazam
+  > Chikezie
+  > Chimelu
+  > Chincha
+  > Chinelo
+  > Chinua
   > Chip
   > Clarence
   > Clark
   > Clayton
+  > Cleaveland
   > Cleavon
   > Clement
-  > Cleaveland
   > Clifford
   > Clifton
   > Clint
   > Clinton
   > Clive
+  > Cody/C
   > Colby
   > Coleman
+  > Collin/C
   > Colton
   > Conrad
   > Conroy
+  > Corbin
   > Cornell
   > Cosmo
   > Cotton
+  > Craig
   > Crawford
   > Creighton
   > Crimson
   > Crosby
   > Dalton
+  > Danny/D
+  > Dareh
+  > Darius
   > Darrel
+  > Darrius
   > Darryl
   > Darwin
   > Dash
+  > Dastan
   > Daughtry
+  > Davu
   > Dawson
   > Deacon
+  > Deka
   > Dennis
   > Derek
   > Derring
@@ -351,6 +289,7 @@
   > Dexter
   > Dexton
   > Diamond
+  > Dick
   > Dixon
   > Don
   > Donnie
@@ -387,6 +326,7 @@
   > Elmo
   > Elton
   > Elvin
+  > Elvis/E
   > Elwood
   > Emerson
   > Emmet
@@ -396,6 +336,7 @@
   > Ervin
   > Erwin
   > Eugene
+  > Euroa
   > Fairfax
   > Falcon
   > Farley
@@ -411,6 +352,7 @@
   > Forrest
   > Foster
   > Fraley
+  > Francis
   > Frank
   > Frederick
   > Frenchie
@@ -425,78 +367,138 @@
   > Gary
   > Gavin
   > Gaylord
+  > George
+  > Gidja
+  > Gilbert
   > Godfrey
+  > Gordon
   > Graham
   > Graydon
+  > Greg
   > Griff
+  > Grover
+  > Gul
   > Gulliver
   > Gus
+  > Harry
+  > Ian
+  > Jahan
+  > Jake/J
+  > Jamier/J
+  > Jeff
+  > Jela
+  > Jengo
+  > John/J
+  > Joshua
+  > Justin
+  > Kaawa
+  > Kabili
+  > Kamran
+  > Kanaifu
+  > Kandoro
+  > Kaveh
+  > Kaysar
+  > Keith/K
+  > Ken
+  > Kermit
+  > Keto
+  > Kevin
+  > Khalfan
+  > Kiango
+  > Kijani
+  > Kinta
+  > Kondo
+  > Kumba
+  > Kyle
+  > Lee
+  > Louie/L
+  > Luke/L
+  > Malcolm
+  > Mani
+  > Masih
+  > Max/M
+  > Meghdad
+  > Menelin
+  > Michael
+  > Mickey/M
+  > Milad
+  > Mitchell/M
+  > Moses/M
+  > Nasha
+  > Naveed
+  > Navid
+  > Nicholas
+  > Nick/N
+  > Nuru
+  > Omeo
+  > Onyx
+  > Paratyl
+  > Parham
+  > Parker
+  > Penda
+  > Penha
+  > Ponto
+  > Pouria
+  > Quoba
+  > Radwan
+  > Rex/R
+  > Rick
+  > Robin
+  > Roger
+  > Ronald/R
+  > Roshan
+  > Safari
+  > Saman
+  > Sardar
+  > Sarmad
+  > Sasquatch/S
+  > Scott/S
+  > Sean/S
+  > Shadan
+  > Shahan
+  > Shahin
+  > Shahryar
+  > Shapur
+  > Sher
+  > Shonuff
+  > Snuggles/S
+  > Stan/S
+  > Steve
+  > Taworri
+  > Teangi
+  > Thimba
+  > Thono
+  > Thor
+  > Tim/T
+  > Timmy/T
+  > Todd
+  > Tom
+  > Tony
+  > Tristan
+  > Tyipa
+  > Vanshay
+  > Victor
+  > Vijay/V
+  > Wilbur
+  > William
+  > Yamparti
+  > Yarran
+  > Yoyko
+  > Zachy/Z
 #class remove male
 
-#class add female
-  > Karen
-  > Heidi
-  > Gabrielle
-  > Jessica
-  > Laura
-  > Sara
-  > Linda
-  > Britney
-  > Kristin
-  > Kate
-  > Amanda
-  > Renae
-  > Ruth
-  > Betty
-  > Lindsey
-  > Saralyn
-  > Alice
-  > Stacey
-  > Sadie
-  > Kat
-  > Marge
-  > Mary
-  > Michelle
-  > Kimberly
-  > Debbie
-  > Megan
-  > Susan
-  > Maria
-  > Jennifer
-  > Helen
-  > Sandra
-  > Rebecca
-  > Martha
-  > Stephanie
-  > Gloria
-  > Jane
-  > Tina
-  > Tiffany
-  > Valerie
-  > Lauren
-  > Bertha
-  > Vicki
-  > Delores
-  > Jacki
-  > Varlerie
-  > Scarlett
-  > Christina
-  > Maggie
-  > Crystal
-  > Ember
-  > Papa
-#class remove female
-
-#class add male
-  #class add female
-    > Sam
+#class add male?
+  #class add female?
     > Adrian
-    > Quinn
-    > Sidney
-    > Jessie
-    > Jamie
-    > Jordan
-    > Tracy
     > Alex
-  #class remove female
-#class remove male
+    > Jamie
+    > Jessie
+    > Jordan
+    > Quinn
+    > Sam
+    > Sidney
+    > Tracy
+  #class remove female?
+
+#class remove male?
+

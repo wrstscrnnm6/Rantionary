@@ -2,96 +2,91 @@
 #name unit
 #subs singular plural abbr
 
-> centimeter/centimeters/cm
-  | class length small factor
-> meter/meters/m
-  | pron mi-t3`/mi-t3`z/Em
-  | class length
-> kilometer/kilometers/km
-  | class length large factor
-> inch/inches/in
-  | pron IntS/In-tSIz/In
-  | class length
-> foot/feet/ft
-  | class length
-> yard/yards/y
-  | pron jArrd/jArrdz/waI
-  | class length
-> mile/miles/mi
-  | pron maIl/maI-Vlz/mi
-  | class length
-> light-year/light-years/ly
-  | class length
-> pound/pounds/lb
-  | class weight
-> gram/grams/g
-  | pron gr{m/gr{mz/dZi
-  | class weight
-> kilogram/kilograms/kg
-  | class weight large factor
-> ton/tons/t
-  | pron tVn/tVnz/ti
-  | class weight
-> megaton/megatons/Mt
-  | class weight large factor
-> ounce/ounces/oz
-  | pron aUns/aUn-sIz/Az
-  | class weight
-> gallon/gallons/gal
-  | pron g{-lVn/g{-lVnz/g{l
-  | class volume
-> bucket/buckets/bucket
-  | pron bV-kIt/bV-kVts/bV-kIt
-  | class volume
-> liter/liters/L
-  | class volume
-> teaspoon/teaspoons/tsp
-  | class volume
-> cup/cups/c
-  | pron kVp/kVps/si
-  | class volume
-> quart/quarts/qt
-  | class volume
-> pint/pints/pt
-  | class volume
-> milliliter/milliliters/mL
-  | class volume small factor
-> tablespoon/tablespoons/tbsp
-  | class volume
-> decibel/decibels/dB
-  | class pressure
-> pascal/pascals/Pa
-  | class pressure
-> kilopascal/kilopascals/kPa
-  | class pressure large factor
-> cubic centimeter/cubic centimeters/cc
-  | pron kju-bIk-sEn-tV-mi-t3`/kju-bIk-sEn-tV-mi-t3`z/si-si
-  | class volume
-> volt/volts/V
-  | class energy potential
-> millivolt/millivolts/mV
-  | class energy potential small factor
-> kilovolt/kilovolts/kV
-  | class energy potential large factor
-> farad/farads/F
-  | class energy capacitance
-> microfarad/microfarads/μF
-  | class energy capacitance small factor
-> joule/joules/J
-  | class energy
-> kilojoule/kilojoules/kJ
-  | class energy large factor
-> ampere/amperes/A
-  | class energy current
-> milliampere/milliamperes/mA
-  | class energy current small factor
-> watt/watts/W
-  | class energy power
-> kilowatt/kilowatts/kW
-  | class energy power large factor
-> milliwatt/milliwatts/mW
-  | class energy power small factor
-> megawatt/megawatts/MW
-  | class energy power large factor
-> henry/henries/H
-  | class energy inductance
+#class add energy
+  > ampere/amperes/A
+    | class current
+  > farad/farads/F
+    | class capacitance
+  > henry/henries/H
+    | class inductance
+  > joule/joules/J
+  > kilojoule/kilojoules/kJ
+    | class factor large
+  > kilovolt/kilovolts/kV
+    | class factor large potential
+  > kilowatt/kilowatts/kW
+    | class factor large power
+  > megawatt/megawatts/MW
+    | class factor large power
+  > microfarad/microfarads/μF
+    | class capacitance factor small
+  > milliampere/milliamperes/mA
+    | class current factor small
+  > millivolt/millivolts/mV
+    | class factor potential small
+  > milliwatt/milliwatts/mW
+    | class factor power small
+  > volt/volts/V
+    | class potential
+  > watt/watts/W
+    | class power
+#class remove energy
+
+#class add factor
+  #class add large
+  #class remove large
+
+  #class add small
+  #class remove small
+
+#class remove factor
+
+#class add length
+  > centimeter/centimeters/cm
+    | class factor small
+  > foot/feet/ft
+  > inch/inches/in
+    | pron IntS/In-tSIz/In
+  > kilometer/kilometers/km
+    | class factor large
+  > light-year/light-years/ly
+  > meter/meters/m
+    | pron mi-t3`/mi-t3`z/Em
+  > mile/miles/mi
+    | pron maIl/maI-Vlz/mi
+  > yard/yards/y
+    | pron jArrd/jArrdz/waI
+#class remove length
+
+#class add volume
+  > bucket/buckets/bucket
+    | pron bV-kIt/bV-kVts/bV-kIt
+  > cubic centimeter/cubic centimeters/cc
+    | pron kju-bIk-sEn-tV-mi-t3`/kju-bIk-sEn-tV-mi-t3`z/si-si
+  > cup/cups/c
+    | pron kVp/kVps/si
+  > gallon/gallons/gal
+    | pron g{-lVn/g{-lVnz/g{l
+  > liter/liters/L
+  > milliliter/milliliters/mL
+    | class factor small
+  > pint/pints/pt
+  > quart/quarts/qt
+  > tablespoon/tablespoons/tbsp
+  > teaspoon/teaspoons/tsp
+#class remove volume
+
+#class add weight
+  > gram/grams/g
+    | pron gr{m/gr{mz/dZi
+  > kilogram/kilograms/kg
+    | class factor large
+  > megaton/megatons/Mt
+    | class factor large
+  > ounce/ounces/oz
+    | pron aUns/aUn-sIz/Az
+  > pound/pounds/lb
+  > ton/tons/t
+    | pron tVn/tVnz/ti
+#class remove weight
+

@@ -2,38 +2,38 @@
 #name face
 #subs default
 
-> smile
-  | pron smaIl
+> blank face
+  | pron bl{Nk-feIs
+> cheeky grin
+  | pron tSi-ki-grIn
+> evil grin
+  | pron i-vVl-grIn
 > frown
   | pron fraUn
 > grimace
   | pron grI-mVs
-> evil grin
-  | pron i-vVl-grIn
-> cheeky grin
-  | pron tSi-ki-grIn
-> sneer
-  | pron snIrr
-> pucker
-  | pron pV-k3`
-> smirk
-  | pron sm3`k
 > grin
   | pron grIn
+> poker face
+  | pron poU-k3`-feIs
+> pout
+  | pron paUt
+> pout lip
+  | pron paUt-lIp
+> pucker
+  | pron pV-k3`
+> smile
+  | pron smaIl
+> smirk
+  | pron sm3`k
 > snarl
   | pron snArrl
+> sneer
+  | pron snIrr
+> snicker
+  | pron snI-k3`
+> toothy grin
+  | pron tu-Ti-grIn
 > trollface
 > visage
   | pron vI-zVdZ
-> snicker
-  | pron snI-k3`
-> pout
-  | pron paUt
-> poker face
-  | pron poU-k3`-feIs
-> toothy grin
-  | pron tu-Ti-grIn
-> blank face
-  | pron bl{Nk-feIs
-> pout lip
-  | pron paUt-lIp

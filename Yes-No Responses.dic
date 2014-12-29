@@ -2,73 +2,74 @@
 #name yn
 #subs default
 
+#class add no
+  > absolutely not
+    | pron {b-sV-lut-li-nAt
+  > certainly not
+    | pron s3`-tVn-li-nAt
+  > definitely not
+    | pron dE-fV-nVt-li-nAt
+  > hell no
+    | pron hEl-noU
+  > impossible
+    | pron Im-pA-sV-bVl
+  > most certainly not
+    | pron moUs-s3`-tVn-li-nAt
+  > negative
+    | pron nE-gV-tIv
+  > no
+    | pron noU
+  > no way
+    | pron noU-weI
+  > nooooo
+  > nope
+    | pron noUp
+  > not at all
+    | pron nAt-{t-Ol
+  > obviously not
+    | pron Ab-vi-Vs-li-nAt
+  > oh no
+    | pron oU-noU
+  > that can't be
+    | pron DVt-k{nt-bi
+  > there's no way
+    | pron Derrz-noU-weI
+#class remove no
+
 #class add yes
-> yes
-  | pron jEs
-> yayaya
-> yep
-  | pron jEp
-> yeppers
-> definitely
-  | pron dE-fV-nVt-li
-> absolutely
-  | pron {b-sV-lut-li
-> without a doubt
-  | pron wID-aUt-eI-daUt
-> indeed
-  | pron In-did
-> affirmative
-  | pron V-f3`-mV-tIv
-> undoubtedly
-  | pron Vn-daU-tId-li
-> undeniably
-  | pron Vn-dI-naI-V-bli
-> yes/yes
-  | pron jEs/jEs
-> hell yes
-  | pron hEl-jEs
-> ya
-  | pron jA
-> certainly
-  | pron s3`-tVn-li
-> obviously
-  | pron Ab-vi-Vs-li
-> oh yes
-  | pron oU-jEs
-> I couldn't agree more
-  | pron I-kU-dVn-V-gri-mOrr
+  > absolutely
+    | pron {b-sV-lut-li
+  > affirmative
+    | pron V-f3`-mV-tIv
+  > certainly
+    | pron s3`-tVn-li
+  > definitely
+    | pron dE-fV-nVt-li
+  > hell yes
+    | pron hEl-jEs
+  > I couldn't agree more
+    | pron I-kU-dVn-V-gri-mOrr
+  > indeed
+    | pron In-did
+  > obviously
+    | pron Ab-vi-Vs-li
+  > oh yes
+    | pron oU-jEs
+  > undeniably
+    | pron Vn-dI-naI-V-bli
+  > undoubtedly
+    | pron Vn-daU-tId-li
+  > without a doubt
+    | pron wID-aUt-eI-daUt
+  > ya
+    | pron jA
+  > yayaya
+  > yep
+    | pron jEp
+  > yeppers
+  > yes
+    | pron jEs
+  > yes/yes
+    | pron jEs/jEs
 #class remove yes
 
-#class add no
-> no
-  | pron noU
-> definitely not
-  | pron dE-fV-nVt-li-nAt
-> absolutely not
-  | pron {b-sV-lut-li-nAt
-> no way
-  | pron noU-weI
-> impossible
-  | pron Im-pA-sV-bVl
-> negative
-  | pron nE-gV-tIv
-> nope
-  | pron noUp
-> hell no
-  | pron hEl-noU
-> nooooo
-> not at all
-  | pron nAt-{t-Ol
-> certainly not
-  | pron s3`-tVn-li-nAt
-> obviously not
-  | pron Ab-vi-Vs-li-nAt
-> oh no
-  | pron oU-noU
-> most certainly not
-  | pron moUs-s3`-tVn-li-nAt
-> there's no way
-  | pron Derrz-noU-weI
-> that can't be
-  | pron DVt-k{nt-bi
-#class remove no

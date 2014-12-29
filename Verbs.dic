@@ -2,695 +2,493 @@
 #name verb
 #subs simple ing ed s er pp noun
 
-> love/loving/loved/loves/lover/loved/loving
-  | pron lVv/lV-vIN/lVvd/lVvz/lV-v3`/lVvd/lV-vIN
-  | class emotion
-> hate/hating/hated/hates/hater/hated/hating
-  | pron heIt/heI-tIN/heI-tId/heIts/heI-t3`/heI-tId/heI-tIN
-  | class emotion
-> whisper/whispering/whispered/whispers/whisperer/whispered/whispering
-> spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking
+#class add intransitive
+  #class add eat
+    > chew/chewing/chewed/chews/chewer/chewed/chewing
+      | pron tSu/tSu-IN/tSud/tSuz/tSu-3`/tSud/tSu-IN
+      | class transitive
+    > eat/eating/ate/eats/eater/eaten/eating
+      | pron it/i-tIN/eIt/its/i-t3`/i-tVn/i-tIN
+      | class transitive
+    > lick/licking/licked/licks/licker/licked/licking
+      | pron lIk/lI-kIN/lIkt/lIks/lI-k3`/lIkt/lI-kIN
+    > masticate/masticating/masticated/masticates/masticater/masticated/mastication
+      | class transitive
+    > slurp/slurping/slurped/slurps/slurper/slurped/slurping
+    > snort/snorting/snorted/snorts/snorter/snorted/snorting
+    > snuffle/snuffling/snuffled/snuffles/snuffler/snuffled/snuffling
+  #class remove eat
+
+  #class add pose
+    > crouch/crouching/crouched/crouches/croucher/crouched/crouching
+    > lay/laying/laid/lays/layer/laid/laying
+      | pron leI/leI-IN/leId/leIz/leI-3`/leId/leI-IN
+    > sit/sitting/sat/sits/sitter/sat/sitting
+      | pron sIt/sI-tIN/s{t/sIts/sI-t3`/s{t/sI-tIN
+    > squat/squatting/squatted/squats/squatter/squatted/squatting
+    > stand/standing/stood/stands/stander/stood/standing
+      | pron st{nd/st{n-dIN/stUd/st{ndz/st{n-d3`/stUd/st{n-dIN
+  #class remove pose
+
+  > fume/fuming/fumed/fumes/fumer/fumed/fuming
+  > lather/lathering/lathered/lathers/latherer/lathered/lathering
+  > pray/praying/prayed/prays/prayer/prayed/prayer
+    | pron preI/preI-IN/preId/preIz/preI-3`/preId/preI-3`
+#class remove intransitive
+
+#class add motion
+  #class add insert
+    > cram/cramming/crammed/crams/crammer/crammed/cramming
+      | pron kr{m/kr{-mIN/kr{md/kr{mz/kr{-m3`/kr{md/kr{-mIN
+    > inject/injecting/injected/injects/injector/injected/injection
+      | pron In-dZEkt/In-dZEk-tIN/In-dZEk-tId/In-dZEkts/In-dZEk-t3`/In-dZEk-tId/In-dZEk-SVn
+    > poke/poking/poked/pokes/poker/poked/poking
+      | pron poUk/poU-kIN/poUkt/poUks/poU-k3`/poUkt/poU-kIN
+    > prod/prodding/prodded/prods/prodder/prodded/prodding
+    > screw/screwing/screwed/screws/screwer/screwed/screwing
+    > stick/sticking/stuck/sticks/sticker/stuck/sticking
+      | pron stIk/stI-kIN/stVk/stIks/stI-k3`/stVk/stI-kIN
+    > wedge/wedging/wedged/wedges/wedger/wedged/wedging
+  #class remove insert
+
+  > bang/banging/banged/bangs/banger/banged/banging
+    | pron b{N/b{-NIN/b{Nd/b{Nz/b{-N3`/b{Nd/b{-NIN
+  > bind/binding/bound/binds/binder/bound/binding
+    | pron baInd/baIn-dIN/baUnd/baIndz/baIn-d3`/baUnd/baIn-dIN
+  > blow/blowing/blew/blows/blower/blown/blowing
+    | pron bloU/bloU-IN/blu/bloUz/bloU-3`/bloUn/bloU-IN
+  > crank/cranking/cranked/cranks/cranker/cranked/cranking
+  > crunch/crunching/crunched/crunches/cruncher/crunched/crunching
+    | pron krVntS/krVn-tSIN/krVntSt/krVn-tSIz/krVn-tS3`/krVntSt/krVn-tSIN
+  > eject/ejecting/ejected/ejects/ejector/ejected/ejection
+  > fly/flying/flew/flies/flier/flown/flying
+    | pron flaI/flaI-IN/flu/flaIz/flaI-3`/floUn/flaI-IN
+  > force/forcing/forced/forces/forcer/forced/forcing
+  > hack/hacking/hacked/hacks/hacker/hacked/hacking
+    | pron h{k/h{-kIN/h{kt/h{ks/h{-k3`/h{kt/h{-kIN
+  > hurl/hurling/hurled/hurls/hurler/hurled/hurling
+  > kick/kicking/kicked/kicks/kicker/kicked/kicking
+    | pron kIk/kI-kIN/kIkt/kIks/kI-k3`/kIkt/kI-kIN
+  > knead/kneading/kneaded/kneads/kneader/kneaded/kneading
+  > move/moving/moved/moves/mover/moved/moving
+    | pron muv/mu-vIN/muvd/muvz/mu-v3`/muvd/mu-vIN
+  > press/pressing/pressed/presses/presser/pressed/pressing
+    | pron prEs/prE-sIN/prEst/prE-sIz/prE-s3`/prEst/prE-sIN
+  > pump/pumping/pumped/pumps/pumper/pumped/pumping
+  > rip/ripping/ripped/rips/ripper/ripped/ripping
+    | pron rIp/rI-pIN/rIpt/rIps/rI-p3`/rIpt/rI-pIN
+  > serve/serving/served/serves/server/served/serving
+    | pron s3`v/s3`-vIN/s3`vd/s3`vz/s3`-v3`/s3`vd/s3`-vIN
+  > shake/shaking/shook/shakes/shaker/shaken/shaking
+    | pron SeIk/SeI-kIN/SUk/SeIks/SeI-k3`/SeI-kVn/SeI-kIN
+  > shoot/shooting/shot/shoots/shooter/shot/shooting
+    | pron Sut/Su-tIN/SAt/Suts/Su-t3`/SAt/Su-tIN
+  > slam/slamming/slammed/slams/slammer/slammed/slamming
+    | pron sl{m/sl{-mIN/sl{md/sl{mz/sl{-m3`/sl{md/sl{-mIN
+  > slip/slipping/slipped/slips/slipper/slipped/slipping
+    | pron slIp/slI-pIN/slIpt/slIps/slI-p3`/slIpt/slI-pIN
+  > smack/smacking/smacked/smacks/smacker/smacked/smacking
+  > squish/squishing/squished/squishes/squisher/squished/squishing
+  > staple/stapling/stapled/staples/stapler/stapled/stapling
+    | pron steI-pVl/steI-plIN/steI-pVld/steI-pVlz/steIp-l3`/steI-pVld/steI-plIN
+  > stomp/stomping/stomped/stomps/stomper/stomped/stomping
+  > throw/throwing/threw/throws/thrower/thrown/throwing
+    | pron TroU/TroU-IN/Tru/TroUz/TroU-3`/TroUn/TroU-IN
+  > tremble/trembling/trembled/trembles/trembler/trembled/trembling
+  > twang/twanging/twanged/twangs/twanger/twanged/twanging
+  > twist/twisting/twisted/twists/twister/twisted/twisting
+    | pron twIst/twI-stIN/twI-stId/twIsts/twI-st3`/twI-stId/twI-stIN
+  > waddle/waddling/waddled/woddles/woddler/waddled/waddling
+  > wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+#class remove motion
+
+#class add political
+  > amend/amending/amended/amends/amender/amended/amendment
+  > elect/electing/elected/elects/electer/elected/election
+  > impeach/impeaching/impeached/impeaches/impeacher/impeached/impeachment
+  > inaugurate/inaugurating/inaugurated/inaugurates/inaugurater/inaugurated/inauguration
+  > ratify/ratifying/ratified/ratifies/ratifier/ratified/ratification
+  > veto/vetoing/vetoed/vetoes/vetoer/vetoed/vetoing
+#class remove political
 
 #class add transitive
-  > invigorate/invigorating/invigorated/invigorates/invigorator/invigorated/invigoration
-  > extrapolate/extrapolating/extrapolated/extrapolates/extrapolator/extrapolated/extrapolation
-  > extrude/extruding/extruded/extrudes/extruder/extruded/extruding
-  > squelch/squelching/squelched/squelches/squelcher/squelched/squelching
+  #class add insert
+    > feed/feeding/fed/feeds/feeder/fed/feeding
+      | pron fid/fi-dIN/fEd/fidz/fi-d3`/fEd/fi-dIN
+    > plunge/plunging/plunged/plunges/plunger/plunged/plunging
+      | pron plVndZ/plVn-dZIN/plVndZd/plVn-dZIz/plVn-dZ3`/plVndZd/plVn-dZIN
+    > push/pushing/pushed/pushes/pusher/pushed/pushing
+      | pron pUS/pU-SIN/pUSt/pU-SIz/pU-S3`/pUSt/pU-SIN
+      | class move
+    > ram/ramming/rammed/rams/rammer/rammed/ramming
+      | pron r{m/r{-mIN/r{md/r{mz/r{-m3`/r{md/r{-mIN
+  #class remove insert
+
+  #class add intransitive
+    > bake/baking/baked/bakes/baker/baked/baking
+      | pron beIk/beI-kIN/beIkt/beIks/beI-k3`/beIkt/beI-kIN
+    > bathe/bathing/bathed/bathes/bather/bathed/bathing
+      | pron beID/beI-DIN/beIDd/beIDz/b{-D3`/beIDd/beI-DIN
+    > boil/boiling/boiled/boils/boiler/boiled/boiling
+      | pron bOIl/bOI-lIN/bOIld/bOIlz/bOI-l3`/bOIld/bOI-lIN
+    > breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
+    > burn/burning/burned/burns/burner/burnt/burning
+      | pron b3`n/b3`-nIN/b3`nd/b3`nz/b3`-n3`/b3`nt/b3`-nIN
+    > cook/cooking/cooked/cooks/cooker/cooked/cooking
+      | pron kUk/kU-kIN/kUkt/kUks/kU-k3`/kUkt/kU-kIN
+    > cuddle/cuddling/cuddled/cuddles/cuddler/cuddled/cuddling
+    > cut/cutting/cut/cuts/cutter/cut/cutting
+      | pron kVt/kV-tIN/kVt/kVts/kV-t3`/kVt/kV-tIN
+    > dig/digging/dug/digs/digger/dug/digging
+      | pron dIg/dI-gIN/dVg/dIgz/dI-g3`/dVg/dI-gIN
+    > fiddle/fiddling/fiddled/fiddles/fiddler/fiddled/fiddling
+      | pron fI-dVl/fId-lIN/fI-dVld/fI-dVlz/fId-l3`/fI-dVld/fId-lIN
+    > flatten/flattening/flattened/flattens/flattener/flattened/flattening
+    > flick/flicking/flicked/flicks/flicker/flicked/flicking
+    > freeze/freezing/froze/freezes/freezer/frozen/freezing
+      | pron friz/fri-zIN/froUz/fri-zIz/fri-z3`/froU-zVn/fri-zIN
+    > hiccup/hiccuping/hiccuped/hiccups/hiccuper/hiccuped/hiccuping
+    > jerk/jerking/jerked/jerks/jerker/jerked/jerking
+    > kiss/kissing/kissed/kisses/kisser/kissed/kissing
+      | pron kIs/kI-sIN/kIst/kI-sIz/kI-s3`/kIst/kI-sIN
+    > moan/moaning/moaned/moans/moaner/moaned/moaning
+    > plaster/plastering/plastered/plasters/plasterer/plastered/plastering
+      | pron pl{-st3`/pl{-st3`-IN/pl{-st3`d/pl{-st3`z/pl{-st3`-3`/pl{-st3`d/pl{-st3`-IN
+    > pull/pulling/pulled/pulls/puller/pulled/pulling
+      | pron pUl/pU-lIN/pUld/pUlz/pU-l3`/pUld/pU-lIN
+    > rattle/rattling/rattled/rattles/rattler/rattled/rattling
+      | pron r{-tVl/r{-tVl-IN/r{-tVld/r{-tVlz/r{t-l3`/r{-tVld/r{-tVl-IN
+    > roll/rolling/rolled/rolls/roller/rolled/rolling
+      | pron roUl/roU-lIN/roUld/roUlz/roU-l3`/roUld/roU-lIN
+    > rot/rotting/rotted/rots/rotter/rotten/rotting
+      | pron rAt/rA-tIN/rA-tId/rAts/rA-t3`/rA-tVn/rA-tIN
+    > rustle/rustling/rustled/rustles/rustler/rustled/rustling
+    > scorch/scorching/scorched/scorches/scorcher/scorched/scorching
+    > scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
+    > sculpt/sculpting/sculpted/sculpts/sculptor/sculpted/sculpture
+      | pron skVlpt/skVlp-tIN/skVlp-tId/skVlpts/skVlp-t3`/skVlp-tId/skVlp-tS3`
+    > shave/shaving/shaved/shaves/shaver/shaved/shaving
+      | pron SeIv/SeI-vIN/SeIvd/SeIvz/SeI-v3`/SeIvd/SeI-vIN
+    > smoke/smoking/smoked/smokes/smoker/smoked/smoking
+      | pron smoUk/smoU-kIN/smoUkt/smoUks/smoU-k3`/smoUkt/smoU-kIN
+    > sniff/sniffing/sniffed/sniffs/sniffer/sniffed/sniffing
+      | pron snIf/snI-fIN/snIft/snIfs/snI-f3`/snIft/snI-fIN
+      | class eat
+    > snuggle/snuggling/snuggled/snuggles/snuggler/snuggled/snuggling
+    > soak/soaking/soaked/soaks/soaker/soaked/soaking
+    > strain/straining/strained/strains/strainer/strained/straining
+    > swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
+    > tinkle/tinkling/tinkled/tinkles/tinkler/tinkled/tinkling
+    > vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
+    > waste/wasting/wasted/wastes/waster/wasted/wasting
+      | pron weIst/weI-stIN/weI-stId/weIsts/weI-st3`/weI-stId/weI-stIN
+    > yank/yanking/yanked/yanks/yanker/yanked/yanking
+  #class remove intransitive
+
+  #class add legal
+    > convict/convicting/convicted/convicts/convicter/convicted/conviction
+    > legalize/legalizing/legalized/legalizes/legalizer/legalized/legalization
+    > prosecute/prosecuting/prosecuted/prosecutes/prosecuter/prosecuted/prosecution
+    > sue/suing/sued/sues/suer/sued/suing
+  #class remove legal
+
+  #class add liquid
+    > drain/draining/drained/drains/drainer/drained/draining
+      | pron dreIn/dreI-nIN/dreInd/dreInz/dreI-n3`/dreInd/dreI-nIN
+      | class intransitive
+    > drip/dripping/dripped/drips/dripper/dripped/dripping
+      | class intransitive
+    > jet-spray/jet-spraying/jet-sprayed/jet-sprays/jet-sprayer/jet-sprayed/jet-spraying
+    > paint/painting/painted/paints/painter/painted/painting
+      | pron peInt/peI-nIN/peI-nId/peInts/peI-n3`/peI-nId/peI-nIN
+      | class intransitive
+    > piss/pissing/pissed/pisses/pisser/pissed/pissing
+      | class intransitive
+    > pour/pouring/poured/pours/pourer/poured/pouring
+    > shower/showering/showered/showers/showerer/showered/showering
+    > smear/smearing/smeared/smears/smearer/smeared/smearing
+    > splash/splashing/splashed/splashes/splasher/splashed/splashing
+      | class intransitive
+    > splatter/splattering/splattered/splatters/splatterer/splattered/splattering
+    > spray/spraying/sprayed/sprays/sprayer/sprayed/spraying
+      | pron spreI/spreI-IN/spreId/spreIz/spreI-3`/spreId/spreI-IN
+    > sprinkle/sprinkling/sprinkled/sprinkles/sprinkler/sprinkled/sprinkling
+      | pron sprIN-kVl/sprIN-kVl-IN/sprIN-kVld/sprIN-kVlz/sprIN-kV-l3`/sprIN-kVld/sprIN-kVl-IN
+      | class intransitive
+    > spurt/spurting/spurted/spurts/spurter/spurted/spurting
+      | class intransitive
+    > sputter/sputtering/sputtered/sputters/sputterer/sputtered/sputtering
+      | class intransitive
+    > squirt/squirting/squirted/squirts/squirter/squirted/squirting
+      | class intransitive
+  #class remove liquid
+
   > articulate/articulating/articulated/articulates/articulator/articulated/articulation
-  > transcribe/transcribing/transcribed/transcribes/transcriber/transcribed/transcribing
-    | pron tr{n-skraIb/tr{n-skraI-bIN/tr{n-skraIbd/tr{n-skraIbz/tr{n-skraI-b3`/tr{n-skraIbd/tr{n-skraI-bIN
-  > draft/drafting/drafted/drafts/drafter/drafted/drafting
-    | pron dr{ft/dr{f-tIN/dr{f-tId/dr{fts/dr{f-t3`/dr{f-tId/dr{f-tIN
-  > tune/tuning/tuned/tunes/tuner/tuned/tunings
-  > withdraw/withdrawing/withdrew/withdraws/withdrawer/withdrawn/withdrawing
-  > strategize/strategizing/strategized/strategizes/strategizer/strategized/strategizing
-  > zip/zipping/zipped/zips/zipper/zipped/zipping
-    | pron zIp/zI-pIN/zIpt/zIps/zI-p3`/zIpt/zI-pIN
-  > extend/extending/extended/extends/extender/extended/extending
-    | pron Ik-stEnd/Ik-stEn-dIN/Ik-stEn-dId/Ik-stEndz/Ek-stEn-d3`/Ik-stEn-dId/Ik-stEn-dIN
-  > streamline/streamlining/streamlined/streamlines/streamliner/streamlined/streamlining
-  > organize/organizing/organized/organizes/organizer/organized/organization
-    | pron Orr-gV-naIz/Orr-gV-naI-zIN/Orr-gV-naIzd/Orr-gV-naI-zIz/Orr-gV-naI-z3`/Orr-gV-naIzd/Orr-gV-nV-zeI-SVn
-  > quantify/quantifying/quantified/quantifies/quantifier/quantified/quantification
-  > grate/grating/grated/grates/grater/grated/grating
-    | pron greIt/greI-tIN/greI-tId/greIts/greI-t3`/greI-tId/greI-tIN
-  > tape/taping/taped/tapes/taper/taped/taping
-    | pron teIp/teI-pIN/teIpt/teIps/teI-p3`/teIpt/teI-pIN
-  > oil/oiling/oiled/oils/oiler/oiled/oiling
-    | pron OIl/OI-lIN/OIld/OIlz/OI-l3`/OIld/OI-lIN
-  > strap/strapping/strapped/straps/strapper/strapped/strapping
-  > snoop/snooping/snooped/snoops/snooper/snooped/snooping
-    | class walk
-  > click/clicking/clicked/clicks/clicker/clicked/clicking
-    | pron klIk/klI-kIN/klIkt/klIks/klI-k3`/klIkt/klI-kIN
-  > flap/flapping/flapped/flaps/flapper/flapped/flapping
-    | pron fl{p/fl{-pIN/fl{pt/fl{ps/fl{-p3`/fl{pt/fl{-pIN
-  > cultivate/cultivating/cultivated/cultivates/cultivater/cultivated/cultivation
-  > moan/moaning/moaned/moans/moaner/moaned/moaning
-    | class intransitive
-  > discipline/disciplining/disciplined/disciplines/discipliner/disciplined/discipline
-  > rustle/rustling/rustled/rustles/rustler/rustled/rustling
-    | class intransitive
-  > examine/examining/examined/examines/examiner/examined/examination
-    | pron Ig-z{-mIn/Ig-z{-mI-nIN/Ig-z{-mVnd/Ig-z{-mVnz/Ig-z{-mV-n3`/Ig-z{-mVnd/Ig-z{-mV-neI-SVn
-  > fiddle/fiddling/fiddled/fiddles/fiddler/fiddled/fiddling
-    | pron fI-dVl/fId-lIN/fI-dVld/fI-dVlz/fId-l3`/fI-dVld/fId-lIN
-    | class intransitive
-  > stew/stewing/stewed/stews/stewer/stewed/stewing
-  > stir/stirring/stirred/stirs/stirrer/stirred/stirring
-  > hug/hugging/hugged/hugs/hugger/hugged/hugging
-    | pron hVg/hV-gIN/hVgd/hVgz/hV-g3`/hVgd/hV-gIN
-  > pop/popping/popped/pops/popper/popped/popping
-    | pron pAp/pA-pIN/pApt/pAps/pA-p3`/pApt/pA-pIN
-  > hiccup/hiccuping/hiccuped/hiccups/hiccuper/hiccuped/hiccuping
-    | class intransitive
-  > sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
-  > clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
-    | pron klin/kli-nIN/klind/klinz/kli-n3`/klind/kli-nIN
-  > touch/touching/touched/touches/toucher/touched/touching
-  > vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
-    | class intransitive
-  > strain/straining/strained/strains/strainer/strained/straining
-    | class transitive intransitive
-  > kill/killing/killed/kills/killer/killed/killing
-    | pron kIl/kI-lIN/kIld/kIlz/kI-l3`/kIld/kI-lIN
   > barbeque/barbequing/barbequed/barbeques/barbequer/barbequed/barbequing
-  > gargle/gargling/gargled/gargles/gargler/gargled/gargling
-  > crumple/crumpling/crumpled/crumples/crumpler/crumpled/crumpling
-  > salt/salting/salted/salts/salter/salted/salting
-    | pron sOlt/sOl-tIN/sOl-tId/sOlts/sOl-t3`/sOl-tId/sOl-tIN
-  > season/seasoning/seasoned/seasons/seasoner/seasoned/seasoning
-  > marinate/marinating/marinated/marinates/marinater/marinated/marination
-  > pickle/pickling/pickled/pickles/pickler/pickled/pickling
-    | pron pI-kVl/pI-klIN/pI-kVld/pI-kVlz/pIk-l3`/pI-kVld/pI-klIN
-  > polish/polishing/polished/polishes/polisher/polished/polishing
-  > caress/caressing/caressed/caresses/caresser/caressed/caressing
-  > stimulate/stimulating/stimulated/stimulates/stimulator/stimulated/stimulation
-    | pron stI-mjV-leIt/stI-mjV-leI-tIN/stI-mjV-leI-tId/stI-mjV-leIts/stI-mjV-leI-t3`/stI-mjV-leI-tId/stI-mjV-leI-SVn
-  > hunt/hunting/hunted/hunts/hunter/hunted/hunting
-    | pron hVnt/hVn-tIN/hV-nId/hVnts/hVn-t3`/hV-nId/hVn-tIN
-  > dishonor/dishonoring/dishonored/dishonors/dishonorer/dishonored/dishonoring
-  > puff/puffing/puffed/puffs/puffer/puffed/puffing
-    | pron pVf/pV-fIN/pVft/pVfs/pV-f3`/pVft/pV-fIN
-  > suckle/suckling/suckled/suckles/suckler/suckled/suckling
-  > squeeze/squeezing/squeezed/squeezes/squeezer/squeezed/squeezing
-  > infest/infesting/infested/infests/infester/infested/infestation
-  > tap/tapping/tapped/taps/tapper/tapped/tapping
-    | pron t{p/t{-pIN/t{pt/t{ps/t{-p3`/t{pt/t{-pIN
-  > probe/probing/probed/probes/proper/probed/probing
-    | pron proUb/proU-bIN/proUbd/proUbz/prA-p3`/proUbd/proU-bIN
-  > tinkle/tinkling/tinkled/tinkles/tinkler/tinkled/tinkling
-    | class intransitive
   > blast/blasting/blasted/blasts/blaster/blasted/blasting
     | pron bl{st/bl{-stIN/bl{-stId/bl{sts/bl{-st3`/bl{-stId/bl{-stIN
-  > shave/shaving/shaved/shaves/shaver/shaved/shaving
-    | pron SeIv/SeI-vIN/SeIvd/SeIvz/SeI-v3`/SeIvd/SeI-vIN
-    | class transitive intransitive
-  > wrinkle/wrinkling/wrinkled/wrinkles/wrinkler/wrinkled/wrinkling
-  > kiss/kissing/kissed/kisses/kisser/kissed/kissing
-    | pron kIs/kI-sIN/kIst/kI-sIz/kI-s3`/kIst/kI-sIN
-    | class transitive intransitive
-  > cuddle/cuddling/cuddled/cuddles/cuddler/cuddled/cuddling
-    | class transitive intransitive
-  > soak/soaking/soaked/soaks/soaker/soaked/soaking
-    | class transitive intransitive
-  > grip/gripping/gripped/grips/gripper/gripped/gripping
-  > jerk/jerking/jerked/jerks/jerker/jerked/jerking
-    | class transitive intransitive
-  > scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
-    | class transitive intransitive
-  > mist/misting/misted/mists/mister/misted/misting
-  > burn/burning/burned/burns/burner/burnt/burning
-    | pron b3`n/b3`-nIN/b3`nd/b3`nz/b3`-n3`/b3`nt/b3`-nIN
-    | class transitive intransitive
-  > freeze/freezing/froze/freezes/freezer/frozen/freezing
-    | pron friz/fri-zIN/froUz/fri-zIz/fri-z3`/froU-zVn/fri-zIN
-    | class transitive intransitive
-  > dry-freeze/dry-freezing/dry-froze/dry-freezes/dry-freezer/dry-frozen/dry-freezing
-  > bake/baking/baked/bakes/baker/baked/baking
-    | pron beIk/beI-kIN/beIkt/beIks/beI-k3`/beIkt/beI-kIN
-    | class transitive intransitive
-  > deep-fry/deep-frying/deep-fried/deep-fries/deep-frier/deep-fried/deep-frying
-  > swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
-    | class transitive intransitive
-  > flatten/flattening/flattened/flattens/flattener/flattened/flattening
-    | class transitive intransitive
-  > glue/gluing/glued/glues/gluer/glued/gluing
-  > rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
-    | pron rVb/rV-bIN/rVbd/rVbz/rV-b3`/rVbd/rV-bIN
-  > swipe/swiping/swiped/swipes/swiper/swiped/swiping
-  > rot/rotting/rotted/rots/rotter/rotten/rotting
-    | pron rAt/rA-tIN/rA-tId/rAts/rA-t3`/rA-tVn/rA-tIN
-    | class intransitive
-  > sculpt/sculpting/sculpted/sculpts/sculptor/sculpted/sculpture
-    | pron skVlpt/skVlp-tIN/skVlp-tId/skVlpts/skVlp-t3`/skVlp-tId/skVlp-tS3`
-    | class transitive intransitive
-  > iron/ironing/ironed/irons/ironer/ironed/ironing
-  > roll/rolling/rolled/rolls/roller/rolled/rolling
-    | pron roUl/roU-lIN/roUld/roUlz/roU-l3`/roUld/roU-lIN
-    | class transitive intransitive
-  > slit/slitting/slit/slits/slitter/slit/slitting
-  > cut/cutting/cut/cuts/cutter/cut/cutting
-    | pron kVt/kV-tIN/kVt/kVts/kV-t3`/kVt/kV-tIN
-    | class transitive intransitive
-  > loosen/loosening/loosened/loosens/loosener/loosened/loosening
-  > tighten/tightening/tightened/tightens/tightener/tightened/tightening
-  > penetrate/penetrating/penetrated/penetrates/penetrator/penetrated/penetration
-  > strike/striking/struck/strikes/striker/stricken/striking
-    | pron straIk/straI-kIN/strVk/straIks/straI-k3`/strI-kVn/straI-kIN
-  > recycle/recycling/recycled/recycles/recycler/recycled/recycling
-    | pron ri-saI-kVl/ri-saI-klIN/ri-saI-kVld/ri-saI-kVlz/ri-saI-kl3`/ri-saI-kVld/ri-saI-klIN
-  > groom/grooming/groomed/grooms/groomer/groomed/grooming
-    | pron grum/gru-mIN/grumd/grumz/gru-m3`/grumd/gru-mIN
-  > hypnotize/hypnotizing/hypnotized/hypnotizes/hypnotist/hypnotized/hypnosis
-  > dig/digging/dug/digs/digger/dug/digging
-    | pron dIg/dI-gIN/dVg/dIgz/dI-g3`/dVg/dI-gIN
-    | class transitive intransitive
-  > crush/crushing/crushed/crushes/crusher/crushed/crushing
-    | pron krVS/krV-SIN/krVSt/krV-SIz/krV-S3`/krVSt/krV-SIN
-  > cook/cooking/cooked/cooks/cooker/cooked/cooking
-    | pron kUk/kU-kIN/kUkt/kUks/kU-k3`/kUkt/kU-kIN
-    | class transitive intransitive
-  > rattle/rattling/rattled/rattles/rattler/rattled/rattling
-    | pron r{-tVl/r{-tVl-IN/r{-tVld/r{-tVlz/r{t-l3`/r{-tVld/r{-tVl-IN
-    | class intransitive
-  > massage/massaging/massaged/massages/massager/massaged/massage
-    | pron mV-sAZ/mV-sA-ZIN/mV-sAZd/mV-sA-ZIz/mV-sA-Z3`/mV-sAZd/mV-sAZ
-  > toke/toking/toked/tokes/toker/toked/toking
-  > pull/pulling/pulled/pulls/puller/pulled/pulling
-    | pron pUl/pU-lIN/pUld/pUlz/pU-l3`/pUld/pU-lIN
-    | class transitive intransitive
-  > yank/yanking/yanked/yanks/yanker/yanked/yanking
-    | class transitive intransitive
-  > dice/dicing/diced/dices/dicer/diced/dicing
+  > caress/caressing/caressed/caresses/caresser/caressed/caressing
   > chop/chopping/chopped/chops/chopper/chopped/chopping
     | pron tSAp/tSA-pIN/tSApt/tSAps/tSA-p3`/tSApt/tSA-pIN
-  > boil/boiling/boiled/boils/boiler/boiled/boiling
-    | pron bOIl/bOI-lIN/bOIld/bOIlz/bOI-l3`/bOIld/bOI-lIN
-    | class transitive intransitive
-  > uproot/uprooting/uprooted/uproots/uprooter/uprooted/uprooting
+  > clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
+    | pron klin/kli-nIN/klind/klinz/kli-n3`/klind/kli-nIN
+  > click/clicking/clicked/clicks/clicker/clicked/clicking
+    | pron klIk/klI-kIN/klIkt/klIks/klI-k3`/klIkt/klI-kIN
   > clip/clipping/clipped/clips/clipper/clipped/clipping
     | pron klIp/klI-pIN/klIpt/klIps/klI-p3`/klIpt/klI-pIN
-  > stroke/stroking/stroked/strokes/stroker/stroked/stroking
-    | class sex transitive
-  > plaster/plastering/plastered/plasters/plasterer/plastered/plastering
-    | pron pl{-st3`/pl{-st3`-IN/pl{-st3`d/pl{-st3`z/pl{-st3`-3`/pl{-st3`d/pl{-st3`-IN
-    | class transitive intransitive
-  > scrunch/scrunching/scrunched/scrunches/scruncher/scrunched/scrunching
-  > superglue/supergluing/superglued/superglues/supergluer/superglued/supergluing
+  > crumple/crumpling/crumpled/crumples/crumpler/crumpled/crumpling
+  > crush/crushing/crushed/crushes/crusher/crushed/crushing
+    | pron krVS/krV-SIN/krVSt/krV-SIz/krV-S3`/krVSt/krV-SIN
+  > cultivate/cultivating/cultivated/cultivates/cultivater/cultivated/cultivation
+  > deep-fry/deep-frying/deep-fried/deep-fries/deep-frier/deep-fried/deep-frying
+  > dice/dicing/diced/dices/dicer/diced/dicing
+  > discipline/disciplining/disciplined/disciplines/discipliner/disciplined/discipline
+  > dishonor/dishonoring/dishonored/dishonors/dishonorer/dishonored/dishonoring
+  > draft/drafting/drafted/drafts/drafter/drafted/drafting
+    | pron dr{ft/dr{f-tIN/dr{f-tId/dr{fts/dr{f-t3`/dr{f-tId/dr{f-tIN
+  > dry-freeze/dry-freezing/dry-froze/dry-freezes/dry-freezer/dry-frozen/dry-freezing
+  > eliminate/eliminating/eliminated/eliminates/eliminater/eliminated/elimination
   > embrace/embracing/embraced/embraces/embracer/embraced/embrace
-  > smoke/smoking/smoked/smokes/smoker/smoked/smoking
-    | pron smoUk/smoU-kIN/smoUkt/smoUks/smoU-k3`/smoUkt/smoU-kIN
-    | class transitive intransitive
-  > moisten/moistening/moistened/moistens/moistener/moistened/moisturization
-  > flick/flicking/flicked/flicks/flicker/flicked/flicking
-    | class transitive intransitive
-  > scorch/scorching/scorched/scorches/scorcher/scorched/scorching
-    | class transitive intransitive
-  > scold/scolding/scolded/scolds/scolder/scolded/scolding
-  > punish/punishing/punished/punishes/punisher/punished/punishment
+  > examine/examining/examined/examines/examiner/examined/examination
+    | pron Ig-z{-mIn/Ig-z{-mI-nIN/Ig-z{-mVnd/Ig-z{-mVnz/Ig-z{-mV-n3`/Ig-z{-mVnd/Ig-z{-mV-neI-SVn
+  > exploit/exploiting/exploited/exploits/exploiter/exploited/exploitation
+  > extend/extending/extended/extends/extender/extended/extending
+    | pron Ik-stEnd/Ik-stEn-dIN/Ik-stEn-dId/Ik-stEndz/Ek-stEn-d3`/Ik-stEn-dId/Ik-stEn-dIN
+  > extrapolate/extrapolating/extrapolated/extrapolates/extrapolator/extrapolated/extrapolation
+  > extrude/extruding/extruded/extrudes/extruder/extruded/extruding
+  > fight/fighting/fought/fights/fighter/fighted/fighting
+  > flap/flapping/flapped/flaps/flapper/flapped/flapping
+    | pron fl{p/fl{-pIN/fl{pt/fl{ps/fl{-p3`/fl{pt/fl{-pIN
+  > gargle/gargling/gargled/gargles/gargler/gargled/gargling
+  > glue/gluing/glued/glues/gluer/glued/gluing
+  > grate/grating/grated/grates/grater/grated/grating
+    | pron greIt/greI-tIN/greI-tId/greIts/greI-t3`/greI-tId/greI-tIN
+  > grind/grinding/grinded/grinds/grinder/ground/grinding
+  > grip/gripping/gripped/grips/gripper/gripped/gripping
+  > groom/grooming/groomed/grooms/groomer/groomed/grooming
+    | pron grum/gru-mIN/grumd/grumz/gru-m3`/grumd/gru-mIN
   > handle/handling/handled/handles/handler/handled/handling
     | pron h{n-dVl/h{n-dVl-IN/h{n-dVld/h{n-dVlz/h{n-dV-l3`/h{n-dVld/h{n-dVl-IN
+  > hug/hugging/hugged/hugs/hugger/hugged/hugging
+    | pron hVg/hV-gIN/hVgd/hVgz/hV-g3`/hVgd/hV-gIN
+  > hunt/hunting/hunted/hunts/hunter/hunted/hunting
+    | pron hVnt/hVn-tIN/hV-nId/hVnts/hVn-t3`/hV-nId/hVn-tIN
+  > hypnotize/hypnotizing/hypnotized/hypnotizes/hypnotist/hypnotized/hypnosis
+  > infest/infesting/infested/infests/infester/infested/infestation
+  > invigorate/invigorating/invigorated/invigorates/invigorator/invigorated/invigoration
+  > iron/ironing/ironed/irons/ironer/ironed/ironing
+  > kill/killing/killed/kills/killer/killed/killing
+    | pron kIl/kI-lIN/kIld/kIlz/kI-l3`/kIld/kI-lIN
+  > loosen/loosening/loosened/loosens/loosener/loosened/loosening
   > manipulate/manipulating/manipulated/manipulates/manipulator/manipulated/manipulation
     | pron mV-nI-pjV-leIt/mV-nI-pjV-leI-tIN/mV-nI-pjV-leI-tId/mV-nI-pjV-leIts/mV-nI-pjV-leI-t3`/mV-nI-pjV-leI-tId/mV-nI-pjV-leI-SVn
-  > exploit/exploiting/exploited/exploits/exploiter/exploited/exploitation
+  > marinate/marinating/marinated/marinates/marinater/marinated/marination
+  > massage/massaging/massaged/massages/massager/massaged/massage
+    | pron mV-sAZ/mV-sA-ZIN/mV-sAZd/mV-sA-ZIz/mV-sA-Z3`/mV-sAZd/mV-sAZ
+  > mist/misting/misted/mists/mister/misted/misting
   > misuse/misusing/misused/misuses/misuser/misused/misuse
-  > breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
-    | class transitive intransitive
+  > moisten/moistening/moistened/moistens/moistener/moistened/moisturization
+  > oil/oiling/oiled/oils/oiler/oiled/oiling
+    | pron OIl/OI-lIN/OIld/OIlz/OI-l3`/OIld/OI-lIN
+  > organize/organizing/organized/organizes/organizer/organized/organization
+    | pron Orr-gV-naIz/Orr-gV-naI-zIN/Orr-gV-naIzd/Orr-gV-naI-zIz/Orr-gV-naI-z3`/Orr-gV-naIzd/Orr-gV-nV-zeI-SVn
+  > penetrate/penetrating/penetrated/penetrates/penetrator/penetrated/penetration
+  > pickle/pickling/pickled/pickles/pickler/pickled/pickling
+    | pron pI-kVl/pI-klIN/pI-kVld/pI-kVlz/pIk-l3`/pI-kVld/pI-klIN
   > pillage/pillaging/pillaged/pillages/pillager/pillaged/pillaging
     | pron pI-lIdZ/pI-lI-dZIN/pI-lIdZd/pI-lI-dZIz/pI-lI-dZ3`/pI-lIdZd/pI-lI-dZIN
-  > eliminate/eliminating/eliminated/eliminates/eliminater/eliminated/elimination
-  > waste/wasting/wasted/wastes/waster/wasted/wasting
-    | pron weIst/weI-stIN/weI-stId/weIsts/weI-st3`/weI-stId/weI-stIN
-    | class transitive intransitive
-  > grind/grinding/grinded/grinds/grinder/ground/grinding
-  > fight/fighting/fought/fights/fighter/fighted/fighting
+  > polish/polishing/polished/polishes/polisher/polished/polishing
+  > pop/popping/popped/pops/popper/popped/popping
+    | pron pAp/pA-pIN/pApt/pAps/pA-p3`/pApt/pA-pIN
+  > probe/probing/probed/probes/proper/probed/probing
+    | pron proUb/proU-bIN/proUbd/proUbz/prA-p3`/proUbd/proU-bIN
+  > puff/puffing/puffed/puffs/puffer/puffed/puffing
+    | pron pVf/pV-fIN/pVft/pVfs/pV-f3`/pVft/pV-fIN
+  > punish/punishing/punished/punishes/punisher/punished/punishment
+  > quantify/quantifying/quantified/quantifies/quantifier/quantified/quantification
+  > recycle/recycling/recycled/recycles/recycler/recycled/recycling
+    | pron ri-saI-kVl/ri-saI-klIN/ri-saI-kVld/ri-saI-kVlz/ri-saI-kl3`/ri-saI-kVld/ri-saI-klIN
+  > rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
+    | pron rVb/rV-bIN/rVbd/rVbz/rV-b3`/rVbd/rV-bIN
+  > salt/salting/salted/salts/salter/salted/salting
+    | pron sOlt/sOl-tIN/sOl-tId/sOlts/sOl-t3`/sOl-tId/sOl-tIN
+  > sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
+  > scold/scolding/scolded/scolds/scolder/scolded/scolding
+  > scrunch/scrunching/scrunched/scrunches/scruncher/scrunched/scrunching
+  > season/seasoning/seasoned/seasons/seasoner/seasoned/seasoning
+  > slit/slitting/slit/slits/slitter/slit/slitting
+  > squeeze/squeezing/squeezed/squeezes/squeezer/squeezed/squeezing
+  > squelch/squelching/squelched/squelches/squelcher/squelched/squelching
+  > stew/stewing/stewed/stews/stewer/stewed/stewing
+  > stimulate/stimulating/stimulated/stimulates/stimulator/stimulated/stimulation
+    | pron stI-mjV-leIt/stI-mjV-leI-tIN/stI-mjV-leI-tId/stI-mjV-leIts/stI-mjV-leI-t3`/stI-mjV-leI-tId/stI-mjV-leI-SVn
+  > stir/stirring/stirred/stirs/stirrer/stirred/stirring
+  > strap/strapping/strapped/straps/strapper/strapped/strapping
+  > strategize/strategizing/strategized/strategizes/strategizer/strategized/strategizing
+  > streamline/streamlining/streamlined/streamlines/streamliner/streamlined/streamlining
+  > strike/striking/struck/strikes/striker/stricken/striking
+    | pron straIk/straI-kIN/strVk/straIks/straI-k3`/strI-kVn/straI-kIN
   > stuff/stuffing/stuffed/stuffs/stuffer/stuffed/stuffing
     | pron stVf/stV-fIN/stVft/stVfs/stV-f3`/stVft/stV-fIN
+  > suckle/suckling/suckled/suckles/suckler/suckled/suckling
+  > superglue/supergluing/superglued/superglues/supergluer/superglued/supergluing
+  > swipe/swiping/swiped/swipes/swiper/swiped/swiping
+  > tap/tapping/tapped/taps/tapper/tapped/tapping
+    | pron t{p/t{-pIN/t{pt/t{ps/t{-p3`/t{pt/t{-pIN
+  > tape/taping/taped/tapes/taper/taped/taping
+    | pron teIp/teI-pIN/teIpt/teIps/teI-p3`/teIpt/teI-pIN
+  > tighten/tightening/tightened/tightens/tightener/tightened/tightening
+  > toke/toking/toked/tokes/toker/toked/toking
+  > touch/touching/touched/touches/toucher/touched/touching
+  > transcribe/transcribing/transcribed/transcribes/transcriber/transcribed/transcribing
+    | pron tr{n-skraIb/tr{n-skraI-bIN/tr{n-skraIbd/tr{n-skraIbz/tr{n-skraI-b3`/tr{n-skraIbd/tr{n-skraI-bIN
+  > tune/tuning/tuned/tunes/tuner/tuned/tunings
+  > uproot/uprooting/uprooted/uproots/uprooter/uprooted/uprooting
+  > withdraw/withdrawing/withdrew/withdraws/withdrawer/withdrawn/withdrawing
+  > wrinkle/wrinkling/wrinkled/wrinkles/wrinkler/wrinkled/wrinkling
+  > zip/zipping/zipped/zips/zipper/zipped/zipping
+    | pron zIp/zI-pIN/zIpt/zIps/zI-p3`/zIpt/zI-pIN
 #class remove transitive
 
-> fume/fuming/fumed/fumes/fumer/fumed/fuming
-  | class intransitive
-> stand/standing/stood/stands/stander/stood/standing
-  | pron st{nd/st{n-dIN/stUd/st{ndz/st{n-d3`/stUd/st{n-dIN
-  | class pose intransitive
-> sit/sitting/sat/sits/sitter/sat/sitting
-  | pron sIt/sI-tIN/s{t/sIts/sI-t3`/s{t/sI-tIN
-  | class pose intransitive
-> lay/laying/laid/lays/layer/laid/laying
-  | pron leI/leI-IN/leId/leIz/leI-3`/leId/leI-IN
-  | class pose intransitive
-> crouch/crouching/crouched/crouches/croucher/crouched/crouching
-  | class pose intransitive
-> squat/squatting/squatted/squats/squatter/squatted/squatting
-  | class pose intransitive
-> slurp/slurping/slurped/slurps/slurper/slurped/slurping
-  | class eat intransitive
-> lick/licking/licked/licks/licker/licked/licking
-  | pron lIk/lI-kIN/lIkt/lIks/lI-k3`/lIkt/lI-kIN
-  | class eat intransitive
-> snort/snorting/snorted/snorts/snorter/snorted/snorting
-  | class eat intransitive
-> eat/eating/ate/eats/eater/eaten/eating
-  | pron it/i-tIN/eIt/its/i-t3`/i-tVn/i-tIN
-  | class eat intransitive transitive
-> suck/sucking/sucked/sucks/sucker/sucked/sucking
-  | pron sVk/sV-kIN/sVkt/sVks/sV-k3`/sVkt/sV-kIN
-  | class eat transitive
-> snuffle/snuffling/snuffled/snuffles/snuffler/snuffled/snuffling
-  | class eat intransitive
-> guzzle/guzzling/guzzled/guzzles/guzzler/guzzled/guzzling
-  | class eat transitive
-> sniff/sniffing/sniffed/sniffs/sniffer/sniffed/sniffing
-  | pron snIf/snI-fIN/snIft/snIfs/snI-f3`/snIft/snI-fIN
-  | class eat transitive intransitive
-> nibble/nibbling/nibbled/nibbles/nibbler/nibbled/nibbling
-  | class eat transitive
-> spurt/spurting/spurted/spurts/spurter/spurted/spurting
-  | class liquid intransitive transitive
-> smear/smearing/smeared/smears/smearer/smeared/smearing
-  | class liquid transitive
-> paint/painting/painted/paints/painter/painted/painting
-  | pron peInt/peI-nIN/peI-nId/peInts/peI-n3`/peI-nId/peI-nIN
-  | class liquid intransitive transitive
-> shower/showering/showered/showers/showerer/showered/showering
-  | class liquid transitive
-> sputter/sputtering/sputtered/sputters/sputterer/sputtered/sputtering
-  | class liquid transitive intransitive
-> drain/draining/drained/drains/drainer/drained/draining
-  | pron dreIn/dreI-nIN/dreInd/dreInz/dreI-n3`/dreInd/dreI-nIN
-  | class liquid intransitive transitive
+#class add violent
+  > amputate/amputating/amputated/amputates/amputator/amputated/amputation
+  > assault/assaulting/assaulted/assaults/assaulter/assaulted/assault
+  > attack/attacking/attacked/attacks/attacker/attacked/attack
+    | pron V-t{k/V-t{-kIN/V-t{kt/V-t{ks/V-t{-k3`/V-t{kt/V-t{k
+  > behead/beheading/beheaded/beheads/beheader/beheaded/beheading
+  > bite/biting/bit/bites/biter/bitten/biting
+    | pron baIt/baI-tIN/bIt/baIts/baI-t3`/bI-tVn/baI-tIN
+  > bludgeon/bludgeoning/bludgeoned/bludgeons/bludgeoner/bludgeoned/bludgeoning
+  > cremate/cremating/cremated/cremates/cremater/cremated/cremation
+  > cripple/crippling/crippled/cripples/crippler/crippled/crippling
+    | class transitive
+  > dangle/dangling/dangled/dangles/dangler/dangled/dangling
+    | pron d{N-gVl/d{N-glIN/d{N-gVld/d{N-gVlz/d{N-gl3`/d{N-gVld/d{N-glIN
+  > decapitate/decapitating/decapitated/decapitates/decapitater/decapitated/decapitation
+  > dissect/dissecting/dissected/dissects/dissector/dissected/dissection
+  > dominate/dominating/dominated/dominates/dominator/dominated/domination
+  > electrocute/electrocuting/electrocuted/electrocutes/electrocuter/electrocuted/electrocution
+  > explode/exploding/exploded/explodes/exploder/exploded/explosion
+  > fart/farting/farted/farts/farter/farted/farting
+  > gouge/gouging/gouged/gouges/gouger/gouged/gouging
+  > grab/grabbing/grabbed/grabs/grabber/grabbed/grabbing
+    | pron gr{b/gr{-bIN/gr{bd/gr{bz/gr{-b3`/gr{bd/gr{-bIN
+  > hammer/hammering/hammered/hammers/hammerer/hammered/hammering
+  > hang/hanging/hung/hangs/hanger/hanged/hanging
+    | pron h{N/h{-NgIN/hVN/h{Nz/h{-N3`/h{Nd/h{-NgIN
+  > harass/harassing/harassed/harasses/harasser/harassed/harassment
+    | class transitive
+  > headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting
+  > impale/impaling/impaled/impales/impaler/impaled/impalement
+  > implode/imploding/imploded/implodes/imploder/imploded/implosion
+  > injure/injuring/injured/injures/injurer/injured/injury
+  > kidnap/kidnapping/kidnapped/kidnaps/kidnapper/kidnapped/kidnapping
+    | pron kId-n{p/kId-n{-pIN/kId-n{pt/kId-n{ps/kId-n{-p3`/kId-n{pt/kId-n{-pIN
+  > liquefy/liquefying/liquefied/liquefies/liquefier/liquefied/liquefication
+    | class transitive
+  > maim/maiming/maimed/maims/maimer/maimed/maiming
+  > mangle/mangling/mangled/mangles/mangler/mangled/mangling
+  > manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling
+  > maul/mauling/mauled/mauls/mauler/mauled/mauling
+  > mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation
+  > nab/nabbing/nabbed/nabs/nabber/nabbed/nabbing
+    | class transitive
+  > nail/nailing/nailed/nails/nailer/nailed/nailing
+    | class insert transitive
+  > nip/nipping/nipped/nips/nipper/nipped/nipping
+    | class eat
+  > pierce/piercing/pierced/pierces/piercer/pierced/piercing
+  > pinch/pinching/pinched/pinches/pincher/pinched/pinching
+  > pluck/plucking/plucked/plucks/plucker/plucked/plucking
+    | pron plVk/plV-kIN/plVkt/plVks/plV-k3`/plVkt/plV-kIN
+  > punch/punching/punched/punches/puncher/punched/punching
+  > rob/robbing/robbed/robs/robber/robbed/robbery
+    | pron rAb/rA-bIN/rAbd/rAbz/rA-b3`/rAbd/rA-b3`-i
+    | class transitive
+  > scratch/scratching/scratched/scratches/scratcher/scratched/scratching
+  > shatter/shattering/shattered/shatters/shatterer/shattered/shattering
+  > shove/shoving/shoved/shoves/shover/shoved/shoving
+    | pron SVv/SV-vIN/SVvd/SVvz/SV-v3`/SVvd/SV-vIN
+  > shred/shredding/shredded/shreds/shredder/shredded/shredding
+    | pron SrEd/SrE-dIN/SrE-dId/SrEdz/SrE-d3`/SrE-dId/SrE-dIN
+    | class transitive
+  > skewer/skewering/skewered/skewers/skewerer/skewered/skewering
+  > slap/slapping/slapped/slaps/slapper/slapped/slapping
+  > slash/slashing/slashed/slashes/slasher/slashed/slashing
+    | pron sl{S/sl{-SIN/sl{St/sl{-SIz/sl{-S3`/sl{St/sl{-SIN
+  > snip/snipping/snipped/snips/snipper/snipped/snipping
+  > spank/spanking/spanked/spanks/spanker/spanked/spanking
+  > stab/stabbing/stabbed/stabs/stabber/stabbed/stabbing
+  > strangle/strangling/strangled/strangles/strangler/strangled/strangulation
+  > throttle/throttling/throttled/throttles/throttler/throttled/throttling
+  > tickle/tickling/tickled/tickles/tickler/tickled/tickling
+  > vaporize/vaporizing/vaporized/vaporizes/vaporizer/vaporized/vaporization
+    | class transitive
+  > vomit/vomiting/vomited/vomits/vomiter/vomited/vomiting
+  > whip/whipping/whipped/whips/whipper/whipped/whipping
+#class remove violent
 
-> smatter/smattering/smattered/smatters/smatterer/smattered/smattering
-  | class liquid intransitive
-> splatter/splattering/splattered/splatters/splatterer/splattered/splattering
-  | class liquid transitive
-> spray/spraying/sprayed/sprays/sprayer/sprayed/spraying
-  | pron spreI/spreI-IN/spreId/spreIz/spreI-3`/spreId/spreI-IN
-  | class liquid transitive
-> jet-spray/jet-spraying/jet-sprayed/jet-sprays/jet-sprayer/jet-sprayed/jet-spraying
-  | class liquid transitive
-> squirt/squirting/squirted/squirts/squirter/squirted/squirting
-  | class liquid transitive intransitive
-> sprinkle/sprinkling/sprinkled/sprinkles/sprinkler/sprinkled/sprinkling
-  | pron sprIN-kVl/sprIN-kVl-IN/sprIN-kVld/sprIN-kVlz/sprIN-kV-l3`/sprIN-kVld/sprIN-kVl-IN
-  | class liquid transitive intransitive
-> drip/dripping/dripped/drips/dripper/dripped/dripping
-  | class liquid intransitive transitive
-> piss/pissing/pissed/pisses/pisser/pissed/pissing
-  | class liquid intransitive transitive
-> pour/pouring/poured/pours/pourer/poured/pouring
-  | class liquid transitive
-> splash/splashing/splashed/splashes/splasher/splashed/splashing
-  | class liquid transitive intransitive
+#class add walk
+  > crawl/crawling/crawled/crawls/crawler/crawled/crawling
+  > gallop/galloping/galloped/gallops/galloper/galloped/galloping
+  > joust/jousting/jousted/jousts/jouster/jousted/jousting
+  > march/marching/marched/marches/marcher/marched/marching
+    | pron mArrtS/mArr-tSIN/mArrtSt/mArr-tSIz/mArr-tS3`/mArrtSt/mArr-tSIN
+  > run/running/ran/runs/runner/run/running
+    | pron rVn/rV-nIN/r{n/rVnz/rV-n3`/rVn/rV-nIN
+  > skip/skipping/skipped/skips/skipper/skipped/skipping
+    | pron skIp/skI-pIN/skIpt/skIps/skI-p3`/skIpt/skI-pIN
+  > sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking
+  > slouch/slouching/slouched/slouches/sloucher/slouched/slouching
+  > snoop/snooping/snooped/snoops/snooper/snooped/snooping
+    | class transitive
+  > sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting
+    | pron sprInt/sprIn-tIN/sprIn-tId/sprInts/sprIn-t3`/sprIn-tId/sprIn-tIN
+  > stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding
+  > strut/strutting/strutted/struts/strutter/strutted/strutting
+  > tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing
+  > trot/trotting/trotted/trots/trotter/trotted/trotting
+    | pron trAt/trA-tIN/trA-tId/trAts/trA-t3`/trA-tId/trA-tIN
+  > walk/walking/walked/walks/walker/walked/walking
+    | pron wAk/wO-kIN/wOkt/wOks/wO-k3`/wOkt/wO-kIN
+#class remove walk
 
-> tremble/trembling/trembled/trembles/trembler/trembled/trembling
-  | class motion
-> waddle/waddling/waddled/woddles/woddler/waddled/waddling
-  | class motion
-> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
-  | class motion
-> slam/slamming/slammed/slams/slammer/slammed/slamming
-  | pron sl{m/sl{-mIN/sl{md/sl{mz/sl{-m3`/sl{md/sl{-mIN
-  | class motion
-> kick/kicking/kicked/kicks/kicker/kicked/kicking
-  | pron kIk/kI-kIN/kIkt/kIks/kI-k3`/kIkt/kI-kIN
-  | class motion
-> smack/smacking/smacked/smacks/smacker/smacked/smacking
-  | class motion
-> stomp/stomping/stomped/stomps/stomper/stomped/stomping
-  | class motion
-> shoot/shooting/shot/shoots/shooter/shot/shooting
-  | pron Sut/Su-tIN/SAt/Suts/Su-t3`/SAt/Su-tIN
-  | class motion
-> screw/screwing/screwed/screws/screwer/screwed/screwing
-  | class motion insert
-> pump/pumping/pumped/pumps/pumper/pumped/pumping
-  | class motion
-> hack/hacking/hacked/hacks/hacker/hacked/hacking
-  | pron h{k/h{-kIN/h{kt/h{ks/h{-k3`/h{kt/h{-kIN
-  | class motion
-> poke/poking/poked/pokes/poker/poked/poking
-  | pron poUk/poU-kIN/poUkt/poUks/poU-k3`/poUkt/poU-kIN
-  | class motion insert
-> crank/cranking/cranked/cranks/cranker/cranked/cranking
-  | class motion
-> serve/serving/served/serves/server/served/serving
-  | pron s3`v/s3`-vIN/s3`vd/s3`vz/s3`-v3`/s3`vd/s3`-vIN
-  | class motion
-> force/forcing/forced/forces/forcer/forced/forcing
-  | class motion
-> stick/sticking/stuck/sticks/sticker/stuck/sticking
-  | pron stIk/stI-kIN/stVk/stIks/stI-k3`/stVk/stI-kIN
-  | class motion insert
-> move/moving/moved/moves/mover/moved/moving
-  | pron muv/mu-vIN/muvd/muvz/mu-v3`/muvd/mu-vIN
-  | class motion
-> bind/binding/bound/binds/binder/bound/binding
-  | pron baInd/baIn-dIN/baUnd/baIndz/baIn-d3`/baUnd/baIn-dIN
-  | class motion
-> staple/stapling/stapled/staples/stapler/stapled/stapling
-  | pron steI-pVl/steI-plIN/steI-pVld/steI-pVlz/steIp-l3`/steI-pVld/steI-plIN
-  | class motion
-> eject/ejecting/ejected/ejects/ejector/ejected/ejection
-  | class motion
-> crunch/crunching/crunched/crunches/cruncher/crunched/crunching
-  | pron krVntS/krVn-tSIN/krVntSt/krVn-tSIz/krVn-tS3`/krVntSt/krVn-tSIN
-  | class motion
-> squish/squishing/squished/squishes/squisher/squished/squishing
-  | class motion
-> prod/prodding/prodded/prods/prodder/prodded/prodding
-  | class motion insert
-> wedge/wedging/wedged/wedges/wedger/wedged/wedging
-  | class motion insert
-> blow/blowing/blew/blows/blower/blown/blowing
-  | pron bloU/bloU-IN/blu/bloUz/bloU-3`/bloUn/bloU-IN
-  | class motion
-> knead/kneading/kneaded/kneads/kneader/kneaded/kneading
-  | class motion
-> twist/twisting/twisted/twists/twister/twisted/twisting
-  | pron twIst/twI-stIN/twI-stId/twIsts/twI-st3`/twI-stId/twI-stIN
-  | class motion
-> throw/throwing/threw/throws/thrower/thrown/throwing
-  | pron TroU/TroU-IN/Tru/TroUz/TroU-3`/TroUn/TroU-IN
-  | class motion
-> fly/flying/flew/flies/flier/flown/flying
-  | pron flaI/flaI-IN/flu/flaIz/flaI-3`/floUn/flaI-IN
-  | class motion
-> shake/shaking/shook/shakes/shaker/shaken/shaking
-  | pron SeIk/SeI-kIN/SUk/SeIks/SeI-k3`/SeI-kVn/SeI-kIN
-  | class motion
-> bang/banging/banged/bangs/banger/banged/banging
-  | pron b{N/b{-NIN/b{Nd/b{Nz/b{-N3`/b{Nd/b{-NIN
-  | class motion
-> press/pressing/pressed/presses/presser/pressed/pressing
-  | pron prEs/prE-sIN/prEst/prE-sIz/prE-s3`/prEst/prE-sIN
-  | class motion
-> inject/injecting/injected/injects/injector/injected/injection
-  | pron In-dZEkt/In-dZEk-tIN/In-dZEk-tId/In-dZEkts/In-dZEk-t3`/In-dZEk-tId/In-dZEk-SVn
-  | class motion insert
-> slip/slipping/slipped/slips/slipper/slipped/slipping
-  | pron slIp/slI-pIN/slIpt/slIps/slI-p3`/slIpt/slI-pIN
-  | class motion
-> rip/ripping/ripped/rips/ripper/ripped/ripping
-  | pron rIp/rI-pIN/rIpt/rIps/rI-p3`/rIpt/rI-pIN
-  | class motion
-> joust/jousting/jousted/jousts/jouster/jousted/jousting
-  | class walk
-> slouch/slouching/slouched/slouches/sloucher/slouched/slouching
-  | class walk
-> walk/walking/walked/walks/walker/walked/walking
-  | pron wAk/wO-kIN/wOkt/wOks/wO-k3`/wOkt/wO-kIN
-  | class walk
-> skip/skipping/skipped/skips/skipper/skipped/skipping
-  | pron skIp/skI-pIN/skIpt/skIps/skI-p3`/skIpt/skI-pIN
-  | class walk
-> march/marching/marched/marches/marcher/marched/marching
-  | pron mArrtS/mArr-tSIN/mArrtSt/mArr-tSIz/mArr-tS3`/mArrtSt/mArr-tSIN
-  | class walk
-> run/running/ran/runs/runner/run/running
-  | pron rVn/rV-nIN/r{n/rVnz/rV-n3`/rVn/rV-nIN
-  | class walk
-> stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding
-  | class walk
-> strut/strutting/strutted/struts/strutter/strutted/strutting
-  | class walk
-> tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing
-  | class walk
-> sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting
-  | pron sprInt/sprIn-tIN/sprIn-tId/sprInts/sprIn-t3`/sprIn-tId/sprIn-tIN
-  | class walk
-> gallop/galloping/galloped/gallops/galloper/galloped/galloping
-  | class walk
-> crawl/crawling/crawled/crawls/crawler/crawled/crawling
-  | class walk
-> trot/trotting/trotted/trots/trotter/trotted/trotting
-  | pron trAt/trA-tIN/trA-tId/trAts/trA-t3`/trA-tId/trA-tIN
-  | class walk
-> pluck/plucking/plucked/plucks/plucker/plucked/plucking
-  | pron plVk/plV-kIN/plVkt/plVks/plV-k3`/plVkt/plV-kIN
-  | class violent
-> bite/biting/bit/bites/biter/bitten/biting
-  | pron baIt/baI-tIN/bIt/baIts/baI-t3`/bI-tVn/baI-tIN
-  | class violent
-> fart/farting/farted/farts/farter/farted/farting
-  | class violent
-> manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling
-  | class violent
-> maul/mauling/mauled/mauls/mauler/mauled/mauling
-  | class violent
-> whip/whipping/whipped/whips/whipper/whipped/whipping
-  | class violent
-> dominate/dominating/dominated/dominates/dominator/dominated/domination
-  | class violent
-> punch/punching/punched/punches/puncher/punched/punching
-  | class violent
-> headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting
-  | class violent
-> impale/impaling/impaled/impales/impaler/impaled/impalement
-  | class violent
-> scratch/scratching/scratched/scratches/scratcher/scratched/scratching
-  | class violent
-> grab/grabbing/grabbed/grabs/grabber/grabbed/grabbing
-  | pron gr{b/gr{-bIN/gr{bd/gr{bz/gr{-b3`/gr{bd/gr{-bIN
-  | class violent
-> snip/snipping/snipped/snips/snipper/snipped/snipping
-  | class violent
-> shatter/shattering/shattered/shatters/shatterer/shattered/shattering
-  | class violent
-> slap/slapping/slapped/slaps/slapper/slapped/slapping
-  | class violent
-> tickle/tickling/tickled/tickles/tickler/tickled/tickling
-  | class violent
-> stab/stabbing/stabbed/stabs/stabber/stabbed/stabbing
-  | class violent
-> strangle/strangling/strangled/strangles/strangler/strangled/strangulation
-  | class violent
-> decapitate/decapitating/decapitated/decapitates/decapitater/decapitated/decapitation
-  | class violent
-> behead/beheading/beheaded/beheads/beheader/beheaded/beheading
-  | class violent
-> dangle/dangling/dangled/dangles/dangler/dangled/dangling
-  | pron d{N-gVl/d{N-glIN/d{N-gVld/d{N-gVlz/d{N-gl3`/d{N-gVld/d{N-glIN
-  | class violent
-> hang/hanging/hung/hangs/hanger/hanged/hanging
-  | pron h{N/h{-NgIN/hVN/h{Nz/h{-N3`/h{Nd/h{-NgIN
-  | class violent
-> gouge/gouging/gouged/gouges/gouger/gouged/gouging
-  | class violent
-> electrocute/electrocuting/electrocuted/electrocutes/electrocuter/electrocuted/electrocution
-  | class violent
-> slash/slashing/slashed/slashes/slasher/slashed/slashing
-  | pron sl{S/sl{-SIN/sl{St/sl{-SIz/sl{-S3`/sl{St/sl{-SIN
-  | class violent
-> hammer/hammering/hammered/hammers/hammerer/hammered/hammering
-  | class violent
-> bludgeon/bludgeoning/bludgeoned/bludgeons/bludgeoner/bludgeoned/bludgeoning
-  | class violent
-> pierce/piercing/pierced/pierces/piercer/pierced/piercing
-  | class violent
-> skewer/skewering/skewered/skewers/skewerer/skewered/skewering
-  | class violent
-> spank/spanking/spanked/spanks/spanker/spanked/spanking
-  | class violent
-> vomit/vomiting/vomited/vomits/vomiter/vomited/vomiting
-  | class violent
-> pinch/pinching/pinched/pinches/pincher/pinched/pinching
-  | class violent
-> shove/shoving/shoved/shoves/shover/shoved/shoving
-  | pron SVv/SV-vIN/SVvd/SVvz/SV-v3`/SVvd/SV-vIN
-  | class violent
-> amputate/amputating/amputated/amputates/amputator/amputated/amputation
-  | class violent
-> throttle/throttling/throttled/throttles/throttler/throttled/throttling
-  | class violent
-> implode/imploding/imploded/implodes/imploder/imploded/implosion
-  | class violent
-> explode/exploding/exploded/explodes/exploder/exploded/explosion
-  | class violent
-> twang/twanging/twanged/twangs/twanger/twanged/twanging
-  | class motion
-> veto/vetoing/vetoed/vetoes/vetoer/vetoed/vetoing
-  | class political
-> elect/electing/elected/elects/electer/elected/election
-  | class political
-> ratify/ratifying/ratified/ratifies/ratifier/ratified/ratification
-  | class political
-> amend/amending/amended/amends/amender/amended/amendment
-  | class political
-> impeach/impeaching/impeached/impeaches/impeacher/impeached/impeachment
-  | class political
-> inaugurate/inaugurating/inaugurated/inaugurates/inaugurater/inaugurated/inauguration
-  | class political
-> petition/petitioning/petitioned/petitions/petitioner/petitioned/petitioning
-  | pron pV-tI-SVn/pV-tI-SVn-IN/pV-tI-SVnd/pV-tI-SVnz/pV-tI-SVn-3`/pV-tI-SVnd/pV-tI-SVn-IN
-> cremate/cremating/cremated/cremates/cremater/cremated/cremation
-  | class violent
-> sue/suing/sued/sues/suer/sued/suing
-  | class legal transitive
-> prosecute/prosecuting/prosecuted/prosecutes/prosecuter/prosecuted/prosecution
-  | class legal transitive
-> convict/convicting/convicted/convicts/convicter/convicted/conviction
-  | class legal transitive
-> legalize/legalizing/legalized/legalizes/legalizer/legalized/legalization
-  | class legal transitive
-> bathe/bathing/bathed/bathes/bather/bathed/bathing
-  | pron beID/beI-DIN/beIDd/beIDz/b{-D3`/beIDd/beI-DIN
-  | class intransitive transitive
-> sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking
-  | class walk
 > abduct/abducting/abducted/abducts/abductor/abducted/abduction
   | pron {b-dVkt/Vb-dVk-tIN/Vb-dVk-tId/{b-dVkts/Vb-dVk-t3`/Vb-dVk-tId/Vb-dVk-SVn
 > abolish/abolishing/abolished/abolishes/abolisher/abolished/abolishment
 > apprehend/apprehending/apprehended/apprehends/apprehender/apprehended/apprehension
-> assault/assaulting/assaulted/assaults/assaulter/assaulted/assault
-  | class violent
-> attack/attacking/attacked/attacks/attacker/attacked/attack
-  | pron V-t{k/V-t{-kIN/V-t{kt/V-t{ks/V-t{-k3`/V-t{kt/V-t{k
-  | class violent
 > authenticate/authenticating/authenticated/authenticates/authenticator/authenticated/authentication
+> bless/blessing/blessed/blesses/blesser/blessed/blessing
+> chill/chilling/chilled/chills/chiller/chilled/chilling
+  | pron tSIl/tSI-lIN/tSIld/tSIlz/tSI-l3`/tSIld/tSI-lIN
 > choke/choking/choked/chokes/choker/choked/choking
 > commandeer/commandeering/commandeered/commandeers/commandeerer/commandeered/commandeering
 > conserve/conserving/conserved/conserves/conserver/conserved/conservation
 > crash/crashing/crashed/crashes/crasher/crashed/crashing
-> cram/cramming/crammed/crams/crammer/crammed/cramming
-  | pron kr{m/kr{-mIN/kr{md/kr{mz/kr{-m3`/kr{md/kr{-mIN
-  | class motion insert
-> cripple/crippling/crippled/cripples/crippler/crippled/crippling
-  | class violent transitive
 > customize/customizing/customized/customizes/customizer/customized/customization
 > decorate/decorating/decorated/decorates/decorator/decorated/decoration
-> dissect/dissecting/dissected/dissects/dissector/dissected/dissection
-  | class violent
+> donate/donating/donated/donates/donater/donated/donation
 > dramatize/dramatizing/dramatized/dramatizes/dramatizer/dramatized/dramatization
-> feed/feeding/fed/feeds/feeder/fed/feeding
-  | pron fid/fi-dIN/fEd/fidz/fi-d3`/fEd/fi-dIN
-  | class transitive insert
 > forecast/forecasting/forecasted/forecasts/forecaster/forecasted/forecasting
   | pron fOrr-k{st/fOrr-k{-stIN/fOrr-k{-stId/fOrr-k{s/fOrr-k{-st3`/fOrr-k{-stId/fOrr-k{-stIN
-> gnaw/gnawing/gnawed/gnaws/gnawer/gnawed/gnawing
-  | class eat
-> harass/harassing/harassed/harasses/harasser/harassed/harassment
-  | class violent transitive
 > hoist/hostng/hoisted/hoists/hoister/hoisted/hoisting
-> hurl/hurling/hurled/hurls/hurler/hurled/hurling
-  | class motion
-> injure/injuring/injured/injures/injurer/injured/injury
-  | class violent
-> jingle/jingling/jingled/jingles/jingler/jingled/jingling
 > jimmy/jimmying/jimmied/jimmies/jimmier/jimmied/jimmying
-> kidnap/kidnapping/kidnapped/kidnaps/kidnapper/kidnapped/kidnapping
-  | pron kId-n{p/kId-n{-pIN/kId-n{pt/kId-n{ps/kId-n{-p3`/kId-n{pt/kId-n{-pIN
-  | class violent
+> jingle/jingling/jingled/jingles/jingler/jingled/jingling
 > lecture/lecturing/lectured/lectures/lecturer/lectured/lecturing
   | pron lEk-tS3`/lEk-tS3`-IN/lEk-tS3`d/lEk-tS3`z/lEk-tS3`-3`/lEk-tS3`d/lEk-tS3`-IN
-> lunge/lunging/lunged/lunges/lunger/lunged/lunging
-  | pron lVndZ/lVn-dZIN/lVndZd/lVn-dZIz/lV-N3`/lVndZd/lVn-dZIN
-  | class motion move
-> jump/jumping/jumped/jumps/jumper/jumped/jumping
-  | pron dZVmp/dZVm-pIN/dZVmpt/dZVmps/dZVm-p3`/dZVmpt/dZVm-pIN
-  | class motion move
-> mangle/mangling/mangled/mangles/mangler/mangled/mangling
-  | class violent
-> maim/maiming/maimed/maims/maimer/maimed/maiming
-  | class violent
-> mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation
-  | class violent
-> nab/nabbing/nabbed/nabs/nabber/nabbed/nabbing
-  | class violent transitive
-> nail/nailing/nailed/nails/nailer/nailed/nailing
-  | class violent transitive insert
-> nip/nipping/nipped/nips/nipper/nipped/nipping
-  | class eat violent
-> preen/preening/preened/preens/preener/preened/preening
-> ride/riding/rode/rides/rider/ridden/riding
-  | pron raId/raI-dIN/roUd/raIdz/raI-d3`/rI-dVn/raI-dIN
-> rob/robbing/robbed/robs/robber/robbed/robbery
-  | pron rAb/rA-bIN/rAbd/rAbz/rA-b3`/rAbd/rA-b3`-i
-  | class violent transitive
-> sharpen/sharpening/sharpened/sharpens/sharpener/sharpened/sharpening
-> snuggle/snuggling/snuggled/snuggles/snuggler/snuggled/snuggling
-  | class transitive intransitive
-> gush/gushing/gushed/gushes/gusher/gushed/gushing
-  | pron gVS/gV-SIN/gVSt/gV-SIz/gV-S3`/gVSt/gV-SIN
-  | class liquid
-> puke/puking/puked/pukes/puker/puked/puking
-  | class liquid intransitive
-> donate/donating/donated/donates/donater/donated/donation
-> purify/purifying/purified/purifies/purifier/purified/purification
-> rapture/rapturing/raptured/raptures/rapturer/raptured/rapture
-> toast/toasting/toasted/toasts/toaster/toasted/toasting
-  | pron toUst/toU-stIN/toU-stId/toUs/toU-st3`/toU-stId/toU-stIN
 > liquidate/liquidating/liquidated/liquidates/liquidator/liquidated/liquidation
   | pron lI-kwI-deIt/lI-kwI-deI-tIN/lI-kwI-deI-tId/lI-kwI-deIts/lI-kwI-deI-t3`/lI-kwI-deI-tId/lI-kwI-deI-SVn
-> lather/lathering/lathered/lathers/latherer/lathered/lathering
-  | class intransitive
-> masticate/masticating/masticated/masticates/masticater/masticated/mastication
-  | class eat intransitive transitive
-> chew/chewing/chewed/chews/chewer/chewed/chewing
-  | pron tSu/tSu-IN/tSud/tSuz/tSu-3`/tSud/tSu-IN
-  | class eat intransitive transitive
-> rotate/rotating/rotated/rotates/rotator/rotated/rotation
-  | class motion transitive intransitive
-> push/pushing/pushed/pushes/pusher/pushed/pushing
-  | pron pUS/pU-SIN/pUSt/pU-SIz/pU-S3`/pUSt/pU-SIN
-  | class move transitive insert
-> chill/chilling/chilled/chills/chiller/chilled/chilling
-  | pron tSIl/tSI-lIN/tSIld/tSIlz/tSI-l3`/tSIld/tSI-lIN
+> petition/petitioning/petitioned/petitions/petitioner/petitioned/petitioning
+  | pron pV-tI-SVn/pV-tI-SVn-IN/pV-tI-SVnd/pV-tI-SVnz/pV-tI-SVn-3`/pV-tI-SVnd/pV-tI-SVn-IN
+> preen/preening/preened/preens/preener/preened/preening
+> purify/purifying/purified/purifies/purifier/purified/purification
+> rapture/rapturing/raptured/raptures/rapturer/raptured/rapture
 > report/reporting/reported/reports/reporter/reported/reporting
   | pron rI-pOrrt/rI-pOrr-tIN/rI-pOrr-tVd/ri-pOrrts/rI-pOrr-t3`/rI-pOrr-tVd/rI-pOrr-tIN
-> plunge/plunging/plunged/plunges/plunger/plunged/plunging
-  | pron plVndZ/plVn-dZIN/plVndZd/plVn-dZIz/plVn-dZ3`/plVndZd/plVn-dZIN
-  | class transitive insert
-> ram/ramming/rammed/rams/rammer/rammed/ramming
-  | pron r{m/r{-mIN/r{md/r{mz/r{-m3`/r{md/r{-mIN
-  | class transitive insert
-> vaporize/vaporizing/vaporized/vaporizes/vaporizer/vaporized/vaporization
-  | class violent transitive
-> bless/blessing/blessed/blesses/blesser/blessed/blessing
-> pray/praying/prayed/prays/prayer/prayed/prayer
-  | pron preI/preI-IN/preId/preIz/preI-3`/preId/preI-3`
-  | class intransitive
-> liquefy/liquefying/liquefied/liquefies/liquefier/liquefied/liquefication
-  | class violent transitive
-> shred/shredding/shredded/shreds/shredder/shredded/shredding
-  | pron SrEd/SrE-dIN/SrE-dId/SrEdz/SrE-d3`/SrE-dId/SrE-dIN
-  | class violent transitive
-
-#nsfw
-
-> erect/erecting/erected/erects/erector/erected/erection
-  | pron I-rEkt/I-rEk-tIN/I-rEk-tId/I-rEkts/I-rEk-t3`/I-rEk-tId/I-rEk-SVn
-> cockblast/cockblasting/cockflasted/cockblasts/cockblaster/cockblasted/cockblasting
-  | class transitive sex liquid
-> ejaculate/ejaculating/ejaculated/ejaculates/ejaculator/ejaculated/ejaculation
-  | class intransitive sex liquid
-> fertilize/fertilizing/fertilized/fertilizes/fertilizer/fertilized/fertilization
-  | pron f3`-tV-laIz/f3`-tV-laI-zIN/f3`-tV-laIzd/f3`-tV-laI-zIz/f3`-tV-laI-z3`/f3`-tV-laIzd/f3`-tV-lI-zeI-SVn
-> please/pleasing/pleased/pleases/pleaser/pleasted/pleasing
-  | class transitive sex
-> thrust/thrusting/thrust/thrusts/thruster/thrusted/thrusting
-  | class motion sex transitive intransitive insert
-> mount/mounting/mounted/mounts/mounter/mounted/mounting
-  | class sex transitive
-> fuck/fucking/fucked/fucks/fucker/fucked/fucking
-  | class sex transitive intransitive
-> masturbate/masturbating/masturbated/masturbates/masturbator/masturbated/masturbation
-  | class sex intransitive
-> fellate/fellating/fellated/fellates/fellater/fellated/fellatio
-  | class sex transitive
-> titfuck/titfucking/titfucked/titucks/titfucker/titfucked/titfucking
-  | class sex transitive
-> turbohump/turbohumping/turbohumped/turbohumps/turbohumper/turbohumped/turbohumpification
-  | class sex transitive
-> gyrate/gyrating/gyrated/gyrates/gyrator/gyrated/gyration
-  | class motion move intransitive
-> grope/groping/groped/gropes/groper/groped/groping
-  | class violent transitive
-> twerk/twerking/twerked/twerks/twerker/twerked/twerking
-  | class motion intransitive
-> defecate/defecating/defecated/defecates/defecator/defecated/defecation
-  | class liquid intransitive transitive
-> urinate/urinating/urinated/urinates/urinator/urinated/urination
-  | class liquid intransitive
-> finger/fingering/fingered/fingers/fingerer/fingered/fingering
+> ride/riding/rode/rides/rider/ridden/riding
+  | pron raId/raI-dIN/roUd/raIdz/raI-d3`/rI-dVn/raI-dIN
+> sharpen/sharpening/sharpened/sharpens/sharpener/sharpened/sharpening
+> spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking
+> toast/toasting/toasted/toasts/toaster/toasted/toasting
+  | pron toUst/toU-stIN/toU-stId/toUs/toU-st3`/toU-stId/toU-stIN
+> whisper/whispering/whispered/whispers/whisperer/whispered/whispering

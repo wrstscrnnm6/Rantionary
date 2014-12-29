@@ -2,37 +2,37 @@
 #name color
 #subs default ish
 
-# class add primary
-  > red/reddish
-    | pron rEd/rE-dIS
-  > green/greenish
-    | pron grin/gri-nIS
-  > blue/bluish
-    | pron blu/blu-IS
-#class remove primary
-
-#class add secondary
-  > cyan/cyan-ish
-  > magenta/magenta-ish
-  > yellow/yellowish
-    | pron jE-loU/jE-loU-IS
-#class remove secondary
-
-> orange/orangish
-> purple/purplish
-  | pron p3`-pVl/p3`-plIS
-> turquoise/turquoise-ish
-> pink/pinkish
-  | pron pINk/pIN-kIS
-> grey/greyish
 > black/blackish
-> white/whitish
-  | pron hwaIt/hwaI-tIS
+> blue/bluish
+  | pron blu/blu-IS
+  | class primary
 > brown/brownish
   | pron braUn/braU-nIS
-> lime green/lime-green-ish
-> lavender/lavenderish
-> maroon/maroonish
-> gold/goldish
-> silver/silverish
 > crimson/crimsonish
+> cyan/cyan-ish
+  | class secondary
+> gold/goldish
+> green/greenish
+  | pron grin/gri-nIS
+  | class primary
+> grey/greyish
+> lavender/lavenderish
+> lime green/lime-green-ish
+> magenta/magenta-ish
+  | class secondary
+> maroon/maroonish
+> orange/orangish
+> pink/pinkish
+  | pron pINk/pIN-kIS
+> purple/purplish
+  | pron p3`-pVl/p3`-plIS
+> red/reddish
+  | pron rEd/rE-dIS
+  | class primary
+> silver/silverish
+> turquoise/turquoise-ish
+> white/whitish
+  | pron hwaIt/hwaI-tIS
+> yellow/yellowish
+  | pron jE-loU/jE-loU-IS
+  | class secondary

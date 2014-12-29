@@ -4,53 +4,53 @@
 
 > bang/bangs
   | pron b{N/b{Nz
-> squelch/squelches
-> squeal/squeals
-  | pron skwil/skwilz
-> boom/booms
-  | pron bum/bumz
 > beep/beeps
   | pron bip/bips
+> boom/booms
+  | pron bum/bumz
+> clang/clangs
+> crack/cracks
+  | pron kr{k/kr{ks
 > crash/crashes
   | pron kr{S/kr{-SIz
-> wail/wails
-  | pron weIl/weIlz
-> roar/roars
-  | pron rOrr/rOrrz
-> shatter/shatters
-  | pron S{-t3`/S{-t3`z
-> pop/pops
-  | pron pAp/pAps
+> flap/flaps
+  | pron fl{p/fl{ps
+> flutter/flutters
+  | pron flV-t3`/flV-t3`z
+> foom/fooms
 > note/notes
   | pron noUt/noUts
-> thump/thumps
-  | pron TVmp/TVmps
+> pop/pops
+  | pron pAp/pAps
+> pound/pounds
+  | pron paUnd/paUnz
+> rap/raps
+  | pron r{p/r{ps
+> roar/roars
+  | pron rOrr/rOrrz
 > rumble/rumbles
   | pron rVm-bVl/rVm-bVlz
 > scrape/scrapes
   | pron skreIp/skreIps
 > screech/screeches
   | pron skritS/skri-tSIz
-> flap/flaps
-  | pron fl{p/fl{ps
-> flutter/flutters
-  | pron flV-t3`/flV-t3`z
-> swoosh/swooshes
-> pound/pounds
-  | pron paUnd/paUnz
-> slap/slaps
-  | pron sl{p/sl{ps
-> clang/clangs
-> toot/toots
-  | pron tut/tUts
-> tick/ticks
-  | pron tIk/tIks
-> foom/fooms
-> rap/raps
-  | pron r{p/r{ps
-> tap/taps
-  | pron t{p/t{ps
+> shatter/shatters
+  | pron S{-t3`/S{-t3`z
 > shudder/shudders
   | pron SV-d3`/SV-d3`z
-> crack/cracks
-  | pron kr{k/kr{ks
+> slap/slaps
+  | pron sl{p/sl{ps
+> squeal/squeals
+  | pron skwil/skwilz
+> squelch/squelches
+> swoosh/swooshes
+> tap/taps
+  | pron t{p/t{ps
+> thump/thumps
+  | pron TVmp/TVmps
+> tick/ticks
+  | pron tIk/tIks
+> toot/toots
+  | pron tut/tUts
+> wail/wails
+  | pron weIl/weIlz

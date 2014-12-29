@@ -3,302 +3,238 @@
 #subs singular plural
 
 #class add indoor
-  > palace/palaces
-    | pron p{-lVs/p{-lV-sIz
-    | class building
-  > classroom/classrooms
-    | pron kl{s-rum/kl{s-rumz
-  > nest/nests
-    | pron nEst/nEsts
-    | class natural
-  > office/offices
-    | pron O-fVs/O-fV-sIz
-  > ditch/ditches
-    | pron dItS/dI-tSIz
-    | class natural
-  > cave/caves
-    | pron keIv/keIvz
-    | class natural
-  > house/houses
-    | pron haUs/haU-sIz
+  #class add building
+    > asylum/asylums
+    > bar/bars
+      | pron bArr/bArrz
+    > barn/barns
+      | pron bArrn/bArrnz
+    > bomb shelter/bomb shelters
+      | pron bOm-SEl-t3`/bOm-SEl-t3`z
+    > castle/castles
+      | pron k{-sVl/k{-sVlz
+    > church/churches
+      | pron tS3`tS/tS3`-tSIz
+    > coffeeshop/coffeeshops
+    > conservatory/conservatories
+      | pron kVn-s3`-vV-tO-ri/kVn-s3`-vV-tO-riz
+    > cottage/cottages
+      | pron kA-tIdZ/kA-tI-dZIz
+    > courthouse/courthouses
+      | pron kOrrt-haUs/kOrrt-haU-sIz
+    > distillery/distilleries
+      | pron dI-stI-l3`-i/dI-stI-l3`-iz
+    > factory/factories
+      | pron f{k-t3`-i/f{k-t3`-iz
+    > firehouse/firehouses
+      | pron faI-3`-haUs/faI-3`-haU-sIz
+    > fort/forts
+      | pron fOrrt/fOrrts
+    > funeral home/funeral homes
+      | pron fju-n3`-Vl-hoUm/fju-n3`-Vl-hoUmz
+    > homeless shelter/homeless shelters
+      | pron hoUm-lVs-SEl-t3`/hoUm-lVs-SEl-t3`z
+    > hospital/hospitals
+      | pron hAs-pI-tVl/hAs-pI-tVlz
+    > hostel/hostels
+      | pron hA-stVl/hA-stVlz
+    > hotel/hostels
+      | pron hoU-tEl/hA-stVlz
+    > jail/jails
+      | pron dZeIl/dZeIlz
+    > laboratory/laboratories
+      | pron l{-brV-tO-ri/l{-brV-tO-riz
+    > library/libraries
+      | pron laI-brE-ri/laI-brE-riz
+    > mall/malls
+      | pron mOl/mOlz
+    > mansion/mansions
+      | pron m{n-SVn/m{n-tSVnz
+    > morgue/morgues
+      | pron mOrrg/mOrrgz
+    > nightclub/nightclubs
+      | pron naIt-klVb/naIt-klVbz
+    > nursery/nurseries
+      | pron n3`-s3`-i/n3`-s3`-iz
+    > outhouse/outhouses
+      | pron aUt-haUs/aUt-haU-sIz
+    > palace/palaces
+      | pron p{-lVs/p{-lV-sIz
+    > post office/post offices
+      | pron poUst-O-fVs/poUst-O-fV-sIz
+    > prison/prisons
+      | pron prI-zVn/prI-zVnz
+    > pub/pubs
+      | pron pVb/pVbz
+    > safehouse/safehouses
+    > school/schools
+      | pron skul/skulz
+    > shack/shacks
+      | pron S{k/S{ks
+    > shanty/shanties
+      | pron S{n-ti/S{n-tiz
+    > stable/stables
+      | pron steI-bVl/steI-bVlz
+    > stadium/stadiums
+      | pron steI-di-Vm/steI-di-Vmz
+    > store/stores
+      | pron stOrr/stOrrz
+    > studio/studios
+      | pron stu-di-oU/stu-di-oUz
+    > tent/tents
+      | pron tEnt/tEnts
+    > theater/theaters
+      | pron Ti-V-t3`/Ti-V-t3`z
+    > tomb/tombs
+      | pron tum/tumz
+    > tower/towers
+      | pron taU-3`/taU-3`z
+    > warehouse/warehouses
+      | pron werr-haUs/werr-haU-sIz
+  #class remove building
+
+  #class add natural
+    > cave/caves
+      | pron keIv/keIvz
+    > ditch/ditches
+      | pron dItS/dI-tSIz
+    > forest/forests
+      | pron fO-rIst/fO-rVs
+    > land/lands
+      | pron l{nd/l{ndz
+    > meadow/meadows
+      | pron mE-doU/mE-doUz
+    > nest/nests
+      | pron nEst/nEsts
+  #class remove natural
+
+  > abyss/abysses
+  > alley/alleys
+    | pron {-li/{-liz
+  > ambulance/ambulances
+    | pron {m-bjV-lVns/{m-bjV-lVn-sIz
+  > apartment/apartments
+    | pron V-pArrt-mVnt/V-pArrt-mVnts
+  > arcade/arcades
+    | pron Arr-keId/Arr-keIdz
+  > attic/attics
+    | pron {-tIk/{-tIks
+  > bank/banks
+    | pron b{Nk/b{Nks
+  > basement/basements
+    | pron beIs-mVnt/beIs-mVnts
   > bathroom/bathrooms
     | pron b{T-rum/bAT-rumz
   > bedroom/bedrooms
     | pron bEd-rum/bEd-rumz
-  > town/towns
-    | pron taUn/taUnz
-  > jail/jails
-    | pron dZeIl/dZeIlz
-    | class building
-  > shop/shops
-    | pron SAp/SAps
-  > tomb/tombs
-    | pron tum/tumz
-    | class building
-  > basement/basements
-    | pron beIs-mVnt/beIs-mVnts
-  > dungeon/dungeons
-    | pron dVn-dZVn/dVn-dZVnz
-  > coffeeshop/coffeeshops
-    | class building
-  > tower/towers
-    | pron taU-3`/taU-3`z
-    | class building
-  > stable/stables
-    | pron steI-bVl/steI-bVlz
-    | class building
-  > barn/barns
-    | pron bArrn/bArrnz
-    | class building
-  > mansion/mansions
-    | pron m{n-SVn/m{n-tSVnz
-    | class building
-  > castle/castles
-    | pron k{-sVl/k{-sVlz
-    | class building
-  > attic/attics
-    | pron {-tIk/{-tIks
-  > cage/cages
-    | pron keIdZ/keI-dZIz
-  > stadium/stadiums
-    | pron steI-di-Vm/steI-di-Vmz
-    | class building
-  > school/schools
-    | pron skul/skulz
-    | class building
-  > mall/malls
-    | pron mOl/mOlz
-    | class building
-  > store/stores
-    | pron stOrr/stOrrz
-    | class building
-  > stand/stands
-    | pron st{nd/st{ndz
-  > company/companies
-    | pron kVm-pV-ni/kVm-pV-niz
-  > land/lands
-    | pron l{nd/l{ndz
-    | class natural
-  > garden/gardens
-    | pron gArr-dVn/gArr-dVnz
-  > wonderland/wonderlands
-  > abyss/abysses
-  > shanty/shanties
-    | pron S{n-ti/S{n-tiz
-    | class building
-  > prison/prisons
-    | pron prI-zVn/prI-zVnz
-    | class building
-  > apartment/apartments
-    | pron V-pArrt-mVnt/V-pArrt-mVnts
-  > closet/closets
-    | pron klA-zVt/klA-zVts
-  > shack/shacks
-    | pron S{k/S{ks
-    | class building
-  > tent/tents
-    | pron tEnt/tEnts
-    | class building
-  > car/cars
-    | pron kArr/kAz
-  > van/vans
-    | pron v{n/v{nz
-  > alley/alleys
-    | pron {-li/{-liz
-  > forest/forests
-    | pron fO-rIst/fO-rVs
-    | class natural
-  > meadow/meadows
-    | pron mE-doU/mE-doUz
-    | class natural
-  > outhouse/outhouses
-    | pron aUt-haUs/aUt-haU-sIz
-    | class building
   > boat/boats
     | pron boUt/boUts
-  > port-a-potty/port-a-potties
-  > sauna/saunas
-    | pron sO-nV/sO-nVz
-  > cottage/cottages
-    | pron kA-tIdZ/kA-tI-dZIz
-    | class building
-  > bank/banks
-    | pron b{Nk/b{Nks
-  > asylum/asylums
-    | class building
-  > arcade/arcades
-    | pron Arr-keId/Arr-keIdz
-  > bar/bars
-    | pron bArr/bArrz
-    | class building
-  > pub/pubs
-    | pron pVb/pVbz
-    | class building
-  > nightclub/nightclubs
-    | pron naIt-klVb/naIt-klVbz
-    | class building
-  > factory/factories
-    | pron f{k-t3`-i/f{k-t3`-iz
-    | class building
-  > station/stations
-    | pron steI-SVn/steI-SVnz
-  > firehouse/firehouses
-    | pron faI-3`-haUs/faI-3`-haU-sIz
-    | class building
-  > safehouse/safehouses
-    | class building
-  > warehouse/warehouses
-    | pron werr-haUs/werr-haU-sIz
-    | class building
-  > bomb shelter/bomb shelters
-    | pron bOm-SEl-t3`/bOm-SEl-t3`z
-    | class building
-  > homeless shelter/homeless shelters
-    | pron hoUm-lVs-SEl-t3`/hoUm-lVs-SEl-t3`z
-    | class building
-  > firetruck/firetrucks
-  > ambulance/ambulances
-    | pron {m-bjV-lVns/{m-bjV-lVn-sIz
-  > kitchen/kitchens
-    | pron kI-tSVn/kI-tSVnz
-  > church/churches
-    | pron tS3`tS/tS3`-tSIz
-    | class building
-  > distillery/distilleries
-    | pron dI-stI-l3`-i/dI-stI-l3`-iz
-    | class building
-  > conservatory/conservatories
-    | pron kVn-s3`-vV-tO-ri/kVn-s3`-vV-tO-riz
-    | class building
-  > morgue/morgues
-    | pron mOrrg/mOrrgz
-    | class building
-  > funeral home/funeral homes
-    | pron fju-n3`-Vl-hoUm/fju-n3`-Vl-hoUmz
-    | class building
-  > courthouse/courthouses
-    | pron kOrrt-haUs/kOrrt-haU-sIz
-    | class building
-  > trailer/trailers
-    | pron treI-l3`/treI-l3`z
-  > theater/theaters
-    | pron Ti-V-t3`/Ti-V-t3`z
-    | class building
-  > studio/studios
-    | pron stu-di-oU/stu-di-oUz
-    | class building
-  > ring/rings
-    | pron rIN/rINz
-  > fort/forts
-    | pron fOrrt/fOrrts
-    | class building
-  > nursery/nurseries
-    | pron n3`-s3`-i/n3`-s3`-iz
-    | class building
-  > library/libraries
-    | pron laI-brE-ri/laI-brE-riz
-    | class building
-  > hospital/hospitals
-    | pron hAs-pI-tVl/hAs-pI-tVlz
-    | class building
-  > hostel/hostels
-    | pron hA-stVl/hA-stVlz
-    | class building
-  > hotel/hostels
-    | pron hoU-tEl/hA-stVlz
-    | class building
-  > sanctuary/sanctuaries
-    | pron s{Nk-tSu-E-ri/s{Nk-tSu-E-riz
   > bus/buses
     | pron bVs/bV-sIz
-  > post office/post offices
-    | pron poUst-O-fVs/poUst-O-fV-sIz
-    | class building
-  > skyway/skyways
-  > opera/operas
-    | pron A-prV/A-prVz
-  > laboratory/laboratories
-    | pron l{-brV-tO-ri/l{-brV-tO-riz
-    | class building
-  > garage/garages
-    | pron g3`-AZ/g3`-A-ZIz
-  > festival/festivals
-    | pron fE-stI-vVl/fE-stI-vVlz
+  > cage/cages
+    | pron keIdZ/keI-dZIz
+  > car/cars
+    | pron kArr/kAz
   > carnival/carnivals
     | pron kArr-nV-vVl/kArr-nV-vVlz
+  > classroom/classrooms
+    | pron kl{s-rum/kl{s-rumz
+  > closet/closets
+    | pron klA-zVt/klA-zVts
+  > company/companies
+    | pron kVm-pV-ni/kVm-pV-niz
   > dispensary/dispensaries
+  > dungeon/dungeons
+    | pron dVn-dZVn/dVn-dZVnz
+  > festival/festivals
+    | pron fE-stI-vVl/fE-stI-vVlz
+  > firetruck/firetrucks
+  > garage/garages
+    | pron g3`-AZ/g3`-A-ZIz
+  > garden/gardens
+    | pron gArr-dVn/gArr-dVnz
+  > house/houses
+    | pron haUs/haU-sIz
+  > kitchen/kitchens
+    | pron kI-tSVn/kI-tSVnz
+  > office/offices
+    | pron O-fVs/O-fV-sIz
+  > opera/operas
+    | pron A-prV/A-prVz
+  > port-a-potty/port-a-potties
+  > ring/rings
+    | pron rIN/rINz
+  > sanctuary/sanctuaries
+    | pron s{Nk-tSu-E-ri/s{Nk-tSu-E-riz
+  > sauna/saunas
+    | pron sO-nV/sO-nVz
+  > shop/shops
+    | pron SAp/SAps
+  > skyway/skyways
+  > stand/stands
+    | pron st{nd/st{ndz
+  > station/stations
+    | pron steI-SVn/steI-SVnz
+  > town/towns
+    | pron taUn/taUnz
+  > trailer/trailers
+    | pron treI-l3`/treI-l3`z
+  > van/vans
+    | pron v{n/v{nz
+  > wonderland/wonderlands
 #class remove indoor
 
-> beach/beaches
-  | pron bitS/bi-tSIz
-  | class natural outdoor
-> highway/highways
-  | pron haI-weI/haI-weIz
-  | class outdoor
-> mountain/mountains
-  | pron maUn-tVn/maUn-tVnz
-  | class natural outdoor
-> hill/hills
-  | pron hIl/hIlz
-  | class natural outdoor
-> railroad/railroads
-  | pron reIl-roUd/reIl-roUdz
-  | class outdoor
-> road/roads
-  | pron roUd/roUdz
-  | class outdoor
-> hilltop/hilltops
-  | pron hIl-tAp/hIl-tAps
-  | class natural outdoor
-> park/parks
-  | pron pArrk/pArrks
-  | class outdoor
-> lakeside/lakesides
-  | class natural outdoor
-> grassy plain/grassy plains
-  | pron gr{-si-pleIn/gr{-si-pleInz
-  | class natural outdoor
-> crater/craters
-  | pron kreI-t3`/kreI-t3`z
-  | class natural outdoor
-> valley/valleys
-  | pron v{-li/v{-liz
-  | class natural outdoor
-> volcano/volcanoes
-  | pron vAl-keI-noU/vAl-keI-noUz
-  | class natural outdoor
-> island/islands
-  | pron aI-lVnd/aI-lVndz
-  | class natural outdoor
-> farm/farms
-  | pron fArrm/fArrmz
-  | class outdoor
-> rooftop/rooftops
-  | pron ruf-tAp/ruf-tAps
-  | class outdoor
-> dance floor/dance floors
-  | pron d{ns-flOrr/d{ns-flOrrz
-  | class outdoor
-> graveyard/graveyards
-  | pron greIv-jArrd/greIv-jArrdz
-  | class outdoor
-> cemetery/cemeteries
-  | pron sE-mI-tE-ri/sE-mV-tE-riz
-  | class outdoor
-> field/fields
-  | pron fild/fildz
-  | class outdoor
-> street/streets
-  | pron strit/strits
-  | class outdoor
-> battlefield/battlefields
-  | pron b{-tVl-fild/b{-tVl-fildz
-  | class outdoor
-> wasteland/wastelands
-  | class natural outdoor
-> playground/playgrounds
-  | pron pleI-graUn/pleI-graUnz
-  | class outdoor
-> amusement park/amusement parks
-  | pron V-mjuz-mVnt-pArrk/V-mjuz-mVnt-pArrks
-  | class outdoor
+#class add outdoor
+  #class add natural
+    > beach/beaches
+      | pron bitS/bi-tSIz
+    > crater/craters
+      | pron kreI-t3`/kreI-t3`z
+    > grassy plain/grassy plains
+      | pron gr{-si-pleIn/gr{-si-pleInz
+    > hill/hills
+      | pron hIl/hIlz
+    > hilltop/hilltops
+      | pron hIl-tAp/hIl-tAps
+    > island/islands
+      | pron aI-lVnd/aI-lVndz
+    > lakeside/lakesides
+    > mountain/mountains
+      | pron maUn-tVn/maUn-tVnz
+    > valley/valleys
+      | pron v{-li/v{-liz
+    > volcano/volcanoes
+      | pron vAl-keI-noU/vAl-keI-noUz
+    > wasteland/wastelands
+  #class remove natural
+
+  > amusement park/amusement parks
+    | pron V-mjuz-mVnt-pArrk/V-mjuz-mVnt-pArrks
+  > battlefield/battlefields
+    | pron b{-tVl-fild/b{-tVl-fildz
+  > cemetery/cemeteries
+    | pron sE-mI-tE-ri/sE-mV-tE-riz
+  > dance floor/dance floors
+    | pron d{ns-flOrr/d{ns-flOrrz
+  > farm/farms
+    | pron fArrm/fArrmz
+  > field/fields
+    | pron fild/fildz
+  > graveyard/graveyards
+    | pron greIv-jArrd/greIv-jArrdz
+  > highway/highways
+    | pron haI-weI/haI-weIz
+  > park/parks
+    | pron pArrk/pArrks
+  > playground/playgrounds
+    | pron pleI-graUn/pleI-graUnz
+  > railroad/railroads
+    | pron reIl-roUd/reIl-roUdz
+  > road/roads
+    | pron roUd/roUdz
+  > rooftop/rooftops
+    | pron ruf-tAp/ruf-tAps
+  > street/streets
+    | pron strit/strits
+#class remove outdoor
+

@@ -2,99 +2,99 @@
 #name emo
 #subs default
 
-> joy
-  | pron dZOI
-> fright
-  | pron fraIt
-> happiness
-  | pron h{-pi-nVs
-> boredom
-  | pron bOrr-dVm
-> sorrow
-  | pron sA-roU
-> sadness
-  | pron s{d-nVs
 > anger
   | pron {N-g3`
-> rage
-  | pron reIdZ
-> guilt
-  | pron gIlt
-> envy
-  | pron En-vi
-> passion
-  | pron p{-SVn
-> bliss
-  | pron blIs
-> pain
-  | pron peIn
-> interest
-  | pron In-t3`-Ist
-> smugness
-  | pron smVg-nVs
-> pride
-  | pron praId
-> hunger
-  | pron hVN-g3`
-> despair
-  | pron dI-sperr
-> shame
-  | pron SeIm
-> love
-  | pron lVv
-> madness
-  | pron m{d-nVs
-> hatred
-  | pron heI-trVd
-> pity
-  | pron pI-ti
-> humility
-  | pron hju-mI-lI-ti
 > anticipation
   | pron {n-tI-sV-peI-SVn
-> surprise
-  | pron sV-praIz
-> optimism
-  | pron Ap-tV-mI-zVm
-> disappointment
-  | pron dIs-V-pOInt-mVnt
-> remorse
-  | pron rI-mOrrs
-> contempt
-  | pron kVn-tEmpt
 > awe
   | pron O
-> lust
-  | pron lVst
-> longing
-  | pron lO-NIN
-> contentment
-  | pron kVn-tEnt-mVnt
-> pleasure
-  | pron plE-Z3`
-> irritation
-  | pron I-rI-teI-SVn
-> torment
-  | pron tOrr-mEnt
-> horror
-  | pron hO-r3`
-> shock
-  | pron SAk
-> terror
-  | pron tE-r3`
-> ecstasy
-  | pron Ek-stV-si
-> satisfaction
-  | pron s{-tIs-f{k-SVn
-> gratitude
-  | pron gr{-tV-tud
-> melancholy
-  | pron mE-lVn-kA-li
-> fury
-  | pron fjU-ri
-> excitement
-  | pron Ik-saIt-mVnt
-> confusion
-  | pron kVn-fju-ZVn
 > bewilderment
   | pron bI-wIl-d3`-mVnt
+> bliss
+  | pron blIs
+> boredom
+  | pron bOrr-dVm
+> confusion
+  | pron kVn-fju-ZVn
+> contempt
+  | pron kVn-tEmpt
+> contentment
+  | pron kVn-tEnt-mVnt
+> despair
+  | pron dI-sperr
+> disappointment
+  | pron dIs-V-pOInt-mVnt
+> ecstasy
+  | pron Ek-stV-si
+> envy
+  | pron En-vi
+> excitement
+  | pron Ik-saIt-mVnt
+> fright
+  | pron fraIt
+> fury
+  | pron fjU-ri
+> gratitude
+  | pron gr{-tV-tud
+> guilt
+  | pron gIlt
+> happiness
+  | pron h{-pi-nVs
+> hatred
+  | pron heI-trVd
+> horror
+  | pron hO-r3`
+> humility
+  | pron hju-mI-lI-ti
+> hunger
+  | pron hVN-g3`
+> interest
+  | pron In-t3`-Ist
+> irritation
+  | pron I-rI-teI-SVn
+> joy
+  | pron dZOI
+> longing
+  | pron lO-NIN
+> love
+  | pron lVv
+> lust
+  | pron lVst
+> madness
+  | pron m{d-nVs
+> melancholy
+  | pron mE-lVn-kA-li
+> optimism
+  | pron Ap-tV-mI-zVm
+> pain
+  | pron peIn
+> passion
+  | pron p{-SVn
+> pity
+  | pron pI-ti
+> pleasure
+  | pron plE-Z3`
+> pride
+  | pron praId
+> rage
+  | pron reIdZ
+> remorse
+  | pron rI-mOrrs
+> sadness
+  | pron s{d-nVs
+> satisfaction
+  | pron s{-tIs-f{k-SVn
+> shame
+  | pron SeIm
+> shock
+  | pron SAk
+> smugness
+  | pron smVg-nVs
+> sorrow
+  | pron sA-roU
+> surprise
+  | pron sV-praIz
+> terror
+  | pron tE-r3`
+> torment
+  | pron tOrr-mEnt

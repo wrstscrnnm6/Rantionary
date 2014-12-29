@@ -2,12 +2,12 @@
 #name pron
 #subs acc nom self poss s
 
-> him/he/himself/his/his
-  | pron Im/hi/hIm-sElf/hIz/hIz
-  | class male
 > her/she/herself/her/hers
   | pron h3`/Si/h3`-sElf/h3`/h3`z
   | class female
+> him/he/himself/his/his
+  | pron Im/hi/hIm-sElf/hIz/hIz
+  | class male
 > it/it/itself/its/its
   | pron It/It/It-sElf/Its/Its
   | class neutral

@@ -2,107 +2,85 @@
 #name timenoun
 #subs singular plural
 
-> dawn/dawns
-  | pron dOn/dOnz
-  | class timeofday
-> morning/mornings
-  | pron mOrr-nIN/mOrr-nINz
-  | class timeofday
-> noon/noons
-  | pron nun/nunz
-  | class timeofday
-> day/days
-  | pron deI/deIz
-  | class timeofday
-> afternoon/afternoons
-  | pron {f-t3`-nun/{f-t3`-nunz
-  | class timeofday
-> evening/evenings
-  | pron iv-nIN/iv-nINz
-  | class timeofday
-> dusk/dusks
-  | class timeofday
-> night/nights
-  | pron naIt/naIts
-  | class timeofday
-> midnight/midnights
-  | class timeofday
-> Sunday/Sundays
-  | class dayofweek
-> Monday/Mondays
-  | class dayofweek
-> Tuesday/Tuesdays
-  | class dayofweek
-> Wednesday/Wednesdays
-  | class dayofweek
-> Thursday/Thursdays
-  | class dayofweek
-> Friday/Fridays
-  | class dayofweek
-> Saturday/Saturdays
-  | class dayofweek
-
-#class add month
-  > January/Januaries
-    | class month
-  > February/Februaries
-    | class month
-  > March/Marches
-    | class month
-  > April/Aprils
-    | class month
-  > May/Mays
-    | class month
-  > June/Junes
-    | class month
-  > July/Julies
-    | class month
-  > August/Augusts
-    | class month
-  > September/Septembers
-    | class month
-  > October/Octobers
-    | class month
-  > November/Novembers
-    | class month
-  > December/Decembers
-    | class month
-#class remove month
+#class add dayofweek
+  > Friday/Fridays
+  > Monday/Mondays
+  > Saturday/Saturdays
+  > Sunday/Sundays
+  > Thursday/Thursdays
+  > Tuesday/Tuesdays
+  > Wednesday/Wednesdays
+#class remove dayofweek
 
 #class add holiday
-  > New Year's Eve/New Year's Eves
-  > New Year's Day/New Year's Days
-  > Valentine's Day/Valentine's Days
-  > Easter/Easters
-  > Labor Day/Labor Days
-  > Halloween/Halloweens
-  > Thanksgiving/Thanksgivings
-  > Christmas/Christmasses
-  > Hanukkah/Hanukkahs
   > Black Friday/Black Fridays
-  > Kwanzaa/Kwanzaas
   > Boxing Day/Boxing Days
-  > Labor Day/Labor Days
+  > Christmas/Christmasses
+  > Easter/Easters
   > Father's Day/Father's Days
-  > Mother's Day/Mother's Days
   > Groundhog Day/Groundhog Days
+  > Halloween/Halloweens
+  > Hanukkah/Hanukkahs
+  > Kwanzaa/Kwanzaas
+  > Labor Day/Labor Days
+  > Labor Day/Labor Days
+  > Mother's Day/Mother's Days
+  > New Year's Day/New Year's Days
+  > New Year's Eve/New Year's Eves
+  > Thanksgiving/Thanksgivings
+  > Valentine's Day/Valentine's Days
 #class remove holiday
 
-#class add unit
-  > millisecond/milliseconds
-    | pron mI-lI-sE-kVnd/mI-lI-sE-kVndz
-  > second/seconds
-    | pron sE-kVn/sE-kVnz
-  > minute/minutes
-    | pron maI-njut/mI-nVts
-  > hour/hours
-    | pron ^rr/^rrz
+#class add month
+  > April/Aprils
+  > August/Augusts
+  > December/Decembers
+  > February/Februaries
+  > January/Januaries
+  > July/Julies
+  > June/Junes
+  > March/Marches
+  > May/Mays
+  > November/Novembers
+  > October/Octobers
+  > September/Septembers
+#class remove month
+
+#class add timeofday
+  > afternoon/afternoons
+    | pron {f-t3`-nun/{f-t3`-nunz
+  > dawn/dawns
+    | pron dOn/dOnz
   > day/days
     | pron deI/deIz
-  > month/months
-    | pron mVnT/mVnTs
-  > year/years
-    | pron jIrr/j3`z
+  > dusk/dusks
+  > evening/evenings
+    | pron iv-nIN/iv-nINz
+  > midnight/midnights
+  > morning/mornings
+    | pron mOrr-nIN/mOrr-nINz
+  > night/nights
+    | pron naIt/naIts
+  > noon/noons
+    | pron nun/nunz
+#class remove timeofday
+
+#class add unit
   > century/centuries
     | pron sEn-tS3`-i/sEn-tS3`-iz
+  > day/days
+    | pron deI/deIz
+  > hour/hours
+    | pron ^rr/^rrz
+  > millisecond/milliseconds
+    | pron mI-lI-sE-kVnd/mI-lI-sE-kVndz
+  > minute/minutes
+    | pron maI-njut/mI-nVts
+  > month/months
+    | pron mVnT/mVnTs
+  > second/seconds
+    | pron sE-kVn/sE-kVnz
+  > year/years
+    | pron jIrr/j3`z
 #class remove unit
+

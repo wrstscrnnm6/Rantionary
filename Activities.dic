@@ -4,65 +4,37 @@
 
 #class add game
   #class add sport
-    > Football
-      | class game sport
-    > Soccer
-      | class game sport
-    > Tennis
-      | class game sport
-    > Basketball
-      | class game sport
     > Baseball
-      | class game sport
+    > Basketball
+    > Football
     > Golf
-      | class game sport
+    > Soccer
+    > Tennis
   #class remove sport
-  #class add board
-    > Chess
-      | class game board
-    > Checkers
-      | class game board
-    > Backgammon
-      | class game board
-  #class remove board
+
   #class add video
-    > Pong
-      | class game video
-    > Super Mario Bros.
-      | class game video
-    > The Legend of Zelda
-      | pron Vv
-      | class game video
-    > Sonic the Hedgehog
-      | pron Di
-      | class game video
+    > Battlefield
     > Call of Duty
       | pron Vv
-      | class game video
-    > Battlefield
-      | class game video
+    > Contra
+    > Counter-Strike
+    > Doom
+    > Half-Life
+    > Halo
     > Hitman
-      | class game video
+    > Left 4 Dead
     > Morrowind
-      | class game video
     > Oblivion
-      | class game video
+    > Pong
     > Skyrim
-      | class game video
+    > Sonic the Hedgehog
+      | pron Di
+    > Super Mario Bros.
+    > The Legend of Zelda
+      | pron Vv
     > World of Warcraft
       | pron Vv
-      | class game video
-    > Contra
-      | class game video
-    > Halo
-      | class game video
-    > Doom
-      | class game video
-    > Half-Life
-      | class game video
-    > Left 4 Dead
-      | class game video
-    > Counter-Strike
-      | class game video
   #class remove video
+
 #class remove game
+

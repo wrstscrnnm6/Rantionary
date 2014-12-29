@@ -2,15 +2,15 @@
 #name with
 #subs default
 
-> with
-  | pron wID
-> without
-  | pron wID-aUt
 > alongside
   | pron V-lON-saId
 > inside of
   | pron In-saId-Vv
 > using
   | pron ju-zIN
+> with
+  | pron wID
 > with the help of
   | pron wID-Di-hElp-Vv
+> without
+  | pron wID-aUt

@@ -2,102 +2,82 @@
 #name prefix
 #subs default
 
-> pre
-  | pron pri
-  | class position
-> post
-  | pron poUst
-  | class position
-> extra
-  | pron Ek-strV
-  | class position
-> intra
-  | pron In-trV
-  | class position
-> mega
-  | pron mE-gV
-> exo
-> endo
-  | pron En-doU
-  | class position
-> bi
-  | pron baI
-  | class quantity
-> tri
-  | pron traI
-  | class quantity
-> quad
-  | pron kwAd
-  | class quantity
-> octo
-  | class quantity
+#class add position
+  > endo
+    | pron En-doU
+  > extra
+    | pron Ek-strV
+  > intra
+    | pron In-trV
+  > mid
+    | pron mId
+  > over
+    | pron oU-v3`
+  > post
+    | pron poUst
+  > pre
+    | pron pri
+  > under
+    | pron Vn-d3`
+#class remove position
+
+#class add quantity
+  > bi
+    | pron baI
+  > mono
+    | pron moU-noU
+  > octo
+  > penta
+    | pron pEn-tV
+  > quad
+    | pron kwAd
+  > tri
+    | pron traI
+#class remove quantity
+
 > a
   | pron eI
 > anti
   | pron {n-taI
-> un
-  | pron ju-En
-> in
-  | pron In
-> pseudo
-  | pron su-doU
-> penta
-  | pron pEn-tV
-  | class quantity
-> micro
-  | pron maI-kroU
-  | class scale
-> macro
-  | pron m{-kroU
-  | class scale
-> cardio
-  | pron kArr-di-oU
-  | class anatomy
-> neuro
-  | pron nU-roU
-  | class anatomy
-> pyro
-  | pron paI-roU
-> super
-  | pron su-p3`
-> mini
-  | pron mI-ni
-> psycho
-  | pron saI-koU
-> trans
-  | pron tr{nz
-> fore
-  | pron fOrr
-> semi
-  | pron sE-maI
-> mid
-  | pron mId
-  | class position
-> under
-  | pron Vn-d3`
-  | class position
-> over
-  | pron oU-v3`
-  | class position
-> mis
-  | pron mIs
-> non
-  | pron nAn
 > auto
   | pron O-toU
 > circum
 > contra
   | pron kAn-trV
+> exo
+> fore
+  | pron fOrr
 > homo
   | pron hoU-moU
 > hyper
   | pron haI-p3`
-> mono
-  | pron moU-noU
-  | class quantity
-> sub
-  | pron sVb
+> in
+  | pron In
+> mega
+  | pron mE-gV
+> mini
+  | pron mI-ni
+> mis
+  | pron mIs
+> non
+  | pron nAn
 > omni
   | pron Am-ni
+> pseudo
+  | pron su-doU
+> psycho
+  | pron saI-koU
+> pyro
+  | pron paI-roU
+> semi
+  | pron sE-maI
+> sub
+  | pron sVb
+> super
+  | pron su-p3`
+> trans
+  | pron tr{nz
+> un
+  | pron ju-En
 > uni
   | pron ju-ni
