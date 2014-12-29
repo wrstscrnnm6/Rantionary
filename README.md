@@ -1,7 +1,7 @@
-RantVocab
+Rantionary
 =========
 
-These are the official dictionaries for the Rant language.
+This is the official dictionary for use with [Rant](http://github.com/TheBerkin/Rant).
 
 **Contributions are welcome.** I love new words! If you want to add something, be it big or small, send a pull request and I'll get to it within a couple days at the most.
 
