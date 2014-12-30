@@ -4,81 +4,81 @@
 
 #class add liquid
   > acid
-    | pron {-sVd
+    | pron "{-sVd
   > beer
-    | pron bIrr
+    | pron b"Irr
   > blood
-    | pron blVd
+    | pron bl"Vd
   > earwax
-    | pron Irr-w{ks
+    | pron "Irr-w%{ks
   > extra-virgin olive oil
-    | pron A-lIv-OIl
+    | pron "A-lIv "OIl
   > gasoline
-    | pron g{-sV-lin
+    | pron g"{-sV-l%in
   > grease
-    | pron gris
+    | pron gr"is
   > ink
-    | pron INk
+    | pron "INk
   > ketchup
-    | pron kE-tSVp
+    | pron k"E-tSVp
   > lava
-    | pron lA-vV
+    | pron l"A-vV
   > lemonade
-    | pron lE-mV-neId
+    | pron l"E-mV-n"eId
   > liquid nitrogen
-    | pron lI-kwId-naI-trV-dZVn
+    | pron l"I-kwId n"aI-trV-dZVn
   > magma
-    | pron m{g-mV
+    | pron m"{g-mV
   > mayonnaise
-    | pron meI-V-neIz
+    | pron m"eI-V-n%eIz
   > molten iron
-    | pron moUl-tVn-aI-3`n
+    | pron m"oUl-tVn "aI-3`n
   > mustard
-    | pron mV-st3`d
+    | pron m"V-st3`d
   > oil
-    | pron OIl
+    | pron "OIl
   > olive oil
-    | pron A-lIv-OIl
+    | pron "A-lIv "OIl
   > orange juice
-    | pron O-rIndZ-dZus
+    | pron "O-rIndZ dZ"us
   > paint
-    | pron peInt
+    | pron p"eInt
   > plasma
-    | pron pl{z-mV
+    | pron pl"{z-mV
   > sap
-    | pron s{p
+    | pron s"{p
   > soy sauce
-    | pron sOI-sOs
+    | pron s"OI s"Os
   > sweat
-    | pron swEt
+    | pron sw"Et
   > tears
-    | pron tIrrz
+    | pron t"Irrz
   > tomato sauce
-    | pron tV-mA-toU-sOs
+    | pron tV-m"A-t%oU s"Os
   > vinegar
-    | pron vI-nV-g3`
+    | pron v"I-nV-g3`
   > vodka
-    | pron vAd-kV
+    | pron v"Ad-kV
   > vomit
-    | pron vA-mVt
+    | pron v"A-mVt
   > water
-    | pron wO-t3`
+    | pron w"O-t3`
   > wine
-    | pron waIn
+    | pron w"aIn
 #class remove liquid
 
 > antimatter
 > corn
-  | pron kOrrn
+  | pron k"Orrn
 > dark matter
-  | pron dArrk-m{-t3`
+  | pron d"Arrk m"{-t3`
 > flour
-  | pron fl^rr
+  | pron fl"^rr
 > oatmeal
-  | pron oUt-mil
+  | pron "oUt-m%il
 > sand
-  | pron s{nd
+  | pron s"{nd
 > snow
-  | pron snoU
+  | pron sn"oU
 > spaghetti
-  | pron spV-gE-ti
+  | pron spV-g"E-ti

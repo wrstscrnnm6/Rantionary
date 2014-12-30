@@ -4,74 +4,74 @@
 
 #class add female
   > aunt/aunts
-    | pron Ont/Onts
+    | pron "Ont/"Onts
   > daddy/daddies
-    | pron d{-di/d{-diz
+    | pron d"{-di/d"{-diz
   > daughter/daughters
-    | pron dO-t3`/dO-t3`z
+    | pron d"O-t3`/d"O-t3`z
   > girl/girls
-    | pron g3`l/g3`lz
+    | pron g"3`l/g"3`lz
   > girlfriend/girlfriends
-    | pron g3`l-frEnd/g3`l-frEndz
+    | pron g"3`l-fr%End/g"3`l-fr%Endz
   > granddaughter/granddaughters
-    | pron gr{n-dO-t3`/gr{n-dO-t3`z
+    | pron gr"{n-d%O-t3`/gr"{n-d%O-t3`z
   > grandma/grandmas
-    | pron gr{nd-mA/gr{-mAz
+    | pron gr"{nd-mA/gr"{-m%Az
   > mommy/mommies
-    | pron mA-mi/mA-miz
+    | pron m"A-mi/m"A-miz
   > mother/mothers
-    | pron mV-D3`/mV-D3`z
+    | pron m"V-D3`/m"V-D3`z
   > sister/sisters
-    | pron sI-st3`/sI-st3`z
+    | pron s"I-st3`/s"I-st3`z
   > stepmother/stepmothers
   > wife/wives
-    | pron waIf/waIvz
+    | pron w"aIf/w"aIvz
   > woman/women
-    | pron wU-mVn/wI-mVn
+    | pron w"U-mVn/w"I-mVn
 #class remove female
 
 #class add male
   > boy/boys
-    | pron bOI/bOIz
+    | pron b"OI/b"OIz
   > boyfriend/boyfriends
-    | pron bOI-frEnd/bOI-frEnz
+    | pron b"OI-fr%End/b"OI-fr%Enz
   > brother/brothers
-    | pron brV-D3`/brV-D3`z
+    | pron br"V-D3`/br"V-D3`z
   > father/fathers
-    | pron fA-D3`/fA-D3`z
+    | pron f"A-D3`/f"A-D3`z
   > godfather/godfathers
   > grandpa/grandpas
   > grandson/grandsons
-    | pron gr{n-sVn/gr{n-sVnz
+    | pron gr"{n-s%Vn/gr"{n-s%Vnz
   > husband/husbands
-    | pron hVz-bVnd/hVz-bVndz
+    | pron h"Vz-bVnd/h"Vz-bVndz
   > man/men
-    | pron m{n/mEn
+    | pron m"{n/m"En
   > son/sons
-    | pron sVn/sVnz
+    | pron s"Vn/s"Vnz
   > stepfather/stepfathers
   > uncle/uncles
-    | pron VN-kVl/VN-kVlz
+    | pron "VN-kVl/"VN-kVlz
 #class remove male
 
 #class add neutral
   > baby/babies
-    | pron beI-bi/beI-biz
+    | pron b"eI-bi/b"eI-biz
   > boss/bosses
-    | pron bOs/bO-sIz
+    | pron b"Os/b"O-sIz
   > buddy/buddies
-    | pron bV-di/bV-diz
+    | pron b"V-di/b"V-diz
   > child/children
-    | pron tSaIld/tSIl-drVn
+    | pron tS"aIld/tS"Il-drVn
   > colleague/colleagues
-    | pron kA-lig/kA-ligz
+    | pron k"A-lig/k"A-ligz
   > cousin/cousins
-    | pron kV-zVn/kV-zVnz
+    | pron k"V-zVn/k"V-zVnz
   > fella/fellas
-    | pron fE-lV/fE-lVs
+    | pron f"E-lV/f"E-lVs
   > friend/friends
-    | pron frEnd/frEnz
+    | pron fr"End/fr"Enz
   > master/masters
-    | pron m{-st3`/m{-st3`z
+    | pron m"{-st3`/m"{-st3`z
 #class remove neutral
 

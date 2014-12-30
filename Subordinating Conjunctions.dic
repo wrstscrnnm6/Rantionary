@@ -3,102 +3,102 @@
 #subs default
 
 > after
-  | pron {f-t3`
+  | pron "{f-t3`
 > although
-  | pron Ol-DoU
+  | pron %Ol-D"oU
 > as
-  | pron Ez
+  | pron "Ez
 > as if
-  | pron Ez-If
+  | pron "Ez If
 > as long as
-  | pron Ez-lON-Ez
+  | pron "Ez l"ON "Ez
 > as much as
-  | pron Ez-mVtS-Ez
+  | pron "Ez m"VtS "Ez
 > as soon as
-  | pron Ez-sun-Ez
+  | pron "Ez s"un "Ez
 > as though
-  | pron Ez-DoU
+  | pron "Ez D"oU
 > because
-  | pron bI-kVz
+  | pron bI-k"Vz
 > before
-  | pron bi-fOrr
+  | pron b%i-f"Orr
 > even
-  | pron i-vIn
+  | pron "i-vIn
 > even if
-  | pron i-vIn-If
+  | pron "i-vIn If
 > even though
-  | pron i-vIn-DoU
+  | pron "i-vIn D"oU
 > if
   | pron If
 > if only
-  | pron If-oUn-li
+  | pron If "oUn-li
 > if then
-  | pron If-DEn
+  | pron If D"En
 > if when
-  | pron If-hwIn
+  | pron If hw"In
 > in order that
-  | pron In-Orr-d3`-DVt
+  | pron "In "Orr-d3` DVt
 > inasmuch
-  | pron In-{s-mVk
+  | pron In-"{s-mVk
 > just as
-  | pron dZIst-Ez
+  | pron dZIst "Ez
 > lest
-  | pron lEst
+  | pron l"Est
 > now
-  | pron naU
+  | pron n"aU
 > now since
-  | pron naU-sIns
+  | pron n"aU s"Ins
 > now that
-  | pron naU-DVt
+  | pron n"aU DVt
 > now when
-  | pron naU-hwIn
+  | pron n"aU hw"In
 > once
-  | pron wVns
+  | pron w"Vns
 > provided
-  | pron prV-vaI-dId
+  | pron prV-v"aI-dId
 > provided that
-  | pron prV-vaI-dId-DVt
+  | pron prV-v"aI-dId DVt
 > rather than
-  | pron rV-D3`-DVn
+  | pron r"V-D3` DVn
 > since
-  | pron sIns
+  | pron s"Ins
 > so that
-  | pron soU-DVt
+  | pron s"oU DVt
 > supposing
-  | pron sV-poU-zIN
+  | pron sV-p"oU-zIN
 > than
   | pron DVn
 > that
   | pron DVt
 > though
-  | pron DoU
+  | pron D"oU
 > til
-  | pron tIl
+  | pron t"Il
 > unless
-  | pron Vn-lEs
+  | pron Vn-l"Es
 > until
-  | pron Vn-tIl
+  | pron Vn-t"Il
 > when
-  | pron hwIn
+  | pron hw"In
 > whenever
-  | pron hwE-nE-v3`
+  | pron hwE-n"E-v3`
 > where
-  | pron hwerr
+  | pron hw"err
 > where if
-  | pron hwerr-If
+  | pron hw"err If
 > whereas
-  | pron hwE-r{z
+  | pron hwE-r"{z
 > wherever
-  | pron hwE-rE-v3`
+  | pron hwE-r"E-v3`
 > whether
-  | pron hwE-D3`
+  | pron hw"E-D3`
 > which
-  | pron hwItS
+  | pron hw"ItS
 > while
-  | pron hwaIl
+  | pron hw"aIl
 > who
-  | pron hu
+  | pron h"u
 > whoever
-  | pron hu-E-v3`
+  | pron hu-"E-v3`
 > why
-  | pron hwaI
+  | pron hw"aI

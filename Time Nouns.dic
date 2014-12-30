@@ -48,39 +48,39 @@
 
 #class add timeofday
   > afternoon/afternoons
-    | pron {f-t3`-nun/{f-t3`-nunz
+    | pron %{f-t3`-n"un/%{f-t3`-n"unz
   > dawn/dawns
-    | pron dOn/dOnz
+    | pron d"On/d"Onz
   > day/days
-    | pron deI/deIz
+    | pron d"eI/d"eIz
   > dusk/dusks
   > evening/evenings
-    | pron iv-nIN/iv-nINz
+    | pron "iv-nIN/"iv-nINz
   > midnight/midnights
   > morning/mornings
-    | pron mOrr-nIN/mOrr-nINz
+    | pron m"Orr-nIN/m"Orr-nINz
   > night/nights
-    | pron naIt/naIts
+    | pron n"aIt/n"aIts
   > noon/noons
-    | pron nun/nunz
+    | pron n"un/n"unz
 #class remove timeofday
 
 #class add unit
   > century/centuries
-    | pron sEn-tS3`-i/sEn-tS3`-iz
+    | pron s"En-tS3`-i/s"En-tS3`-iz
   > day/days
-    | pron deI/deIz
+    | pron d"eI/d"eIz
   > hour/hours
-    | pron ^rr/^rrz
+    | pron "^rr/"^rrz
   > millisecond/milliseconds
-    | pron mI-lI-sE-kVnd/mI-lI-sE-kVndz
+    | pron m"I-lI-s%E-kVnd/m"I-lI-s%E-kVndz
   > minute/minutes
-    | pron maI-njut/mI-nVts
+    | pron maI-nj"ut/m"I-nVts
   > month/months
-    | pron mVnT/mVnTs
+    | pron m"VnT/m"VnTs
   > second/seconds
-    | pron sE-kVn/sE-kVnz
+    | pron s"E-kVn/s"E-kVnz
   > year/years
-    | pron jIrr/j3`z
+    | pron j"Irr/j3`z
 #class remove unit
 
