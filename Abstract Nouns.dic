@@ -4,64 +4,64 @@
 
 #class add concept
   > belief/beliefs
-    | pron bI-lif/bI-lifs
+    | pron bI-l"if/bI-l"ifs
   > concept/concepts
-    | pron kAn-sEpt/kAn-sEps
+    | pron k"An-sEpt/k"An-sEps
   > conception/conceptions
-    | pron kVn-sEp-SVn/kVn-sEp-SVnz
+    | pron kVn-s"Ep-SVn/kVn-s"Ep-SVnz
   > conclusion/conclusions
-    | pron kVn-klu-ZVn/kVn-klu-ZVnz
+    | pron kVn-kl"u-ZVn/kVn-kl"u-ZVnz
   > hypothesis/hypotheses
-    | pron haI-pA-TV-sVs/haI-pA-TV-siz
+    | pron haI-p"A-TV-sVs/haI-p"A-TV-s%iz
   > idea/ideas
-    | pron aI-di-V/aI-di-Vz
+    | pron aI-d"i-V/aI-d"i-Vz
   > impression/impressions
-    | pron Im-prE-SVn/Im-prE-SVnz
+    | pron Im-pr"E-SVn/Im-pr"E-SVnz
   > law/laws
-    | pron lA/lOz
+    | pron l"A/l"Oz
   > lie/lies
-    | pron laI/laIz
+    | pron l"aI/l"aIz
   > notion/notions
-    | pron noU-SVn/noU-SVnz
+    | pron n"oU-SVn/n"oU-SVnz
   > opinion/opinions
-    | pron V-pI-njVn/V-pI-njVnz
+    | pron V-p"I-njVn/V-p"I-njVnz
   > philosophy/philosophies
-    | pron fV-lA-sV-fi/fV-lA-sV-fiz
+    | pron fV-l"A-sV-fi/fV-l"A-sV-fiz
   > plan/plans
-    | pron pl{n/pl{nz
+    | pron pl"{n/pl"{nz
   > proposal/proposals
-    | pron prV-poU-zVl/prV-poU-zVlz
+    | pron prV-p"oU-zVl/prV-p"oU-zVlz
   > scheme/schemes
-    | pron skim/skimz
+    | pron sk"im/sk"imz
   > theory/theories
-    | pron Ti-3`-i/Ti-3`-iz
+    | pron T"i-3`-i/T"i-3`-iz
   > thought/thoughts
-    | pron TOt/TOts
+    | pron T"Ot/T"Ots
   > vision/visions
-    | pron vI-ZVn/vI-ZVnz
+    | pron v"I-ZVn/v"I-ZVnz
 #class remove concept
 
 #class add social
   > agreement/agreements
-    | pron V-gri-mVnt/V-gri-mVnts
+    | pron V-gr"i-mVnt/V-gr"i-mVnts
   > conflict/conflicts
-    | pron kVn-flIkt/kAn-flIks
+    | pron kVn-fl"Ikt/k"An-flIks
   > consensus/consensuses
   > disagreement/disagreements
-    | pron dIs-V-gri-mVnt/dIs-V-gri-mVnts
+    | pron dIs-V-gr"i-mVnt/d%Is-V-gr"i-mVnts
   > feud/feuds
-    | pron fjud/fjudz
+    | pron fj"ud/fj"udz
   > fight/fights
-    | pron faIt/faIts
+    | pron f"aIt/f"aIts
   > friendship/friendships
-    | pron frEn-SIp/frEn-SIps
+    | pron fr"En-SIp/fr"En-SIps
   > relationship/relationships
-    | pron ri-leI-SVn-SIp/ri-leI-SVn-SIps
+    | pron ri-l"eI-SVn-S%Ip/ri-l"eI-SVn-S%Ips
   > rivalry/rivalries
-    | pron raI-vVl-ri/raI-vVl-riz
+    | pron r"aI-vVl-ri/r"aI-vVl-riz
   > romance/romances
-    | pron roU-m{ns/roU-m{n-sIz
+    | pron r"oU-m{ns/roU-m"{n-sIz
   > understanding/understandings
-    | pron Vn-d3`-st{n-dIN/Vn-d3`-st{n-dINz
+    | pron %Vn-d3`-st"{n-dIN/Vn-d3`-st"{n-dINz
 #class remove social
 

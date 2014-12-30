@@ -3,70 +3,59 @@
 #subs singular plural abbr
 
 #class add energy
-  > ampere/amperes/A
-    | class current
-  > farad/farads/F
-    | class capacitance
-  > henry/henries/H
-    | class inductance
+  #class add factor
+    #class add large
+      > kilojoule/kilojoules/kJ
+      > kilovolt/kilovolts/kV
+        | class potential
+      > kilowatt/kilowatts/kW
+        | class power
+      > megawatt/megawatts/MW
+        | class power
+    #class remove large
+
+    #class add small
+      > microfarad/microfarads/μF
+        | class capacitance
+      > milliampere/milliamperes/mA
+        | class current
+      > millivolt/millivolts/mV
+        | class potential
+      > milliwatt/milliwatts/mW
+        | class power
+    #class remove small
+
+  #class remove factor
+
   > joule/joules/J
-  > kilojoule/kilojoules/kJ
-    | class factor large
-  > kilovolt/kilovolts/kV
-    | class factor large potential
-  > kilowatt/kilowatts/kW
-    | class factor large power
-  > megawatt/megawatts/MW
-    | class factor large power
-  > microfarad/microfarads/μF
-    | class capacitance factor small
-  > milliampere/milliamperes/mA
-    | class current factor small
-  > millivolt/millivolts/mV
-    | class factor potential small
-  > milliwatt/milliwatts/mW
-    | class factor power small
-  > volt/volts/V
-    | class potential
-  > watt/watts/W
-    | class power
 #class remove energy
-
-#class add factor
-  #class add large
-  #class remove large
-
-  #class add small
-  #class remove small
-
-#class remove factor
 
 #class add length
   > centimeter/centimeters/cm
     | class factor small
   > foot/feet/ft
   > inch/inches/in
-    | pron IntS/In-tSIz/In
+    | pron "IntS/"In-tSIz/"In
   > kilometer/kilometers/km
     | class factor large
   > light-year/light-years/ly
   > meter/meters/m
-    | pron mi-t3`/mi-t3`z/Em
+    | pron m"i-t3`/m"i-t3`z/"Em
   > mile/miles/mi
-    | pron maIl/maI-Vlz/mi
+    | pron m"aIl/m"aI-Vlz/m"i
   > yard/yards/y
-    | pron jArrd/jArrdz/waI
+    | pron j"Arrd/j"Arrdz/w"aI
 #class remove length
 
 #class add volume
   > bucket/buckets/bucket
-    | pron bV-kIt/bV-kVts/bV-kIt
+    | pron b"V-kIt/b"V-kVts/b"V-kIt
   > cubic centimeter/cubic centimeters/cc
-    | pron kju-bIk-sEn-tV-mi-t3`/kju-bIk-sEn-tV-mi-t3`z/si-si
+    | pron kj"u-bIk s"En-tV-m%i-t3`/kj"u-bIk s"En-tV-m%i-t3`z/s"i-s"i
   > cup/cups/c
-    | pron kVp/kVps/si
+    | pron k"Vp/k"Vps/s"i
   > gallon/gallons/gal
-    | pron g{-lVn/g{-lVnz/g{l
+    | pron g"{-lVn/g"{-lVnz/g"{l
   > liter/liters/L
   > milliliter/milliliters/mL
     | class factor small
@@ -78,15 +67,15 @@
 
 #class add weight
   > gram/grams/g
-    | pron gr{m/gr{mz/dZi
+    | pron gr"{m/gr"{mz/dZ"i
   > kilogram/kilograms/kg
     | class factor large
   > megaton/megatons/Mt
     | class factor large
   > ounce/ounces/oz
-    | pron aUns/aUn-sIz/Az
+    | pron "aUns/"aUn-sIz/"Az
   > pound/pounds/lb
   > ton/tons/t
-    | pron tVn/tVnz/ti
+    | pron t"Vn/t"Vnz/t"i
 #class remove weight
 

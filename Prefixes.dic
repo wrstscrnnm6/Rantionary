@@ -4,80 +4,80 @@
 
 #class add position
   > endo
-    | pron En-doU
+    | pron "En-doU
   > extra
-    | pron Ek-strV
+    | pron "Ek-strV
   > intra
-    | pron In-trV
+    | pron "In-trV
   > mid
-    | pron mId
+    | pron m"Id
   > over
-    | pron oU-v3`
+    | pron "oU-v3`
   > post
-    | pron poUst
+    | pron p"oUst
   > pre
-    | pron pri
+    | pron pr"i
   > under
-    | pron Vn-d3`
+    | pron "Vn-d3`
 #class remove position
 
 #class add quantity
   > bi
-    | pron baI
+    | pron b"aI
   > mono
-    | pron moU-noU
+    | pron m"oU-noU
   > octo
   > penta
-    | pron pEn-tV
+    | pron p"En-tV
   > quad
-    | pron kwAd
+    | pron kw"Ad
   > tri
-    | pron traI
+    | pron tr"aI
 #class remove quantity
 
 > a
-  | pron eI
+  | pron "eI
 > anti
-  | pron {n-taI
+  | pron "{n-taI
 > auto
-  | pron O-toU
+  | pron "O-toU
 > circum
 > contra
-  | pron kAn-trV
+  | pron k"An-trV
 > exo
 > fore
-  | pron fOrr
+  | pron f"Orr
 > homo
-  | pron hoU-moU
+  | pron h"oU-moU
 > hyper
-  | pron haI-p3`
+  | pron h"aI-p3`
 > in
-  | pron In
+  | pron "In
 > mega
-  | pron mE-gV
+  | pron m"E-gV
 > mini
-  | pron mI-ni
+  | pron m"I-ni
 > mis
-  | pron mIs
+  | pron m"Is
 > non
-  | pron nAn
+  | pron n"An
 > omni
-  | pron Am-ni
+  | pron "Am-ni
 > pseudo
-  | pron su-doU
+  | pron s"u-doU
 > psycho
-  | pron saI-koU
+  | pron s"aI-koU
 > pyro
-  | pron paI-roU
+  | pron p"aI-roU
 > semi
-  | pron sE-maI
+  | pron s"E-maI
 > sub
-  | pron sVb
+  | pron s"Vb
 > super
-  | pron su-p3`
+  | pron s"u-p3`
 > trans
-  | pron tr{nz
+  | pron tr"{nz
 > un
-  | pron ju-En
+  | pron j"u-"En
 > uni
-  | pron ju-ni
+  | pron j"u-ni

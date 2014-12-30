@@ -4,132 +4,132 @@
 
 #class add frequency
   > again
-    | pron V-geIn
+    | pron V-g"eIn
   > all the time
-    | pron Ol-Di-taIm
+    | pron "Ol Di t"aIm
   > barely
-    | pron berr-li
+    | pron b"err-li
   > biweekly
-    | pron baI-wik-li
+    | pron baI-w"ik-li
   > centenially
   > daily
-    | pron deI-li
+    | pron d"eI-li
   > every night
-    | pron E-vri-naIt
+    | pron "E-vri n"aIt
   > every now and then
-    | pron E-vri-naU-Vnd-DEn
+    | pron "E-vri n"aU Vnd D"En
   > every Tuesday
-    | pron E-vri
+    | pron "E-vri
   > for 10 weeks
-    | pron fr3`-wiks
+    | pron fr3` w"iks
   > for 36 hours
-    | pron fr3`-^rrz
+    | pron fr3` "@rrz
   > frequently
-    | pron fri-kwVnt-li
+    | pron fr"i-kwVnt-li
   > from now on
-    | pron f3`m-naU-On
+    | pron f3`m n"aU "On
   > hardly
-    | pron hArrd-li
+    | pron h"Arrd-li
   > instantly
-    | pron In-stVnt-li
+    | pron "In-stVnt-li
   > never
-    | pron nE-v3`
+    | pron n"E-v3`
   > never again
-    | pron nE-v3`-V-geIn
+    | pron n"E-v3` V-g"eIn
   > occasionally
-    | pron V-keI-ZVn-li
+    | pron V-k"eI-ZVn-li
   > often
-    | pron Of-tVn
+    | pron "Of-tVn
   > on Mondays
-    | pron On
+    | pron "On
   > once a month
-    | pron wVns-eI-mVnT
+    | pron w"Vns "eI m"VnT
   > once a week
-    | pron wVns-eI-wik
+    | pron w"Vns "eI w"ik
   > once again
-    | pron wVns-V-geIn
+    | pron w"Vns V-g"eIn
   > once in a while
-    | pron wVns-In-eI-hwaIl
+    | pron w"Vns "In "eI hw"aIl
   > perpetually
-    | pron p3`-pE-tSu-V-li
+    | pron p3`-p"E-tSu-V-li
   > profusely
-    | pron prV-fjus-li
+    | pron prV-fj"us-li
   > repeatedly
-    | pron rI-pi-tId-li
+    | pron rI-p"i-tId-li
   > several times
-    | pron sE-v3`-Vl-taImz
+    | pron s"E-v3`-Vl t"aImz
   > sometimes
-    | pron sVm-taImz
+    | pron s"Vm-t%aImz
   > this time
-    | pron DIs-taIm
+    | pron DIs t"aIm
   > until further notice
-    | pron Vn-tIl-f3`-D3`-noU-tIs
+    | pron Vn-t"Il f"3`-D3` n"oU-tIs
   > usually
-    | pron ju-ZV-li
+    | pron j"u-ZV-li
   > yesterday
-    | pron jE-st3`-di
+    | pron j"E-st3`-di
 #class remove frequency
 
 #class add time
   #class add past
     > a day ago
-      | pron eI-deI-V-goU
+      | pron "eI d"eI V-g"oU
     > a month ago
-      | pron eI-mVnT-V-goU
+      | pron "eI m"VnT V-g"oU
     > a week ago
-      | pron eI-wik-V-goU
+      | pron "eI w"ik V-g"oU
     > a year ago
-      | pron eI-jIrr-V-goU
+      | pron "eI j"Irr V-g"oU
     > an hour ago
-      | pron Vn-^rr-V-goU
+      | pron Vn "@rr V-g"oU
     > billions of years ago
-      | pron bI-ljVnz-Vv-j3`z-V-goU
+      | pron b"I-ljVnz Vv j3`z V-g"oU
     > just 5 minutes ago
-      | pron dZIst-mI-nVts-V-goU
+      | pron dZIst m"I-nVts V-g"oU
     > millions of years ago
-      | pron mI-ljVnz-Vv-j3`z-V-goU
+      | pron m"I-ljVnz Vv j3`z V-g"oU
     > trillions of years ago
-      | pron trI-ljVnz-Vv-j3`z-V-goU
+      | pron tr"I-ljVnz Vv j3`z V-g"oU
   #class remove past
 
   #class add present
     > now
-      | pron naU
+      | pron n"aU
     > presently
-      | pron prE-zVnt-li
+      | pron pr"E-zVnt-li
     > today
-      | pron tu-deI
+      | pron tu-d"eI
     > tonight
-      | pron tu-naIt
+      | pron tu-n"aIt
   #class remove present
 
   > 1 day later
-    | pron deI-leI-t3`
+    | pron d"eI l"eI-t3`
   > 1 hour later
-    | pron ^rr-leI-t3`
+    | pron "@rr l"eI-t3`
   > 1 month later
-    | pron mVnT-leI-t3`
+    | pron m"VnT l"eI-t3`
   > 1 week later
-    | pron wik-leI-t3`
+    | pron w"ik l"eI-t3`
   > 10 years later
-    | pron j3`z-leI-t3`
+    | pron j3`z l"eI-t3`
   > 5 minutes later
-    | pron mI-nVts-leI-t3`
+    | pron m"I-nVts l"eI-t3`
   > 5 years later
-    | pron j3`z-leI-t3`
+    | pron j3`z l"eI-t3`
   > 6 months later
-    | pron mVnTs-leI-t3`
+    | pron m"VnTs l"eI-t3`
   > a year later
-    | pron eI-jIrr-leI-t3`
+    | pron "eI j"Irr l"eI-t3`
   > at sunrise
-    | pron {t-sVn-raIz
+    | pron "{t s"Vn-r%aIz
   > at sunset
-    | pron {t-sVn-sEt
+    | pron "{t s"Vn-s%Et
   > at the full moon
-    | pron {t-Di-fUl-mun
+    | pron "{t Di f"Ul m"un
   > later
-    | pron leI-t3`
+    | pron l"eI-t3`
   > recently
-    | pron ri-sVn-li
+    | pron r"i-sVn-li
 #class remove time
 

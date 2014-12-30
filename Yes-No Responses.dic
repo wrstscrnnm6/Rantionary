@@ -4,72 +4,72 @@
 
 #class add no
   > absolutely not
-    | pron {b-sV-lut-li-nAt
+    | pron %{b-sV-l"ut-li n"At
   > certainly not
-    | pron s3`-tVn-li-nAt
+    | pron s"3`-tVn-li n"At
   > definitely not
-    | pron dE-fV-nVt-li-nAt
+    | pron d"E-fV-nVt-li n"At
   > hell no
-    | pron hEl-noU
+    | pron h"El n"oU
   > impossible
-    | pron Im-pA-sV-bVl
+    | pron Im-p"A-sV-bVl
   > most certainly not
-    | pron moUs-s3`-tVn-li-nAt
+    | pron m"oUs s"3`-tVn-li n"At
   > negative
-    | pron nE-gV-tIv
+    | pron n"E-gV-tIv
   > no
-    | pron noU
+    | pron n"oU
   > no way
-    | pron noU-weI
+    | pron n"oU w"eI
   > nooooo
   > nope
-    | pron noUp
+    | pron n"oUp
   > not at all
-    | pron nAt-{t-Ol
+    | pron n"At "{t "Ol
   > obviously not
-    | pron Ab-vi-Vs-li-nAt
+    | pron "Ab-vi-Vs-li n"At
   > oh no
-    | pron oU-noU
+    | pron "oU n"oU
   > that can't be
-    | pron DVt-k{nt-bi
+    | pron DVt k"{nt bi
   > there's no way
-    | pron Derrz-noU-weI
+    | pron D"errz n"oU w"eI
 #class remove no
 
 #class add yes
   > absolutely
-    | pron {b-sV-lut-li
+    | pron %{b-sV-l"ut-li
   > affirmative
-    | pron V-f3`-mV-tIv
+    | pron V-f"3`-mV-tIv
   > certainly
-    | pron s3`-tVn-li
+    | pron s"3`-tVn-li
   > definitely
-    | pron dE-fV-nVt-li
+    | pron d"E-fV-nVt-li
   > hell yes
-    | pron hEl-jEs
+    | pron h"El j"Es
   > I couldn't agree more
-    | pron I-kU-dVn-V-gri-mOrr
+    | pron k"U-dVn V-gr"i m"Orr
   > indeed
-    | pron In-did
+    | pron In-d"id
   > obviously
-    | pron Ab-vi-Vs-li
+    | pron "Ab-vi-Vs-li
   > oh yes
-    | pron oU-jEs
+    | pron "oU j"Es
   > undeniably
-    | pron Vn-dI-naI-V-bli
+    | pron %Vn-dI-n"aI-V-bli
   > undoubtedly
-    | pron Vn-daU-tId-li
+    | pron Vn-d"aU-tId-li
   > without a doubt
-    | pron wID-aUt-eI-daUt
+    | pron wID-"aUt "eI d"aUt
   > ya
-    | pron jA
+    | pron j"A
   > yayaya
   > yep
-    | pron jEp
+    | pron j"Ep
   > yeppers
   > yes
-    | pron jEs
+    | pron j"Es
   > yes/yes
-    | pron jEs/jEs
+    | pron j"Es/j"Es
 #class remove yes
 
