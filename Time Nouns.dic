@@ -71,7 +71,7 @@
   > day/days
     | pron d"eI/d"eIz
   > hour/hours
-    | pron "@rr/"@rrz
+    | pron "^rr/"^rrz
   > millisecond/milliseconds
     | pron m"I-lI-s%E-kVnd/m"I-lI-s%E-kVndz
   > minute/minutes
