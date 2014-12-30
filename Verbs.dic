@@ -36,6 +36,18 @@
     | pron pr"eI/pr"eI-IN/pr"eId/pr"eIz/pr"eI-3`/pr"eId/pr"eI-3`
 #class remove intransitive
 
+#class add like
+  > like/liking/liked/likes/liker/liked/like
+  > need/needing/needed/needs/needer/needed/need
+  > want/wanting/wanted/wants/wanter/wanted/want
+#class remove like
+
+#class add dislike
+  > loathe/loathing/loathed/loathes/loather/loathed/loathe
+  > dislike/disliking/disliked/dislikes/disliker/disliked/dislike
+  > despise/despising/despised/despises/despiser/despised/despise
+#class remove dislike
+
 #class add motion
   #class add insert
     > cram/cramming/crammed/crams/crammer/crammed/cramming
