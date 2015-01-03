@@ -26,6 +26,59 @@
       | pron l"oU-kVst/l"oU-kVs
   #class remove insect
 
+  #class add bird
+    > bird/birds
+    > seagull/seagulls
+      | pron si-gVl/si-gVlz
+    > hawk/hawks
+    > vulture/vultures
+    > woodpecker/woodpeckers
+    > crow/crows
+    > raven/ravens
+    > chickadee/chickadees
+    > chicken/chickens
+      | pron tS"I-kVn/tS"I-kVnz
+    > finch/finches
+    > rooster/roosters
+    > turkey/turkeys
+    > hummingbird/hummingbirds
+    > bluebird/blurbirds
+    > goldfinch/goldfinches
+    > eagle/eagles
+    > owl/owls
+      | pron aUl/aUlz
+    > parrot/parrots
+      | pron pE-rVt/pE-rVts
+    > peacock/peacocks
+      | pron pi-kAk/pi-kAks
+    > dove/doves
+      | pron doUv/dVvz
+    > flamingo/flamingos
+      | pron flV-m"IN-goU/flV-m"IN-goUz
+    > pigeon/pigeons
+    > pelican/pelicans
+    > grouse/grouse
+    > swan/swans
+    > goose/geese
+    > magpie/magpies
+      #class add penguin
+        > penguin/penguins
+        > erect-crested penguin/erect-crested penguins
+        > emperor penguin/emperor penguins
+        > king penguin/king penguins
+        > gentoo penguin/gentoo penguins
+        > adelie penguin/adelie penguins
+        > rockhopper penguin/rockhopper penguins
+        > macaroni penguin/macaroni penguins
+        > yellow-eyed penguin/yellow-eyed penguins
+        > fairy penguin/fairy penguins
+        > African penguin/African penguins
+        > Magellanic penguin/Magellanic penguins
+        > chinstrap penguin/chinstrap penguins
+        > Humboldt penguin/Humboldt penguins
+      #class remove penguin
+  #class remove bird
+
   > anaconda/anacondas
   > ant/ants
     | pron "{nt/"{nts
@@ -43,8 +96,6 @@
     | pron b"Vt-l3`/b"Vt-l3`z
   > cat/cats
     | pron k"{t/k"{ts
-  > chicken/chickens
-    | pron tS"I-kVn/tS"I-kVnz
   > chihuahua/chihuahuas
   > cockroach/cockroaches
     | pron k"Ak-r%oUtS/k"Ak-r%oU-tSIz
@@ -56,12 +107,8 @@
     | pron d"E-vVl/d"E-vVlz
   > donkey/donkeys
     | pron d"ON-ki/d"AN-kiz
-  > dove/doves
-    | pron d"oUv/d"Vvz
   > fish/fishes
     | pron f"IS/f"I-SIz
-  > flamingo/flamingos
-    | pron flV-m"IN-goU/flV-m"IN-goUz
   > frog/frogs
     | pron fr"Ag/fr"Agz
   > goat/goats
@@ -101,12 +148,6 @@
   > ogre/ogres
   > otter/otters
     | pron "A-t3`/"A-t3`z
-  > owl/owls
-    | pron "aUl/"aUlz
-  > parrot/parrots
-    | pron p"E-rVt/p"E-rVts
-  > peacock/peacocks
-    | pron p"i-k%Ak/p"i-k%Aks
   > pony/ponies
     | pron p"oU-ni/p"oU-niz
   > porcupine/porcupines
@@ -114,8 +155,6 @@
   > quokka/quokkas
   > rat/rats
     | pron r"{t/r"{ts
-  > seagull/seagulls
-    | pron s"i-g%Vl/s"i-g%Vlz
   > skunk/skunks
     | pron sk"VNk/sk"VNks
   > sphinx/sphinxes
@@ -137,8 +176,6 @@
   > velociraptor/velociraptors
   > viking/vikings
     | pron v"aI-kIN/v"aI-kINz
-  > vulture/vultures
-    | pron v"Vl-tS3`/v"Vl-tS3`z
   > weasel/weasels
   > wolf/wolves
     | pron w"Ulf/w"Ulvz
