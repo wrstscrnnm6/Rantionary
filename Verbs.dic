@@ -4,19 +4,19 @@
 
 #class add intransitive
   #class add eat
-    > chew/chewing/chewed/chews/chewer/chewed/chewing
+    >> chew/ing/ed/s/er/ed/ing
       | pron tS"u/tS"u-IN/tS"ud/tS"uz/tS"u-3`/tS"ud/tS"u-IN
       | class transitive
-    > eat/eating/ate/eats/eater/eaten/eating
+    >> eat/ing/*ate/s/er/en/ing
       | pron "it/"i-tIN/"eIt/"its/"i-t3`/"i-tVn/"i-tIN
       | class transitive
-    > lick/licking/licked/licks/licker/licked/licking
+    >> lick/ing/ed/s/er/ed/ing
       | pron l"Ik/l"I-kIN/l"Ikt/l"Iks/l"I-k3`/l"Ikt/l"I-kIN
-    > masticate/masticating/masticated/masticates/masticater/masticated/mastication
+    >> masticate/-ing/d/s/r/d/-ion
       | class transitive
-    > slurp/slurping/slurped/slurps/slurper/slurped/slurping
-    > snort/snorting/snorted/snorts/snorter/snorted/snorting
-    > snuffle/snuffling/snuffled/snuffles/snuffler/snuffled/snuffling
+    >> slurp/ing/ed/s/er/ed/ing
+    >> snort/ing/ed/s/er/ed/ing
+    >> snuffle/-ing/d/s/r/d/-ing
   #class remove eat
 
   #class add pose
