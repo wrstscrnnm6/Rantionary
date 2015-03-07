@@ -1,0 +1,250 @@
+#version 2
+#name demon
+#subs default
+
+#class add christian
+
+> Abaddon/Apollyon
+> Adramelech
+> Agares 
+> Aim/Haborym 
+> Alastor 
+> Alloces/Allocer 
+> Amaymon 
+> Amdusias 
+> Amy 
+> Andras 
+> Andrealphus 
+> Andromalius 
+> Antichrist 
+> Astaroth 
+> Baal/Bael 
+> Balam 
+> Baphomet
+> Barbas 
+> Barbatos 
+> Bathin/Mathim/Bathym/Marthim 
+> Beleth 
+> Belphegor 
+> Berith/Beherit
+> Bifrons 
+> Botis 
+> Buer 
+> Bune
+> Cain/Canio 
+> Cimejes/Kimaris/Cimeies 
+> Corson 
+> Crocell/Procell 
+> Dantalion 
+> Decarabia 
+> Demogorgon 
+> Devil
+> Eligos 
+> Focalor 
+> Foras/Forcas/Forras
+> Forneus 
+> Furcas/Forcas 
+> Furfur 
+> Gaap 
+> Gamigin 
+> Glasya-Labolas/Caacrinolaas/Caassimolar/Classyalabolas/Glassia-labolis 
+> Gremory/Gomory 
+> Haagenti 
+> Halphas/Malthus 
+> Haures/Flauros/Flavros/Hauras/Havres 
+> Ipos/Ipes 
+> Krampus
+> Legion 
+> Leraje/Leraie 
+> Lucifer 
+> Lucifuge Rofocale 
+> Malphas 
+> Mammon 
+> Marax/Morax/Foraii 
+> Marchosias 
+> Merihem 
+> Mephistopheles
+> Moloch 
+> Murmur 
+> Naberius/Cerbere/Naberus 
+> Orcus
+> Orias/Oriax 
+> Orobas 
+> Ose 
+> Paimon 
+> Phenex 
+> Pithius 
+> Pruflas 
+> Raum 
+> Ronove 
+> Sabnock 
+> Saleos 
+> Salpsan 
+> Seir 
+> Shax/Chax 
+> Sitri 
+> Stolas/Solas 
+> Surgat 
+> Ukobach 
+> Valac
+> Valefar/Malaphar/Malephar
+> Vapula
+> Vassago
+> Vepar
+> Vine
+> Xaphan
+> Zagan
+> Zepar
+> Ziminiar 
+
+#class add jewish
+
+> Asmodai/Asmodeus
+> Beelzebub
+> Belial
+> Leviathan
+> Incubus
+> Succubus
+> Penemue
+
+#class add islamic
+> Satan 
+#class remove islamic
+
+#class remove jewish
+
+#class remove christian
+
+#class add jewish
+> Abyzou 
+> Agaliarept 
+> Agrat bat Mahlat 
+> Agiel 
+> Armaros 
+> Asb'el 
+> Azazel / Azaz'el 
+> Balberith 
+> Behemoth 
+> Danjal 
+> Eisheth 
+> Gader'el 
+> Grigori 
+> Kasadya 
+> Kokabiel
+> Lili/Lilin/Lilim
+> Lilith
+> Mastema
+> Naamah
+> Rahab
+> Samael
+> Semyaz
+> Shedim
+> Tannin
+
+#class remove jewish
+
+#class add hindu
+> Andhaka
+> Asura
+> Bali Raj
+> Kabandha/Kabhanda
+> Kali
+> Maricha
+> Puloman
+> Rakshasa
+> Ravan
+
+#class remove hindu
+
+#class add indonesian
+> Babi ngepet
+> Barong
+> Leyak
+> O Tokata
+> Pocong
+> Rangda
+> Suanggi
+
+#class add malaysian
+> Hantu Raya
+> Pelesit
+> Pontianak
+> Toyol
+#class remove malaysian
+
+#class remove indonesian
+
+#class add zoroastrian
+> Aeshma 
+> Ahriman/Angra Mainyu 
+> Aka Manah/Akem Manah/Akoman/Akvan 
+> Azi Dahaka/Dahak 
+> Bushyasta 
+> Daeva
+#class remove zoroastrian
+
+#class add islamic
+> Masih ad-Dajjal/Ad-Dajjal/Dajjal
+> Ifrit
+> Jinn
+> Eblis
+> Dajjal
+#class remove islamic
+
+#class add sumerian
+> Ninurta
+> Namtar
+> Anzu
+> Asag
+#class remove sumerian
+
+#class add slavic
+> Ala
+> Lechies
+> Rusalka
+> Drekavac
+#class remove slavic
+
+#class add greek
+> Sthenno 
+> Morpheus 
+> Gorgon 
+#class remove greek
+
+> Abraxas 
+> Alal 
+> Allu 
+> Anamalech 
+> Ancitif 
+> Archon 
+> Asakku 
+> Banshee 
+> Bhūta 
+> Charun 
+> Chemosh 
+> Choronzon 
+> Culsu 
+> Dagon
+> Davy Jones
+> Demiurge
+> Div-e Sepid
+> Abezethibou
+> Onoskelis
+> Ornias 
+> Dzoavits 
+> Gaki 
+> Ghoul 
+> Gualichu 
+> Guayota 
+> Gusion/Gusoin/Gusoyn
+> Jikininki 
+> Kroni 
+> Lempo 
+> Mara
+> Pazuzu
+> Ördög
+> Killakee Cat
+> Wendigo
+> Xezbeth
+> Yeqon
+> Yeter'el
