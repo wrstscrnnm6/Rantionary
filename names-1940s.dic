@@ -1,0 +1,810 @@
+#version 2
+#name name-1940s
+#subs default
+
+#class add male
+>	James
+| pron	dZe"mz 
+>	Robert
+| pron	rA"b^rt 
+>	John
+| pron	dZA"n 
+>	William
+| pron	wI"ly^m 
+>	Richard
+| pron	rI"tS^rd 
+>	David
+| pron	de"v^d 
+>	Charles
+| pron	tSA"rlz 
+>	Thomas
+| pron	tA"m^s 
+>	Michael
+| pron	ma"yk^l 
+>	Ronald
+| pron	rA"n^ld 
+>	Larry
+| pron	lE"ri 
+>	Donald
+| pron	dA"n^ld 
+>	Joseph
+| pron	dZo"s^f 
+>	Gary
+| pron	gE"ri 
+>	George
+| pron	dZO"rdZ 
+>	Kenneth
+| pron	kE"n^T 
+>	Paul
+| pron	pQ"l 
+>	Edward
+| pron	E"dw^rd 
+>	Jerry
+| pron	dZE"ri 
+>	Dennis
+| pron	dE"nI%s 
+>	Frank
+| pron	fr{"Nk 
+>	Daniel
+| pron	d{"ny^l 
+>	Raymond
+| pron	re"m^nd 
+>	Roger
+| pron	rA"dZ^r 
+>	Stephen
+| pron	sti"v^n 
+>	Gerald
+| pron	dZE"r^ld 
+>	Walter
+| pron	wQ"lt^r 
+>	Harold
+| pron	hE"r^ld 
+>	Steven
+| pron	sti"v^n 
+>	Douglas
+| pron	d^"gl^s 
+>	Lawrence
+| pron	lO"r^ns 
+>	Terry
+| pron	tE"ri 
+>	Wayne
+| pron	we"n 
+>	Arthur
+| pron	A"rT^r 
+>	Jack
+| pron	dZ{"k 
+>	Carl
+| pron	kA"rl 
+>	Henry
+| pron	hE"nri 
+>	Willie
+| pron	wI"li 
+>	Bruce
+| pron	bru"s 
+>	Joe
+| pron	dZo" 
+>	Peter
+| pron	pi"t^r 
+>	Billy
+| pron	bI"li 
+>	Roy
+| pron	rO%y 
+>	Ralph
+| pron	r{"lf 
+>	Anthony
+| pron	{"nT^ni 
+>	Jimmy
+| pron	dZI"mi 
+>	Albert
+| pron	{"lb^rt 
+>	Bobby
+| pron	bA"bi 
+>	Eugene
+| pron	yudZi"n 
+>	Johnny
+| pron	dZA"ni 
+>	Fred
+| pron	frE"d 
+>	Harry
+| pron	hE"ri 
+>	Howard
+| pron	ha"w^rd 
+>	Mark
+| pron	mA"rk 
+>	Alan
+| pron	{"l^n 
+>	Louis
+| pron	lu"^s 
+>	Philip
+| pron	fI"l^p 
+>	Patrick
+| pron	p{"trIk 
+>	Dale
+| pron	de"l 
+>	Danny
+| pron	d{"ni 
+>	Stanley
+| pron	st{"nli 
+>	Leonard
+| pron	lE"n^rd 
+>	Timothy
+| pron	tI"m^Ti 
+>	Gregory
+| pron	grE"g^ri 
+>	Samuel
+| pron	s{"myul 
+>	Ronnie
+| pron	rA"ni 
+>	Norman
+| pron	nO"rm^n 
+>	Ernest
+| pron	^"rn^st 
+>	Russell
+| pron	r^"s^l 
+>	Francis
+| pron	fr{"ns^s 
+>	Melvin
+| pron	mE"lv^n 
+>	Earl
+| pron	^"rl 
+>	Frederick
+| pron	frE"drIk 
+>	Allen
+| pron	{"l^n 
+>	Bill
+| pron	bI"l 
+>	Tommy
+| pron	tA"mi 
+>	Phillip
+| pron	fI"l^p 
+>	Marvin
+| pron	mA"rvI%n 
+>	Steve
+| pron	sti"v 
+>	Don
+| pron	dA"n 
+>	Barry
+| pron	b{"ri 
+>	Clarence
+| pron	klE"r^ns 
+>	Glenn
+| pron	glE"n 
+>	Jim
+| pron	dZI"m 
+>	Eddie
+| pron	E"di 
+>	Mike
+| pron	ma"yk 
+>	Andrew
+| pron	{"ndru 
+>	Jeffrey
+| pron	dZE"fri 
+>	Leroy
+| pron	li"rO"y 
+>	Alfred
+| pron	{"lfr^d 
+>	Martin
+| pron	mA"rt^n 
+>	Lee
+| pron	li" 
+>	Tom
+| pron	tA"m 
+>	Ray
+| pron	re" 
+>	Herbert
+| pron	h^"rb^rt 
+>	Gene
+| pron	dZi"n 
+>	Bernard
+| pron	b^rnA"rd 
+>	Theodore
+| pron	Ti"^dO%r 
+>	Curtis
+| pron	k^"rt^s 
+>	Keith
+| pron	ki"T 
+>	Clifford
+| pron	klI"f^rd 
+>	Rodney
+| pron	rA"dni 
+>	Gordon
+| pron	gO"rd^n 
+>	Jimmie
+| pron	dZI"mi 
+>	Jesse
+| pron	dZE"si 
+>	Vincent
+| pron	vI"ns^nt 
+>	Warren
+| pron	wO"r^n 
+>	Lloyd
+| pron	lO%yd 
+>	Leon
+| pron	li"an 
+>	Jerome
+| pron	dZ^ro"m 
+>	Edwin
+| pron	E"dw^n 
+>	Brian
+| pron	bra"y^n 
+>	Victor
+| pron	vI"kt^r 
+>	Bob
+| pron	bA"b 
+>	Floyd
+| pron	flO%yd 
+>	Lewis
+| pron	lu"^s 
+>	Harvey
+| pron	hA"rvi 
+>	Alvin
+| pron	{"lvI%n 
+>	Clyde
+| pron	kla"yd 
+>	Craig
+| pron	kre"g 
+>	Vernon
+| pron	v^"rn^n 
+>	Leslie
+| pron	lE"sli 
+>	Franklin
+| pron	fr{"NklI%n 
+>	Calvin
+| pron	k{"lv^n 
+>	Jon
+| pron	dZA"n 
+>	Jay
+| pron	dZe" 
+>	Charlie
+| pron	tSA"rli 
+>	Darrell
+| pron	dE"r^l 
+>	Jackie
+| pron	dZ{"ki 
+>	Dan
+| pron	d{"n 
+>	Allan
+| pron	{"l^n 
+>	Randall
+| pron	r{"nd^l 
+>	Joel
+| pron	dZo"^l 
+>	Gilbert
+| pron	gI"lb^rt 
+>	Benjamin
+| pron	bE"ndZ^m^n 
+>	Lester
+| pron	lE"st^r 
+>	Duane
+| pron	dwe"n 
+>	Tony
+| pron	to"ni 
+>	Leo
+| pron	li"o 
+>	Herman
+| pron	h^"rm^n 
+>	Jose
+| pron	ho%ze" 
+>	Glen
+| pron	glE"n 
+>	Johnnie
+| pron	dZA"ni 
+>	Dean
+| pron	di"n 
+>	Arnold
+| pron	A"rn^ld 
+>	Lonnie
+| pron	lQ"ni 
+>	Christopher
+| pron	krI"st^f^r 
+>	Nicholas
+| pron	nI"k^l^s 
+>	Freddie
+| pron	frE"di 
+>	Chester
+| pron	tSE"st^r 
+>	Eric
+| pron	E"rIk 
+>	Milton
+| pron	mI"lt^n 
+>	Cecil
+| pron	si"s^l 
+>	Lynn
+| pron	lI"n 
+>	Manuel
+| pron	manwE"l 
+>	Randy
+| pron	r{"ndi 
+>	Roland
+| pron	ro"l^nd 
+>	Ted
+| pron	tE"d 
+>	Dwight
+| pron	dwa"yt 
+>	Claude
+| pron	klQ"d 
+>	Wesley
+| pron	wE"sli 
+>	Neil
+| pron	ni"l 
+>	Sam
+| pron	s{"m 
+>	Scott
+| pron	skA"t 
+>	Dave
+| pron	de"v 
+>	Wallace
+| pron	wQ"l^s 
+>	Kevin
+| pron	kE"vI%n 
+>	Hugh
+| pron	hyu" 
+>	Donnie
+| pron	dA"ni 
+>	Elmer
+| pron	E"lm^r 
+>	Micheal
+| pron	ma"yk^l 
+>	Willard
+| pron	wI"l^rd 
+>	Juan
+| pron	wA"n 
+>	Maurice
+| pron	mQri"s 
+>	Garry
+| pron	g{"ri 
+>	Jessie
+| pron	dZE"si 
+>	Marshall
+| pron	mA"rS^l 
+>	Oscar
+| pron	Q"sk^r 
+>	Edgar
+| pron	E"dg^r 
+>	Karl
+| pron	kA"rl 
+>	Marion
+| pron	mE"ri^n 
+>	Sidney
+| pron	sI"dni 
+>	Stuart
+| pron	stu"^rt 
+>	Nathaniel
+| pron	n^T{"ny^l 
+>	Alexander
+| pron	{%l^gz{"nd^r 
+>	Sammy
+| pron	s{"mi 
+>	Everett
+| pron	E"v^r^t 
+>	Benny
+| pron	bE"ni 
+>	Virgil
+| pron	v^"rdZ^l 
+>	Guy
+| pron	ga"y 
+>	Morris
+| pron	mO"r^s 
+>	Matthew
+| pron	m{"Tyu 
+>	Earnest
+| pron	^"rn^st 
+>	Lyle
+| pron	la"yl 
+>	Max
+| pron	m{"ks 
+>	Bennie
+| pron	bE"ni 
+>	Wendell
+| pron	wE"nd^l 
+>	Kent
+| pron	kE"nt 
+>	Jonathan
+| pron	dZA"n^T^n 
+>	Fredrick
+| pron	frE"drIk 
+#class remove male
+
+#class add female
+>	Mary
+| pron	mE"ri 
+>	Linda
+| pron	lI"nd^ 
+>	Barbara
+| pron	bA"rb^r^ 
+>	Patricia
+| pron	p^trI"S^ 
+>	Carol
+| pron	k{"r^l 
+>	Sandra
+| pron	s{"ndr^ 
+>	Nancy
+| pron	n{"nsi 
+>	Sharon
+| pron	SE"r^n 
+>	Judith
+| pron	dZu"d^T 
+>	Susan
+| pron	su"z^n 
+>	Betty
+| pron	bE"ti 
+>	Carolyn
+| pron	kE"r^l^n 
+>	Margaret
+| pron	mA"rg^r^t 
+>	Shirley
+| pron	S^"rli 
+>	Judy
+| pron	dZu"di 
+>	Karen
+| pron	kE"r^n 
+>	Donna
+| pron	dA"n^ 
+>	Kathleen
+| pron	k{Tli"n 
+>	Joyce
+| pron	dZO%ys 
+>	Dorothy
+| pron	dO"r^Ti 
+>	Janet
+| pron	dZ{"nEt 
+>	Diane
+| pron	day{"n 
+>	Janice
+| pron	dZ{"n^s 
+>	Joan
+| pron	dZo"n 
+>	Elizabeth
+| pron	I%lI"z^b^T 
+>	Brenda
+| pron	brE"nd^ 
+>	Gloria
+| pron	glO"ri^ 
+>	Virginia
+| pron	v^rdZI"ny^ 
+>	Marilyn
+| pron	mE"r^l^n 
+>	Martha
+| pron	mA"rT^ 
+>	Beverly
+| pron	bE"v^rli 
+>	Helen
+| pron	hE"l^n 
+>	Bonnie
+| pron	bA"ni 
+>	Ruth
+| pron	ru"T 
+>	Frances
+| pron	fr{"ns^s 
+>	Jean
+| pron	dZi"n 
+>	Ann
+| pron	{"n 
+>	Phyllis
+| pron	fI"lI%s 
+>	Pamela
+| pron	p{"m^l^ 
+>	Jane
+| pron	dZe"n 
+>	Alice
+| pron	{"l^s 
+>	Peggy
+| pron	pE"gi 
+>	Cheryl
+| pron	SE"r^l 
+>	Doris
+| pron	dO"rI%s 
+>	Catherine
+| pron	k{"T^r^n 
+>	Elaine
+| pron	^le"n 
+>	Cynthia
+| pron	sI"nTi^ 
+>	Marie
+| pron	m^ri" 
+>	Lois
+| pron	lo"^s 
+>	Connie
+| pron	kQ"ni 
+>	Christine
+| pron	krI%sti"n 
+>	Diana
+| pron	day{"n^ 
+>	Gail
+| pron	ge"l 
+>	Joanne
+| pron	dZo%{"n 
+>	Rose
+| pron	ro"z 
+>	Wanda
+| pron	wA"nd^ 
+>	Carole
+| pron	k{"r^l 
+>	Rita
+| pron	ri"t^ 
+>	Charlotte
+| pron	SA"rl^t 
+>	Jo
+| pron	dZo" 
+>	Evelyn
+| pron	E"v^l^n 
+>	Geraldine
+| pron	dZEr^ldi"n 
+>	Jacqueline
+| pron	dZ{"kw^l^n 
+>	Ellen
+| pron	E"l^n 
+>	Sally
+| pron	s{"li 
+>	Rebecca
+| pron	r^bE"k^ 
+>	Kathryn
+| pron	k{"TrI%n 
+>	Deborah
+| pron	dE"b^r^ 
+>	Norma
+| pron	nO"rm^ 
+>	Suzanne
+| pron	suz{"n 
+>	Anna
+| pron	{"n^ 
+>	Sue
+| pron	su" 
+>	Darlene
+| pron	dA"rli%n 
+>	Patsy
+| pron	p{"tsi 
+>	Joann
+| pron	dZo%{"n 
+>	Sarah
+| pron	sE"r^ 
+>	Katherine
+| pron	k{"T^rI%n 
+>	Paula
+| pron	pQ"l^ 
+>	Annie
+| pron	{"ni 
+>	Louise
+| pron	lui"z 
+>	Roberta
+| pron	r^b^"rt^ 
+>	Sylvia
+| pron	sI"lvi^ 
+>	Anne
+| pron	{"n 
+>	Theresa
+| pron	t^ri"s^ 
+>	Sheila
+| pron	Si"l^ 
+>	Maria
+| pron	m^ri"^ 
+>	Laura
+| pron	lO"r^ 
+>	Kathy
+| pron	k{"Ti 
+>	Eileen
+| pron	ayli"n 
+>	Marcia
+| pron	mA"rS^ 
+>	Rosemary
+| pron	ro"zmE%ri 
+>	Glenda
+| pron	glE"nd^ 
+>	Dolores
+| pron	d^lO"r^s 
+>	Mildred
+| pron	mI"ldr^d 
+>	Lorraine
+| pron	l^re"n 
+>	Marjorie
+| pron	mA"rdZ^ri 
+>	Sherry
+| pron	SE"ri 
+>	Kay
+| pron	ke" 
+>	Anita
+| pron	^ni"t^ 
+>	Dianne
+| pron	day{"n 
+>	Ruby
+| pron	ru"bi 
+>	Irene
+| pron	ayri"n 
+>	Juanita
+| pron	wani"t^ 
+>	Maureen
+| pron	mQri"n 
+>	Loretta
+| pron	l^rE"t^ 
+>	Jeanne
+| pron	dZi"n 
+>	Constance
+| pron	kA"nst^ns 
+>	Lynn
+| pron	lI"n 
+>	Marlene
+| pron	mA"rli%n 
+>	Arlene
+| pron	A"rli%n 
+>	Delores
+| pron	d^lO"r^s 
+>	Lynda
+| pron	lI"nd^ 
+>	Julia
+| pron	dZu"ly^ 
+>	Marsha
+| pron	mA"rS^ 
+>	Charlene
+| pron	Sarli"n 
+>	June
+| pron	dZu"n 
+>	Jeanette
+| pron	dZ^nE"t 
+>	Edna
+| pron	E"dn^ 
+>	Josephine
+| pron	dZo"s^fi%n 
+>	Eleanor
+| pron	E"l^nQr 
+>	Yvonne
+| pron	IvA"n 
+>	Vicki
+| pron	vI"ki 
+>	Vivian
+| pron	vI"vi^n 
+>	Emma
+| pron	E"m^ 
+>	Georgia
+| pron	dZO"rdZ^ 
+>	Lillian
+| pron	lI"li^n 
+>	Edith
+| pron	i"dI%T 
+>	Pauline
+| pron	pQli"n 
+>	Wilma
+| pron	wI"lm^ 
+>	Victoria
+| pron	vIktO"ri^ 
+>	Ethel
+| pron	E"T^l 
+>	Lucille
+| pron	lusi"l 
+>	Florence
+| pron	flO"r^ns 
+>	Sara
+| pron	sE"r^ 
+>	Margie
+| pron	mA"rdZi 
+>	Thelma
+| pron	TE"lm^ 
+>	Clara
+| pron	kl{"r^ 
+>	Audrey
+| pron	Q"dri 
+>	Grace
+| pron	gre"s 
+>	Teresa
+| pron	t^ri"s^ 
+>	Annette
+| pron	^nE"t 
+>	Claudia
+| pron	klQ"di^ 
+>	Gladys
+| pron	gl{"dI%s 
+>	Julie
+| pron	dZu"li 
+>	Marion
+| pron	mE"ri^n 
+>	Gwendolyn
+| pron	gwE"nd^l^n 
+>	Priscilla
+| pron	pr^sI"l^ 
+>	Willie
+| pron	wI"li 
+>	Esther
+| pron	E"st^r 
+>	Eva
+| pron	e"v^ 
+>	Andrea
+| pron	{"ndri^ 
+>	Maryann
+| pron	mEri{"n 
+>	Bernice
+| pron	b^rni"s 
+>	Rosa
+| pron	ro"z^ 
+>	Hazel
+| pron	he"z^l 
+>	Billie
+| pron	bI"li 
+>	Bertha
+| pron	b^"rT^ 
+>	Gayle
+| pron	ge"l 
+>	Bobbie
+| pron	bA"bi 
+>	Pat
+| pron	p{"t 
+>	Maxine
+| pron	m{ksi"n 
+>	Marian
+| pron	mE"ri^n 
+>	Ella
+| pron	E"l^ 
+>	Paulette
+| pron	pQlE"t 
+>	Joy
+| pron	dZO%y 
+>	Beatrice
+| pron	bi"^tr^s 
+>	Cathy
+| pron	k{"Ti 
+>	Lillie
+| pron	lI"li 
+>	Janis
+| pron	dZ{"nI%s 
+>	Leslie
+| pron	lE"sli 
+>	Ida
+| pron	a"yd^ 
+>	Lynne
+| pron	lI"n 
+>	Deanna
+| pron	di%{"n^ 
+>	Faye
+| pron	fe" 
+>	Terry
+| pron	tE"ri 
+>	Valerie
+| pron	v{"l^ri 
+>	Rachel
+| pron	re"tS^l 
+>	Emily
+| pron	E"m^li 
+>	Lucy
+| pron	lu"si 
+>	Janie
+| pron	dZe"ni 
+>	Penny
+| pron	pE"ni 
+>	Jackie
+| pron	dZ{"ki 
+>	Harriet
+| pron	hE"ri^t 
+>	Regina
+| pron	rIdZi"n^ 
+>	Rosalie
+| pron	ro"z^li 
+>	Alma
+| pron	{"lm^ 
+>	Angela
+| pron	{"ndZ^l^ 
+>	Vera
+| pron	vE"r^ 
+>	Jessie
+| pron	dZE"si 
+>	Marianne
+| pron	mE%ri{"n 
+>	Stephanie
+| pron	stE"f^ni 
+>	Jill
+| pron	dZI"l 
+>	Mattie
+| pron	m{"ti 
+>	Minnie
+| pron	mI"ni 
+>	Caroline
+| pron	kE"r^lA%yn 
+>	Michele
+| pron	mI%SE"l 
+>	Veronica
+| pron	v^rA"nIk^ 
+>	Patty
+| pron	p{"ti 
+>	Rosie
+| pron	ro"zi 
+>	Stella
+| pron	stE"l^ 
+
+#class remove female

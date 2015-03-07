@@ -1,14 +1,14 @@
 #version 2
-#name names_1950s
+#name name_1950s
 #subs default
 
 #class add male
 > James	
-| pron dZemz 
+| pron dZe"mz 
 > Michael	
 | pron mayk^l 
 > Robert	
-| pron rAb^rt 
+| pron rA"b^rt 
 > John	
 | pron dZAn 
 > David	
