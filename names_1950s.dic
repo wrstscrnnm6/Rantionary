@@ -1,0 +1,810 @@
+#version 2
+#name names_1950s
+#subs default
+
+#class add male
+> James	
+| pron dZemz 
+> Michael	
+| pron mayk^l 
+> Robert	
+| pron rAb^rt 
+> John	
+| pron dZAn 
+> David	
+| pron dev^d 
+> William	
+| pron wIly^m 
+> Richard	
+| pron rItS^rd 
+> Thomas	
+| pron tAm^s 
+> Mark	
+| pron mArk 
+> Charles	
+| pron tSArlz 
+> Steven	
+| pron stiv^n 
+> Gary	
+| pron gEri 
+> Joseph	
+| pron dZos^f 
+> Donald	
+| pron dAn^ld 
+> Ronald	
+| pron rAn^ld 
+> Kenneth	
+| pron kEn^T 
+> Paul	
+| pron pQl 
+> Larry	
+| pron lEri 
+> Daniel	
+| pron d{ny^l 
+> Stephen	
+| pron stiv^n 
+> Dennis	
+| pron dEnIs 
+> Timothy	
+| pron tIm^Ti 
+> Edward	
+| pron Edw^rd 
+> Jeffrey	
+| pron dZEfri 
+> George	
+| pron dZOrdZ 
+> Gregory	
+| pron grEg^ri 
+> Kevin	
+| pron kEvIn 
+> Douglas	
+| pron d^gl^s 
+> Terry	
+| pron tEri 
+> Anthony	
+| pron {nT^ni 
+> Jerry	
+| pron dZEri 
+> Bruce	
+| pron brus 
+> Randy	
+| pron r{ndi 
+> Brian	
+| pron bray^n 
+> Frank	
+| pron fr{Nk 
+> Scott	
+| pron skAt 
+> Roger	
+| pron rAdZ^r 
+> Raymond	
+| pron rem^nd 
+> Peter	
+| pron pit^r 
+> Patrick	
+| pron p{trIk 
+> Keith	
+| pron kiT 
+> Lawrence	
+| pron lOr^ns 
+> Wayne	
+| pron wen 
+> Danny	
+| pron d{ni 
+> Alan	
+| pron {l^n 
+> Gerald	
+| pron dZEr^ld 
+> Ricky	
+| pron rIki 
+> Carl	
+| pron kArl 
+> Christopher	
+| pron krIst^f^r 
+> Dale	
+| pron del 
+> Walter	
+| pron wQlt^r 
+> Craig	
+| pron kreg 
+> Willie	
+| pron wIli 
+> Johnny	
+| pron dZAni 
+> Arthur	
+| pron ArT^r 
+> Steve	
+| pron stiv 
+> Joe	
+| pron dZo 
+> Randall	
+| pron r{nd^l 
+> Jack	
+| pron dZ{k 
+> Russell	
+| pron r^s^l 
+> Henry	
+| pron hEnri 
+> Harold	
+| pron hEr^ld 
+> Roy	
+| pron rOy 
+> Andrew	
+| pron {ndru 
+> Philip	
+| pron fIl^p 
+> Ralph	
+| pron r{lf 
+> Billy	
+| pron bIli 
+> Glenn	
+| pron glEn 
+> Stanley	
+| pron st{nli 
+> Jimmy	
+| pron dZImi 
+> Rodney	
+| pron rAdni 
+> Barry	
+| pron b{ri 
+> Samuel	
+| pron s{myul 
+> Eric	
+| pron ErIk 
+> Bobby	
+| pron bAbi 
+> Albert	
+| pron {lb^rt 
+> Phillip	
+| pron fIl^p 
+> Ronnie	
+| pron rAni 
+> Martin	
+| pron mArt^n 
+> Mike	
+| pron mayk 
+> Eugene	
+| pron yudZin 
+> Louis	
+| pron lu^s 
+> Howard	
+| pron haw^rd 
+> Allen	
+| pron {l^n 
+> Curtis	
+| pron k^rt^s 
+> Jeffery	
+| pron dZEf^ri 
+> Frederick	
+| pron frEdrIk 
+> Leonard	
+| pron lEn^rd 
+> Harry	
+| pron hEri 
+> Micheal	
+| pron mayk^l 
+> Tony	
+| pron toni 
+> Ernest	
+| pron ^rn^st 
+> Eddie	
+| pron Edi 
+> Fred	
+| pron frEd 
+> Darrell	
+| pron dEr^l 
+> Jay	
+| pron dZe 
+> Melvin	
+| pron mElv^n 
+> Matthew	
+| pron m{Tyu 
+> Lee	
+| pron li 
+> Vincent	
+| pron vIns^nt 
+> Tommy	
+| pron tAmi 
+> Francis	
+| pron fr{ns^s 
+> Marvin	
+| pron mArvIn 
+> Dean	
+| pron din 
+> Rick	
+| pron rIk 
+> Victor	
+| pron vIkt^r 
+> Norman	
+| pron nOrm^n 
+> Earl	
+| pron ^rl 
+> Jose	
+| pron hoze 
+> Calvin	
+| pron k{lv^n 
+> Ray	
+| pron re 
+> Clifford	
+| pron klIf^rd 
+> Alfred	
+| pron {lfr^d 
+> Jerome	
+| pron dZ^rom 
+> Bradley	
+| pron br{dli 
+> Clarence	
+| pron klEr^ns 
+> Don	
+| pron dAn 
+> Theodore	
+| pron Ti^dOr 
+> Jon	
+| pron dZAn 
+> Rickey	
+| pron rIki 
+> Joel	
+| pron dZo^l 
+> Jesse	
+| pron dZEsi 
+> Jim	
+| pron dZIm 
+> Edwin	
+| pron Edw^n 
+> Dan	
+| pron d{n 
+> Bernard	
+| pron b^rnArd 
+> Chris	
+| pron krIs 
+> Jonathan	
+| pron dZAn^T^n 
+> Gordon	
+| pron gOrd^n 
+> Glen	
+| pron glEn 
+> Jeff	
+| pron dZEf 
+> Warren	
+| pron wOr^n 
+> Leroy	
+| pron lirOy 
+> Herbert	
+| pron h^rb^rt 
+> Duane	
+| pron dwen 
+> Bill	
+| pron bIl 
+> Benjamin	
+| pron bEndZ^m^n 
+> Tom	
+| pron tAm 
+> Alvin	
+| pron {lvIn 
+> Nicholas	
+| pron nIk^l^s 
+> Tim	
+| pron tIm 
+> Mitchell	
+| pron mItS^l 
+> Marc	
+| pron mArk 
+> Leslie	
+| pron lEsli 
+> Leon	
+| pron lian 
+> Kim	
+| pron kIm 
+> Dwight	
+| pron dwayt 
+> Bryan	
+| pron bray^n 
+> Lloyd	
+| pron lOyd 
+> Vernon	
+| pron v^rn^n 
+> Gene	
+| pron dZin 
+> Reginald	
+| pron rEdZ^n^ld 
+> Lonnie	
+| pron lQni 
+> Guy	
+| pron gay 
+> Gilbert	
+| pron gIlb^rt 
+> Garry	
+| pron g{ri 
+> Juan	
+| pron wAn 
+> Karl	
+| pron kArl 
+> Kent	
+| pron kEnt 
+> Kurt	
+| pron k^rt 
+> Todd	
+| pron tAd 
+> Jackie	
+| pron dZ{ki 
+> Greg	
+| pron grEg 
+> Lewis	
+| pron lu^s 
+> Wesley	
+| pron wEsli 
+> Clyde	
+| pron klayd 
+> Floyd	
+| pron flOyd 
+> Neil	
+| pron nil 
+> Allan	
+| pron {l^n 
+> Donnie	
+| pron dAni 
+> Perry	
+| pron pEri 
+> Franklin	
+| pron fr{NklIn 
+> Lester	
+| pron lEst^r 
+> Brad	
+| pron br{d 
+> Manuel	
+| pron manwEl 
+> Kirk	
+| pron k^rk 
+> Carlos	
+| pron kArlos 
+> Leo	
+| pron lio 
+> Jimmie	
+| pron dZImi 
+> Randolph	
+| pron r{ndalf 
+> Charlie	
+| pron tSArli 
+> Robin	
+| pron rAb^n 
+> Dana	
+| pron den^ 
+> Darryl	
+| pron dEr^l 
+> Dave	
+| pron dev 
+> Ted	
+| pron tEd 
+> Milton	
+| pron mIlt^n 
+> Daryl	
+| pron dEr^l 
+> Kerry	
+| pron kEri 
+> Freddie	
+| pron frEdi 
+> Brent	
+| pron brEnt 
+> Harvey	
+| pron hArvi 
+> Gerard	
+| pron dZ^rArd 
+> Stuart	
+| pron stu^rt 
+> Johnnie	
+| pron dZAni 
+> Herman	
+| pron h^rm^n 
+> Lynn	
+| pron lIn 
+> Rex	
+| pron rEks 
+> Arnold	
+| pron Arn^ld 
+> Kelly	
+| pron kEli 
+#class remove male
+
+#class add female	
+> Mary	
+| pron mEri 
+> Linda	
+| pron lInd^ 
+> Patricia	
+| pron p^trIS^ 
+> Susan	
+| pron suz^n 
+> Deborah	
+| pron dEb^r^ 
+> Barbara	
+| pron bArb^r^ 
+> Debra	
+| pron dEbr^ 
+> Karen	
+| pron kEr^n 
+> Nancy	
+| pron n{nsi 
+> Donna	
+| pron dAn^ 
+> Cynthia	
+| pron sInTi^ 
+> Sandra	
+| pron s{ndr^ 
+> Pamela	
+| pron p{m^l^ 
+> Sharon	
+| pron SEr^n 
+> Kathleen	
+| pron k{Tlin 
+> Carol	
+| pron k{r^l 
+> Diane	
+| pron day{n 
+> Brenda	
+| pron brEnd^ 
+> Cheryl	
+| pron SEr^l 
+> Janet	
+| pron dZ{nEt 
+> Elizabeth	
+| pron IlIz^b^T 
+> Kathy	
+| pron k{Ti 
+> Margaret	
+| pron mArg^r^t 
+> Janice	
+| pron dZ{n^s 
+> Carolyn	
+| pron kEr^l^n 
+> Denise	
+| pron d^nis 
+> Judy	
+| pron dZudi 
+> Rebecca	
+| pron r^bEk^ 
+> Joyce	
+| pron dZOys 
+> Teresa	
+| pron t^ris^ 
+> Christine	
+| pron krIstin 
+> Catherine	
+| pron k{T^r^n 
+> Shirley	
+| pron S^rli 
+> Judith	
+| pron dZud^T 
+> Betty	
+| pron bEti 
+> Beverly	
+| pron bEv^rli 
+> Lisa	
+| pron lis^ 
+> Laura	
+| pron lOr^ 
+> Theresa	
+| pron t^ris^ 
+> Connie	
+| pron kQni 
+> Ann	
+| pron {n 
+> Julie	
+| pron dZuli 
+> Gloria	
+| pron glOri^ 
+> Gail	
+| pron gel 
+> Joan	
+| pron dZon 
+> Paula	
+| pron pQl^ 
+> Peggy	
+| pron pEgi 
+> Cindy	
+| pron sIndi 
+> Martha	
+| pron mArT^ 
+> Bonnie	
+| pron bAni 
+> Jane	
+| pron dZen 
+> Cathy	
+| pron k{Ti 
+> Robin	
+| pron rAb^n 
+> Debbie	
+| pron dEbi 
+> Diana	
+| pron day{n^ 
+> Marilyn	
+| pron mEr^l^n 
+> Kathryn	
+| pron k{TrIn 
+> Dorothy	
+| pron dOr^Ti 
+> Wanda	
+| pron wAnd^ 
+> Jean	
+| pron dZin 
+> Vicki	
+| pron vIki 
+> Sheila	
+| pron Sil^ 
+> Virginia	
+| pron v^rdZIny^ 
+> Sherry	
+| pron SEri 
+> Katherine	
+| pron k{T^rIn 
+> Rose	
+| pron roz 
+> Lynn	
+| pron lIn 
+> Jo	
+| pron dZo 
+> Ruth	
+| pron ruT 
+> Maria	
+| pron m^ri^ 
+> Darlene	
+| pron dArlin 
+> Jacqueline	
+| pron dZ{kw^l^n 
+> Rita	
+| pron rit^ 
+> Rhonda	
+| pron rAnd^ 
+> Phyllis	
+| pron fIlIs 
+> Helen	
+| pron hEl^n 
+> Vickie	
+| pron vIki 
+> Kim	
+| pron kIm 
+> Lori	
+| pron lOri 
+> Ellen	
+| pron El^n 
+> Elaine	
+| pron ^len 
+> Joanne	
+| pron dZo{n 
+> Anne	
+| pron {n 
+> Valerie	
+| pron v{l^ri 
+> Alice	
+| pron {l^s 
+> Frances	
+| pron fr{ns^s 
+> Suzanne	
+| pron suz{n 
+> Marie	
+| pron m^ri 
+> Victoria	
+| pron vIktOri^ 
+> Kimberly	
+| pron kImb^rli 
+> Anita	
+| pron ^nit^ 
+> Laurie	
+| pron lAri 
+> Michelle	
+| pron mISEl 
+> Sally	
+| pron s{li 
+> Terri	
+| pron tEri 
+> Marcia	
+| pron mArS^ 
+> Terry	
+| pron tEri 
+> Jennifer	
+| pron dZEn^f^r 
+> Leslie	
+| pron lEsli 
+> Doris	
+| pron dOrIs 
+> Maureen	
+| pron mQrin 
+> Wendy	
+| pron wEndi 
+> Michele	
+| pron mISEl 
+> Anna	
+| pron {n^ 
+> Marsha	
+| pron mArS^ 
+> Angela	
+| pron {ndZ^l^ 
+> Sarah	
+| pron sEr^ 
+> Sylvia	
+| pron sIlvi^ 
+> Jill	
+| pron dZIl 
+> Dawn	
+| pron dQn 
+> Sue	
+| pron su 
+> Evelyn	
+| pron Ev^l^n 
+> Roberta	
+| pron r^b^rt^ 
+> Jeanne	
+| pron dZin 
+> Charlotte	
+| pron SArl^t 
+> Eileen	
+| pron aylin 
+> Lois	
+| pron lo^s 
+> Colleen	
+| pron kAlin 
+> Stephanie	
+| pron stEf^ni 
+> Annette	
+| pron ^nEt 
+> Glenda	
+| pron glEnd^ 
+> Yvonne	
+| pron IvAn 
+> Dianne	
+| pron day{n 
+> Tina	
+| pron tin^ 
+> Beth	
+| pron bET 
+> Lorraine	
+| pron l^ren 
+> Constance	
+| pron kAnst^ns 
+> Renee	
+| pron r^ne 
+> Charlene	
+| pron Sarlin 
+> Joann	
+| pron dZo{n 
+> Julia	
+| pron dZuly^ 
+> Gwendolyn	
+| pron gwEnd^l^n 
+> Norma	
+| pron nOrm^ 
+> Regina	
+| pron rIdZin^ 
+> Amy	
+| pron emi 
+> Sheryl	
+| pron SEr^l 
+> Loretta	
+| pron l^rEt^ 
+> Carla	
+| pron kArl^ 
+> Andrea	
+| pron {ndri^ 
+> Tammy	
+| pron t{mi 
+> Irene	
+| pron ayrin 
+> Jan	
+| pron dZ{n 
+> Louise	
+| pron luiz 
+> Juanita	
+| pron wanit^ 
+> Marlene	
+| pron mArlin 
+> Penny	
+| pron pEni 
+> Rosemary	
+| pron rozmEri 
+> Becky	
+| pron bEki 
+> Kay	
+| pron ke 
+> Joy	
+| pron dZOy 
+> Geraldine	
+| pron dZEr^ldin 
+> Jeanette	
+| pron dZ^nEt 
+> Gayle	
+| pron gel 
+> Annie	
+| pron {ni 
+> Vivian	
+| pron vIvi^n 
+> Claudia	
+| pron klQdi^ 
+> Lynda	
+| pron lInd^ 
+> Melissa	
+| pron m^lIs^ 
+> Audrey	
+| pron Qdri 
+> Lynne	
+| pron lIn 
+> Patsy	
+| pron p{tsi 
+> Melinda	
+| pron m^lInd^ 
+> Vicky	
+| pron vIki 
+> Toni	
+| pron toni 
+> June	
+| pron dZun 
+> Belinda	
+| pron b^lInd^ 
+> Marjorie	
+| pron mArdZ^ri 
+> Arlene	
+| pron Arlin 
+> Patti	
+| pron p{ti 
+> Ruby	
+| pron rubi 
+> Sara	
+| pron sEr^ 
+> Yolanda	
+| pron yolAnd^ 
+> Rosa	
+| pron roz^ 
+> Christina	
+| pron krIstin^ 
+> Melanie	
+| pron mEl^ni 
+> Delores	
+| pron d^lOr^s 
+> Jackie	
+| pron dZ{ki 
+> Vanessa	
+| pron v^nEs^ 
+> Carmen	
+| pron kArm^n 
+> Monica	
+| pron mAnIk^ 
+> Janis	
+| pron dZ{nIs 
+> Holly	
+| pron hAli 
+> Marianne	
+| pron mEri{n 
+> Dolores	
+| pron d^lOr^s 
+> Shelley	
+| pron SEli 
+> Veronica	
+| pron v^rAnIk^ 
+> Mildred	
+| pron mIldr^d 
+> Dana	
+| pron den^ 
+> Eva	
+| pron ev-^ 
+> Rachel	
+| pron retS^l 
+> Shelia	
+| pron shelia 
+> Roxanne	
+| pron rAks{n 
+> Carole	
+| pron k{r^l 
+> Lillian	
+| pron lIli^n 
+> Josephine	
+| pron dZos^fin 
+> Carrie	
+| pron kEri 
+> Patty	
+| pron p{ti 
+> Sherri	
+| pron SEri 
+> Doreen	
+| pron dQr-in 
+> Grace	
+| pron gres 
+
+#class remove female
